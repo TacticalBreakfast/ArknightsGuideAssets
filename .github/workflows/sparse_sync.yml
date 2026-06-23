@@ -1,0 +1,61 @@
+name: Sparse Checkout and Sync
+
+on:
+  # Allows you to trigger the workflow manually from the GitHub UI
+  workflow_dispatch:
+  # Optional: Run on a schedule (e.g., every day at midnight)
+  # schedule:
+  #   - cron: '0 0 * * *'
+
+jobs:
+  sync-directories:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checkout your current repository where the changes will be committed
+      - name: Checkout Current Repository
+        uses: actions/checkout@v4
+
+      # 2. Sparse checkout the specified external repository into a temp folder
+      - name: Sparse Checkout Target Repository
+        uses: actions/checkout@v4
+        with:
+          repository: 'ArknightsAssets/ArknightsAssets2' # REPLACE with the specified repository
+          ref: 'cn'                          # REPLACE with the target branch
+          path: 'temp-target-repo'             # Temporary folder to clone into
+          sparse-checkout: |
+            assets/dyn/arts/charavatars
+            assets/dyn/arts/skills
+
+      # 3. Copy the specific directories from the temp folder to your repository
+      - name: Copy Directories
+        run: |
+          # Create target directories if they don't exist
+          mkdir -p charavatars
+          mkdir -p skills
+
+          # Copy contents (adjust paths as needed)
+          cp -r temp-target-repo/assets/dyn/arts/charavatars/* charavatars
+          cp -r temp-target-repo/assets/dyn/arts/skills/* skills
+
+          # Clean up the temporary repository folder
+          rm -rf temp-target-repo
+
+      # 4. Search for new/updated files and commit/push if any are found
+      - name: Commit and Push Changes
+        run: |
+          # Configure git with a bot identity
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Stage all changes (new, modified, and deleted files within those paths)
+          git add .
+
+          # Check if there are any staged changes
+          if git diff --staged --quiet; then
+            echo "No new or updated files found. Nothing to commit."
+          else
+            echo "Changes found. Committing and pushing..."
+            git commit -m "Auto-sync specified directories from external repository"
+            git push
+          fi
