@@ -26,6 +26,7 @@ jobs:
           sparse-checkout: |
             assets/dyn/arts/charavatars
             assets/dyn/arts/skills
+            assets/dyn/arts/ui/subprofessionicon
 
       # 3. Copy the specific directories from the temp folder to your repository
       - name: Copy Directories
@@ -33,10 +34,12 @@ jobs:
           # Create target directories if they don't exist
           mkdir -p charavatars
           mkdir -p skills
+          mkdir -p subprofessionicon
 
           # Copy contents (adjust paths as needed)
           cp -r temp-target-repo/assets/dyn/arts/charavatars/* charavatars
           cp -r temp-target-repo/assets/dyn/arts/skills/* skills
+          cp -r temp-target-repo/assets/dyn/arts/ui/subprofessionicon/* subprofessionicon
 
           # Clean up the temporary repository folder
           rm -rf temp-target-repo
