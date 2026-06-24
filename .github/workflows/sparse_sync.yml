@@ -14,11 +14,11 @@ jobs:
     steps:
       # 1. Checkout your current repository where the changes will be committed
       - name: Checkout Current Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       # 2. Sparse checkout the specified external repository into a temp folder
       - name: Sparse Checkout Target Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           repository: 'ArknightsAssets/ArknightsAssets2' # REPLACE with the specified repository
           ref: 'cn'                          # REPLACE with the target branch
