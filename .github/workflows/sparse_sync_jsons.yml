@@ -32,7 +32,7 @@ jobs:
           mkdir -p excel
 
           # Copy contents (adjust paths as needed)
-          cp -r temp-target-repo/en/gamedata/excel/* excel
+          cp -r temp-target-repo/en/gamedata/excel/* excel-en
 
           # Clean up the temporary repository folder
           rm -rf temp-target-repo
