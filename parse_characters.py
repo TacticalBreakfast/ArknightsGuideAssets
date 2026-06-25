@@ -54,7 +54,7 @@ PROFESSION_NAMES = {
 
 def load_sub_prof_names() -> dict:
     """Return a mapping of subProfessionId -> subProfessionName from uniequip_table.json."""
-    path = Path("excel/uniequip_table.json")
+    path = Path("excel-en/uniequip_table.json")
     with path.open(encoding="utf-8") as f:
         data = json.load(f)
     return {k: v["subProfessionName"] for k, v in data["subProfDict"].items()}
@@ -110,7 +110,7 @@ def extract_character(char_id: str, char_data: dict, sub_prof_names: dict) -> di
 
 
 def main():
-    input_path = Path("excel/character_table.json")
+    input_path = Path("excel-en/character_table.json")
     output_path = Path("processed/characters.yml")
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
