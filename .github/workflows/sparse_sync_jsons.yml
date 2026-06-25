@@ -24,6 +24,7 @@ jobs:
           path: 'temp-target-repo'             # Temporary folder to clone into
           sparse-checkout: |
             en/gamedata/excel
+            cn/gamedata/excel
 
       # 3. Copy the specific directories from the temp folder to your repository
       - name: Copy Directories
@@ -33,6 +34,7 @@ jobs:
 
           # Copy contents (adjust paths as needed)
           cp -r temp-target-repo/en/gamedata/excel/* excel-en
+          cp -r temp-target-repo/cn/gamedata/excel/* excel-cn
 
           # Clean up the temporary repository folder
           rm -rf temp-target-repo
