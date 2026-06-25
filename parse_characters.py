@@ -78,13 +78,16 @@ def get_nested(obj, path: str):
     return obj
 
 
-def extract_character(char_id: str, char_data: dict, sub_prof_names: dict) -> dict:
+def extract_character(char_id: str, char_data: dict, sub_prof_names: dict, use_appellation: bool = False) -> dict:
     result = {}
     for output_key, path in ATTRIBUTES:
         if path is None:
             result[output_key] = char_id
         else:
             result[output_key] = get_nested(char_data, path)
+
+    if use_appellation and "name" in result:
+        result["name"] = char_data.get("appellation")
 
     # Invert isNotObtainable so the flag reads more intuitively
     if "is_obtainable" in result:
@@ -104,24 +107,33 @@ def extract_character(char_id: str, char_data: dict, sub_prof_names: dict) -> di
     # Enrich sub_profession with its display name from uniequip_table
     if "sub_profession" in result:
         sub_id = result["sub_profession"]
-        result["sub_profession_name"] = sub_prof_names.get(sub_id)
+        result["sub_profession_name"] = sub_prof_names.get(sub_id, "unknown")
 
     return result
 
 
 def main():
-    input_path = Path("excel-en/character_table.json")
     output_path = Path("processed/characters.yml")
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
     sub_prof_names = load_sub_prof_names()
 
-    with input_path.open(encoding="utf-8") as f:
-        data = json.load(f)
+    with Path("excel-en/character_table.json").open(encoding="utf-8") as f:
+        en_data = json.load(f)
+
+    with Path("excel-cn/character_table.json").open(encoding="utf-8") as f:
+        cn_data = json.load(f)
+
+    cn_only = {k: v for k, v in cn_data.items() if k not in en_data}
 
     characters = [
         extract_character(char_id, char_data, sub_prof_names)
-        for char_id, char_data in data.items()
+        for char_id, char_data in en_data.items()
+        if char_data.get("profession") != "TRAP"
+    ] + [
+        extract_character(char_id, char_data, sub_prof_names, use_appellation=True)
+        for char_id, char_data in cn_only.items()
+        if char_data.get("profession") != "TRAP"
     ]
 
     with output_path.open("w", encoding="utf-8") as f:
