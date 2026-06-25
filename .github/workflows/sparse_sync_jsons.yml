@@ -30,7 +30,8 @@ jobs:
       - name: Copy Directories
         run: |
           # Create target directories if they don't exist
-          mkdir -p excel
+          mkdir -p excel-en
+          mkdir -p excel-cn
 
           # Copy contents (adjust paths as needed)
           cp -r temp-target-repo/en/gamedata/excel/* excel-en
