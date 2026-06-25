@@ -21,10 +21,9 @@ jobs:
         uses: actions/checkout@v7
         with:
           repository: 'ArknightsAssets/ArknightsGamedata' # REPLACE with the specified repository
-          ref: 'en'                          # REPLACE with the target branch
           path: 'temp-target-repo'             # Temporary folder to clone into
           sparse-checkout: |
-            gamedata/excel
+            en/gamedata/excel
 
       # 3. Copy the specific directories from the temp folder to your repository
       - name: Copy Directories
