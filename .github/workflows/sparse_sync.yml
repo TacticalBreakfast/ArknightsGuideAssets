@@ -27,6 +27,7 @@ jobs:
             assets/dyn/arts/charavatars
             assets/dyn/arts/skills
             assets/dyn/arts/ui/subprofessionicon
+            assets/dyn/arts/profession_large_hub
 
       # 3. Copy the specific directories from the temp folder to your repository
       - name: Copy Directories
@@ -35,11 +36,13 @@ jobs:
           mkdir -p charavatars
           mkdir -p skills
           mkdir -p subprofessionicon
+          mkdir -p profession_large_hub
 
           # Copy contents (adjust paths as needed)
           cp -r temp-target-repo/assets/dyn/arts/charavatars/* charavatars
           cp -r temp-target-repo/assets/dyn/arts/skills/* skills
           cp -r temp-target-repo/assets/dyn/arts/ui/subprofessionicon/* subprofessionicon
+          cp -r temp-target-repo/assets/dyn/arts/profession_large_hub/* profession_large_hub
 
           # Clean up the temporary repository folder
           rm -rf temp-target-repo
