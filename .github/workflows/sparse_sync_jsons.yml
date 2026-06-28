@@ -4,8 +4,8 @@ on:
   # Allows you to trigger the workflow manually from the GitHub UI
   workflow_dispatch:
   # Optional: Run on a schedule (e.g., every day at midnight)
-  # schedule:
-  #   - cron: '0 0 * * *'
+  schedule:
+    - cron: '0 0 * * *'
 
 jobs:
   sync-directories:
