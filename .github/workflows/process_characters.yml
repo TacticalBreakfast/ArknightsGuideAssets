@@ -3,17 +3,28 @@ name: Process Characters
 on:
   push:
     paths:
-      - 'excel-en/**'
-      - 'excel-cn/**'
+      - 'excel-en/character_table.json'
+      - 'excel-cn/character_table.json'
+  # The sync workflow pushes with the default GITHUB_TOKEN, which never triggers
+  # the push: filter above. workflow_run is exempt from that restriction, so this
+  # is what actually fires this workflow automatically after each sync run.
+  # The push action will only trigger on a manual check-in unless I change the
+  # token to a PAT.
+  workflow_run:
+    workflows: ['Sparse Checkout and Sync JSONs']
+    types: [completed]
   workflow_dispatch:
 
 jobs:
   process:
     runs-on: ubuntu-latest
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.workflow_run.head_branch || github.ref }}
 
       - name: Install Dependencies
         run: pip install pyyaml
