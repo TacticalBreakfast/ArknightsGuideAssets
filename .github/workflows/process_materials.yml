@@ -1,0 +1,53 @@
+name: Process Materials
+
+# Runs both parse_items.py (-> processed/items.csv) and parse_materials.py
+# (-> processed/materials.csv). The push paths below cover both scripts'
+# inputs: item_table.json for the item name lookup, and character_table.json
+# / char_patch_table.json for the per-character material cost recipes.
+on:
+  push:
+    paths:
+      - 'excel-cn/character_table.json'
+      - 'excel-cn/char_patch_table.json'
+      - 'excel-cn/special_operator_table.json'
+      - 'excel-en/item_table.json'
+      - 'excel-cn/item_table.json'
+  # The sync workflow pushes with the default GITHUB_TOKEN, which never triggers
+  # the push: filter above. workflow_run is exempt from that restriction, so this
+  # is what actually fires this workflow automatically after each sync run.
+  workflow_run:
+    workflows: ['Sparse Checkout and Sync JSONs']
+    types: [completed]
+  workflow_dispatch:
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.workflow_run.head_branch || github.ref }}
+
+      - name: Run Item Parser
+        run: python3 parse_items.py
+
+      - name: Run Materials Parser
+        run: python3 parse_materials.py
+
+      - name: Commit and Push Output
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add processed/items.csv processed/materials.csv
+
+          if git diff --staged --quiet; then
+            echo "No changes to items.csv/materials.csv. Nothing to commit."
+          else
+            echo "Changes found. Committing and pushing..."
+            git commit -m "Auto-update items.csv and materials.csv from excel data"
+            git push
+          fi

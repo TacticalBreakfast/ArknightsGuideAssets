@@ -124,6 +124,15 @@ def main():
     with Path("excel-cn/character_table.json").open(encoding="utf-8") as f:
         cn_data = json.load(f)
 
+    # Alternate forms (e.g. Amiya's Guard/Medic modes) aren't in character_table.json
+    # at all -- they live in char_patch_table.json's patchChars instead, with the
+    # same per-character schema, so they merge in directly.
+    with Path("excel-en/char_patch_table.json").open(encoding="utf-8") as f:
+        en_data = {**en_data, **json.load(f)["patchChars"]}
+
+    with Path("excel-cn/char_patch_table.json").open(encoding="utf-8") as f:
+        cn_data = {**cn_data, **json.load(f)["patchChars"]}
+
     cn_only = {k: v for k, v in cn_data.items() if k not in en_data}
 
     characters = [

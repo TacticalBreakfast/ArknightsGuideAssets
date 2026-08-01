@@ -4006,6 +4006,22 @@
   stars: ★
   profession_name: null
   sub_profession_name: Pioneer
+- id: char_1001_amiya2
+  name: Amiya
+  rarity: TIER_5
+  profession: WARRIOR
+  sub_profession: artsfghter
+  stars: ★★★★★
+  profession_name: Guard
+  sub_profession_name: Arts Fighter
+- id: char_1037_amiya3
+  name: Amiya
+  rarity: TIER_5
+  profession: MEDIC
+  sub_profession: incantationmedic
+  stars: ★★★★★
+  profession_name: Medic
+  sub_profession_name: Incantation Medic
 - id: char_4227_gallus
   name: GALLUS²
   rarity: TIER_1
