@@ -1260,6 +1260,168 @@
             "bindMainlineZoneId": null,
             "bindMainlineRetroZoneId": null
         },
+        "act2break_zone1": {
+            "zoneID": "act2break_zone1",
+            "zoneIndex": 0,
+            "type": "ACTIVITY",
+            "zoneNameFirst": null,
+            "zoneNameSecond": "Kernel Breakthrough",
+            "zoneNameTitleCurrent": null,
+            "zoneNameTitleUnCurrent": null,
+            "zoneNameTitleEx": null,
+            "zoneNameThird": null,
+            "lockedText": null,
+            "antiSpoilerId": null,
+            "canPreview": false,
+            "hasAdditionalPanel": false,
+            "sixStarMilestoneGroupId": null,
+            "bindMainlineZoneId": null,
+            "bindMainlineRetroZoneId": null
+        },
+        "act2break_zone2": {
+            "zoneID": "act2break_zone2",
+            "zoneIndex": 1,
+            "type": "ACTIVITY",
+            "zoneNameFirst": null,
+            "zoneNameSecond": "All-Out Effort",
+            "zoneNameTitleCurrent": null,
+            "zoneNameTitleUnCurrent": null,
+            "zoneNameTitleEx": null,
+            "zoneNameThird": null,
+            "lockedText": null,
+            "antiSpoilerId": null,
+            "canPreview": false,
+            "hasAdditionalPanel": false,
+            "sixStarMilestoneGroupId": null,
+            "bindMainlineZoneId": null,
+            "bindMainlineRetroZoneId": null
+        },
+        "act2break_zone3": {
+            "zoneID": "act2break_zone3",
+            "zoneIndex": 2,
+            "type": "ACTIVITY",
+            "zoneNameFirst": null,
+            "zoneNameSecond": "Special Front",
+            "zoneNameTitleCurrent": null,
+            "zoneNameTitleUnCurrent": null,
+            "zoneNameTitleEx": null,
+            "zoneNameThird": null,
+            "lockedText": null,
+            "antiSpoilerId": null,
+            "canPreview": false,
+            "hasAdditionalPanel": false,
+            "sixStarMilestoneGroupId": null,
+            "bindMainlineZoneId": null,
+            "bindMainlineRetroZoneId": null
+        },
+        "act49side_zone1": {
+            "zoneID": "act49side_zone1",
+            "zoneIndex": 0,
+            "type": "ACTIVITY",
+            "zoneNameFirst": null,
+            "zoneNameSecond": "Record of An Autumn's End",
+            "zoneNameTitleCurrent": null,
+            "zoneNameTitleUnCurrent": null,
+            "zoneNameTitleEx": null,
+            "zoneNameThird": null,
+            "lockedText": null,
+            "antiSpoilerId": null,
+            "canPreview": false,
+            "hasAdditionalPanel": false,
+            "sixStarMilestoneGroupId": null,
+            "bindMainlineZoneId": null,
+            "bindMainlineRetroZoneId": null
+        },
+        "act49side_zone2": {
+            "zoneID": "act49side_zone2",
+            "zoneIndex": 1,
+            "type": "ACTIVITY",
+            "zoneNameFirst": null,
+            "zoneNameSecond": "Forgotten Prospect of Spring",
+            "zoneNameTitleCurrent": null,
+            "zoneNameTitleUnCurrent": null,
+            "zoneNameTitleEx": null,
+            "zoneNameThird": null,
+            "lockedText": null,
+            "antiSpoilerId": null,
+            "canPreview": false,
+            "hasAdditionalPanel": false,
+            "sixStarMilestoneGroupId": null,
+            "bindMainlineZoneId": null,
+            "bindMainlineRetroZoneId": null
+        },
+        "act49side_zone3": {
+            "zoneID": "act49side_zone3",
+            "zoneIndex": 2,
+            "type": "ACTIVITY",
+            "zoneNameFirst": null,
+            "zoneNameSecond": "Unwritten Chapters of Yan",
+            "zoneNameTitleCurrent": null,
+            "zoneNameTitleUnCurrent": null,
+            "zoneNameTitleEx": null,
+            "zoneNameThird": null,
+            "lockedText": null,
+            "antiSpoilerId": null,
+            "canPreview": false,
+            "hasAdditionalPanel": false,
+            "sixStarMilestoneGroupId": null,
+            "bindMainlineZoneId": null,
+            "bindMainlineRetroZoneId": null
+        },
+        "act40sre_zone1": {
+            "zoneID": "act40sre_zone1",
+            "zoneIndex": 0,
+            "type": "ACTIVITY",
+            "zoneNameFirst": null,
+            "zoneNameSecond": "Flavor of Food",
+            "zoneNameTitleCurrent": null,
+            "zoneNameTitleUnCurrent": null,
+            "zoneNameTitleEx": null,
+            "zoneNameThird": null,
+            "lockedText": null,
+            "antiSpoilerId": null,
+            "canPreview": false,
+            "hasAdditionalPanel": false,
+            "sixStarMilestoneGroupId": null,
+            "bindMainlineZoneId": null,
+            "bindMainlineRetroZoneId": null
+        },
+        "act40sre_zone2": {
+            "zoneID": "act40sre_zone2",
+            "zoneIndex": 1,
+            "type": "ACTIVITY",
+            "zoneNameFirst": null,
+            "zoneNameSecond": "Flavor of Life",
+            "zoneNameTitleCurrent": null,
+            "zoneNameTitleUnCurrent": null,
+            "zoneNameTitleEx": null,
+            "zoneNameThird": null,
+            "lockedText": null,
+            "antiSpoilerId": null,
+            "canPreview": false,
+            "hasAdditionalPanel": false,
+            "sixStarMilestoneGroupId": null,
+            "bindMainlineZoneId": null,
+            "bindMainlineRetroZoneId": null
+        },
+        "act40sre_zone3": {
+            "zoneID": "act40sre_zone3",
+            "zoneIndex": 2,
+            "type": "ACTIVITY",
+            "zoneNameFirst": null,
+            "zoneNameSecond": "Farewell, Loved Ones",
+            "zoneNameTitleCurrent": null,
+            "zoneNameTitleUnCurrent": null,
+            "zoneNameTitleEx": null,
+            "zoneNameThird": null,
+            "lockedText": null,
+            "antiSpoilerId": null,
+            "canPreview": false,
+            "hasAdditionalPanel": false,
+            "sixStarMilestoneGroupId": null,
+            "bindMainlineZoneId": null,
+            "bindMainlineRetroZoneId": null
+        },
         "act48side_zone1": {
             "zoneID": "act48side_zone1",
             "zoneIndex": 0,
@@ -7559,6 +7721,60 @@
             "sixStarMilestoneGroupId": null,
             "bindMainlineZoneId": null,
             "bindMainlineRetroZoneId": null
+        },
+        "permanent_sidestory_30_zone1": {
+            "zoneID": "permanent_sidestory_30_zone1",
+            "zoneIndex": 0,
+            "type": "SIDESTORY",
+            "zoneNameFirst": null,
+            "zoneNameSecond": "Flavor of Food",
+            "zoneNameTitleCurrent": null,
+            "zoneNameTitleUnCurrent": null,
+            "zoneNameTitleEx": null,
+            "zoneNameThird": null,
+            "lockedText": null,
+            "antiSpoilerId": null,
+            "canPreview": false,
+            "hasAdditionalPanel": false,
+            "sixStarMilestoneGroupId": null,
+            "bindMainlineZoneId": null,
+            "bindMainlineRetroZoneId": null
+        },
+        "permanent_sidestory_30_zone2": {
+            "zoneID": "permanent_sidestory_30_zone2",
+            "zoneIndex": 1,
+            "type": "SIDESTORY",
+            "zoneNameFirst": null,
+            "zoneNameSecond": "Flavor of Life",
+            "zoneNameTitleCurrent": null,
+            "zoneNameTitleUnCurrent": null,
+            "zoneNameTitleEx": null,
+            "zoneNameThird": null,
+            "lockedText": null,
+            "antiSpoilerId": null,
+            "canPreview": false,
+            "hasAdditionalPanel": false,
+            "sixStarMilestoneGroupId": null,
+            "bindMainlineZoneId": null,
+            "bindMainlineRetroZoneId": null
+        },
+        "permanent_sidestory_30_zone3": {
+            "zoneID": "permanent_sidestory_30_zone3",
+            "zoneIndex": 2,
+            "type": "SIDESTORY",
+            "zoneNameFirst": null,
+            "zoneNameSecond": "Farewell, Loved Ones",
+            "zoneNameTitleCurrent": null,
+            "zoneNameTitleUnCurrent": null,
+            "zoneNameTitleEx": null,
+            "zoneNameThird": null,
+            "lockedText": null,
+            "antiSpoilerId": null,
+            "canPreview": false,
+            "hasAdditionalPanel": false,
+            "sixStarMilestoneGroupId": null,
+            "bindMainlineZoneId": null,
+            "bindMainlineRetroZoneId": null
         }
     },
     "weeklyAdditionInfo": {
@@ -7648,6 +7864,42 @@
         }
     },
     "zoneValidInfo": {
+        "act2break_zone1": {
+            "startTs": 1785423600,
+            "endTs": 1787223599
+        },
+        "act2break_zone2": {
+            "startTs": 1786057200,
+            "endTs": 1787223599
+        },
+        "act2break_zone3": {
+            "startTs": 1785423600,
+            "endTs": 1787223599
+        },
+        "act49side_zone1": {
+            "startTs": 1784214000,
+            "endTs": 1786013999
+        },
+        "act49side_zone2": {
+            "startTs": 1784847600,
+            "endTs": 1786013999
+        },
+        "act49side_zone3": {
+            "startTs": 1785452400,
+            "endTs": 1786013999
+        },
+        "act40sre_zone1": {
+            "startTs": 1783350000,
+            "endTs": 1784199599
+        },
+        "act40sre_zone2": {
+            "startTs": 1783350000,
+            "endTs": 1784199599
+        },
+        "act40sre_zone3": {
+            "startTs": 1783350000,
+            "endTs": 1784199599
+        },
         "act48side_zone1": {
             "startTs": 1782129600,
             "endTs": 1783335599

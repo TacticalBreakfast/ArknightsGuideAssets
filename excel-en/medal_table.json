@@ -12402,6 +12402,90 @@
             "isHidden": false
         },
         {
+            "medalId": "medal_story_wang_1",
+            "medalName": "'Final Round'",
+            "medalType": "storyMedal",
+            "slotId": 356,
+            "preMedalIdList": {},
+            "rarity": "T1",
+            "template": "CharStoryUnlock",
+            "unlockParam": [
+                "char_2027_wang",
+                "story_wang_set_1"
+            ],
+            "getMethod": "Unlock Wang's Operator Record 'Final Round'",
+            "description": "The game has ended. The board is cleared, but the stone has chosen to linger.",
+            "advancedMedal": null,
+            "originMedal": null,
+            "displayTime": 1784214000,
+            "expireTimes": {},
+            "medalRewardGroup": {},
+            "isHidden": false
+        },
+        {
+            "medalId": "medal_story_xingzh_1",
+            "medalName": "'Coming Home'",
+            "medalType": "storyMedal",
+            "slotId": 357,
+            "preMedalIdList": {},
+            "rarity": "T1",
+            "template": "CharStoryUnlock",
+            "unlockParam": [
+                "char_4172_xingzh",
+                "story_xingzh_set_1"
+            ],
+            "getMethod": "Unlock Xingzhu's Operator Record 'Coming Home'",
+            "description": "The light will continue to shine for her at the end of the path, no matter how long the journey.",
+            "advancedMedal": null,
+            "originMedal": null,
+            "displayTime": 1784214000,
+            "expireTimes": {},
+            "medalRewardGroup": {},
+            "isHidden": false
+        },
+        {
+            "medalId": "medal_story_ju_1",
+            "medalName": "'Legendary Stone'",
+            "medalType": "storyMedal",
+            "slotId": 358,
+            "preMedalIdList": {},
+            "rarity": "T1",
+            "template": "CharStoryUnlock",
+            "unlockParam": [
+                "char_4221_ju",
+                "story_ju_set_1"
+            ],
+            "getMethod": "Unlock Ju's Operator Record 'Legendary Stone'",
+            "description": "Even the legendary Stone cannot resolve conflicts.",
+            "advancedMedal": null,
+            "originMedal": null,
+            "displayTime": 1784214000,
+            "expireTimes": {},
+            "medalRewardGroup": {},
+            "isHidden": false
+        },
+        {
+            "medalId": "medal_story_hmau_2",
+            "medalName": "'Conspiracy'",
+            "medalType": "storyMedal",
+            "slotId": 359,
+            "preMedalIdList": {},
+            "rarity": "T2",
+            "template": "CharStoryUnlock",
+            "unlockParam": [
+                "char_226_hmau",
+                "story_hmau_set_2"
+            ],
+            "getMethod": "Unlock Hung's Operator Record 'Conspiracy'",
+            "description": "Surely we can talk out this 'misunderstanding'.",
+            "advancedMedal": null,
+            "originMedal": null,
+            "displayTime": 1784214000,
+            "expireTimes": {},
+            "medalRewardGroup": {},
+            "isHidden": false
+        },
+        {
             "medalId": "medal_sandbox_1_01",
             "medalName": "'Shadow of Arsalan'",
             "medalType": "rogueMedal",
@@ -14246,6 +14330,583 @@
             "originMedal": null,
             "displayTime": 1639072800,
             "expireTimes": {},
+            "medalRewardGroup": {},
+            "isHidden": false
+        },
+        {
+            "medalId": "medal_activity_act2break_01",
+            "medalName": "Trial from Misery: Medal of Excellence",
+            "medalType": "activityMedal",
+            "slotId": 1,
+            "preMedalIdList": [
+                "medal_activity_act2break_02",
+                "medal_activity_act2break_03",
+                "medal_activity_act2break_04",
+                "medal_activity_act2break_05",
+                "medal_activity_act2break_06",
+                "medal_activity_act2break_07",
+                "medal_activity_act2break_08",
+                "medal_activity_act2break_09",
+                "medal_activity_act2break_10"
+            ],
+            "rarity": "T3",
+            "template": null,
+            "unlockParam": {},
+            "getMethod": null,
+            "description": "You have passed all assessment requirements in 'Vector Breakthrough #2 Trial from Misery'.\nBased on your overall performance, training officer Misery has evaluated your performance as 'excellent'.",
+            "advancedMedal": null,
+            "originMedal": null,
+            "displayTime": -1,
+            "expireTimes": [
+                {
+                    "start": 1787482800,
+                    "end": -1,
+                    "type": "PERM"
+                }
+            ],
+            "medalRewardGroup": {},
+            "isHidden": false
+        },
+        {
+            "medalId": "medal_activity_act2break_02",
+            "medalName": "Trial from Misery: Medal of Triumph",
+            "medalType": "activityMedal",
+            "slotId": 2,
+            "preMedalIdList": {},
+            "rarity": "T2",
+            "template": "PassStageSome",
+            "unlockParam": [
+                "3",
+                "act2break_h01;act2break_h02;act2break_h03;act2break_h04",
+                "4"
+            ],
+            "getMethod": "During the event Vector Breakthrough #2: Trial from Misery, complete all stages in [All-Out Effort]",
+            "description": "Your squad passed all tests on the All-Out Effort training grounds.\nA real battlefield does not come with a difficulty setting, and your courage to tackle challenging difficulties is deserving of praise.",
+            "advancedMedal": null,
+            "originMedal": null,
+            "displayTime": -1,
+            "expireTimes": [
+                {
+                    "start": 1787482800,
+                    "end": -1,
+                    "type": "PERM"
+                }
+            ],
+            "medalRewardGroup": {},
+            "isHidden": false
+        },
+        {
+            "medalId": "medal_activity_act2break_03",
+            "medalName": "Trial from Misery: Combat Attire Medal",
+            "medalType": "activityMedal",
+            "slotId": 3,
+            "preMedalIdList": {},
+            "rarity": "T2",
+            "template": "GotItemBeforeTime",
+            "unlockParam": [
+                "1",
+                "char_253_greyy@epoque#515",
+                "1787482799"
+            ],
+            "getMethod": "During the event Vector Breakthrough #2: Trial from Misery, obtain the outfit My Fellow Newsboy",
+            "description": "An engraved medal that comes with an outfit obtained from Vector Breakthrough.\nHe journeys through streets and alleys, through wind and rain, bringing the light of hope.",
+            "advancedMedal": null,
+            "originMedal": null,
+            "displayTime": -1,
+            "expireTimes": [
+                {
+                    "start": 1787482800,
+                    "end": -1,
+                    "type": "PERM"
+                }
+            ],
+            "medalRewardGroup": {},
+            "isHidden": false
+        },
+        {
+            "medalId": "medal_activity_act2break_04",
+            "medalName": "Trial from Misery: Fortification Medal",
+            "medalType": "activityMedal",
+            "slotId": 4,
+            "preMedalIdList": {},
+            "rarity": "T2",
+            "template": "PassStageSome",
+            "unlockParam": [
+                "3",
+                "act2break_sp01;act2break_sp02;act2break_sp03;act2break_sp04;act2break_sp05;act2break_sp06;act2break_sp07;act2break_sp08;act2break_sp09;act2break_sp10;act2break_sp11;act2break_sp12;act2break_sp13;act2break_sp14;act2break_sp15;act2break_sp16",
+                "16"
+            ],
+            "getMethod": "During the event Vector Breakthrough #2: Trial from Misery, complete all stages in [Special Front]",
+            "description": "Your squad successfully defeated every enemy in the Special Front training grounds.\nHistory is full of brave warriors who fought alone, but here we value unity, cooperation, and mutual support more than sacrifice.",
+            "advancedMedal": null,
+            "originMedal": null,
+            "displayTime": -1,
+            "expireTimes": [
+                {
+                    "start": 1787482800,
+                    "end": -1,
+                    "type": "PERM"
+                }
+            ],
+            "medalRewardGroup": {},
+            "isHidden": false
+        },
+        {
+            "medalId": "medal_activity_act2break_05",
+            "medalName": "Trial from Misery: Strategist Medal",
+            "medalType": "activityMedal",
+            "slotId": 5,
+            "preMedalIdList": {},
+            "rarity": "T2",
+            "template": "PassStageSome",
+            "unlockParam": [
+                "3",
+                "act2break_01;act2break_02;act2break_03;act2break_04;act2break_05;act2break_06;act2break_07;act2break_08;act2break_09;act2break_10;act2break_11;act2break_12",
+                "12"
+            ],
+            "getMethod": "During the event Vector Breakthrough #2: Trial from Misery, complete all stages in [Kernel Breakthrough]",
+            "description": "Your squad was unbeatable in the Kernel Breakthrough training grounds.\nOftentimes there is more than a single path to victory, but usually there is only one factor that determines a win.",
+            "advancedMedal": "medal_activity_act2break_055",
+            "originMedal": null,
+            "displayTime": -1,
+            "expireTimes": [
+                {
+                    "start": 1787482800,
+                    "end": -1,
+                    "type": "PERM"
+                }
+            ],
+            "medalRewardGroup": {},
+            "isHidden": false
+        },
+        {
+            "medalId": "medal_activity_act2break_06",
+            "medalName": "Trial from Misery: Breacher Medal",
+            "medalType": "activityMedal",
+            "slotId": 6,
+            "preMedalIdList": {},
+            "rarity": "T1",
+            "template": "PassStageSome",
+            "unlockParam": [
+                "3",
+                "act2break_sp01;act2break_sp02;act2break_sp03;act2break_sp04;act2break_sp05;act2break_sp06;act2break_sp07;act2break_sp08;act2break_sp09;act2break_sp10;act2break_sp11;act2break_sp12;act2break_sp13;act2break_sp14;act2break_sp15;act2break_sp16",
+                "8"
+            ],
+            "getMethod": "During the event Vector Breakthrough #2: Trial from Misery, complete any 8 stages in [Special Front]",
+            "description": "Your squad charged straight into the Special Front training grounds and defeated many enemies.\nIt is hard to say whether defending or attacking is more valuable, for either option proves itself under the right strategy.",
+            "advancedMedal": null,
+            "originMedal": null,
+            "displayTime": -1,
+            "expireTimes": [
+                {
+                    "start": 1787482800,
+                    "end": -1,
+                    "type": "PERM"
+                }
+            ],
+            "medalRewardGroup": {},
+            "isHidden": false
+        },
+        {
+            "medalId": "medal_activity_act2break_07",
+            "medalName": "Trial from Misery: Protection Medal",
+            "medalType": "activityMedal",
+            "slotId": 7,
+            "preMedalIdList": {},
+            "rarity": "T1",
+            "template": "ActVecBreakV2SimpleEventAtLeast",
+            "unlockParam": [
+                "act2break",
+                "1",
+                "misery_retreat",
+                "5"
+            ],
+            "getMethod": "During the event Vector Breakthrough #2: Trial from Misery, cause 'Misery', Blade of Silence to move to a night tile 5 times after entering your Operators' visibility",
+            "description": "A medal awarded to spur you on after reaching a special goal in Vector Breakthrough.\nYour squad successfully stopped the attack of the training officer, 'Misery', Blade of Silence.",
+            "advancedMedal": null,
+            "originMedal": null,
+            "displayTime": -1,
+            "expireTimes": [
+                {
+                    "start": 1787482800,
+                    "end": -1,
+                    "type": "PERM"
+                }
+            ],
+            "medalRewardGroup": {},
+            "isHidden": false
+        },
+        {
+            "medalId": "medal_activity_act2break_08",
+            "medalName": "Trial from Misery: Advance Medal",
+            "medalType": "activityMedal",
+            "slotId": 8,
+            "preMedalIdList": {},
+            "rarity": "T1",
+            "template": "ActVecBreakV2LevelSimpleEventAtLeast",
+            "unlockParam": [
+                "act2break",
+                "3",
+                "act2break_03",
+                "napkgt_awake",
+                "1"
+            ],
+            "getMethod": "During the event Vector Breakthrough #2: Trial from Misery, complete VEC-03 and awaken a Knight Territory Wanderer early",
+            "description": "A medal awarded to spur you on after reaching a special goal in Vector Breakthrough.\nYour squad successfully passed a Vector Breakthrough assessment, and broke through the terrifying night.",
+            "advancedMedal": null,
+            "originMedal": null,
+            "displayTime": -1,
+            "expireTimes": [
+                {
+                    "start": 1787482800,
+                    "end": -1,
+                    "type": "PERM"
+                }
+            ],
+            "medalRewardGroup": {},
+            "isHidden": false
+        },
+        {
+            "medalId": "medal_activity_act2break_09",
+            "medalName": "Trial from Misery: Decorator Medal",
+            "medalType": "activityMedal",
+            "slotId": 9,
+            "preMedalIdList": {},
+            "rarity": "T1",
+            "template": "GotItemBeforeTime",
+            "unlockParam": [
+                "1",
+                "furni_vector_S2_misery_01",
+                "1787482799"
+            ],
+            "getMethod": "During the event Vector Breakthrough #2: Trial from Misery, obtain the furniture Plaque - 'Misery'",
+            "description": "An engraved medal that comes with furniture obtained from Vector Breakthrough.\nIt is not easy to earn the approval of the training officer, but this plaque is proof that you succeeded.",
+            "advancedMedal": null,
+            "originMedal": null,
+            "displayTime": -1,
+            "expireTimes": [
+                {
+                    "start": 1787482800,
+                    "end": -1,
+                    "type": "PERM"
+                }
+            ],
+            "medalRewardGroup": {},
+            "isHidden": false
+        },
+        {
+            "medalId": "medal_activity_act2break_10",
+            "medalName": "Trial from Misery: Courage Medal",
+            "medalType": "activityMedal",
+            "slotId": 10,
+            "preMedalIdList": {},
+            "rarity": "T1",
+            "template": "ActVecBreakV2LevelSimpleEventAtLeast",
+            "unlockParam": [
+                "act2break",
+                "3",
+                "act2break_05",
+                "melee_built",
+                "1"
+            ],
+            "getMethod": "During the event Vector Breakthrough #2: Trial from Misery, complete VEC-05 and deploy at least 1 Ground Operator",
+            "description": "A medal awarded to spur you on after reaching a special goal in Vector Breakthrough.\nYour squad successfully passed a Vector Breakthrough assessment, and demonstrated fearless courage.",
+            "advancedMedal": null,
+            "originMedal": null,
+            "displayTime": -1,
+            "expireTimes": [
+                {
+                    "start": 1787482800,
+                    "end": -1,
+                    "type": "PERM"
+                }
+            ],
+            "medalRewardGroup": {},
+            "isHidden": false
+        },
+        {
+            "medalId": "medal_activity_49side_01",
+            "medalName": "'Sun and Moon Mine Eyes'",
+            "medalType": "activityMedal",
+            "slotId": 11,
+            "preMedalIdList": [
+                "medal_activity_49side_02",
+                "medal_activity_49side_03",
+                "medal_activity_49side_04",
+                "medal_activity_49side_05",
+                "medal_activity_49side_06",
+                "medal_activity_49side_07",
+                "medal_activity_49side_08",
+                "medal_activity_49side_09",
+                "medal_activity_49side_10"
+            ],
+            "rarity": "T3",
+            "template": null,
+            "unlockParam": {},
+            "getMethod": null,
+            "description": "You have journeyed all across Yan, seen the summers and winters, and witnessed the sun and moons rise and fall many times.\nThe years come and go, and sun and moon mark the ages, but he has made them his eyes, seeing the dead end when he opens them, and the mortal world when he closes them.",
+            "advancedMedal": null,
+            "originMedal": null,
+            "displayTime": -1,
+            "expireTimes": [
+                {
+                    "start": 1786618800,
+                    "end": -1,
+                    "type": "TEMP"
+                }
+            ],
+            "medalRewardGroup": {},
+            "isHidden": false
+        },
+        {
+            "medalId": "medal_activity_49side_02",
+            "medalName": "Mutual Delight Medal",
+            "medalType": "activityMedal",
+            "slotId": 12,
+            "preMedalIdList": {},
+            "rarity": "T1",
+            "template": "GotCharsBeforeTime",
+            "unlockParam": [
+                "char_4221_ju",
+                "1786618799"
+            ],
+            "getMethod": "During the First of A Thousand Autumns event, obtain the free Operator Ju",
+            "description": "You met a craftsman with a strange appearance in Baizao under the setting sun. The two of you chatted about your ambitions, and it was late night before you knew it.\nSeeking similarity, admiring the virtuous, fostering universal love and mutual benefit... He believes in the same things you do, you both are guided by reason, and neither of you fears fate. It was a meeting of mutual delight.",
+            "advancedMedal": null,
+            "originMedal": null,
+            "displayTime": -1,
+            "expireTimes": [
+                {
+                    "start": 1786618800,
+                    "end": -1,
+                    "type": "TEMP"
+                }
+            ],
+            "medalRewardGroup": {},
+            "isHidden": false
+        },
+        {
+            "medalId": "medal_activity_49side_03",
+            "medalName": "'Boundless'",
+            "medalType": "activityMedal",
+            "slotId": 13,
+            "preMedalIdList": {},
+            "rarity": "T1",
+            "template": "ActivityCoinCost",
+            "unlockParam": [
+                "act49side",
+                "act49side_token_draft",
+                "4000"
+            ],
+            "getMethod": "During the First of A Thousand Autumns event, consume 4000 'Draft of History' in [Sky Mirror Teahouse]",
+            "description": "You visited famous mountains and delivered the historical documents you found to the calm Magistrate of Water, always buried in scrolls in the Sky Mirror Pavilion.\nYears roll on, and heaven and earth are vast. How could one not fear? How could one not like it?",
+            "advancedMedal": null,
+            "originMedal": null,
+            "displayTime": -1,
+            "expireTimes": [
+                {
+                    "start": 1786618800,
+                    "end": -1,
+                    "type": "TEMP"
+                }
+            ],
+            "medalRewardGroup": {},
+            "isHidden": false
+        },
+        {
+            "medalId": "medal_activity_49side_04",
+            "medalName": "'First Autumn'",
+            "medalType": "activityMedal",
+            "slotId": 14,
+            "preMedalIdList": {},
+            "rarity": "T1",
+            "template": "PassStageSome",
+            "unlockParam": [
+                "3",
+                "act49side_01;act49side_02;act49side_03;act49side_04;act49side_05;act49side_06;act49side_07;act49side_08;act49side_09;act49side_10;act49side_11",
+                "11"
+            ],
+            "getMethod": "Complete all stages in [Record of An Autumn's End] with 3-star ratings (excluding tutorials)",
+            "description": "You were invited to a game of weiqi. Another autumn had come by the time you looked up again.\nA new autumn, or the first autumn.",
+            "advancedMedal": null,
+            "originMedal": null,
+            "displayTime": -1,
+            "expireTimes": [
+                {
+                    "start": 1786618800,
+                    "end": -1,
+                    "type": "TEMP"
+                }
+            ],
+            "medalRewardGroup": {},
+            "isHidden": false
+        },
+        {
+            "medalId": "medal_activity_49side_05",
+            "medalName": "Weiqi Instructor Medal",
+            "medalType": "activityMedal",
+            "slotId": 15,
+            "preMedalIdList": {},
+            "rarity": "T2",
+            "template": "MissionCompleteSome",
+            "unlockParam": [
+                "49sideActivity_1;49sideActivity_2;49sideActivity_3;49sideActivity_4;49sideActivity_5;49sideActivity_6;49sideActivity_7;49sideActivity_8;49sideActivity_9;49sideActivity_10;49sideActivity_11;49sideActivity_12;49sideActivity_13;49sideActivity_14;49sideActivity_15;49sideActivity_16;49sideActivity_17;49sideActivity_18;49sideActivity_19;49sideActivity_20;49sideActivity_21;49sideActivity_22;49sideActivity_23;49sideActivity_24;49sideActivity_25;49sideActivity_26;49sideActivity_27;49sideActivity_28;49sideActivity_29;49sideActivity_30;49sideActivity_31;49sideActivity_32;49sideActivity_33",
+                "33"
+            ],
+            "getMethod": "Complete all the content in [Proofreading of the Past] and collect the rewards",
+            "description": "You touched every intersection of the nineteen lines, vertical and horizontal. Now you understand the Black player's painstaking journey, and the White player's fury.\nOne should know their limits, and act at the right moment. But it is those who seek a way through the impossible who understand people's hearts the best.",
+            "advancedMedal": null,
+            "originMedal": null,
+            "displayTime": -1,
+            "expireTimes": [
+                {
+                    "start": 1786618800,
+                    "end": -1,
+                    "type": "TEMP"
+                }
+            ],
+            "medalRewardGroup": {},
+            "isHidden": false
+        },
+        {
+            "medalId": "medal_activity_49side_06",
+            "medalName": "Planned Action Medal",
+            "medalType": "activityMedal",
+            "slotId": 16,
+            "preMedalIdList": {},
+            "rarity": "T1",
+            "template": "PassStageWithSimpleCountMore",
+            "unlockParam": [
+                "3",
+                "act49side_09",
+                "enemy_10164_tjgxb",
+                "fall_down",
+                "4"
+            ],
+            "getMethod": "Clear TA-9 with a 3-star rating and make 'Wield Arms' fall into pits at least 4 times",
+            "description": "You sit across from the strategist. The distant enemies are destroyed as the two of you talk.\nNo one was born a strategist, and few can reach the uncharted, distant realms, but this round will be his.",
+            "advancedMedal": null,
+            "originMedal": null,
+            "displayTime": -1,
+            "expireTimes": [
+                {
+                    "start": 1786618800,
+                    "end": -1,
+                    "type": "TEMP"
+                }
+            ],
+            "medalRewardGroup": {},
+            "isHidden": false
+        },
+        {
+            "medalId": "medal_activity_49side_07",
+            "medalName": "Stand for Justice Medal",
+            "medalType": "activityMedal",
+            "slotId": 17,
+            "preMedalIdList": {},
+            "rarity": "T1",
+            "template": "TotalSimpleTokenCount",
+            "unlockParam": [
+                "act49side",
+                "tjgsd_spawn",
+                "10"
+            ],
+            "getMethod": "During the First of A Thousand Autumns event, use 'Writing Knife' a total of 10 times",
+            "description": "You reunite with an old friend, and see knife and sword in her hand.\nMany things have happened, but she remains true to her ideals, fighting for justice from country to country.",
+            "advancedMedal": null,
+            "originMedal": null,
+            "displayTime": -1,
+            "expireTimes": [
+                {
+                    "start": 1786618800,
+                    "end": -1,
+                    "type": "TEMP"
+                }
+            ],
+            "medalRewardGroup": {},
+            "isHidden": false
+        },
+        {
+            "medalId": "medal_activity_49side_08",
+            "medalName": "Threads of the Past Medal",
+            "medalType": "activityMedal",
+            "slotId": 18,
+            "preMedalIdList": {},
+            "rarity": "T2",
+            "template": "PassStageSome",
+            "unlockParam": [
+                "3",
+                "act49side_ex01#f#;act49side_ex02#f#;act49side_ex03#f#;act49side_ex04#f#;act49side_ex05#f#;act49side_ex06#f#;act49side_ex07#f#;act49side_ex08#f#",
+                "8"
+            ],
+            "getMethod": "Complete all stages in [Forgotten Prospect of Spring] on Challenge Mode",
+            "description": "You return to Baizao with the rest. The age of Sui is past, and the spring of 'humanity' is about to dawn.\nWhen the truth is revealed, and forgotten secrets come to light, you will see that the people of this ancient land have more courage to face their past than you think.",
+            "advancedMedal": null,
+            "originMedal": null,
+            "displayTime": -1,
+            "expireTimes": [
+                {
+                    "start": 1786618800,
+                    "end": -1,
+                    "type": "TEMP"
+                }
+            ],
+            "medalRewardGroup": {},
+            "isHidden": false
+        },
+        {
+            "medalId": "medal_activity_49side_09",
+            "medalName": "Those to Come Medal",
+            "medalType": "activityMedal",
+            "slotId": 19,
+            "preMedalIdList": {},
+            "rarity": "T2",
+            "template": "PassStageSome",
+            "unlockParam": [
+                "3",
+                "act49side_s01#f#;act49side_s02#f#;act49side_s03#f#;act49side_s04#f#",
+                "4"
+            ],
+            "getMethod": "Complete all stages in [Unwritten Chapters of Yan] on Challenge Mode",
+            "description": "You slowly spread open the sheet of paper, and seem to see people both past and present walk towards you.\nLeave all that has come to pass to historians' scrolls. They shall faithfully record all that we've done.",
+            "advancedMedal": null,
+            "originMedal": null,
+            "displayTime": -1,
+            "expireTimes": [
+                {
+                    "start": 1786618800,
+                    "end": -1,
+                    "type": "TEMP"
+                }
+            ],
+            "medalRewardGroup": {},
+            "isHidden": false
+        },
+        {
+            "medalId": "medal_activity_49side_10",
+            "medalName": "'How Go the Times'",
+            "medalType": "activityMedal",
+            "slotId": 20,
+            "preMedalIdList": {},
+            "rarity": "T2",
+            "template": "PassStageSome",
+            "unlockParam": [
+                "3",
+                "act49side_10",
+                "1"
+            ],
+            "getMethod": "Clear TA-10 with a 3-star rating",
+            "description": "You witnessed the fall of Sui.\nThe bestial Sui closes Its eyes, and the thousand-year calamity has finally come to an end. What night is this night, that the moons are so bright?",
+            "advancedMedal": "medal_activity_49side_105",
+            "originMedal": null,
+            "displayTime": -1,
+            "expireTimes": [
+                {
+                    "start": 1786618800,
+                    "end": -1,
+                    "type": "TEMP"
+                }
+            ],
             "medalRewardGroup": {},
             "isHidden": false
         },
@@ -18346,7 +19007,7 @@
             "template": "GotCharsBeforeTime",
             "unlockParam": [
                 "char_4172_xingzh",
-                "1755169199"
+                "1784545199"
             ],
             "getMethod": "During the Such is the Joy of Our Reunion event, obtain Operator Xingzhu",
             "description": "You accepted the historian's family visit application, along with a carefully selected Yanese delicacy.\nYou have heard from your operators of her talent, her story, and her regrets. Soon, you will watch her write a new chapter in her own history.",
@@ -18377,11 +19038,11 @@
             "rarity": "T1",
             "template": "ActivityCoinCost",
             "unlockParam": [
-                "act40side",
-                "act40side_token_yumyum",
-                "4000"
+                "act40sre",
+                "act40side_token_yumyum_rep_1",
+                "2400"
             ],
-            "getMethod": "During the Such is the Joy of Our Reunion event, consume 4000 'Yum-yum!' in [Savors at Yu's]",
+            "getMethod": "During the Such is the Joy of Our Reunion event, consume 2400 'Yum-yum!' in [Savors at Yu's]",
             "description": "You've become a regular at Savors at Yu's and have started chatting with the owner as he picks the vegetables.\nYou know every piece of town gossip—when the fowlbeast will return from the neighbor's roof, which nursery rhyme the scallion-seller's grandson just learned—absolutely everything.",
             "advancedMedal": null,
             "originMedal": null,
@@ -18443,7 +19104,7 @@
             "rarity": "T2",
             "template": "MissionCompleteSome",
             "unlockParam": [
-                "40sideActivity_1;40sideActivity_2;40sideActivity_3;40sideActivity_4;40sideActivity_5;40sideActivity_6;40sideActivity_7;40sideActivity_8;40sideActivity_9;40sideActivity_10;40sideActivity_11;40sideActivity_12;40sideActivity_13;40sideActivity_14;40sideActivity_15;40sideActivity_16;40sideActivity_17;40sideActivity_18;40sideActivity_19;40sideActivity_20;40sideActivity_21;40sideActivity_22;40sideActivity_23;40sideActivity_24;40sideActivity_25;40sideActivity_26;40sideActivity_27;40sideActivity_28;40sideActivity_29;40sideActivity_30",
+                "40sreActivity_1;40sreActivity_2;40sreActivity_3;40sreActivity_4;40sreActivity_5;40sreActivity_6;40sreActivity_7;40sreActivity_8;40sreActivity_9;40sreActivity_10;40sreActivity_11;40sreActivity_12;40sreActivity_13;40sreActivity_14;40sreActivity_15;40sreActivity_16;40sreActivity_17;40sreActivity_18;40sreActivity_19;40sreActivity_20;40sreActivity_21;40sreActivity_22;40sreActivity_23;40sreActivity_24;40sreActivity_25;40sreActivity_26;40sreActivity_27;40sreActivity_28;40sreActivity_29;40sreActivity_30",
                 "30"
             ],
             "getMethod": "Complete all the content in [Baizao Cuisine & Food Culture] and collect the rewards",
@@ -18611,11 +19272,11 @@
             "rarity": "T2",
             "template": "TotalSimpleTokenCount",
             "unlockParam": [
-                "act40side",
+                "act40sre",
                 "summon_dragon",
-                "15"
+                "10"
             ],
-            "getMethod": "During the Such is the Joy of Our Reunion event, trigger 'Sapid Auspice' at least 15 times in total",
+            "getMethod": "During the Such is the Joy of Our Reunion event, trigger 'Sapid Auspice' at least 10 times in total",
             "description": "While out on a stroll, you absorb the city's vibrant charm.\nThe snack shop just outside the Academy gates, the food stand on your way home from work, the luxurious restaurant that caters grand birthday banquets—in Baizao, there is a different flavor for each stage of life.",
             "advancedMedal": "medal_activity_40side_105",
             "originMedal": null,
@@ -38180,11 +38841,11 @@
             "rarity": "T2D5",
             "template": "TotalSimpleTokenCount",
             "unlockParam": [
-                "act40side",
+                "act40sre",
                 "summon_dragon",
-                "30"
+                "20"
             ],
-            "getMethod": "During the Such is the Joy of Our Reunion event, trigger 'Sapid Auspice' at least 30 times in total",
+            "getMethod": "During the Such is the Joy of Our Reunion event, trigger 'Sapid Auspice' at least 20 times in total",
             "description": null,
             "advancedMedal": null,
             "originMedal": "medal_activity_40side_10",
@@ -38748,6 +39409,65 @@
                     "start": 1783940400,
                     "end": -1,
                     "type": "TEMP"
+                }
+            ],
+            "medalRewardGroup": {},
+            "isHidden": false
+        },
+        {
+            "medalId": "medal_activity_49side_105",
+            "medalName": "'How Go the Times'",
+            "medalType": "activityMedal",
+            "slotId": 20,
+            "preMedalIdList": null,
+            "rarity": "T2D5",
+            "template": "PassStageWithSimpleCountLess",
+            "unlockParam": [
+                "3",
+                "act49side_10",
+                "enemy_1582_suisho;enemy_1583_suizzh;enemy_1584_suiyzh;enemy_1585_suiwei",
+                "sui_part_sealed",
+                "2"
+            ],
+            "getMethod": "Clear TA-10 with a 3-star rating while Sui has at least 2 unsealed body parts",
+            "description": null,
+            "advancedMedal": null,
+            "originMedal": "medal_activity_49side_10",
+            "displayTime": -1,
+            "expireTimes": [
+                {
+                    "start": 1786618800,
+                    "end": -1,
+                    "type": "TEMP"
+                }
+            ],
+            "medalRewardGroup": {},
+            "isHidden": false
+        },
+        {
+            "medalId": "medal_activity_act2break_055",
+            "medalName": "Trial from Misery: Strategist Medal",
+            "medalType": "activityMedal",
+            "slotId": 5,
+            "preMedalIdList": null,
+            "rarity": "T2D5",
+            "template": "ActVecBreakV2PassStageBeforeTime",
+            "unlockParam": [
+                "act2break",
+                "3",
+                "act2break_01;act2break_02;act2break_03;act2break_04;act2break_05;act2break_06;act2break_07;act2break_08;act2break_09;act2break_10;act2break_11;act2break_12",
+                "1786057199"
+            ],
+            "getMethod": "During the event Vector Breakthrough #2: Trial from Misery, complete all stages in [Kernel Breakthrough] within the first week of the event (before August 6, 2026, 07:59:59 UTC-7)",
+            "description": null,
+            "advancedMedal": null,
+            "originMedal": "medal_activity_act2break_05",
+            "displayTime": -1,
+            "expireTimes": [
+                {
+                    "start": 1787482800,
+                    "end": -1,
+                    "type": "PERM"
                 }
             ],
             "medalRewardGroup": {},
@@ -40562,6 +41282,60 @@
                             "start": 1783940400,
                             "end": -1,
                             "type": "TEMP"
+                        }
+                    ]
+                },
+                {
+                    "groupId": "medalGroupActivity49side",
+                    "groupName": "First of A Thousand Autumns Engraved Medal Set",
+                    "groupDesc": "An Engraved Medal Set that records a long journey to Yan.\nFinally, after the chaos, the family gathers around the table for a reunion dinner, bringing back both stories and souvenirs from afar. The bowls and chopsticks are set, and soon, the sibling they have not seen for a long time is coming back.",
+                    "medalId": [
+                        "medal_activity_49side_01",
+                        "medal_activity_49side_02",
+                        "medal_activity_49side_03",
+                        "medal_activity_49side_04",
+                        "medal_activity_49side_05",
+                        "medal_activity_49side_06",
+                        "medal_activity_49side_07",
+                        "medal_activity_49side_08",
+                        "medal_activity_49side_09",
+                        "medal_activity_49side_10"
+                    ],
+                    "sortId": 66,
+                    "groupBackColor": "cbc6c3",
+                    "groupGetTime": 1784214000,
+                    "sharedExpireTimes": [
+                        {
+                            "start": 1786618800,
+                            "end": -1,
+                            "type": "TEMP"
+                        }
+                    ]
+                },
+                {
+                    "groupId": "medalGroupActivityAct2break",
+                    "groupName": "Vector Breakthrough #2: Trial from Misery Engraved Medal Set",
+                    "groupDesc": "A set of engraved medals commemorating the Vector Breakthrough assessment.\nYour tactical arrangements have led your Operators through tests of complex combat environments. Be it defending against a surprise night attack or challenging a training officer, you have displayed a spectacular show of command.",
+                    "medalId": [
+                        "medal_activity_act2break_01",
+                        "medal_activity_act2break_02",
+                        "medal_activity_act2break_03",
+                        "medal_activity_act2break_04",
+                        "medal_activity_act2break_05",
+                        "medal_activity_act2break_06",
+                        "medal_activity_act2break_07",
+                        "medal_activity_act2break_08",
+                        "medal_activity_act2break_09",
+                        "medal_activity_act2break_10"
+                    ],
+                    "sortId": 67,
+                    "groupBackColor": "e9ec2d",
+                    "groupGetTime": 1785423600,
+                    "sharedExpireTimes": [
+                        {
+                            "start": 1787482800,
+                            "end": -1,
+                            "type": "PERM"
                         }
                     ]
                 }

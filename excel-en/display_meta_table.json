@@ -851,6 +851,116 @@
                 "limitDatas": null
             },
             {
+                "avatarId": "avatar_special_61",
+                "avatarType": "SPECIAL",
+                "avatarDesc": "Buy gift pack to get ",
+                "isSecret": true,
+                "avatarStartTs": 1783350000,
+                "avatarLimit": true,
+                "avatarIdSort": 61,
+                "avatarIdDesc": "Buy gift pack to get\n'Friendly Rilakkuma Doll'",
+                "avatarItemName": "'Friendly Rilakkuma Doll'",
+                "avatarItemDesc": "A doll wearing Rosa's outfit, with both hands raised high. This is a standard pose for conveying goodwill, quite common among dolls.",
+                "avatarItemUsage": "Can be set as an icon, serving for personal branding.",
+                "obtainApproach": "Unique unlock",
+                "dynAvatarId": null,
+                "limitDatas": [
+                    {
+                        "avatarId": "avatar_special_61",
+                        "descShowTs": 1783350000,
+                        "descHideTs": 1785149999
+                    }
+                ]
+            },
+            {
+                "avatarId": "avatar_special_62",
+                "avatarType": "SPECIAL",
+                "avatarDesc": "Buy gift pack to get ",
+                "isSecret": true,
+                "avatarStartTs": 1783350000,
+                "avatarLimit": true,
+                "avatarIdSort": 62,
+                "avatarIdDesc": "Buy gift pack to get\n'Sweet Korilakkuma Doll'",
+                "avatarItemName": "'Sweet Korilakkuma Doll'",
+                "avatarItemDesc": "A doll wearing Gummy's outfit, posed with a small red pot and a soft-serve ice cream cone. Everyone praises this as a cute photo.",
+                "avatarItemUsage": "Can be set as an icon, serving for personal branding.",
+                "obtainApproach": "Unique unlock",
+                "dynAvatarId": null,
+                "limitDatas": [
+                    {
+                        "avatarId": "avatar_special_62",
+                        "descShowTs": 1783350000,
+                        "descHideTs": 1785149999
+                    }
+                ]
+            },
+            {
+                "avatarId": "avatar_special_63",
+                "avatarType": "SPECIAL",
+                "avatarDesc": "Buy gift pack to get ",
+                "isSecret": true,
+                "avatarStartTs": 1783350000,
+                "avatarLimit": true,
+                "avatarIdSort": 63,
+                "avatarIdDesc": "Buy gift pack to get\n'Brave Leader Rilakkuma Doll'",
+                "avatarItemName": "'Brave Leader Rilakkuma Doll'",
+                "avatarItemDesc": "A doll wearing Zima's outfit, wearing matching headphones. Have no doubt, the floating musical notes are also part of the doll's accessories.",
+                "avatarItemUsage": "Can be set as an icon, serving for personal branding.",
+                "obtainApproach": "Unique unlock",
+                "dynAvatarId": null,
+                "limitDatas": [
+                    {
+                        "avatarId": "avatar_special_63",
+                        "descShowTs": 1783350000,
+                        "descHideTs": 1785149999
+                    }
+                ]
+            },
+            {
+                "avatarId": "avatar_special_64",
+                "avatarType": "SPECIAL",
+                "avatarDesc": "Buy gift pack to get ",
+                "isSecret": true,
+                "avatarStartTs": 1783350000,
+                "avatarLimit": true,
+                "avatarIdSort": 64,
+                "avatarIdDesc": "Buy gift pack to get\n'Focused Korilakkuma Doll'",
+                "avatarItemName": "'Focused Korilakkuma Doll'",
+                "avatarItemDesc": "A doll wearing Istina's outfit; the book and glasses are standard accessories. Although motionless, it radiates an aura of earnest effort.",
+                "avatarItemUsage": "Can be set as an icon, serving for personal branding.",
+                "obtainApproach": "Unique unlock",
+                "dynAvatarId": null,
+                "limitDatas": [
+                    {
+                        "avatarId": "avatar_special_64",
+                        "descShowTs": 1783350000,
+                        "descHideTs": 1785149999
+                    }
+                ]
+            },
+            {
+                "avatarId": "avatar_special_65",
+                "avatarType": "SPECIAL",
+                "avatarDesc": "Buy gift pack to get ",
+                "isSecret": true,
+                "avatarStartTs": 1783350000,
+                "avatarLimit": true,
+                "avatarIdSort": 65,
+                "avatarIdDesc": "Buy gift pack to get\n'Honey Pal Rilakkuma Doll'",
+                "avatarItemName": "'Honey Pal Rilakkuma Doll'",
+                "avatarItemDesc": "A doll wearing Leto's outfit, with its palm stuck to a honey pot. However, not all dolls are posed like this.",
+                "avatarItemUsage": "Can be set as an icon, serving for personal branding.",
+                "obtainApproach": "Unique unlock",
+                "dynAvatarId": null,
+                "limitDatas": [
+                    {
+                        "avatarId": "avatar_special_65",
+                        "descShowTs": 1783350000,
+                        "descHideTs": 1785149999
+                    }
+                ]
+            },
+            {
                 "avatarId": "avatar_special_82",
                 "avatarType": "SPECIAL",
                 "avatarDesc": "Buy gift pack to get ",
@@ -2107,6 +2217,28 @@
                 "limitDatas": null
             },
             {
+                "avatarId": "avatar_activity_pcAct",
+                "avatarType": "ACTIVITY",
+                "avatarDesc": "Hymn to A New Beginning Sign-In Event",
+                "isSecret": true,
+                "avatarStartTs": 1785423600,
+                "avatarLimit": true,
+                "avatarIdSort": 74,
+                "avatarIdDesc": "Hymn to A New Beginning Sign-In Event\n'New Start'",
+                "avatarItemName": "'New Start'",
+                "avatarItemDesc": "Whether in the past, present, or future, Rhodes Island will always walk with you.",
+                "avatarItemUsage": "Can be set as an icon, serving for personal branding.",
+                "obtainApproach": "Obtained from Sign-In Event",
+                "dynAvatarId": null,
+                "limitDatas": [
+                    {
+                        "avatarId": "avatar_activity_pcAct",
+                        "descShowTs": 1785423600,
+                        "descHideTs": 1788173999
+                    }
+                ]
+            },
+            {
                 "avatarId": "avatar_activity_HS",
                 "avatarType": "ACTIVITY",
                 "avatarDesc": "[Here A People Sows] Record Restoration",
@@ -2137,6 +2269,28 @@
                 "obtainApproach": "Obtained from Integrated Strategies",
                 "dynAvatarId": null,
                 "limitDatas": null
+            },
+            {
+                "avatarId": "avatar_activity_RL5_2",
+                "avatarType": "ACTIVITY",
+                "avatarDesc": "[Integrated Strategies] Limited-Time Mission",
+                "isSecret": true,
+                "avatarStartTs": 1783350000,
+                "avatarLimit": true,
+                "avatarIdSort": 77,
+                "avatarIdDesc": "[Integrated Strategies] Limited-Time Mission\n'Lingering Lotus'",
+                "avatarItemName": "'Lingering Lotus'",
+                "avatarItemDesc": "Where riddles hide, lotuses bloom with wonders; where the strange resides, one lingers, lost to time.",
+                "avatarItemUsage": "Can be set as an icon, serving for personal branding.",
+                "obtainApproach": "Obtained in Sui's Garden of Grotesqueries Limited-Time Mission",
+                "dynAvatarId": null,
+                "limitDatas": [
+                    {
+                        "avatarId": "avatar_activity_RL5_2",
+                        "descShowTs": 1783350000,
+                        "descHideTs": 1784545199
+                    }
+                ]
             },
             {
                 "avatarId": "avatar_dyn_01",
@@ -2520,6 +2674,11 @@
                     "avatar_special_56",
                     "avatar_special_57",
                     "avatar_special_58",
+                    "avatar_special_61",
+                    "avatar_special_62",
+                    "avatar_special_63",
+                    "avatar_special_64",
+                    "avatar_special_65",
                     "avatar_special_82",
                     "avatar_special_83",
                     "avatar_special_74",
@@ -2604,8 +2763,10 @@
                     "avatar_activity_AC_1",
                     "avatar_activity_KR",
                     "avatar_activity_RS",
+                    "avatar_activity_pcAct",
                     "avatar_activity_HS",
-                    "avatar_activity_RL5_1"
+                    "avatar_activity_RL5_1",
+                    "avatar_activity_RL5_2"
                 ]
             },
             "DEFAULT": {
@@ -5091,6 +5252,42 @@
                         "availEndTime": 1776596399
                     }
                 ]
+            },
+            "nc_rilakkuma_1": {
+                "id": "nc_rilakkuma_1",
+                "name": "Warmth",
+                "type": "SPECIAL",
+                "isSecret": true,
+                "sortId": 25,
+                "isSpTheme": true,
+                "defaultShowDetail": false,
+                "themeName": "Warmth",
+                "themeEnName": "Warmth",
+                "skinStartTime": 1783350000,
+                "skinDesc": "Somewhere soft, warm, and still—along with the hug you've been longing for.",
+                "usageDesc": "PRTS has been redesigned with no changes whatsoever to its functionality.",
+                "skinApproach": "Fluffy and Warm Pack",
+                "unlockConditionCnt": 1,
+                "unlockDescList": [
+                    "Obtained by buying the Fluffy and Warm Pack in the [Store]"
+                ],
+                "fixedModuleList": [
+                    "module_background",
+                    "module_collect",
+                    "module_avatar",
+                    "module_avatar_simple"
+                ],
+                "rarity": "TIER_6",
+                "skinTmplCnt": 6,
+                "canChangeTmpl": true,
+                "isTimeLimit": true,
+                "timeLimitInfoList": [
+                    {
+                        "id": "nc_rilakkuma_1",
+                        "availStartTime": 1783350000,
+                        "availEndTime": 1785149999
+                    }
+                ]
             }
         },
         "skinGroupDatas": [
@@ -5158,6 +5355,11 @@
                         "id": "nc_avemujica_1",
                         "groupType": "SPECIAL",
                         "sortId": 22
+                    },
+                    {
+                        "id": "nc_rilakkuma_1",
+                        "groupType": "SPECIAL",
+                        "sortId": 25
                     }
                 ]
             },
@@ -6153,6 +6355,114 @@
                         "id": "randomMaterial_message1",
                         "count": 1,
                         "type": "VOUCHER_MGACHA"
+                    }
+                ]
+            },
+            "mail_newyear_2026_1": {
+                "id": "mail_newyear_2026_1",
+                "type": "NORMAL",
+                "sortId": 53,
+                "displayReceiveTs": 1784214000,
+                "year": 0,
+                "dateDelta": -1,
+                "senderId": "char_2027_wang",
+                "title": "A Thank-you Letter from Wang",
+                "content": "To the Doctor:\nI am fortunate and grateful that the Doctor has been looking after my elder brother and younger siblings, and now that my business is settled, I shall pay a visit to Rhodes Island when I have time, to express my utmost gratitude.\nAlso: There is no need to share this with others, to minimize their worries.\n\n(You hesitate for a moment before deciding to respect the sender's wishes and stay silent about the letter. But when you consider the possibility of facing the other proxies' resulting 'wrath', you cannot help but swallow hard.)",
+                "rewardList": [
+                    {
+                        "id": "randomMaterial_message2",
+                        "count": 1,
+                        "type": "VOUCHER_MGACHA"
+                    }
+                ]
+            },
+            "mail_newyear_2026_2": {
+                "id": "mail_newyear_2026_2",
+                "type": "NORMAL",
+                "sortId": 54,
+                "displayReceiveTs": 1784257200,
+                "year": 0,
+                "dateDelta": -1,
+                "senderId": "char_1041_angel2",
+                "title": "Blessings from Exusiai the New Covenant",
+                "content": "Happy Anniversary, Leader! Guess you found me out!\nLet me be clear: I didn't hide this letter with the sweets on purpose, it just happened to fall in during my deliveries, and I figured it'd be a nice surprise, right?\nOkay, since you didn't eat this, I'll let you in on a secret: there's a one-of-a-kind candy in there that'll give you a whole year's luck if you find it. I even prayed for that with a cool Lateran gospel, so just trust me! Your clue? It's on the back. I'm sure you'll get that blessing if you're reading this.\nForgot to mention there's some flavors in there I haven't tried. If you don't like them, just leave them for me.\nOkay, I'll save the rest for when we meet, it's time to get back on the road!\n\n(The back is filled with messy and nearly unrecognizable handwriting, as if she was writing it while traveling on a bumpy road.)",
+                "rewardList": [
+                    {
+                        "id": "ap_supply_lt_100_2026_1",
+                        "count": 1,
+                        "type": "AP_SUPPLY"
+                    }
+                ]
+            },
+            "mail_newyear_2026_3": {
+                "id": "mail_newyear_2026_3",
+                "type": "NORMAL",
+                "sortId": 55,
+                "displayReceiveTs": 1784260800,
+                "year": 0,
+                "dateDelta": -1,
+                "senderId": "char_1044_hsgma2",
+                "title": "Blessings from Hoshiguma the Breacher",
+                "content": "My comms rang first before I got to invite you to share this bottle together, so you can have it first.\nThere's fireworks all over Lungmen, and patrol's struggling to control the crowd, but it reminded me of old times too.\nWe've seen our fair share of trouble the past year, and those kids at the L.G.D. are telling me to drown it in more booze, but I told them to quit it. More drinks added to a muddled mind's just gonna make everything messier, right...\nThis bottle's different, though. I followed an old brewing method from Mitsukue, letting it ferment under the moonlight for a long time, to rid all of its intoxicating impurities, so now it smells real fresh.\nIt's not alcohol, but I can't guarantee you won't get drunk from it. And don't worry about its perfume-ish aroma.\nAs for festive blessings, let's just hope the new flavors we come by as time goes by are worth toasting to. Booze's good, but the sentiment in it is not as strong as the fresh brew I gave you. Here's to new beginnings.",
+                "rewardList": [
+                    {
+                        "id": "ap_supply_lt_100_2026_2",
+                        "count": 1,
+                        "type": "AP_SUPPLY"
+                    }
+                ]
+            },
+            "mail_newyear_2026_4": {
+                "id": "mail_newyear_2026_4",
+                "type": "NORMAL",
+                "sortId": 56,
+                "displayReceiveTs": 1784264400,
+                "year": 0,
+                "dateDelta": -1,
+                "senderId": "char_1045_svash2",
+                "title": "Blessings from SilverAsh the Reignfrost",
+                "content": "Looking back, Kjerag has moved towards stability, just as we imagined then. Partners who uphold their agreements through turbulent times will not wait for the storm to subside before willingly getting their clothes wet. My allies, adversaries, and those worldly yet sober devotees—I trust we will all keep them in mind. As Kjerag embarks on a new path, Ensia and I have decided to gift you a tiny 'Kjerag'.\nThis box of Mount Karlan snow fins was caught by our hunters under the frozen lake. They are simple to prepare and consume. Note that you see them before you today only thanks to our new cold-chain technology.\nKjerag intends to spread our previously unavailable delicacies outside of our nation, and I look forward to witnessing this future happen together with you. Happy anniversary, my ally.\n\nLastly, Ensia also bid me include instructions on how to enjoy this delicacy.\n1. Fresh snow fins from Mount Karlan are absolutely delicious with no odd smell, and melt in your mouth like snow;\n2. They can be eaten raw or grilled, either method lets you enjoy their natural flavor;\n3. You can also add a little lemon juice to enhance the experience, preferably from lemons of Kjeragi origin.",
+                "rewardList": [
+                    {
+                        "id": "ap_supply_lt_100_2026_3",
+                        "count": 1,
+                        "type": "AP_SUPPLY"
+                    }
+                ]
+            },
+            "mail_newyear_2026_5": {
+                "id": "mail_newyear_2026_5",
+                "type": "NORMAL",
+                "sortId": 57,
+                "displayReceiveTs": 1784268000,
+                "year": 0,
+                "dateDelta": -1,
+                "senderId": "char_2027_wang",
+                "title": "Blessings from Wang",
+                "content": "Midnight closes in as fireworks fill the sky. In times of turmoil, going solo is no longer a viable strategy. I have added taro paste to black and white glutinous rice layers to form this pastry, as a symbol of mutual understanding between us.\nYu says it is soft and chewy with a flavor that you will find simple yet palatable. No fancy technique—just a bit of thought put into it. You can taste it, and see what it makes you think of.\nDo help me share this with my siblings as well. I will tentatively remain an observer this time, though reviews are welcome.",
+                "rewardList": [
+                    {
+                        "id": "ap_supply_lt_100_2026_4",
+                        "count": 1,
+                        "type": "AP_SUPPLY"
+                    }
+                ]
+            },
+            "mail_newyear_2026_6": {
+                "id": "mail_newyear_2026_6",
+                "type": "NORMAL",
+                "sortId": 58,
+                "displayReceiveTs": 1784271600,
+                "year": 0,
+                "dateDelta": -1,
+                "senderId": "char_002_amiya",
+                "title": "Blessings from Amiya",
+                "content": "Happy anniversary, Doctor.\nI hope you have some time for tea as you're reading this. I found the recipe in an old Victorian book, and this blend is said to have calming qualities. My first attempt was quite bitter and hard to drink, so I referenced a Yanese 'Guide to Tea' and revised the blend until the bitterness is now mellow. I think hard work can finally pay off, just like the tea's sweet aftertaste.\nI can also adjust the blend to suit your tastes even more if you like.\nWell, I'd prefer that... you will never need tea like this to fall asleep. But at least it can guide you to sweet dreams, and I will always be by your side.",
+                "rewardList": [
+                    {
+                        "id": "ap_supply_lt_100_2026_5",
+                        "count": 1,
+                        "type": "AP_SUPPLY"
                     }
                 ]
             }
@@ -9144,6 +9454,11 @@
                 "avatar_special_56": 0,
                 "avatar_special_57": 0,
                 "avatar_special_58": 0,
+                "avatar_special_61": 0,
+                "avatar_special_62": 0,
+                "avatar_special_63": 0,
+                "avatar_special_64": 0,
+                "avatar_special_65": 0,
                 "avatar_special_74": 0,
                 "avatar_special_92": 0
             },
@@ -9160,7 +9475,8 @@
             "NAME_CARD_SKIN": {
                 "nc_movie_1": 0,
                 "nc_taiko_1": 0,
-                "nc_avemujica_1": 0
+                "nc_avemujica_1": 0,
+                "nc_rilakkuma_1": 0
             },
             "CHAR_SKIN": {
                 "char_173_slchan@wwf#1": 0,
@@ -9194,7 +9510,9 @@
                 "char_4186_tmoris@avemujica#1": 0,
                 "char_4184_dolris@avemujica#1": 0,
                 "char_4185_amoris@avemujica#1": 0,
-                "char_4183_mortis@avemujica#1": 0
+                "char_4183_mortis@avemujica#1": 0,
+                "char_197_poca@rilakkuma#1": 0,
+                "char_134_ifrit@rilakkuma#1": 0
             }
         }
     },
