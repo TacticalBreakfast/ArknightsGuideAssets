@@ -77,6 +77,17 @@ def build_header() -> list:
     return header
 
 
+def load_existing_order(output_path: Path) -> list:
+    """Return the Code_Name order from a previous run's output, if any, so
+    that re-runs keep existing rows in place and only append new characters
+    at the bottom instead of reshuffling the whole sheet."""
+    if not output_path.exists():
+        return []
+    with output_path.open(newline="", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        return [row["Code_Name"] for row in reader if row.get("Code_Name")]
+
+
 def main():
     output_path = Path("processed/materials.csv")
     output_path.parent.mkdir(parents=True, exist_ok=True)
@@ -98,24 +109,34 @@ def main():
     with Path("excel-cn/special_operator_table.json").open(encoding="utf-8") as f:
         special_operator_ids = set(json.load(f)["operatorBasicData"])
 
+    eligible = {}
+    for char_id, char_data in cn_data.items():
+        if not char_id.startswith("char_"):
+            continue
+        if char_data.get("rarity") in LOW_RARITIES:
+            continue
+        if char_data.get("isNotObtainable"):
+            # Reserve Operators and other Integrated Strategies-exclusive
+            # fixed units -- not recruitable, so they have no promotion
+            # or mastery costs at all.
+            continue
+        if char_id in special_operator_ids:
+            continue
+        eligible[char_id] = char_data
+
+    # Keep previously-output characters in their existing position, and only
+    # append newly-added ones at the end, so the sheet doesn't reshuffle.
+    existing_order = load_existing_order(output_path)
+    ordered_ids = [char_id for char_id in existing_order if char_id in eligible]
+    ordered_ids += [char_id for char_id in eligible if char_id not in existing_order]
+
     with output_path.open("w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
         writer.writerow(build_header())
 
         count = 0
-        for char_id, char_data in cn_data.items():
-            if not char_id.startswith("char_"):
-                continue
-            if char_data.get("rarity") in LOW_RARITIES:
-                continue
-            if char_data.get("isNotObtainable"):
-                # Reserve Operators and other Integrated Strategies-exclusive
-                # fixed units -- not recruitable, so they have no promotion
-                # or mastery costs at all.
-                continue
-            if char_id in special_operator_ids:
-                continue
-
+        for char_id in ordered_ids:
+            char_data = eligible[char_id]
             try:
                 en_name = char_data.get("appellation")
                 if char_id in patch_char_ids:
