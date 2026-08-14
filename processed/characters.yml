@@ -1446,6 +1446,14 @@
   stars: ★★★★★
   profession_name: Caster
   sub_profession_name: Splash Caster
+- id: char_4031_liesel
+  name: Ripresa
+  rarity: TIER_5
+  profession: CASTER
+  sub_profession: splashcaster
+  stars: ★★★★★
+  profession_name: Caster
+  sub_profession_name: Splash Caster
 - id: char_388_mint
   name: Mint
   rarity: TIER_5
@@ -3182,6 +3190,14 @@
   stars: ★★★★★★
   profession_name: Guard
   sub_profession_name: Fighter
+- id: char_4037_demetr
+  name: Bellone
+  rarity: TIER_6
+  profession: WARRIOR
+  sub_profession: fighter
+  stars: ★★★★★★
+  profession_name: Guard
+  sub_profession_name: Fighter
 - id: char_172_svrash
   name: SilverAsh
   rarity: TIER_6
@@ -3934,6 +3950,14 @@
   stars: ★★★★★★
   profession_name: null
   sub_profession_name: Operator attached unit
+- id: token_10065_demetr_dmtpos
+  name: Bond
+  rarity: TIER_6
+  profession: TOKEN
+  sub_profession: notchar1
+  stars: ★★★★★★
+  profession_name: null
+  sub_profession_name: Operator attached unit
 - id: char_230_savage
   name: Savage
   rarity: TIER_5
@@ -4054,14 +4078,6 @@
   stars: ★★★★★
   profession_name: Guard
   sub_profession_name: Mercenary
-- id: char_4031_liesel
-  name: Ripresa
-  rarity: TIER_5
-  profession: CASTER
-  sub_profession: splashcaster
-  stars: ★★★★★
-  profession_name: Caster
-  sub_profession_name: Splash Caster
 - id: char_4236_tmslot
   name: Timeslot
   rarity: TIER_5
@@ -4166,14 +4182,6 @@
   stars: ★★★★★★
   profession_name: Defender
   sub_profession_name: Primal Protector
-- id: char_4037_demetr
-  name: Bellone
-  rarity: TIER_6
-  profession: WARRIOR
-  sub_profession: fighter
-  stars: ★★★★★★
-  profession_name: Guard
-  sub_profession_name: Fighter
 - id: char_1051_headb2
   name: Zima the Raging Tide
   rarity: TIER_6
@@ -4182,14 +4190,6 @@
   stars: ★★★★★★
   profession_name: Guard
   sub_profession_name: Earthshaker
-- id: token_10065_demetr_dmtpos
-  name: Bond
-  rarity: TIER_6
-  profession: TOKEN
-  sub_profession: notchar1
-  stars: ★★★★★★
-  profession_name: null
-  sub_profession_name: Operator attached unit
 - id: token_10068_kalts2_mtship
   name: Tactical Anchor
   rarity: TIER_6
