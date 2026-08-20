@@ -25,6 +25,7 @@ jobs:
           sparse-checkout: |
             en/gamedata/excel
             cn/gamedata/excel
+            jp/gamedata/excel
 
       # 3. Copy the specific directories from the temp folder to your repository
       - name: Copy Directories
@@ -32,10 +33,12 @@ jobs:
           # Create target directories if they don't exist
           mkdir -p excel-en
           mkdir -p excel-cn
+          mkdir -p excel-jp
 
           # Copy contents (adjust paths as needed)
           cp -r temp-target-repo/en/gamedata/excel/* excel-en
           cp -r temp-target-repo/cn/gamedata/excel/* excel-cn
+          cp -r temp-target-repo/jp/gamedata/excel/* excel-jp
 
           # Clean up the temporary repository folder
           rm -rf temp-target-repo
