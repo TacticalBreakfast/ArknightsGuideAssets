@@ -10,9 +10,9 @@ on:
   # is what actually fires this workflow automatically after each sync run.
   # The push action will only trigger on a manual check-in unless I change the
   # token to a PAT.
-  workflow_run:
-    workflows: ['Sparse Checkout and Sync JSONs']
-    types: [completed]
+  #workflow_run:
+  #  workflows: ['Sparse Checkout and Sync JSONs']
+  #  types: [completed]
   workflow_dispatch:
 
 jobs:

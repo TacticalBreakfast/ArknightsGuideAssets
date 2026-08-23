@@ -15,9 +15,9 @@ on:
   # The sync workflow pushes with the default GITHUB_TOKEN, which never triggers
   # the push: filter above. workflow_run is exempt from that restriction, so this
   # is what actually fires this workflow automatically after each sync run.
-  workflow_run:
-    workflows: ['Sparse Checkout and Sync JSONs']
-    types: [completed]
+  #workflow_run:
+  #  workflows: ['Sparse Checkout and Sync JSONs']
+  #  types: [completed]
   workflow_dispatch:
 
 jobs:
