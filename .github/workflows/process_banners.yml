@@ -1,0 +1,42 @@
+name: Process Banners
+
+on:
+  push:
+    paths:
+      - 'excel-jp/gacha_table.json'
+  # The sync workflow pushes with the default GITHUB_TOKEN, which never triggers
+  # the push: filter above. workflow_run is exempt from that restriction, so this
+  # is what actually fires this workflow automatically after each sync run.
+  #workflow_run:
+  #  workflows: ['Sparse Checkout and Sync JSONs']
+  #  types: [completed]
+  workflow_dispatch:
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.workflow_run.head_branch || github.ref }}
+
+      - name: Run Banner Parser
+        run: python3 parse_banners.py
+
+      - name: Commit and Push Output
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add processed/banners.csv
+
+          if git diff --staged --quiet; then
+            echo "No changes to banners.csv. Nothing to commit."
+          else
+            echo "Changes found. Committing and pushing..."
+            git commit -m "Auto-update banners.csv from excel data"
+            git push
+          fi
