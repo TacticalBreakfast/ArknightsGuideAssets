@@ -1,9 +1,13 @@
 name: Fetch JP Gacha Images
 
-# Manual only. Unlike the excel/json sync, there's no upstream repo doing
-# this for JP, so there's nothing to poll on a schedule - run this by hand
-# once the JP client has the new banner's assets.
+# Fires when the JP gacha data sync lands a new/updated banner - same push
+# trigger as process_banners.yml. No schedule/poll: the JP asset CDN doesn't
+# need polling like the EN mirror did, since this only runs when there's
+# actually new banner data to fetch images for.
 on:
+  push:
+    paths:
+      - 'excel-jp/gacha_table.json'
   workflow_dispatch:
 
 jobs:
