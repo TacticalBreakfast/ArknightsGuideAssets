@@ -1,0 +1,50 @@
+name: Fetch JP Gacha Images
+
+# Manual only. Unlike the excel/json sync, there's no upstream repo doing
+# this for JP, so there's nothing to poll on a schedule - run this by hand
+# once the JP client has the new banner's assets.
+on:
+  workflow_dispatch:
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v7
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '6.0.x'
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install Dependencies
+        run: pip install requests
+
+      - name: Fetch JP Gacha Images
+        env:
+          # Without this, ArknightsStudioCLI crashes on ubuntu-latest with
+          # "Couldn't find a valid ICU package" - confirmed while testing.
+          DOTNET_SYSTEM_GLOBALIZATION_INVARIANT: "1"
+        run: python3 fetch_jp_gacha_images.py
+
+      - name: Commit and Push Output
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add gacha-jp
+
+          if git diff --staged --quiet; then
+            echo "No changes to gacha-jp. Nothing to commit."
+          else
+            echo "Changes found. Committing and pushing..."
+            git commit -m "Fetch JP gacha banner images"
+            git push
+          fi
