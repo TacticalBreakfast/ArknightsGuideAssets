@@ -4046,6 +4046,14 @@
   stars: ★★★★★
   profession_name: Medic
   sub_profession_name: Incantation Medic
+- id: char_4220_kormr
+  name: Koromaru
+  rarity: TIER_1
+  profession: WARRIOR
+  sub_profession: sword
+  stars: ★
+  profession_name: Guard
+  sub_profession_name: Swordmaster
 - id: char_4227_gallus
   name: GALLUS²
   rarity: TIER_1
@@ -4078,6 +4086,14 @@
   stars: ★★★★★
   profession_name: Guard
   sub_profession_name: Mercenary
+- id: char_4218_aigis
+  name: Aegis
+  rarity: TIER_5
+  profession: SNIPER
+  sub_profession: skybreaker
+  stars: ★★★★★
+  profession_name: Sniper
+  sub_profession_name: Skybreaker
 - id: char_4236_tmslot
   name: Timeslot
   rarity: TIER_5
@@ -4110,6 +4126,14 @@
   stars: ★★★★★
   profession_name: Supporter
   sub_profession_name: Ritualist
+- id: char_4219_yukari
+  name: Yukari Takeba
+  rarity: TIER_5
+  profession: SUPPORT
+  sub_profession: supportiveranger
+  stars: ★★★★★
+  profession_name: Supporter
+  sub_profession_name: unknown
 - id: char_4234_pedro
   name: Pedro
   rarity: TIER_5
@@ -4150,6 +4174,14 @@
   stars: ★★★★★★
   profession_name: Caster
   sub_profession_name: Mystic Caster
+- id: char_4217_makoto
+  name: Makoto Yuki
+  rarity: TIER_6
+  profession: SPECIAL
+  sub_profession: dollkeeper
+  stars: ★★★★★★
+  profession_name: Specialist
+  sub_profession_name: Dollkeeper
 - id: char_1015_aglna2
   name: Angelina the Mellow Wish
   rarity: TIER_6
