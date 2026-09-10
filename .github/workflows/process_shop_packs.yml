@@ -1,0 +1,52 @@
+name: Process Shop Packs
+
+# Unlike the other Process workflows, this one has no push: trigger -- there's
+# no local file whose checkin can fire it, since parse_shop_packs.py scrapes
+# prts.wiki live on every run rather than reading a file already in this repo.
+# CN shop updates aren't cleanly tied to any event we can watch for, so this
+# is manual-dispatch-only by design: run it by hand when you know there's a
+# new pack worth capturing.
+on:
+  workflow_dispatch:
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v7
+
+      - name: Run Shop Packs Parser
+        run: python3 parse_shop_packs.py
+
+      - name: Commit and Push Output
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add processed/shop_packs.json
+
+          if git diff --staged --quiet; then
+            echo "No changes to shop_packs.json. Nothing to commit."
+          else
+            echo "Changes found. Committing and pushing..."
+            git commit -m "Auto-update shop_packs.json from prts.wiki"
+
+            BRANCH=$(git rev-parse --abbrev-ref HEAD)
+            for attempt in 1 2 3 4 5; do
+              if git push origin "HEAD:$BRANCH"; then
+                break
+              fi
+              if [ "$attempt" -eq 5 ]; then
+                echo "Failed to push after 5 attempts."
+                exit 1
+              fi
+              # Another workflow likely pushed to the same branch first -- both
+              # only touch their own output file, so rebasing onto the new tip
+              # and retrying resolves the conflict.
+              echo "Push rejected (attempt $attempt/5), rebasing onto latest and retrying..."
+              git fetch origin "$BRANCH"
+              git rebase "origin/$BRANCH"
+            done
+          fi
