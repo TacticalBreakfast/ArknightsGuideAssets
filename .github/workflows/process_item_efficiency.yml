@@ -1,0 +1,56 @@
+name: Process Item Efficiency
+
+# item-eff.json must currently be handled manually. It can be obtained from
+# https://ark.yituliu.cn/material/value > Export JSON
+# Then save it to gamedata-manual/item-eff.json. Checking this in to the GitHub
+# should trigger this workflow which creates processed/item_efficiency.json.
+# If the efficencies haven't changed, I can still manually call this to update
+# translations.
+
+on:
+  push:
+    paths:
+      - 'gamedata-manual/item-eff.json'
+  workflow_dispatch:
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v7
+
+      - name: Run Item Efficiency Parser
+        run: python3 parse_item_efficiency.py
+
+      - name: Commit and Push Output
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add processed/item_efficiency.json
+
+          if git diff --staged --quiet; then
+            echo "No changes to item_efficiency.json. Nothing to commit."
+          else
+            echo "Changes found. Committing and pushing..."
+            git commit -m "Auto-update item_efficiency.json from manual export"
+
+            BRANCH=$(git rev-parse --abbrev-ref HEAD)
+            for attempt in 1 2 3 4 5; do
+              if git push origin "HEAD:$BRANCH"; then
+                break
+              fi
+              if [ "$attempt" -eq 5 ]; then
+                echo "Failed to push after 5 attempts."
+                exit 1
+              fi
+              # Another workflow likely pushed to the same branch first -- both
+              # only touch their own output file, so rebasing onto the new tip
+              # and retrying resolves the conflict.
+              echo "Push rejected (attempt $attempt/5), rebasing onto latest and retrying..."
+              git fetch origin "$BRANCH"
+              git rebase "origin/$BRANCH"
+            done
+          fi
