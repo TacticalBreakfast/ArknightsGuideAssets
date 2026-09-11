@@ -901,8 +901,8 @@
       {
         "name": "中坚高级干员调用凭证（2026周年庆典）",
         "id": null,
-        "enName": null,
-        "category": "Zero-Efficiency Item"
+        "enName": "Kernel Selector",
+        "category": "Special"
       }
     ]
   },
@@ -928,8 +928,8 @@
       {
         "name": "周年庆典干员凭证（2026）",
         "id": null,
-        "enName": null,
-        "category": "Zero-Efficiency Item"
+        "enName": "Standard Selector",
+        "category": "Special"
       }
     ]
   },

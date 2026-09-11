@@ -215,6 +215,24 @@ FILE_LINK_RE = re.compile(r"\[\[文件:[^|]*\|[^\]]*link=([^\]]*)\]\]")
 # are ever added.
 CN_NUMBER_SUFFIXES = {"万": 10000}
 
+# "Operator selector" vouchers (pick one operator from an event-specific
+# pool) -- these are always functionally the same item, but the wiki
+# annotates each occurrence's name with a parenthetical suffix naming that
+# occurrence (e.g. "（2026周年庆典）"), which the underlying game item's own
+# name never includes. That mismatch is exactly why these never resolved to
+# an itemId via the normal item_lookup: item_table.json only ever has the
+# bare root name, and mints a brand-new itemId for it every single occurrence
+# (confirmed: voucher_item_pick1803/2701/3801/5001/6101/7301 all share the
+# name "周年庆典干员凭证", one new id per year, itemType VOUCHER_PICK every
+# time) -- so matching on itemId could never be stable across occurrences,
+# only matching on the root name (with the suffix stripped) can be.
+TRAILING_PARENTHETICAL_RE = re.compile(r"[（(][^）)]*[）)]\s*$")
+
+SPECIAL_SELECTOR_TRANSLATIONS = {
+    "中坚高级干员调用凭证": "Kernel Selector",
+    "周年庆典干员凭证": "Standard Selector",
+}
+
 
 def parse_count(count_str: str) -> int:
     count_str = count_str.strip()
@@ -257,9 +275,24 @@ def parse_contents(block: str, item_lookup: dict, item_efficiency: dict, en_name
 
     for m in ITEM_ICON_RE.finditer(content):
         name, count_str = m.group(1), m.group(2)
+        count = parse_count(count_str)
+
+        selector_root = TRAILING_PARENTHETICAL_RE.sub("", name)
+        if selector_root in SPECIAL_SELECTOR_TRANSLATIONS:
+            # Never resolves via item_lookup (see SPECIAL_SELECTOR_TRANSLATIONS
+            # docstring above) and never has real farming value either way, so
+            # this is checked before the normal id/apValue resolution rather
+            # than as a fallback after it fails.
+            other_items.append({
+                "name": name,
+                "id": None,
+                "enName": SPECIAL_SELECTOR_TRANSLATIONS[selector_root],
+                "category": "Special",
+            })
+            continue
+
         item_id = item_lookup.get(name)
         ap_value = item_efficiency.get(item_id) if item_id else None
-        count = parse_count(count_str)
         if item_id and ap_value and ap_value > 0:
             items.append({
                 "id": item_id,
