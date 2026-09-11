@@ -47,11 +47,13 @@
       {
         "name": "数据增补仪",
         "id": "mod_update_token_2",
+        "enName": "Data Supplement Instrument",
         "category": "Zero-Efficiency Item"
       },
       {
         "name": "数据增补条",
         "id": "mod_update_token_1",
+        "enName": "Data Supplement Stick",
         "category": "Zero-Efficiency Item"
       }
     ]
@@ -220,11 +222,13 @@
       {
         "name": "数据增补仪",
         "id": "mod_update_token_2",
+        "enName": "Data Supplement Instrument",
         "category": "Zero-Efficiency Item"
       },
       {
         "name": "数据增补条",
         "id": "mod_update_token_1",
+        "enName": "Data Supplement Stick",
         "category": "Zero-Efficiency Item"
       }
     ]
@@ -251,11 +255,13 @@
       {
         "name": "2025余韵切片",
         "id": null,
+        "enName": null,
         "category": "Avatar"
       },
       {
         "name": "特邀嘉宾",
         "id": null,
+        "enName": null,
         "category": "Avatar"
       }
     ]
@@ -282,6 +288,7 @@
       {
         "name": "熠曲丰碑",
         "id": null,
+        "enName": null,
         "category": "Namecard"
       }
     ]
@@ -308,6 +315,7 @@
       {
         "name": "移星桂冠",
         "id": null,
+        "enName": null,
         "category": "Namecard"
       }
     ]
@@ -334,6 +342,7 @@
       {
         "name": "冰纹玉釉",
         "id": null,
+        "enName": null,
         "category": "Namecard"
       }
     ]
@@ -360,6 +369,7 @@
       {
         "name": "雾色秘访",
         "id": null,
+        "enName": null,
         "category": "Namecard"
       }
     ]
@@ -386,6 +396,7 @@
       {
         "name": "时序花圃",
         "id": null,
+        "enName": null,
         "category": "Namecard"
       }
     ]
@@ -412,11 +423,13 @@
       {
         "name": "2024余韵切片",
         "id": null,
+        "enName": null,
         "category": "Avatar"
       },
       {
         "name": "祈望星光",
         "id": null,
+        "enName": null,
         "category": "Avatar"
       }
     ]
@@ -443,11 +456,13 @@
       {
         "name": "2023余韵切片",
         "id": null,
+        "enName": null,
         "category": "Avatar"
       },
       {
         "name": "回眸一笑",
         "id": null,
+        "enName": null,
         "category": "Avatar"
       }
     ]
@@ -474,11 +489,13 @@
       {
         "name": "2022余韵切片",
         "id": null,
+        "enName": null,
         "category": "Avatar"
       },
       {
         "name": "导演的认可",
         "id": null,
+        "enName": null,
         "category": "Avatar"
       }
     ]
@@ -505,6 +522,7 @@
       {
         "name": "米米子",
         "id": null,
+        "enName": null,
         "category": "Unknown"
       }
     ]
@@ -531,6 +549,7 @@
       {
         "name": "维维美",
         "id": null,
+        "enName": null,
         "category": "Unknown"
       }
     ]
@@ -550,36 +569,43 @@
       {
         "name": "米米子",
         "id": null,
+        "enName": null,
         "category": "Avatar"
       },
       {
         "name": "靓眼银灰",
         "id": null,
+        "enName": null,
         "category": "Avatar"
       },
       {
         "name": "解闷德克萨斯",
         "id": null,
+        "enName": null,
         "category": "Avatar"
       },
       {
         "name": "凯尔希炭",
         "id": null,
+        "enName": null,
         "category": "Avatar"
       },
       {
         "name": "维维美",
         "id": null,
+        "enName": null,
         "category": "Avatar"
       },
       {
         "name": "闲游能天使",
         "id": null,
+        "enName": null,
         "category": "Avatar"
       },
       {
         "name": "维什戴尔",
         "id": null,
+        "enName": null,
         "category": "Skin"
       }
     ]
@@ -676,11 +702,13 @@
       {
         "name": "2026余韵切片",
         "id": null,
+        "enName": null,
         "category": "Avatar"
       },
       {
         "name": "信念共鸣",
         "id": null,
+        "enName": null,
         "category": "Avatar"
       }
     ]
@@ -707,6 +735,7 @@
       {
         "name": "布道人",
         "id": null,
+        "enName": null,
         "category": "Namecard"
       }
     ]
@@ -733,6 +762,7 @@
       {
         "name": "戏中身",
         "id": null,
+        "enName": null,
         "category": "Namecard"
       }
     ]
@@ -759,6 +789,7 @@
       {
         "name": "渡星客",
         "id": null,
+        "enName": null,
         "category": "Namecard"
       }
     ]
@@ -785,6 +816,7 @@
       {
         "name": "失语者",
         "id": null,
+        "enName": null,
         "category": "Namecard"
       }
     ]
@@ -869,6 +901,7 @@
       {
         "name": "中坚高级干员调用凭证（2026周年庆典）",
         "id": null,
+        "enName": null,
         "category": "Zero-Efficiency Item"
       }
     ]
@@ -895,6 +928,7 @@
       {
         "name": "周年庆典干员凭证（2026）",
         "id": null,
+        "enName": null,
         "category": "Zero-Efficiency Item"
       }
     ]
@@ -1141,11 +1175,13 @@
       {
         "name": "数据增补仪",
         "id": "mod_update_token_2",
+        "enName": "Data Supplement Instrument",
         "category": "Zero-Efficiency Item"
       },
       {
         "name": "数据增补条",
         "id": "mod_update_token_1",
+        "enName": "Data Supplement Stick",
         "category": "Zero-Efficiency Item"
       }
     ]
@@ -1178,6 +1214,7 @@
       {
         "name": "稀有材料提货券",
         "id": "precious_material_voucher_perm",
+        "enName": "Precious Material Voucher",
         "category": "Zero-Efficiency Item"
       }
     ]
@@ -1416,11 +1453,13 @@
       {
         "name": "数据增补仪",
         "id": "mod_update_token_2",
+        "enName": "Data Supplement Instrument",
         "category": "Zero-Efficiency Item"
       },
       {
         "name": "数据增补条",
         "id": "mod_update_token_1",
+        "enName": "Data Supplement Stick",
         "category": "Zero-Efficiency Item"
       }
     ]
@@ -1447,11 +1486,13 @@
       {
         "name": "很好奇的猫",
         "id": null,
+        "enName": null,
         "category": "Avatar"
       },
       {
         "name": "很调皮的狗",
         "id": null,
+        "enName": null,
         "category": "Avatar"
       }
     ]
@@ -1478,6 +1519,7 @@
       {
         "name": "一起去狩猎喵！",
         "id": null,
+        "enName": null,
         "category": "Namecard"
       }
     ]
@@ -1720,6 +1762,7 @@
       {
         "name": "寻火之叶",
         "id": null,
+        "enName": null,
         "category": "Avatar"
       }
     ]
@@ -1752,11 +1795,13 @@
       {
         "name": "结营",
         "id": null,
+        "enName": null,
         "category": "Scene"
       },
       {
         "name": "出猎",
         "id": null,
+        "enName": null,
         "category": "UI Theme"
       }
     ]
@@ -1873,11 +1918,13 @@
       {
         "name": "数据增补仪",
         "id": "mod_update_token_2",
+        "enName": "Data Supplement Instrument",
         "category": "Zero-Efficiency Item"
       },
       {
         "name": "数据增补条",
         "id": "mod_update_token_1",
+        "enName": "Data Supplement Stick",
         "category": "Zero-Efficiency Item"
       }
     ]
@@ -1974,21 +2021,25 @@
       {
         "name": "赤沙娜仁图亚",
         "id": null,
+        "enName": null,
         "category": "Avatar"
       },
       {
         "name": "不言弃的格拉尼",
         "id": null,
+        "enName": null,
         "category": "Avatar"
       },
       {
         "name": "林间流星",
         "id": null,
+        "enName": null,
         "category": "Avatar"
       },
       {
         "name": "空中大爆破",
         "id": null,
+        "enName": null,
         "category": "Avatar"
       }
     ]
@@ -2015,21 +2066,25 @@
       {
         "name": "坚忍玛恩纳",
         "id": null,
+        "enName": null,
         "category": "Avatar"
       },
       {
         "name": "灼灼临光",
         "id": null,
+        "enName": null,
         "category": "Avatar"
       },
       {
         "name": "瑕光点点",
         "id": null,
+        "enName": null,
         "category": "Avatar"
       },
       {
         "name": "鞭刃佐菲娅",
         "id": null,
+        "enName": null,
         "category": "Avatar"
       }
     ]
@@ -2062,16 +2117,19 @@
       {
         "name": "「碧琪的音乐播放器」",
         "id": null,
+        "enName": null,
         "category": "Furniture"
       },
       {
         "name": "金橡树图书馆",
         "id": null,
+        "enName": null,
         "category": "Scene"
       },
       {
         "name": "合照",
         "id": null,
+        "enName": null,
         "category": "Namecard"
       }
     ]
@@ -2238,11 +2296,13 @@
       {
         "name": "数据增补仪",
         "id": "mod_update_token_2",
+        "enName": "Data Supplement Instrument",
         "category": "Zero-Efficiency Item"
       },
       {
         "name": "数据增补条",
         "id": "mod_update_token_1",
+        "enName": "Data Supplement Stick",
         "category": "Zero-Efficiency Item"
       }
     ]
@@ -2617,11 +2677,13 @@
       {
         "name": "数据增补仪",
         "id": "mod_update_token_2",
+        "enName": "Data Supplement Instrument",
         "category": "Zero-Efficiency Item"
       },
       {
         "name": "数据增补条",
         "id": "mod_update_token_1",
+        "enName": "Data Supplement Stick",
         "category": "Zero-Efficiency Item"
       }
     ]
@@ -2736,11 +2798,13 @@
       {
         "name": "坠入清醒",
         "id": null,
+        "enName": null,
         "category": "Avatar"
       },
       {
         "name": "凝视映像",
         "id": null,
+        "enName": null,
         "category": "Avatar"
       }
     ]
@@ -2773,11 +2837,13 @@
       {
         "name": "扬升",
         "id": null,
+        "enName": null,
         "category": "Scene"
       },
       {
         "name": "月满",
         "id": null,
+        "enName": null,
         "category": "UI Theme"
       }
     ]
@@ -2804,6 +2870,7 @@
       {
         "name": "月落镜水",
         "id": null,
+        "enName": null,
         "category": "Namecard"
       }
     ]
@@ -2823,16 +2890,19 @@
       {
         "name": "月行水上家具收藏包",
         "id": "uni_set_velvet",
+        "enName": null,
         "category": "Furniture"
       },
       {
         "name": "圣歌吟唱台",
         "id": null,
+        "enName": null,
         "category": "Furniture"
       },
       {
         "name": "选择的留言板",
         "id": null,
+        "enName": null,
         "category": "Furniture"
       }
     ]

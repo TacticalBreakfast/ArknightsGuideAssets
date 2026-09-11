@@ -273,21 +273,25 @@ def parse_contents(block: str, item_lookup: dict, item_efficiency: dict, en_name
             # farmable material -- see the classifyType/itemType check.
             item_type = item_lookup.get((item_id, "type")) if item_id else None
             category = "Furniture" if item_type == "UNI_COLLECTION" else "Zero-Efficiency Item"
-            other_items.append({"name": name, "id": item_id, "category": category})
+            other_items.append({"name": name, "id": item_id, "enName": en_names.get(item_id), "category": category})
 
+    # The remaining template types (namecard/avatar, furniture, skin, and raw
+    # file-link cosmetics) never resolve to a real itemId at all -- there's
+    # nothing to look up, so enName is always None for these, not just
+    # unresolved. Only the 道具图标 branch above can ever have a real EN name.
     for m in NAMECARD_AVATAR_RE.finditer(content):
         label, category = anchor_label_and_category(m.group(1))
-        other_items.append({"name": label, "id": None, "category": category})
+        other_items.append({"name": label, "id": None, "enName": None, "category": category})
 
     for m in FURNITURE_RE.finditer(content):
-        other_items.append({"name": m.group(1), "id": None, "category": "Furniture"})
+        other_items.append({"name": m.group(1), "id": None, "enName": None, "category": "Furniture"})
 
     for m in SKIN_PORTRAIT_RE.finditer(content):
-        other_items.append({"name": m.group(1), "id": None, "category": "Skin"})
+        other_items.append({"name": m.group(1), "id": None, "enName": None, "category": "Skin"})
 
     for m in FILE_LINK_RE.finditer(content):
         label, category = anchor_label_and_category(m.group(1))
-        other_items.append({"name": label, "id": None, "category": category})
+        other_items.append({"name": label, "id": None, "enName": None, "category": category})
 
     return items, other_items
 
