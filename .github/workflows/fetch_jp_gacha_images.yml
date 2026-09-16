@@ -50,5 +50,21 @@ jobs:
           else
             echo "Changes found. Committing and pushing..."
             git commit -m "Fetch JP gacha banner images"
-            git push
+
+            BRANCH=$(git rev-parse --abbrev-ref HEAD)
+            for attempt in 1 2 3 4 5; do
+              if git push origin "HEAD:$BRANCH"; then
+                break
+              fi
+              if [ "$attempt" -eq 5 ]; then
+                echo "Failed to push after 5 attempts."
+                exit 1
+              fi
+              # Process Banners triggers off the same push and may land its
+              # commit first -- both only touch their own output paths, so
+              # rebasing onto the new tip and retrying resolves the conflict.
+              echo "Push rejected (attempt $attempt/5), rebasing onto latest and retrying..."
+              git fetch origin "$BRANCH"
+              git rebase "origin/$BRANCH"
+            done
           fi
