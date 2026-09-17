@@ -1718,6 +1718,14 @@
   stars: ★★★★★
   profession_name: Medic
   sub_profession_name: Chain Medic
+- id: char_4224_turdus
+  name: Ukusik
+  rarity: TIER_5
+  profession: MEDIC
+  sub_profession: chainhealer
+  stars: ★★★★★
+  profession_name: Medic
+  sub_profession_name: Chain Medic
 - id: char_4222_taraxa
   name: Taraxacum
   rarity: TIER_5
@@ -2216,6 +2224,14 @@
   sub_profession_name: Ritualist
 - id: char_487_bobb
   name: Bobbing
+  rarity: TIER_5
+  profession: SUPPORT
+  sub_profession: ritualist
+  stars: ★★★★★
+  profession_name: Supporter
+  sub_profession_name: Ritualist
+- id: char_4223_botany
+  name: Botani
   rarity: TIER_5
   profession: SUPPORT
   sub_profession: ritualist
@@ -3262,6 +3278,14 @@
   stars: ★★★★★★
   profession_name: Guard
   sub_profession_name: Earthshaker
+- id: char_1051_headb2
+  name: Zima the Raging Tide
+  rarity: TIER_6
+  profession: WARRIOR
+  sub_profession: hammer
+  stars: ★★★★★★
+  profession_name: Guard
+  sub_profession_name: Earthshaker
 - id: char_010_chen
   name: Ch'en
   rarity: TIER_6
@@ -4102,14 +4126,6 @@
   stars: ★★★★★
   profession_name: Caster
   sub_profession_name: Mech-accord Caster
-- id: char_4224_turdus
-  name: Укусик
-  rarity: TIER_5
-  profession: MEDIC
-  sub_profession: chainhealer
-  stars: ★★★★★
-  profession_name: Medic
-  sub_profession_name: Chain Medic
 - id: char_4225_tanya
   name: Crackborne
   rarity: TIER_5
@@ -4118,14 +4134,6 @@
   stars: ★★★★★
   profession_name: Defender
   sub_profession_name: Primal Protector
-- id: char_4223_botany
-  name: Ботани
-  rarity: TIER_5
-  profession: SUPPORT
-  sub_profession: ritualist
-  stars: ★★★★★
-  profession_name: Supporter
-  sub_profession_name: Ritualist
 - id: char_4219_yukari
   name: Yukari Takeba
   rarity: TIER_5
@@ -4214,14 +4222,6 @@
   stars: ★★★★★★
   profession_name: Defender
   sub_profession_name: Primal Protector
-- id: char_1051_headb2
-  name: Zima the Raging Tide
-  rarity: TIER_6
-  profession: WARRIOR
-  sub_profession: hammer
-  stars: ★★★★★★
-  profession_name: Guard
-  sub_profession_name: Earthshaker
 - id: token_10068_kalts2_mtship
   name: Tactical Anchor
   rarity: TIER_6
