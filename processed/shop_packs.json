@@ -1,84 +1,5 @@
 [
   {
-    "name": "定向甄选寻访组合包",
-    "enName": "Orienteering Headhunting Pack",
-    "priceCNY": 168,
-    "startDate": "2026-02-24T16:00:00+08:00",
-    "endDate": "2026-03-17T03:59:00+08:00",
-    "event": {
-      "id": "act2break",
-      "name": "矢量突破#2 巫术之夜"
-    },
-    "items": [
-      {
-        "id": "7004",
-        "name": "十连寻访凭证",
-        "enName": "Ten-roll Headhunting Permit",
-        "count": 2
-      },
-      {
-        "id": "4002",
-        "name": "至纯源石",
-        "enName": "Originite Prime",
-        "count": 9
-      }
-    ],
-    "otherItems": []
-  },
-  {
-    "name": "罗德岛数据套组",
-    "enName": "Rhodes Island Data Set",
-    "priceCNY": 68,
-    "startDate": "2026-02-24T16:00:00+08:00",
-    "endDate": "2026-03-17T03:59:00+08:00",
-    "event": {
-      "id": "act2break",
-      "name": "矢量突破#2 巫术之夜"
-    },
-    "items": [
-      {
-        "id": "mod_unlock_token",
-        "name": "模组数据块",
-        "enName": "Module Data Block",
-        "count": 24
-      }
-    ],
-    "otherItems": [
-      {
-        "name": "数据增补仪",
-        "id": "mod_update_token_2",
-        "enName": "Data Supplement Instrument",
-        "category": "Zero-Efficiency Item"
-      },
-      {
-        "name": "数据增补条",
-        "id": "mod_update_token_1",
-        "enName": "Data Supplement Stick",
-        "category": "Zero-Efficiency Item"
-      }
-    ]
-  },
-  {
-    "name": "罗德岛数据包",
-    "enName": "Rhodes Island Data Pack",
-    "priceCNY": 30,
-    "startDate": "2026-02-24T16:00:00+08:00",
-    "endDate": "2026-03-17T03:59:00+08:00",
-    "event": {
-      "id": "act2break",
-      "name": "矢量突破#2 巫术之夜"
-    },
-    "items": [
-      {
-        "id": "mod_unlock_token",
-        "name": "模组数据块",
-        "enName": "Module Data Block",
-        "count": 12
-      }
-    ],
-    "otherItems": []
-  },
-  {
     "name": "界园志异特训组合",
     "enName": "Garden of Grotesqueries Training Pack",
     "priceCNY": 168,
@@ -223,13 +144,15 @@
         "name": "数据增补仪",
         "id": "mod_update_token_2",
         "enName": "Data Supplement Instrument",
-        "category": "Zero-Efficiency Item"
+        "category": "Zero-Efficiency Item",
+        "count": 30
       },
       {
         "name": "数据增补条",
         "id": "mod_update_token_1",
         "enName": "Data Supplement Stick",
-        "category": "Zero-Efficiency Item"
+        "category": "Zero-Efficiency Item",
+        "count": 90
       }
     ]
   },
@@ -902,7 +825,8 @@
         "name": "中坚高级干员调用凭证（2026周年庆典）",
         "id": null,
         "enName": "Kernel Selector",
-        "category": "Special"
+        "category": "Special",
+        "count": 1
       }
     ]
   },
@@ -929,7 +853,8 @@
         "name": "周年庆典干员凭证（2026）",
         "id": null,
         "enName": "Standard Selector",
-        "category": "Special"
+        "category": "Special",
+        "count": 1
       }
     ]
   },
@@ -1176,13 +1101,15 @@
         "name": "数据增补仪",
         "id": "mod_update_token_2",
         "enName": "Data Supplement Instrument",
-        "category": "Zero-Efficiency Item"
+        "category": "Zero-Efficiency Item",
+        "count": 30
       },
       {
         "name": "数据增补条",
         "id": "mod_update_token_1",
         "enName": "Data Supplement Stick",
-        "category": "Zero-Efficiency Item"
+        "category": "Zero-Efficiency Item",
+        "count": 90
       }
     ]
   },
@@ -1198,6 +1125,12 @@
     },
     "items": [
       {
+        "id": "precious_material_voucher_perm",
+        "name": "稀有材料提货券",
+        "enName": "Precious Material Voucher",
+        "count": 10
+      },
+      {
         "id": "premium_material_issue_voucher",
         "name": "特级材料提货券",
         "enName": "Premium Material Voucher",
@@ -1210,14 +1143,7 @@
         "count": 20
       }
     ],
-    "otherItems": [
-      {
-        "name": "稀有材料提货券",
-        "id": "precious_material_voucher_perm",
-        "enName": "Precious Material Voucher",
-        "category": "Zero-Efficiency Item"
-      }
-    ]
+    "otherItems": []
   },
   {
     "name": "资深干员特训礼包",
@@ -1454,13 +1380,15 @@
         "name": "数据增补仪",
         "id": "mod_update_token_2",
         "enName": "Data Supplement Instrument",
-        "category": "Zero-Efficiency Item"
+        "category": "Zero-Efficiency Item",
+        "count": 30
       },
       {
         "name": "数据增补条",
         "id": "mod_update_token_1",
         "enName": "Data Supplement Stick",
-        "category": "Zero-Efficiency Item"
+        "category": "Zero-Efficiency Item",
+        "count": 90
       }
     ]
   },
@@ -1919,13 +1847,15 @@
         "name": "数据增补仪",
         "id": "mod_update_token_2",
         "enName": "Data Supplement Instrument",
-        "category": "Zero-Efficiency Item"
+        "category": "Zero-Efficiency Item",
+        "count": 30
       },
       {
         "name": "数据增补条",
         "id": "mod_update_token_1",
         "enName": "Data Supplement Stick",
-        "category": "Zero-Efficiency Item"
+        "category": "Zero-Efficiency Item",
+        "count": 90
       }
     ]
   },
@@ -2297,13 +2227,15 @@
         "name": "数据增补仪",
         "id": "mod_update_token_2",
         "enName": "Data Supplement Instrument",
-        "category": "Zero-Efficiency Item"
+        "category": "Zero-Efficiency Item",
+        "count": 30
       },
       {
         "name": "数据增补条",
         "id": "mod_update_token_1",
         "enName": "Data Supplement Stick",
-        "category": "Zero-Efficiency Item"
+        "category": "Zero-Efficiency Item",
+        "count": 90
       }
     ]
   },
@@ -2678,13 +2610,15 @@
         "name": "数据增补仪",
         "id": "mod_update_token_2",
         "enName": "Data Supplement Instrument",
-        "category": "Zero-Efficiency Item"
+        "category": "Zero-Efficiency Item",
+        "count": 30
       },
       {
         "name": "数据增补条",
         "id": "mod_update_token_1",
         "enName": "Data Supplement Stick",
-        "category": "Zero-Efficiency Item"
+        "category": "Zero-Efficiency Item",
+        "count": 90
       }
     ]
   },
@@ -2891,7 +2825,8 @@
         "name": "月行水上家具收藏包",
         "id": "uni_set_velvet",
         "enName": null,
-        "category": "Furniture"
+        "category": "Furniture",
+        "count": 1
       },
       {
         "name": "圣歌吟唱台",

@@ -288,6 +288,7 @@ def parse_contents(block: str, item_lookup: dict, item_efficiency: dict, en_name
                 "id": None,
                 "enName": SPECIAL_SELECTOR_TRANSLATIONS[selector_root],
                 "category": "Special",
+                "count": count,
             })
             continue
 
@@ -306,7 +307,13 @@ def parse_contents(block: str, item_lookup: dict, item_efficiency: dict, en_name
             # farmable material -- see the classifyType/itemType check.
             item_type = item_lookup.get((item_id, "type")) if item_id else None
             category = "Furniture" if item_type == "UNI_COLLECTION" else "Zero-Efficiency Item"
-            other_items.append({"name": name, "id": item_id, "enName": en_names.get(item_id), "category": category})
+            other_items.append({
+                "name": name,
+                "id": item_id,
+                "enName": en_names.get(item_id),
+                "category": category,
+                "count": count,
+            })
 
     # The remaining template types (namecard/avatar, furniture, skin, and raw
     # file-link cosmetics) never resolve to a real itemId at all -- there's

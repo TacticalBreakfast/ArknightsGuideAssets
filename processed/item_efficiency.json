@@ -1027,5 +1027,12 @@
     "apValue": 0,
     "rarity": 5,
     "enName": null
+  },
+  {
+    "id": "precious_material_voucher_perm",
+    "name": "稀有材料提货券",
+    "apValue": 353.285191285866,
+    "rarity": 5,
+    "enName": "Precious Material Voucher"
   }
 ]
