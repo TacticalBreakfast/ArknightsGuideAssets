@@ -10,6 +10,7 @@ from pathlib import Path
 SOURCE_PATH = Path("excel-jp/gacha_table.json")
 OUTPUT_PATH = Path("processed/banners.csv")
 FIELDNAMES = ["PoolID", "PoolType", "openTime", "closeTime", "new", "dateAdded"]
+JST = timezone(timedelta(hours=9))
 
 
 def format_date(d: date) -> str:
@@ -29,10 +30,7 @@ def add_months(d: date, months: int) -> date:
 
 
 def epoch_to_jp_date(epoch: int) -> date:
-    # openTime/endTime are stored as raw UTC epoch seconds, but the JP client
-    # runs far enough ahead of that stored time that the correct calendar
-    # date is always the day after the raw UTC date.
-    return datetime.fromtimestamp(epoch, tz=timezone.utc).date() + timedelta(days=1)
+    return datetime.fromtimestamp(epoch, tz=JST).date()
 
 
 def split_pool_id(gacha_pool_id: str) -> tuple:
