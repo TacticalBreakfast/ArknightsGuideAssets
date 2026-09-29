@@ -40,6 +40,11 @@ ATTRIBUTES = [
 ]
 
 
+# Summons (Mon3tr, Deepcolor's tentacles, ...) and deployables share the
+# character schema but aren't operators; they'd duplicate real characters by name.
+NON_CHARACTER_PROFESSIONS = {"TRAP", "TOKEN"}
+
+
 PROFESSION_NAMES = {
     "WARRIOR":  "Guard",
     "SNIPER":   "Sniper",
@@ -138,11 +143,11 @@ def main():
     characters = [
         extract_character(char_id, char_data, sub_prof_names)
         for char_id, char_data in en_data.items()
-        if char_data.get("profession") != "TRAP"
+        if char_data.get("profession") not in NON_CHARACTER_PROFESSIONS
     ] + [
         extract_character(char_id, char_data, sub_prof_names, use_appellation=True)
         for char_id, char_data in cn_only.items()
-        if char_data.get("profession") != "TRAP"
+        if char_data.get("profession") not in NON_CHARACTER_PROFESSIONS
     ]
 
     with output_path.open("w", encoding="utf-8") as f:
