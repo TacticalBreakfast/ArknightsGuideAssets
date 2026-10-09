@@ -3590,6 +3590,14 @@
   stars: ★★★★★
   profession_name: Defender
   sub_profession_name: Primal Protector
+- id: char_393_toledo
+  name: de Toledo
+  rarity: TIER_5
+  profession: SUPPORT
+  sub_profession: underminer
+  stars: ★★★★★
+  profession_name: Supporter
+  sub_profession_name: Hexer
 - id: char_4219_yukari
   name: Yukari Takeba
   rarity: TIER_5
@@ -3606,6 +3614,14 @@
   stars: ★★★★★
   profession_name: Supporter
   sub_profession_name: unknown
+- id: char_4232_hbound
+  name: Homebound
+  rarity: TIER_5
+  profession: SPECIAL
+  sub_profession: alchemist
+  stars: ★★★★★
+  profession_name: Specialist
+  sub_profession_name: Alchemist
 - id: char_1048_orchd2
   name: Violet Mizutsune Orchid
   rarity: TIER_6
@@ -3678,3 +3694,11 @@
   stars: ★★★★★★
   profession_name: Defender
   sub_profession_name: Primal Protector
+- id: char_4231_clemnt
+  name: Clementia
+  rarity: TIER_6
+  profession: WARRIOR
+  sub_profession: primguard
+  stars: ★★★★★★
+  profession_name: Guard
+  sub_profession_name: Primal Guard
