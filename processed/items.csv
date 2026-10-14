@@ -54,6 +54,10 @@ itemId,name
 31084,Cyclicene Prefab
 31093,Coagulative Nodule
 31094,Chiral Refractor
+31103,Liquefied High-Energy Gas
+31104,Liquefied Ether Adsorbent
+31113,Electrode Unit
+31114,Energy Accumulation Motor Unit
 30115,Polymerization Preparation
 30125,Bipolar Nanoflake
 30135,D32 Steel
@@ -93,7 +97,3 @@ itemId,name
 3261,Medic Chip
 3271,Supporter Chip
 3281,Specialist Chip
-31103,液化高能气体
-31104,液化醚吸聚体
-31113,电极单元
-31114,聚能动力单元
