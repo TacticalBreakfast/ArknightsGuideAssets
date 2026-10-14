@@ -53,14 +53,14 @@
     "name": "液化醚吸聚体",
     "apValue": 90.85916065296388,
     "rarity": 4,
-    "enName": null
+    "enName": "Liquefied Ether Adsorbent"
   },
   {
     "id": "31114",
     "name": "聚能动力单元",
     "apValue": 101.72987541284326,
     "rarity": 4,
-    "enName": null
+    "enName": "Energy Accumulation Motor Unit"
   },
   {
     "id": "30044",
@@ -207,14 +207,14 @@
     "name": "液化高能气体",
     "apValue": 35.568488866797004,
     "rarity": 3,
-    "enName": null
+    "enName": "Liquefied High-Energy Gas"
   },
   {
     "id": "31113",
     "name": "电极单元",
     "apValue": 33.15889348223997,
     "rarity": 3,
-    "enName": null
+    "enName": "Electrode Unit"
   },
   {
     "id": "30063",
