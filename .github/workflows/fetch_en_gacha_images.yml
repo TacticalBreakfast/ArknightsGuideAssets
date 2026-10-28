@@ -1,0 +1,69 @@
+name: Fetch EN Gacha Images
+
+# EN counterpart of fetch_jp_gacha_images.yml - fires when the EN gacha data
+# sync lands a new/updated banner.
+on:
+  push:
+    paths:
+      - 'excel-en/gacha_table.json'
+  workflow_dispatch:
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v7
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '6.0.x'
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install Dependencies
+        run: pip install requests
+
+      - name: Fetch EN Gacha Images
+        env:
+          # Without this, ArknightsStudioCLI crashes on ubuntu-latest with
+          # "Couldn't find a valid ICU package" - confirmed while testing.
+          DOTNET_SYSTEM_GLOBALIZATION_INVARIANT: "1"
+        run: python3 fetch_gacha_images.py --server en
+
+      - name: Commit and Push Output
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add gacha-en
+
+          if git diff --staged --quiet; then
+            echo "No changes to gacha-en. Nothing to commit."
+          else
+            echo "Changes found. Committing and pushing..."
+            git commit -m "Fetch EN gacha banner images"
+
+            BRANCH=$(git rev-parse --abbrev-ref HEAD)
+            for attempt in 1 2 3 4 5; do
+              if git push origin "HEAD:$BRANCH"; then
+                break
+              fi
+              if [ "$attempt" -eq 5 ]; then
+                echo "Failed to push after 5 attempts."
+                exit 1
+              fi
+              # Process Banners and Fetch JP Gacha Images can trigger off the
+              # same push and land their commits first -- each only touches its
+              # own output paths, so rebasing onto the new tip and retrying
+              # resolves the conflict.
+              echo "Push rejected (attempt $attempt/5), rebasing onto latest and retrying..."
+              git fetch origin "$BRANCH"
+              git rebase "origin/$BRANCH"
+            done
+          fi

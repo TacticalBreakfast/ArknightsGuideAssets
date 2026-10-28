@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
-"""Download the current JP-client gacha banner image bundles directly from
-Yostar's JP asset CDN and extract them with ArknightsStudioCLI.
+"""Download the current gacha banner image bundles for a Yostar client (EN or
+JP) directly from its asset CDN and extract them with ArknightsStudioCLI.
 
-Not scheduled - the JP hot-update bundles for a new banner typically land
-within a day of the JP data update, so this is meant to be run by hand
-shortly before a banner goes live rather than polled continuously.
+Usage: fetch_gacha_images.py --server {en,jp}
 """
 
+import argparse
 import io
 import json
 import shutil
@@ -18,9 +17,11 @@ from pathlib import Path
 
 import requests
 
-NETWORK_CONFIG_URL = "https://ak-conf.arknights.jp/config/prod/official/network_config"
+NETWORK_CONFIG_URLS = {
+    "en": "https://ak-conf.arknights.global/config/prod/official/network_config",
+    "jp": "https://ak-conf.arknights.jp/config/prod/official/network_config",
+}
 PLATFORM = "Android"
-OUTPUT_DIR = Path("gacha-jp")
 
 # thesadru/AssetStudio publishes the Linux build; aelurum/AssetStudio (same
 # project, different release host) publishes Windows. We only ever run on
@@ -28,8 +29,8 @@ OUTPUT_DIR = Path("gacha-jp")
 STUDIO_CLI_URL = "https://github.com/thesadru/AssetStudio/releases/download/ak-v1.2.1/ArknightsStudioCLI-net6-linux64.v1.2.1.zip"
 
 
-def get_asset_host() -> str:
-    resp = requests.get(NETWORK_CONFIG_URL, timeout=30)
+def get_asset_host(server: str) -> str:
+    resp = requests.get(NETWORK_CONFIG_URLS[server], timeout=30)
     resp.raise_for_status()
     content = json.loads(resp.json()["content"])
     network = content["configs"][content["funcVer"]]["network"]
@@ -47,8 +48,8 @@ def get_gacha_bundles(asset_host: str, res_version: str) -> list:
     resp = requests.get(url, timeout=30)
     resp.raise_for_status()
     # Covers both the shared "ui/gacha/..." bundles (e.g. boot art, the
-    # limit-time banner object) and the JP-exclusive "[[jp]]/ui/gacha/..."
-    # ones - "ui/gacha/" appears in both regardless of prefix.
+    # limit-time banner object) and the server-exclusive "[[jp]]/ui/gacha/..."
+    # or "[[en]]/ui/gacha/..." ones - "ui/gacha/" appears in all of them.
     return [ab for ab in resp.json()["abInfos"] if "ui/gacha/" in ab["name"]]
 
 
@@ -97,9 +98,14 @@ def extract_images(cli_path: Path, bundles_dir: Path, output_dir: Path) -> None:
 
 
 def main():
-    asset_host = get_asset_host()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--server", required=True, choices=sorted(NETWORK_CONFIG_URLS))
+    server = parser.parse_args().server
+    output_dir = Path(f"gacha-{server}")
+
+    asset_host = get_asset_host(server)
     res_version = get_res_version(asset_host)
-    print(f"JP resVersion: {res_version}")
+    print(f"{server.upper()} resVersion: {res_version}")
 
     bundles = get_gacha_bundles(asset_host, res_version)
     print(f"Found {len(bundles)} gacha bundles")
@@ -116,11 +122,11 @@ def main():
         tools_dir.mkdir()
         cli_path = ensure_studio_cli(tools_dir)
 
-        if OUTPUT_DIR.exists():
-            shutil.rmtree(OUTPUT_DIR)
-        extract_images(cli_path, bundles_dir, OUTPUT_DIR)
+        if output_dir.exists():
+            shutil.rmtree(output_dir)
+        extract_images(cli_path, bundles_dir, output_dir)
 
-    print(f"Wrote images to {OUTPUT_DIR}")
+    print(f"Wrote images to {output_dir}")
 
 
 if __name__ == "__main__":
