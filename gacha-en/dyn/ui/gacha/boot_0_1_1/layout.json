@@ -1,0 +1,1283 @@
+{
+  "name": "BOOT_0_1_1",
+  "active": true,
+  "anchoredPosition": [
+    0.0,
+    0.0
+  ],
+  "sizeDelta": [
+    1280.0,
+    630.0
+  ],
+  "anchorMin": [
+    0.5,
+    0.5
+  ],
+  "anchorMax": [
+    0.5,
+    0.5
+  ],
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "scale": [
+    1.0,
+    1.0
+  ],
+  "children": [
+    {
+      "name": "back_image",
+      "active": true,
+      "sprite": "bk",
+      "anchoredPosition": [
+        -1.74,
+        1.1
+      ],
+      "sizeDelta": [
+        1182.0,
+        608.0
+      ],
+      "anchorMin": [
+        0.5,
+        0.5
+      ],
+      "anchorMax": [
+        0.5,
+        0.5
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "mask_part",
+      "active": true,
+      "anchoredPosition": [
+        638.26,
+        -313.88
+      ],
+      "sizeDelta": [
+        1178.5,
+        604.75
+      ],
+      "anchorMin": [
+        0.0,
+        1.0
+      ],
+      "anchorMax": [
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "children": [
+        {
+          "name": "mask_contianer",
+          "active": true,
+          "anchoredPosition": [
+            0.0,
+            0.0
+          ],
+          "sizeDelta": [
+            100.0,
+            100.0
+          ],
+          "anchorMin": [
+            0.5,
+            0.5
+          ],
+          "anchorMax": [
+            0.5,
+            0.5
+          ],
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "scale": [
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "button_part",
+      "active": true,
+      "anchoredPosition": [
+        6.0,
+        31.0
+      ],
+      "sizeDelta": [
+        100.0,
+        100.0
+      ],
+      "anchorMin": [
+        0.5,
+        0.5
+      ],
+      "anchorMax": [
+        0.5,
+        0.5
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "children": [
+        {
+          "name": "flag_container",
+          "active": true,
+          "sprite": "white_sprite",
+          "anchoredPosition": [
+            -266.6,
+            -186.8
+          ],
+          "sizeDelta": [
+            664.0,
+            168.9
+          ],
+          "anchorMin": [
+            0.5,
+            0.5
+          ],
+          "anchorMax": [
+            0.5,
+            0.5
+          ],
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "scale": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "page_1",
+          "active": true,
+          "sprite": "char2",
+          "anchoredPosition": [
+            -57.0,
+            -106.0
+          ],
+          "sizeDelta": [
+            621.0,
+            789.0
+          ],
+          "anchorMin": [
+            0.5,
+            0.5
+          ],
+          "anchorMax": [
+            0.5,
+            0.5
+          ],
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "scale": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "page_2",
+          "active": true,
+          "sprite": "char1",
+          "anchoredPosition": [
+            225.0,
+            -156.9
+          ],
+          "sizeDelta": [
+            795.0,
+            958.0
+          ],
+          "anchorMin": [
+            0.5,
+            0.5
+          ],
+          "anchorMax": [
+            0.5,
+            0.5
+          ],
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "scale": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "test",
+          "active": true,
+          "sprite": "up_title",
+          "anchoredPosition": [
+            -212.74,
+            -139.88
+          ],
+          "sizeDelta": [
+            1009.0,
+            128.0
+          ],
+          "anchorMin": [
+            0.5,
+            0.5
+          ],
+          "anchorMax": [
+            0.5,
+            0.5
+          ],
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "scale": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "illust_part",
+          "active": true,
+          "anchoredPosition": [
+            -6.0,
+            -31.0
+          ],
+          "sizeDelta": [
+            100.0,
+            100.0
+          ],
+          "anchorMin": [
+            0.5,
+            0.5
+          ],
+          "anchorMax": [
+            0.5,
+            0.5
+          ],
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "children": [
+            {
+              "name": "illust_container",
+              "active": true,
+              "anchoredPosition": [
+                0.0,
+                0.0
+              ],
+              "sizeDelta": [
+                100.0,
+                100.0
+              ],
+              "anchorMin": [
+                0.5,
+                0.5
+              ],
+              "anchorMax": [
+                0.5,
+                0.5
+              ],
+              "pivot": [
+                0.5,
+                0.5
+              ],
+              "scale": [
+                1.0,
+                1.0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "container",
+          "active": true,
+          "anchoredPosition": [
+            -235.6,
+            -265.5
+          ],
+          "sizeDelta": [
+            100.0,
+            100.0
+          ],
+          "anchorMin": [
+            0.5,
+            0.5
+          ],
+          "anchorMax": [
+            0.5,
+            0.5
+          ],
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "children": [
+            {
+              "name": "init_state",
+              "active": true,
+              "anchoredPosition": [
+                0.0,
+                0.0
+              ],
+              "sizeDelta": [
+                100.0,
+                100.0
+              ],
+              "anchorMin": [
+                0.5,
+                0.5
+              ],
+              "anchorMax": [
+                0.5,
+                0.5
+              ],
+              "pivot": [
+                0.5,
+                0.5
+              ],
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "children": [
+                {
+                  "name": "line",
+                  "active": true,
+                  "anchoredPosition": [
+                    -328.2,
+                    27.3
+                  ],
+                  "sizeDelta": [
+                    12.0,
+                    14.0
+                  ],
+                  "anchorMin": [
+                    0.5,
+                    0.5
+                  ],
+                  "anchorMax": [
+                    0.5,
+                    0.5
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ],
+                  "children": [
+                    {
+                      "name": "Text",
+                      "active": true,
+                      "anchoredPosition": [
+                        93.4,
+                        -4.3
+                      ],
+                      "sizeDelta": [
+                        160.0,
+                        30.0
+                      ],
+                      "anchorMin": [
+                        0.5,
+                        0.5
+                      ],
+                      "anchorMax": [
+                        0.5,
+                        0.5
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "detail_text",
+                  "active": true,
+                  "anchoredPosition": [
+                    -26.9,
+                    74.4
+                  ],
+                  "sizeDelta": [
+                    626.1,
+                    30.0
+                  ],
+                  "anchorMin": [
+                    0.5,
+                    0.5
+                  ],
+                  "anchorMax": [
+                    0.5,
+                    0.5
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "forward_part",
+          "active": true,
+          "anchoredPosition": [
+            -6.0,
+            -31.0
+          ],
+          "sizeDelta": [
+            100.0,
+            100.0
+          ],
+          "anchorMin": [
+            0.5,
+            0.5
+          ],
+          "anchorMax": [
+            0.5,
+            0.5
+          ],
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "children": [
+            {
+              "name": "back_image",
+              "active": true,
+              "sprite": "remain_time_back",
+              "anchoredPosition": [
+                435.3,
+                -97.5
+              ],
+              "sizeDelta": [
+                545.0,
+                317.0
+              ],
+              "anchorMin": [
+                0.5,
+                0.5
+              ],
+              "anchorMax": [
+                0.5,
+                0.5
+              ],
+              "pivot": [
+                0.5,
+                0.5
+              ],
+              "scale": [
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "remain_text",
+              "active": true,
+              "anchoredPosition": [
+                387.2,
+                -136.25
+              ],
+              "sizeDelta": [
+                82.1,
+                48.1
+              ],
+              "anchorMin": [
+                0.5,
+                0.5
+              ],
+              "anchorMax": [
+                0.5,
+                0.5
+              ],
+              "pivot": [
+                0.5,
+                0.5
+              ],
+              "scale": [
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "container",
+              "active": true,
+              "anchoredPosition": [
+                0.0,
+                0.0
+              ],
+              "sizeDelta": [
+                100.0,
+                100.0
+              ],
+              "anchorMin": [
+                0.5,
+                0.5
+              ],
+              "anchorMax": [
+                0.5,
+                0.5
+              ],
+              "pivot": [
+                0.5,
+                0.5
+              ],
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "children": [
+                {
+                  "name": "btn_gacha",
+                  "active": true,
+                  "anchoredPosition": [
+                    263.8,
+                    -243.2
+                  ],
+                  "sizeDelta": [
+                    218.0,
+                    111.0
+                  ],
+                  "anchorMin": [
+                    0.5,
+                    0.5
+                  ],
+                  "anchorMax": [
+                    0.5,
+                    0.5
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ],
+                  "children": [
+                    {
+                      "name": "diamond_shield_item",
+                      "active": true,
+                      "anchoredPosition": [
+                        -63.9,
+                        37.8
+                      ],
+                      "sizeDelta": [
+                        67.0,
+                        71.0
+                      ],
+                      "anchorMin": [
+                        0.5,
+                        0.5
+                      ],
+                      "anchorMax": [
+                        0.5,
+                        0.5
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ],
+                      "children": [
+                        {
+                          "name": "num_text",
+                          "active": true,
+                          "anchoredPosition": [
+                            108.3,
+                            -4.4
+                          ],
+                          "sizeDelta": [
+                            160.0,
+                            30.0
+                          ],
+                          "anchorMin": [
+                            0.5,
+                            0.5
+                          ],
+                          "anchorMax": [
+                            0.5,
+                            0.5
+                          ],
+                          "pivot": [
+                            0.5,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ]
+                        },
+                        {
+                          "name": "gacha_const_text",
+                          "active": true,
+                          "anchoredPosition": [
+                            63.5,
+                            -45.43
+                          ],
+                          "sizeDelta": [
+                            190.3,
+                            32.37
+                          ],
+                          "anchorMin": [
+                            0.5,
+                            0.5
+                          ],
+                          "anchorMax": [
+                            0.5,
+                            0.5
+                          ],
+                          "pivot": [
+                            0.5,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "btn_10_gacha",
+                  "active": true,
+                  "anchoredPosition": [
+                    463.6,
+                    -243.2
+                  ],
+                  "sizeDelta": [
+                    218.0,
+                    111.0
+                  ],
+                  "anchorMin": [
+                    0.5,
+                    0.5
+                  ],
+                  "anchorMax": [
+                    0.5,
+                    0.5
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ],
+                  "children": [
+                    {
+                      "name": "multi_item",
+                      "active": true,
+                      "anchoredPosition": [
+                        -67.2,
+                        41.6
+                      ],
+                      "sizeDelta": [
+                        67.0,
+                        71.0
+                      ],
+                      "anchorMin": [
+                        0.5,
+                        0.5
+                      ],
+                      "anchorMax": [
+                        0.5,
+                        0.5
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ],
+                      "children": [
+                        {
+                          "name": "num_text",
+                          "active": true,
+                          "anchoredPosition": [
+                            111.5,
+                            -6.3
+                          ],
+                          "sizeDelta": [
+                            160.0,
+                            30.0
+                          ],
+                          "anchorMin": [
+                            0.5,
+                            0.5
+                          ],
+                          "anchorMax": [
+                            0.5,
+                            0.5
+                          ],
+                          "pivot": [
+                            0.5,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ]
+                        },
+                        {
+                          "name": "gacha_const_text_ten",
+                          "active": true,
+                          "anchoredPosition": [
+                            66.55,
+                            -49.24
+                          ],
+                          "sizeDelta": [
+                            190.3,
+                            32.37
+                          ],
+                          "anchorMin": [
+                            0.5,
+                            0.5
+                          ],
+                          "anchorMax": [
+                            0.5,
+                            0.5
+                          ],
+                          "pivot": [
+                            0.5,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "locked_part",
+              "active": true,
+              "anchoredPosition": [
+                0.0,
+                0.0
+              ],
+              "sizeDelta": [
+                100.0,
+                100.0
+              ],
+              "anchorMin": [
+                0.5,
+                0.5
+              ],
+              "anchorMax": [
+                0.5,
+                0.5
+              ],
+              "pivot": [
+                0.5,
+                0.5
+              ],
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "children": [
+                {
+                  "name": "locked_icon",
+                  "active": true,
+                  "sprite": "banned_image",
+                  "anchoredPosition": [
+                    266.4,
+                    -231.6
+                  ],
+                  "sizeDelta": [
+                    53.0,
+                    61.0
+                  ],
+                  "anchorMin": [
+                    0.5,
+                    0.5
+                  ],
+                  "anchorMax": [
+                    0.5,
+                    0.5
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "name": "locked_ten_icon",
+                  "active": true,
+                  "sprite": "banned_image",
+                  "anchoredPosition": [
+                    465.4,
+                    -231.6
+                  ],
+                  "sizeDelta": [
+                    53.0,
+                    61.0
+                  ],
+                  "anchorMin": [
+                    0.5,
+                    0.5
+                  ],
+                  "anchorMax": [
+                    0.5,
+                    0.5
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "purple_part",
+              "active": true,
+              "sprite": "title",
+              "anchoredPosition": [
+                -410.8,
+                -7.0
+              ],
+              "sizeDelta": [
+                367.0,
+                150.0
+              ],
+              "anchorMin": [
+                0.5,
+                0.5
+              ],
+              "anchorMax": [
+                0.5,
+                0.5
+              ],
+              "pivot": [
+                0.5,
+                0.5
+              ],
+              "scale": [
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "Image",
+              "active": true,
+              "sprite": "offset_button",
+              "anchoredPosition": [
+                524.5,
+                -133.1
+              ],
+              "sizeDelta": [
+                118.0,
+                118.0
+              ],
+              "anchorMin": [
+                0.5,
+                0.5
+              ],
+              "anchorMax": [
+                0.5,
+                0.5
+              ],
+              "pivot": [
+                0.5,
+                0.5
+              ],
+              "scale": [
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "icon_1",
+              "active": true,
+              "sprite": "name1",
+              "anchoredPosition": [
+                377.2,
+                -13.1
+              ],
+              "sizeDelta": [
+                229.0,
+                122.0
+              ],
+              "anchorMin": [
+                0.5,
+                0.5
+              ],
+              "anchorMax": [
+                0.5,
+                0.5
+              ],
+              "pivot": [
+                0.5,
+                0.5
+              ],
+              "scale": [
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "icon_2",
+              "active": true,
+              "sprite": "name2",
+              "anchoredPosition": [
+                -119.2,
+                -8.0
+              ],
+              "sizeDelta": [
+                174.0,
+                93.0
+              ],
+              "anchorMin": [
+                0.5,
+                0.5
+              ],
+              "anchorMax": [
+                0.5,
+                0.5
+              ],
+              "pivot": [
+                0.5,
+                0.5
+              ],
+              "scale": [
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "icon_3",
+              "active": true,
+              "sprite": "name3",
+              "anchoredPosition": [
+                498.3,
+                70.4
+              ],
+              "sizeDelta": [
+                165.0,
+                91.0
+              ],
+              "anchorMin": [
+                0.5,
+                0.5
+              ],
+              "anchorMax": [
+                0.5,
+                0.5
+              ],
+              "pivot": [
+                0.5,
+                0.5
+              ],
+              "scale": [
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "icon_4",
+              "active": true,
+              "sprite": "name4",
+              "anchoredPosition": [
+                -416.4,
+                108.5
+              ],
+              "sizeDelta": [
+                158.0,
+                81.0
+              ],
+              "anchorMin": [
+                0.5,
+                0.5
+              ],
+              "anchorMax": [
+                0.5,
+                0.5
+              ],
+              "pivot": [
+                0.5,
+                0.5
+              ],
+              "scale": [
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "icon_5",
+              "active": true,
+              "sprite": "name5",
+              "anchoredPosition": [
+                -219.6,
+                86.5
+              ],
+              "sizeDelta": [
+                127.0,
+                68.0
+              ],
+              "anchorMin": [
+                0.5,
+                0.5
+              ],
+              "anchorMax": [
+                0.5,
+                0.5
+              ],
+              "pivot": [
+                0.5,
+                0.5
+              ],
+              "scale": [
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "icon_6",
+              "active": true,
+              "sprite": "name6",
+              "anchoredPosition": [
+                -332.7,
+                174.0
+              ],
+              "sizeDelta": [
+                122.0,
+                62.0
+              ],
+              "anchorMin": [
+                0.5,
+                0.5
+              ],
+              "anchorMax": [
+                0.5,
+                0.5
+              ],
+              "pivot": [
+                0.5,
+                0.5
+              ],
+              "scale": [
+                1.0,
+                1.0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "flag_container_2",
+          "active": true,
+          "sprite": "white_sprite",
+          "anchoredPosition": [
+            -267.1,
+            -186.8
+          ],
+          "sizeDelta": [
+            664.0,
+            168.9
+          ],
+          "anchorMin": [
+            0.5,
+            0.5
+          ],
+          "anchorMax": [
+            0.5,
+            0.5
+          ],
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "scale": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "Scroll View",
+          "active": false,
+          "anchoredPosition": [
+            -356.0,
+            -30.0
+          ],
+          "sizeDelta": [
+            482.0,
+            608.0
+          ],
+          "anchorMin": [
+            0.5,
+            0.5
+          ],
+          "anchorMax": [
+            0.5,
+            0.5
+          ],
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "children": [
+            {
+              "name": "Viewport",
+              "active": true,
+              "anchoredPosition": [
+                0.0,
+                -24.0
+              ],
+              "sizeDelta": [
+                93.0,
+                -5.0
+              ],
+              "anchorMin": [
+                0.0,
+                0.0
+              ],
+              "anchorMax": [
+                1.0,
+                1.0
+              ],
+              "pivot": [
+                0.0,
+                1.0
+              ],
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "children": [
+                {
+                  "name": "Content",
+                  "active": true,
+                  "anchoredPosition": [
+                    0.0,
+                    0.0
+                  ],
+                  "sizeDelta": [
+                    122.0,
+                    0.0
+                  ],
+                  "anchorMin": [
+                    0.0,
+                    1.0
+                  ],
+                  "anchorMax": [
+                    1.0,
+                    1.0
+                  ],
+                  "pivot": [
+                    0.0,
+                    1.0
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ],
+                  "children": [
+                    {
+                      "name": "delta_text",
+                      "active": true,
+                      "anchoredPosition": [
+                        286.0,
+                        0.0
+                      ],
+                      "sizeDelta": [
+                        548.0,
+                        105.0
+                      ],
+                      "anchorMin": [
+                        0.0,
+                        1.0
+                      ],
+                      "anchorMax": [
+                        0.0,
+                        1.0
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
