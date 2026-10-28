@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Download the current gacha banner image bundles for a Yostar client (EN or
-JP) directly from its asset CDN and extract them with ArknightsStudioCLI.
+JP) directly from its asset CDN, extract their sprites with
+ArknightsStudioCLI, and write each banner prefab's UI layout to layout.json
+alongside its sprites.
 
 Usage: fetch_gacha_images.py --server {en,jp}
 """
@@ -16,6 +18,13 @@ import zipfile
 from pathlib import Path
 
 import requests
+import UnityPy
+from arkprts.assets.bundle import decompress_lz4ak
+from UnityPy.enums.BundleFile import CompressionFlags
+from UnityPy.helpers import CompressionHelper
+
+# Arknights bundles use a modified LZ4 ("LZ4AK") under the LZHAM flag.
+CompressionHelper.DECOMPRESSION_MAP[CompressionFlags.LZHAM] = decompress_lz4ak
 
 NETWORK_CONFIG_URLS = {
     "en": "https://ak-conf.arknights.global/config/prod/official/network_config",
@@ -97,6 +106,64 @@ def extract_images(cli_path: Path, bundles_dir: Path, output_dir: Path) -> None:
     )
 
 
+def _xy(v: dict) -> list:
+    # + 0.0 turns Unity's -0.0 into 0.0 so it doesn't churn diffs.
+    return [round(v["x"], 2) + 0.0, round(v["y"], 2) + 0.0]
+
+
+def _layout_node(transform, objects: dict) -> dict:
+    tf = transform.read_typetree()
+    go = objects[tf["m_GameObject"]["m_PathID"]].read_typetree()
+
+    node = {"name": go["m_Name"], "active": bool(go["m_IsActive"])}
+    for comp in go["m_Component"]:
+        comp_obj = objects.get(comp["component"]["m_PathID"])
+        if comp_obj is None or comp_obj.type.name != "MonoBehaviour":
+            continue
+        sprite_ref = comp_obj.read_typetree().get("m_Sprite")
+        if sprite_ref and sprite_ref["m_FileID"] == 0 and sprite_ref["m_PathID"] in objects:
+            node["sprite"] = objects[sprite_ref["m_PathID"]].read().m_Name
+
+    if transform.type.name == "RectTransform":
+        for key, field in [
+            ("anchoredPosition", "m_AnchoredPosition"),
+            ("sizeDelta", "m_SizeDelta"),
+            ("anchorMin", "m_AnchorMin"),
+            ("anchorMax", "m_AnchorMax"),
+            ("pivot", "m_Pivot"),
+        ]:
+            node[key] = _xy(tf[field])
+    else:
+        node["localPosition"] = _xy(tf["m_LocalPosition"])
+    node["scale"] = _xy(tf["m_LocalScale"])
+
+    children = [_layout_node(objects[c["m_PathID"]], objects) for c in tf["m_Children"]]
+    if children:
+        node["children"] = children
+    return node
+
+
+def write_layouts(bundles_dir: Path, output_dir: Path) -> None:
+    for bundle_path in bundles_dir.rglob("*.ab"):
+        env = UnityPy.load(str(bundle_path))
+        objects = {o.path_id: o for o in env.objects}
+        for container_path, obj in env.container.items():
+            if obj.type.name != "GameObject" or not container_path.endswith(".prefab"):
+                continue
+            go = obj.read_typetree()
+            transform = next(
+                objects[c["component"]["m_PathID"]]
+                for c in go["m_Component"]
+                if objects[c["component"]["m_PathID"]].type.name in ("RectTransform", "Transform")
+            )
+            layout_path = output_dir / container_path.removesuffix(".prefab") / "layout.json"
+            layout_path.parent.mkdir(parents=True, exist_ok=True)
+            layout_path.write_text(
+                json.dumps(_layout_node(transform, objects), indent=2, ensure_ascii=False) + "\n",
+                encoding="utf-8",
+            )
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--server", required=True, choices=sorted(NETWORK_CONFIG_URLS))
@@ -125,8 +192,9 @@ def main():
         if output_dir.exists():
             shutil.rmtree(output_dir)
         extract_images(cli_path, bundles_dir, output_dir)
+        write_layouts(bundles_dir, output_dir)
 
-    print(f"Wrote images to {output_dir}")
+    print(f"Wrote images and layouts to {output_dir}")
 
 
 if __name__ == "__main__":
