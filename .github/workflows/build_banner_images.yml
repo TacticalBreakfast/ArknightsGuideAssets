@@ -1,0 +1,60 @@
+name: Build Banner Images
+
+# Fires when Fetch EN Gacha Images commits new/updated banner sprites. That
+# workflow checks out with SYNC_PAT so its push can trigger this one - pushes
+# made with the default GITHUB_TOKEN never trigger push: workflows.
+on:
+  push:
+    paths:
+      - 'gacha-en/**'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v7
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install Dependencies
+        run: pip install Pillow
+
+      - name: Build Banner Images
+        run: python3 build_banner_images.py
+
+      - name: Commit and Push Output
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add banner-images
+
+          if git diff --staged --quiet; then
+            echo "No changes to banner-images. Nothing to commit."
+          else
+            echo "Changes found. Committing and pushing..."
+            git commit -m "Build EN banner images"
+
+            BRANCH=$(git rev-parse --abbrev-ref HEAD)
+            for attempt in 1 2 3 4 5; do
+              if git push origin "HEAD:$BRANCH"; then
+                break
+              fi
+              if [ "$attempt" -eq 5 ]; then
+                echo "Failed to push after 5 attempts."
+                exit 1
+              fi
+              # Other bot workflows may push to the same branch first -- each
+              # only touches its own output paths, so rebasing onto the new tip
+              # and retrying resolves the conflict.
+              echo "Push rejected (attempt $attempt/5), rebasing onto latest and retrying..."
+              git fetch origin "$BRANCH"
+              git rebase "origin/$BRANCH"
+            done
+          fi
