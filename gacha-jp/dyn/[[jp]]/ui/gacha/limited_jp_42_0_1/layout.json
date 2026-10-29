@@ -1,0 +1,6221 @@
+{
+  "name": "LIMITED_JP_42_0_1",
+  "active": true,
+  "anchoredPosition": [
+    0.0,
+    0.0
+  ],
+  "sizeDelta": [
+    1280.0,
+    630.0
+  ],
+  "anchorMin": [
+    0.0,
+    0.0
+  ],
+  "anchorMax": [
+    0.0,
+    0.0
+  ],
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "scale": [
+    1.0,
+    1.0
+  ],
+  "children": [
+    {
+      "name": "AnimHolder",
+      "active": true,
+      "anchoredPosition": [
+        0.0,
+        0.0
+      ],
+      "sizeDelta": [
+        100.0,
+        100.0
+      ],
+      "anchorMin": [
+        0.5,
+        0.5
+      ],
+      "anchorMax": [
+        0.5,
+        0.5
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "children": [
+        {
+          "name": "anim_part(Clone)",
+          "active": true,
+          "anchoredPosition": [
+            0.0,
+            0.0
+          ],
+          "sizeDelta": [
+            100.0,
+            100.0
+          ],
+          "anchorMin": [
+            0.5,
+            0.5
+          ],
+          "anchorMax": [
+            0.5,
+            0.5
+          ],
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "children": [
+            {
+              "name": "BackPart",
+              "active": true,
+              "anchoredPosition": [
+                0.0,
+                0.0
+              ],
+              "sizeDelta": [
+                1182.0,
+                608.0
+              ],
+              "anchorMin": [
+                0.5,
+                0.5
+              ],
+              "anchorMax": [
+                0.5,
+                0.5
+              ],
+              "pivot": [
+                0.5,
+                0.5
+              ],
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "children": [
+                {
+                  "name": "group_entry_anim",
+                  "active": true,
+                  "anchoredPosition": [
+                    0.0,
+                    0.0
+                  ],
+                  "sizeDelta": [
+                    0.0,
+                    0.0
+                  ],
+                  "anchorMin": [
+                    0.0,
+                    0.0
+                  ],
+                  "anchorMax": [
+                    1.0,
+                    1.0
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ],
+                  "children": [
+                    {
+                      "name": "img_back",
+                      "active": true,
+                      "anchoredPosition": [
+                        0.0,
+                        0.0
+                      ],
+                      "sizeDelta": [
+                        0.0,
+                        0.0
+                      ],
+                      "anchorMin": [
+                        0.0,
+                        0.0
+                      ],
+                      "anchorMax": [
+                        1.0,
+                        1.0
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ]
+                    },
+                    {
+                      "name": "group_entry_c2",
+                      "active": true,
+                      "anchoredPosition": [
+                        0.0,
+                        0.0
+                      ],
+                      "sizeDelta": [
+                        0.0,
+                        0.0
+                      ],
+                      "anchorMin": [
+                        0.0,
+                        0.0
+                      ],
+                      "anchorMax": [
+                        1.0,
+                        1.0
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ],
+                      "children": [
+                        {
+                          "name": "c2_bkg",
+                          "active": true,
+                          "anchoredPosition": [
+                            0.0,
+                            0.0
+                          ],
+                          "sizeDelta": [
+                            1182.0,
+                            608.0
+                          ],
+                          "anchorMin": [
+                            0.5,
+                            0.5
+                          ],
+                          "anchorMax": [
+                            0.5,
+                            0.5
+                          ],
+                          "pivot": [
+                            0.5,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ]
+                        },
+                        {
+                          "name": "c2_desc",
+                          "active": true,
+                          "sprite": "c2_bg_desc",
+                          "anchoredPosition": [
+                            -209.7,
+                            115.2
+                          ],
+                          "sizeDelta": [
+                            490.0,
+                            435.0
+                          ],
+                          "anchorMin": [
+                            0.5,
+                            0.5
+                          ],
+                          "anchorMax": [
+                            0.5,
+                            0.5
+                          ],
+                          "pivot": [
+                            0.5,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ]
+                        },
+                        {
+                          "name": "light_back",
+                          "active": true,
+                          "anchoredPosition": [
+                            0.0,
+                            0.0
+                          ],
+                          "sizeDelta": [
+                            0.0,
+                            0.0
+                          ],
+                          "anchorMin": [
+                            0.0,
+                            0.0
+                          ],
+                          "anchorMax": [
+                            1.0,
+                            1.0
+                          ],
+                          "pivot": [
+                            0.5,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ],
+                          "children": [
+                            {
+                              "name": "light_1",
+                              "active": true,
+                              "anchoredPosition": [
+                                -220.0,
+                                311.0
+                              ],
+                              "sizeDelta": [
+                                812.22,
+                                352.03
+                              ],
+                              "anchorMin": [
+                                0.5,
+                                0.5
+                              ],
+                              "anchorMax": [
+                                0.5,
+                                0.5
+                              ],
+                              "pivot": [
+                                0.5,
+                                0.5
+                              ],
+                              "scale": [
+                                1.0,
+                                -1.0
+                              ]
+                            },
+                            {
+                              "name": "light_2",
+                              "active": true,
+                              "anchoredPosition": [
+                                -459.0,
+                                -300.0
+                              ],
+                              "sizeDelta": [
+                                1040.3,
+                                723.3
+                              ],
+                              "anchorMin": [
+                                0.5,
+                                0.5
+                              ],
+                              "anchorMax": [
+                                0.5,
+                                0.5
+                              ],
+                              "pivot": [
+                                0.5,
+                                0.5
+                              ],
+                              "scale": [
+                                1.0,
+                                1.0
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "char_2_color",
+                          "active": true,
+                          "sprite": "c2_char",
+                          "anchoredPosition": [
+                            -335.0,
+                            131.0
+                          ],
+                          "sizeDelta": [
+                            2007.0,
+                            1145.0
+                          ],
+                          "anchorMin": [
+                            0.5,
+                            0.5
+                          ],
+                          "anchorMax": [
+                            0.5,
+                            0.5
+                          ],
+                          "pivot": [
+                            0.5,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ]
+                        },
+                        {
+                          "name": "char_2_copy",
+                          "active": true,
+                          "sprite": "c2_char",
+                          "anchoredPosition": [
+                            89.71,
+                            145.0
+                          ],
+                          "sizeDelta": [
+                            2007.0,
+                            1145.0
+                          ],
+                          "anchorMin": [
+                            0.5,
+                            0.5
+                          ],
+                          "anchorMax": [
+                            0.5,
+                            0.5
+                          ],
+                          "pivot": [
+                            0.5,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ]
+                        },
+                        {
+                          "name": "char_2",
+                          "active": true,
+                          "sprite": "c2_char",
+                          "anchoredPosition": [
+                            5.3,
+                            16.5
+                          ],
+                          "sizeDelta": [
+                            1266.0,
+                            722.0
+                          ],
+                          "anchorMin": [
+                            0.5,
+                            0.5
+                          ],
+                          "anchorMax": [
+                            0.5,
+                            0.5
+                          ],
+                          "pivot": [
+                            0.5,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ],
+                          "children": [
+                            {
+                              "name": "char_2_blur",
+                              "active": true,
+                              "sprite": "c2_char_blur",
+                              "anchoredPosition": [
+                                150.7,
+                                -1.4
+                              ],
+                              "sizeDelta": [
+                                952.0,
+                                720.0
+                              ],
+                              "anchorMin": [
+                                0.5,
+                                0.5
+                              ],
+                              "anchorMax": [
+                                0.5,
+                                0.5
+                              ],
+                              "pivot": [
+                                0.5,
+                                0.5
+                              ],
+                              "scale": [
+                                1.0,
+                                1.0
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "light_front",
+                          "active": true,
+                          "anchoredPosition": [
+                            0.0,
+                            0.0
+                          ],
+                          "sizeDelta": [
+                            0.0,
+                            0.0
+                          ],
+                          "anchorMin": [
+                            0.0,
+                            0.0
+                          ],
+                          "anchorMax": [
+                            1.0,
+                            1.0
+                          ],
+                          "pivot": [
+                            0.5,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ],
+                          "children": [
+                            {
+                              "name": "light_3",
+                              "active": true,
+                              "anchoredPosition": [
+                                -111.0,
+                                4.0
+                              ],
+                              "sizeDelta": [
+                                766.0,
+                                534.0
+                              ],
+                              "anchorMin": [
+                                0.5,
+                                0.5
+                              ],
+                              "anchorMax": [
+                                0.5,
+                                0.5
+                              ],
+                              "pivot": [
+                                0.5,
+                                0.5
+                              ],
+                              "scale": [
+                                1.0,
+                                1.0
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "c2_title",
+                          "active": true,
+                          "anchoredPosition": [
+                            -325.7,
+                            48.4
+                          ],
+                          "sizeDelta": [
+                            340.0,
+                            72.0
+                          ],
+                          "anchorMin": [
+                            0.5,
+                            0.5
+                          ],
+                          "anchorMax": [
+                            0.5,
+                            0.5
+                          ],
+                          "pivot": [
+                            0.5,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ],
+                          "children": [
+                            {
+                              "name": "title_copy_1",
+                              "active": true,
+                              "sprite": "c2_title_blur",
+                              "anchoredPosition": [
+                                0.0,
+                                0.0
+                              ],
+                              "sizeDelta": [
+                                340.0,
+                                80.0
+                              ],
+                              "anchorMin": [
+                                0.5,
+                                0.5
+                              ],
+                              "anchorMax": [
+                                0.5,
+                                0.5
+                              ],
+                              "pivot": [
+                                0.5,
+                                0.0
+                              ],
+                              "scale": [
+                                1.0,
+                                1.0
+                              ]
+                            },
+                            {
+                              "name": "title_copy_2",
+                              "active": true,
+                              "sprite": "c2_title",
+                              "anchoredPosition": [
+                                0.0,
+                                -36.0
+                              ],
+                              "sizeDelta": [
+                                340.0,
+                                72.0
+                              ],
+                              "anchorMin": [
+                                0.5,
+                                0.5
+                              ],
+                              "anchorMax": [
+                                0.5,
+                                0.5
+                              ],
+                              "pivot": [
+                                0.5,
+                                0.0
+                              ],
+                              "scale": [
+                                1.0,
+                                1.0
+                              ]
+                            },
+                            {
+                              "name": "title_copy",
+                              "active": true,
+                              "sprite": "c2_title",
+                              "anchoredPosition": [
+                                336.0,
+                                -92.0
+                              ],
+                              "sizeDelta": [
+                                718.24,
+                                152.1
+                              ],
+                              "anchorMin": [
+                                0.5,
+                                0.5
+                              ],
+                              "anchorMax": [
+                                0.5,
+                                0.5
+                              ],
+                              "pivot": [
+                                0.5,
+                                0.0
+                              ],
+                              "scale": [
+                                1.0,
+                                1.0
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "square_01",
+                          "active": true,
+                          "anchoredPosition": [
+                            -267.0,
+                            -175.0
+                          ],
+                          "sizeDelta": [
+                            800.0,
+                            400.0
+                          ],
+                          "anchorMin": [
+                            0.5,
+                            0.5
+                          ],
+                          "anchorMax": [
+                            0.5,
+                            0.5
+                          ],
+                          "pivot": [
+                            0.5,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ]
+                        },
+                        {
+                          "name": "square_02",
+                          "active": true,
+                          "anchoredPosition": [
+                            505.6,
+                            316.0
+                          ],
+                          "sizeDelta": [
+                            800.0,
+                            400.0
+                          ],
+                          "anchorMin": [
+                            0.5,
+                            0.5
+                          ],
+                          "anchorMax": [
+                            0.5,
+                            0.5
+                          ],
+                          "pivot": [
+                            0.5,
+                            0.5
+                          ],
+                          "scale": [
+                            -1.0,
+                            -1.0
+                          ]
+                        },
+                        {
+                          "name": "square_03",
+                          "active": true,
+                          "sprite": "img_square_repeat",
+                          "anchoredPosition": [
+                            345.7,
+                            133.9
+                          ],
+                          "sizeDelta": [
+                            262.18,
+                            143.66
+                          ],
+                          "anchorMin": [
+                            0.5,
+                            0.5
+                          ],
+                          "anchorMax": [
+                            0.5,
+                            0.5
+                          ],
+                          "pivot": [
+                            0.5,
+                            0.5
+                          ],
+                          "scale": [
+                            0.53,
+                            0.53
+                          ]
+                        },
+                        {
+                          "name": "square_04",
+                          "active": true,
+                          "sprite": "img_square_repeat",
+                          "anchoredPosition": [
+                            117.4,
+                            -84.1
+                          ],
+                          "sizeDelta": [
+                            141.0,
+                            130.8
+                          ],
+                          "anchorMin": [
+                            0.5,
+                            0.5
+                          ],
+                          "anchorMax": [
+                            0.5,
+                            0.5
+                          ],
+                          "pivot": [
+                            0.5,
+                            0.5
+                          ],
+                          "scale": [
+                            0.53,
+                            0.53
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "group_entry_c1",
+                      "active": true,
+                      "anchoredPosition": [
+                        0.0,
+                        0.0
+                      ],
+                      "sizeDelta": [
+                        0.0,
+                        0.0
+                      ],
+                      "anchorMin": [
+                        0.0,
+                        0.0
+                      ],
+                      "anchorMax": [
+                        1.0,
+                        1.0
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ],
+                      "children": [
+                        {
+                          "name": "c1_bkg",
+                          "active": true,
+                          "sprite": "anim_bg1",
+                          "anchoredPosition": [
+                            -592.0,
+                            0.0
+                          ],
+                          "sizeDelta": [
+                            1489.0,
+                            608.0
+                          ],
+                          "anchorMin": [
+                            0.5,
+                            0.5
+                          ],
+                          "anchorMax": [
+                            0.5,
+                            0.5
+                          ],
+                          "pivot": [
+                            0.0,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ]
+                        },
+                        {
+                          "name": "light_back",
+                          "active": true,
+                          "anchoredPosition": [
+                            0.0,
+                            0.0
+                          ],
+                          "sizeDelta": [
+                            0.0,
+                            0.0
+                          ],
+                          "anchorMin": [
+                            0.0,
+                            0.0
+                          ],
+                          "anchorMax": [
+                            1.0,
+                            1.0
+                          ],
+                          "pivot": [
+                            0.5,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ],
+                          "children": [
+                            {
+                              "name": "light_3",
+                              "active": true,
+                              "anchoredPosition": [
+                                -431.0,
+                                0.0
+                              ],
+                              "sizeDelta": [
+                                600.0,
+                                628.0
+                              ],
+                              "anchorMin": [
+                                0.5,
+                                0.5
+                              ],
+                              "anchorMax": [
+                                0.5,
+                                0.5
+                              ],
+                              "pivot": [
+                                0.5,
+                                0.5
+                              ],
+                              "scale": [
+                                1.0,
+                                1.0
+                              ]
+                            },
+                            {
+                              "name": "light_2",
+                              "active": true,
+                              "anchoredPosition": [
+                                60.0,
+                                -66.0
+                              ],
+                              "sizeDelta": [
+                                600.0,
+                                798.47
+                              ],
+                              "anchorMin": [
+                                0.5,
+                                0.5
+                              ],
+                              "anchorMax": [
+                                0.5,
+                                0.5
+                              ],
+                              "pivot": [
+                                0.5,
+                                0.5
+                              ],
+                              "scale": [
+                                1.0,
+                                1.0
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "title_desc",
+                          "active": true,
+                          "sprite": "c1_desc_text",
+                          "anchoredPosition": [
+                            259.0,
+                            -10.2
+                          ],
+                          "sizeDelta": [
+                            221.0,
+                            80.0
+                          ],
+                          "anchorMin": [
+                            0.5,
+                            0.5
+                          ],
+                          "anchorMax": [
+                            0.5,
+                            0.5
+                          ],
+                          "pivot": [
+                            0.5,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ]
+                        },
+                        {
+                          "name": "group_cross",
+                          "active": true,
+                          "anchoredPosition": [
+                            315.2,
+                            103.1
+                          ],
+                          "sizeDelta": [
+                            333.0,
+                            135.0
+                          ],
+                          "anchorMin": [
+                            0.5,
+                            0.5
+                          ],
+                          "anchorMax": [
+                            0.5,
+                            0.5
+                          ],
+                          "pivot": [
+                            0.5,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ],
+                          "children": [
+                            {
+                              "name": "cross_1",
+                              "active": true,
+                              "sprite": "c1_desc_cross",
+                              "anchoredPosition": [
+                                11.0,
+                                11.0
+                              ],
+                              "sizeDelta": [
+                                22.0,
+                                22.0
+                              ],
+                              "anchorMin": [
+                                0.0,
+                                0.0
+                              ],
+                              "anchorMax": [
+                                0.0,
+                                0.0
+                              ],
+                              "pivot": [
+                                0.5,
+                                0.5
+                              ],
+                              "scale": [
+                                1.0,
+                                1.0
+                              ]
+                            },
+                            {
+                              "name": "cross_2",
+                              "active": true,
+                              "sprite": "c1_desc_cross",
+                              "anchoredPosition": [
+                                -11.0,
+                                -11.0
+                              ],
+                              "sizeDelta": [
+                                22.0,
+                                22.0
+                              ],
+                              "anchorMin": [
+                                1.0,
+                                1.0
+                              ],
+                              "anchorMax": [
+                                1.0,
+                                1.0
+                              ],
+                              "pivot": [
+                                0.5,
+                                0.5
+                              ],
+                              "scale": [
+                                1.0,
+                                1.0
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "c1_title_2",
+                          "active": true,
+                          "anchoredPosition": [
+                            315.2,
+                            103.1
+                          ],
+                          "sizeDelta": [
+                            333.0,
+                            135.0
+                          ],
+                          "anchorMin": [
+                            0.5,
+                            0.5
+                          ],
+                          "anchorMax": [
+                            0.5,
+                            0.5
+                          ],
+                          "pivot": [
+                            0.5,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ],
+                          "children": [
+                            {
+                              "name": "c1_title_2",
+                              "active": true,
+                              "sprite": "c1_title_2",
+                              "anchoredPosition": [
+                                0.0,
+                                0.0
+                              ],
+                              "sizeDelta": [
+                                333.0,
+                                135.0
+                              ],
+                              "anchorMin": [
+                                0.5,
+                                0.5
+                              ],
+                              "anchorMax": [
+                                0.5,
+                                0.5
+                              ],
+                              "pivot": [
+                                0.5,
+                                0.5
+                              ],
+                              "scale": [
+                                1.0,
+                                1.0
+                              ]
+                            },
+                            {
+                              "name": "copy",
+                              "active": true,
+                              "anchoredPosition": [
+                                0.0,
+                                0.0
+                              ],
+                              "sizeDelta": [
+                                332.0,
+                                136.0
+                              ],
+                              "anchorMin": [
+                                0.5,
+                                0.5
+                              ],
+                              "anchorMax": [
+                                0.5,
+                                0.5
+                              ],
+                              "pivot": [
+                                0.5,
+                                0.5
+                              ],
+                              "scale": [
+                                1.0,
+                                1.0
+                              ],
+                              "children": [
+                                {
+                                  "name": "img_c",
+                                  "active": true,
+                                  "sprite": "closure_c",
+                                  "anchoredPosition": [
+                                    -133.1,
+                                    32.9
+                                  ],
+                                  "sizeDelta": [
+                                    64.99,
+                                    68.34
+                                  ],
+                                  "anchorMin": [
+                                    0.5,
+                                    0.5
+                                  ],
+                                  "anchorMax": [
+                                    0.5,
+                                    0.5
+                                  ],
+                                  "pivot": [
+                                    0.5,
+                                    0.5
+                                  ],
+                                  "scale": [
+                                    1.0,
+                                    1.0
+                                  ]
+                                },
+                                {
+                                  "name": "img_l",
+                                  "active": true,
+                                  "sprite": "closure_l",
+                                  "anchoredPosition": [
+                                    -77.5,
+                                    33.3
+                                  ],
+                                  "sizeDelta": [
+                                    46.9,
+                                    65.66
+                                  ],
+                                  "anchorMin": [
+                                    0.5,
+                                    0.5
+                                  ],
+                                  "anchorMax": [
+                                    0.5,
+                                    0.5
+                                  ],
+                                  "pivot": [
+                                    0.5,
+                                    0.5
+                                  ],
+                                  "scale": [
+                                    1.0,
+                                    1.0
+                                  ]
+                                },
+                                {
+                                  "name": "img_o",
+                                  "active": true,
+                                  "sprite": "closure_o",
+                                  "anchoredPosition": [
+                                    -25.3,
+                                    32.9
+                                  ],
+                                  "sizeDelta": [
+                                    69.01,
+                                    68.34
+                                  ],
+                                  "anchorMin": [
+                                    0.5,
+                                    0.5
+                                  ],
+                                  "anchorMax": [
+                                    0.5,
+                                    0.5
+                                  ],
+                                  "pivot": [
+                                    0.5,
+                                    0.5
+                                  ],
+                                  "scale": [
+                                    1.0,
+                                    1.0
+                                  ]
+                                },
+                                {
+                                  "name": "img_s",
+                                  "active": true,
+                                  "sprite": "closure_s",
+                                  "anchoredPosition": [
+                                    29.3,
+                                    33.1
+                                  ],
+                                  "sizeDelta": [
+                                    55.61,
+                                    68.34
+                                  ],
+                                  "anchorMin": [
+                                    0.5,
+                                    0.5
+                                  ],
+                                  "anchorMax": [
+                                    0.5,
+                                    0.5
+                                  ],
+                                  "pivot": [
+                                    0.5,
+                                    0.5
+                                  ],
+                                  "scale": [
+                                    1.0,
+                                    1.0
+                                  ]
+                                },
+                                {
+                                  "name": "img_u",
+                                  "active": true,
+                                  "sprite": "closure_u",
+                                  "anchoredPosition": [
+                                    32.3,
+                                    -32.3
+                                  ],
+                                  "sizeDelta": [
+                                    57.62,
+                                    67.0
+                                  ],
+                                  "anchorMin": [
+                                    0.5,
+                                    0.5
+                                  ],
+                                  "anchorMax": [
+                                    0.5,
+                                    0.5
+                                  ],
+                                  "pivot": [
+                                    0.5,
+                                    0.5
+                                  ],
+                                  "scale": [
+                                    1.0,
+                                    1.0
+                                  ]
+                                },
+                                {
+                                  "name": "img_r",
+                                  "active": true,
+                                  "sprite": "closure_r",
+                                  "anchoredPosition": [
+                                    90.4,
+                                    -32.6
+                                  ],
+                                  "sizeDelta": [
+                                    52.26,
+                                    67.0
+                                  ],
+                                  "anchorMin": [
+                                    0.5,
+                                    0.5
+                                  ],
+                                  "anchorMax": [
+                                    0.5,
+                                    0.5
+                                  ],
+                                  "pivot": [
+                                    0.5,
+                                    0.5
+                                  ],
+                                  "scale": [
+                                    1.0,
+                                    1.0
+                                  ]
+                                },
+                                {
+                                  "name": "img_e",
+                                  "active": true,
+                                  "sprite": "closure_e",
+                                  "anchoredPosition": [
+                                    141.3,
+                                    -32.6
+                                  ],
+                                  "sizeDelta": [
+                                    48.24,
+                                    65.66
+                                  ],
+                                  "anchorMin": [
+                                    0.5,
+                                    0.5
+                                  ],
+                                  "anchorMax": [
+                                    0.5,
+                                    0.5
+                                  ],
+                                  "pivot": [
+                                    0.5,
+                                    0.5
+                                  ],
+                                  "scale": [
+                                    1.0,
+                                    1.0
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "char_1",
+                          "active": true,
+                          "sprite": "c1_char",
+                          "anchoredPosition": [
+                            -337.3,
+                            16.2
+                          ],
+                          "sizeDelta": [
+                            1132.0,
+                            720.0
+                          ],
+                          "anchorMin": [
+                            0.5,
+                            0.5
+                          ],
+                          "anchorMax": [
+                            0.5,
+                            0.5
+                          ],
+                          "pivot": [
+                            0.5,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ],
+                          "children": [
+                            {
+                              "name": "char_1_black",
+                              "active": true,
+                              "anchoredPosition": [
+                                0.0,
+                                0.0
+                              ],
+                              "sizeDelta": [
+                                1132.0,
+                                720.0
+                              ],
+                              "anchorMin": [
+                                0.5,
+                                0.5
+                              ],
+                              "anchorMax": [
+                                0.5,
+                                0.5
+                              ],
+                              "pivot": [
+                                0.5,
+                                0.5
+                              ],
+                              "scale": [
+                                1.0,
+                                1.0
+                              ]
+                            },
+                            {
+                              "name": "char_1_copy",
+                              "active": true,
+                              "sprite": "c1_char",
+                              "anchoredPosition": [
+                                0.0,
+                                0.0
+                              ],
+                              "sizeDelta": [
+                                1132.0,
+                                720.0
+                              ],
+                              "anchorMin": [
+                                0.5,
+                                0.5
+                              ],
+                              "anchorMax": [
+                                0.5,
+                                0.5
+                              ],
+                              "pivot": [
+                                0.5,
+                                0.5
+                              ],
+                              "scale": [
+                                1.0,
+                                1.0
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "light_front",
+                          "active": true,
+                          "anchoredPosition": [
+                            0.0,
+                            0.0
+                          ],
+                          "sizeDelta": [
+                            0.0,
+                            0.0
+                          ],
+                          "anchorMin": [
+                            0.0,
+                            0.0
+                          ],
+                          "anchorMax": [
+                            1.0,
+                            1.0
+                          ],
+                          "pivot": [
+                            0.5,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ],
+                          "children": [
+                            {
+                              "name": "light_1",
+                              "active": true,
+                              "anchoredPosition": [
+                                501.0,
+                                324.0
+                              ],
+                              "sizeDelta": [
+                                1140.02,
+                                579.46
+                              ],
+                              "anchorMin": [
+                                0.5,
+                                0.5
+                              ],
+                              "anchorMax": [
+                                0.5,
+                                0.5
+                              ],
+                              "pivot": [
+                                0.5,
+                                0.5
+                              ],
+                              "scale": [
+                                1.0,
+                                1.0
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "c1_title_1",
+                          "active": true,
+                          "anchoredPosition": [
+                            359.7,
+                            87.0
+                          ],
+                          "sizeDelta": [
+                            211.0,
+                            25.0
+                          ],
+                          "anchorMin": [
+                            0.5,
+                            0.5
+                          ],
+                          "anchorMax": [
+                            0.5,
+                            0.5
+                          ],
+                          "pivot": [
+                            1.0,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ],
+                          "children": [
+                            {
+                              "name": "c1_title_1_copy",
+                              "active": true,
+                              "sprite": "c1_title_1",
+                              "anchoredPosition": [
+                                -106.0,
+                                0.0
+                              ],
+                              "sizeDelta": [
+                                211.0,
+                                25.0
+                              ],
+                              "anchorMin": [
+                                1.0,
+                                0.5
+                              ],
+                              "anchorMax": [
+                                1.0,
+                                0.5
+                              ],
+                              "pivot": [
+                                0.5,
+                                0.5
+                              ],
+                              "scale": [
+                                1.0,
+                                1.0
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "group_title_2",
+                          "active": true,
+                          "anchoredPosition": [
+                            0.0,
+                            0.0
+                          ],
+                          "sizeDelta": [
+                            0.0,
+                            0.0
+                          ],
+                          "anchorMin": [
+                            0.0,
+                            0.0
+                          ],
+                          "anchorMax": [
+                            1.0,
+                            1.0
+                          ],
+                          "pivot": [
+                            0.5,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ],
+                          "children": [
+                            {
+                              "name": "img_c",
+                              "active": true,
+                              "sprite": "closure_c",
+                              "anchoredPosition": [
+                                112.0,
+                                -297.0
+                              ],
+                              "sizeDelta": [
+                                97.0,
+                                102.0
+                              ],
+                              "anchorMin": [
+                                0.0,
+                                1.0
+                              ],
+                              "anchorMax": [
+                                0.0,
+                                1.0
+                              ],
+                              "pivot": [
+                                0.5,
+                                0.5
+                              ],
+                              "scale": [
+                                1.0,
+                                1.0
+                              ]
+                            },
+                            {
+                              "name": "img_l",
+                              "active": true,
+                              "sprite": "closure_l",
+                              "anchoredPosition": [
+                                245.0,
+                                -329.0
+                              ],
+                              "sizeDelta": [
+                                70.0,
+                                98.0
+                              ],
+                              "anchorMin": [
+                                0.0,
+                                1.0
+                              ],
+                              "anchorMax": [
+                                0.0,
+                                1.0
+                              ],
+                              "pivot": [
+                                0.5,
+                                0.5
+                              ],
+                              "scale": [
+                                1.0,
+                                1.0
+                              ]
+                            },
+                            {
+                              "name": "img_o",
+                              "active": true,
+                              "sprite": "closure_o",
+                              "anchoredPosition": [
+                                336.0,
+                                -330.5
+                              ],
+                              "sizeDelta": [
+                                103.0,
+                                102.0
+                              ],
+                              "anchorMin": [
+                                0.0,
+                                1.0
+                              ],
+                              "anchorMax": [
+                                0.0,
+                                1.0
+                              ],
+                              "pivot": [
+                                0.5,
+                                0.5
+                              ],
+                              "scale": [
+                                1.0,
+                                1.0
+                              ]
+                            },
+                            {
+                              "name": "img_s",
+                              "active": true,
+                              "sprite": "closure_s",
+                              "anchoredPosition": [
+                                389.0,
+                                -362.0
+                              ],
+                              "sizeDelta": [
+                                83.0,
+                                102.0
+                              ],
+                              "anchorMin": [
+                                0.0,
+                                1.0
+                              ],
+                              "anchorMax": [
+                                0.0,
+                                1.0
+                              ],
+                              "pivot": [
+                                0.5,
+                                0.5
+                              ],
+                              "scale": [
+                                1.0,
+                                1.0
+                              ]
+                            },
+                            {
+                              "name": "img_u",
+                              "active": true,
+                              "sprite": "closure_u",
+                              "anchoredPosition": [
+                                546.0,
+                                -385.0
+                              ],
+                              "sizeDelta": [
+                                86.0,
+                                100.0
+                              ],
+                              "anchorMin": [
+                                0.0,
+                                1.0
+                              ],
+                              "anchorMax": [
+                                0.0,
+                                1.0
+                              ],
+                              "pivot": [
+                                0.5,
+                                0.5
+                              ],
+                              "scale": [
+                                1.0,
+                                1.0
+                              ]
+                            },
+                            {
+                              "name": "img_r",
+                              "active": true,
+                              "sprite": "closure_r",
+                              "anchoredPosition": [
+                                649.0,
+                                -338.0
+                              ],
+                              "sizeDelta": [
+                                78.0,
+                                100.0
+                              ],
+                              "anchorMin": [
+                                0.0,
+                                1.0
+                              ],
+                              "anchorMax": [
+                                0.0,
+                                1.0
+                              ],
+                              "pivot": [
+                                0.5,
+                                0.5
+                              ],
+                              "scale": [
+                                1.0,
+                                1.0
+                              ]
+                            },
+                            {
+                              "name": "img_e",
+                              "active": true,
+                              "sprite": "closure_e",
+                              "anchoredPosition": [
+                                719.0,
+                                -338.0
+                              ],
+                              "sizeDelta": [
+                                72.0,
+                                98.0
+                              ],
+                              "anchorMin": [
+                                0.0,
+                                1.0
+                              ],
+                              "anchorMax": [
+                                0.0,
+                                1.0
+                              ],
+                              "pivot": [
+                                0.5,
+                                0.5
+                              ],
+                              "scale": [
+                                1.0,
+                                1.0
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "light_cover_01",
+                      "active": true,
+                      "anchoredPosition": [
+                        249.0,
+                        297.0
+                      ],
+                      "sizeDelta": [
+                        1775.4,
+                        1294.7
+                      ],
+                      "anchorMin": [
+                        0.5,
+                        0.5
+                      ],
+                      "anchorMax": [
+                        0.5,
+                        0.5
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ]
+                    },
+                    {
+                      "name": "light_cover_02",
+                      "active": true,
+                      "anchoredPosition": [
+                        -721.0,
+                        81.0
+                      ],
+                      "sizeDelta": [
+                        1543.0,
+                        1392.0
+                      ],
+                      "anchorMin": [
+                        0.5,
+                        0.5
+                      ],
+                      "anchorMax": [
+                        0.5,
+                        0.5
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ]
+                    },
+                    {
+                      "name": "light_cover_03",
+                      "active": true,
+                      "anchoredPosition": [
+                        -136.0,
+                        29.0
+                      ],
+                      "sizeDelta": [
+                        1971.0,
+                        1294.7
+                      ],
+                      "anchorMin": [
+                        0.5,
+                        0.5
+                      ],
+                      "anchorMax": [
+                        0.5,
+                        0.5
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ]
+                    },
+                    {
+                      "name": "light_cover_04",
+                      "active": true,
+                      "anchoredPosition": [
+                        21.0,
+                        -53.0
+                      ],
+                      "sizeDelta": [
+                        1366.7,
+                        1661.0
+                      ],
+                      "anchorMin": [
+                        0.5,
+                        0.5
+                      ],
+                      "anchorMax": [
+                        0.5,
+                        0.5
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "group_stay_back",
+                  "active": true,
+                  "anchoredPosition": [
+                    0.0,
+                    0.0
+                  ],
+                  "sizeDelta": [
+                    1182.0,
+                    608.0
+                  ],
+                  "anchorMin": [
+                    0.5,
+                    0.5
+                  ],
+                  "anchorMax": [
+                    0.5,
+                    0.5
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ],
+                  "children": [
+                    {
+                      "name": "bg_1",
+                      "active": true,
+                      "anchoredPosition": [
+                        0.0,
+                        0.0
+                      ],
+                      "sizeDelta": [
+                        0.0,
+                        0.0
+                      ],
+                      "anchorMin": [
+                        0.0,
+                        0.0
+                      ],
+                      "anchorMax": [
+                        1.0,
+                        1.0
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ]
+                    },
+                    {
+                      "name": "bg_2",
+                      "active": true,
+                      "anchoredPosition": [
+                        -352.0,
+                        0.0
+                      ],
+                      "sizeDelta": [
+                        680.0,
+                        950.0
+                      ],
+                      "anchorMin": [
+                        0.5,
+                        0.5
+                      ],
+                      "anchorMax": [
+                        0.5,
+                        0.5
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "SubPart",
+              "active": true,
+              "anchoredPosition": [
+                0.0,
+                0.0
+              ],
+              "sizeDelta": [
+                1182.0,
+                608.0
+              ],
+              "anchorMin": [
+                0.5,
+                0.5
+              ],
+              "anchorMax": [
+                0.5,
+                0.5
+              ],
+              "pivot": [
+                0.5,
+                0.5
+              ],
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "children": [
+                {
+                  "name": "char_holder",
+                  "active": true,
+                  "anchoredPosition": [
+                    0.0,
+                    0.0
+                  ],
+                  "sizeDelta": [
+                    2200.0,
+                    1230.0
+                  ],
+                  "anchorMin": [
+                    0.5,
+                    0.5
+                  ],
+                  "anchorMax": [
+                    0.5,
+                    0.5
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ],
+                  "children": [
+                    {
+                      "name": "mask_left",
+                      "active": true,
+                      "anchoredPosition": [
+                        10.0,
+                        0.0
+                      ],
+                      "sizeDelta": [
+                        1122.0,
+                        1230.0
+                      ],
+                      "anchorMin": [
+                        0.5,
+                        0.5
+                      ],
+                      "anchorMax": [
+                        0.5,
+                        0.5
+                      ],
+                      "pivot": [
+                        1.0,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ],
+                      "children": [
+                        {
+                          "name": "root_1",
+                          "active": true,
+                          "sprite": "char_1[#2]",
+                          "anchoredPosition": [
+                            0.0,
+                            20.4
+                          ],
+                          "sizeDelta": [
+                            877.97,
+                            964.53
+                          ],
+                          "anchorMin": [
+                            1.0,
+                            0.5
+                          ],
+                          "anchorMax": [
+                            1.0,
+                            0.5
+                          ],
+                          "pivot": [
+                            1.0,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "mask_right",
+                      "active": true,
+                      "anchoredPosition": [
+                        10.0,
+                        0.0
+                      ],
+                      "sizeDelta": [
+                        1088.0,
+                        1230.0
+                      ],
+                      "anchorMin": [
+                        0.5,
+                        0.5
+                      ],
+                      "anchorMax": [
+                        0.5,
+                        0.5
+                      ],
+                      "pivot": [
+                        0.0,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ],
+                      "children": [
+                        {
+                          "name": "root_2",
+                          "active": true,
+                          "sprite": "char_2[#2]",
+                          "anchoredPosition": [
+                            0.0,
+                            29.29
+                          ],
+                          "sizeDelta": [
+                            918.52,
+                            1012.86
+                          ],
+                          "anchorMin": [
+                            0.0,
+                            0.5
+                          ],
+                          "anchorMax": [
+                            0.0,
+                            0.5
+                          ],
+                          "pivot": [
+                            0.0,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "ui_particle",
+                  "active": false,
+                  "anchoredPosition": [
+                    0.0,
+                    0.0
+                  ],
+                  "sizeDelta": [
+                    0.0,
+                    0.0
+                  ],
+                  "anchorMin": [
+                    0.5,
+                    0.5
+                  ],
+                  "anchorMax": [
+                    0.5,
+                    0.5
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ],
+                  "children": [
+                    {
+                      "name": "cube",
+                      "active": true,
+                      "localPosition": [
+                        0.0,
+                        47.0
+                      ],
+                      "scale": [
+                        60.0,
+                        60.0
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "FrontPart",
+              "active": true,
+              "anchoredPosition": [
+                0.0,
+                0.0
+              ],
+              "sizeDelta": [
+                1182.0,
+                608.0
+              ],
+              "anchorMin": [
+                0.5,
+                0.5
+              ],
+              "anchorMax": [
+                0.5,
+                0.5
+              ],
+              "pivot": [
+                0.5,
+                0.5
+              ],
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "children": [
+                {
+                  "name": "group_title",
+                  "active": true,
+                  "anchoredPosition": [
+                    9.0,
+                    98.0
+                  ],
+                  "sizeDelta": [
+                    460.0,
+                    460.0
+                  ],
+                  "anchorMin": [
+                    0.5,
+                    0.5
+                  ],
+                  "anchorMax": [
+                    0.5,
+                    0.5
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ],
+                  "children": [
+                    {
+                      "name": "cross_line_03_back",
+                      "active": true,
+                      "sprite": "title_desc_cross_line_1",
+                      "anchoredPosition": [
+                        27.0,
+                        -101.2
+                      ],
+                      "sizeDelta": [
+                        40.0,
+                        171.0
+                      ],
+                      "anchorMin": [
+                        0.5,
+                        0.5
+                      ],
+                      "anchorMax": [
+                        0.5,
+                        0.5
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ]
+                    },
+                    {
+                      "name": "group_back",
+                      "active": true,
+                      "anchoredPosition": [
+                        0.0,
+                        0.0
+                      ],
+                      "sizeDelta": [
+                        0.0,
+                        0.0
+                      ],
+                      "anchorMin": [
+                        0.5,
+                        0.5
+                      ],
+                      "anchorMax": [
+                        0.5,
+                        0.5
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ],
+                      "children": [
+                        {
+                          "name": "bg_circle",
+                          "active": true,
+                          "sprite": "title_bg_circle",
+                          "anchoredPosition": [
+                            0.0,
+                            0.0
+                          ],
+                          "sizeDelta": [
+                            248.0,
+                            248.0
+                          ],
+                          "anchorMin": [
+                            0.5,
+                            0.5
+                          ],
+                          "anchorMax": [
+                            0.5,
+                            0.5
+                          ],
+                          "pivot": [
+                            0.5,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ]
+                        },
+                        {
+                          "name": "bg_circle_copy_1",
+                          "active": true,
+                          "sprite": "title_bg_circle",
+                          "anchoredPosition": [
+                            0.0,
+                            0.0
+                          ],
+                          "sizeDelta": [
+                            260.0,
+                            260.0
+                          ],
+                          "anchorMin": [
+                            0.5,
+                            0.5
+                          ],
+                          "anchorMax": [
+                            0.5,
+                            0.5
+                          ],
+                          "pivot": [
+                            0.5,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ]
+                        },
+                        {
+                          "name": "bg_circle_copy_2",
+                          "active": true,
+                          "sprite": "title_bg_circle",
+                          "anchoredPosition": [
+                            0.0,
+                            0.0
+                          ],
+                          "sizeDelta": [
+                            270.0,
+                            270.0
+                          ],
+                          "anchorMin": [
+                            0.5,
+                            0.5
+                          ],
+                          "anchorMax": [
+                            0.5,
+                            0.5
+                          ],
+                          "pivot": [
+                            0.5,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ]
+                        },
+                        {
+                          "name": "bg_circle_copy_3",
+                          "active": true,
+                          "sprite": "title_bg_circle",
+                          "anchoredPosition": [
+                            0.0,
+                            0.0
+                          ],
+                          "sizeDelta": [
+                            280.0,
+                            280.0
+                          ],
+                          "anchorMin": [
+                            0.5,
+                            0.5
+                          ],
+                          "anchorMax": [
+                            0.5,
+                            0.5
+                          ],
+                          "pivot": [
+                            0.5,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "line_back_1",
+                      "active": true,
+                      "sprite": "title_line_back_1",
+                      "anchoredPosition": [
+                        0.0,
+                        -12.0
+                      ],
+                      "sizeDelta": [
+                        24.0,
+                        445.0
+                      ],
+                      "anchorMin": [
+                        0.5,
+                        0.5
+                      ],
+                      "anchorMax": [
+                        0.5,
+                        0.5
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ]
+                    },
+                    {
+                      "name": "line_back_2",
+                      "active": true,
+                      "sprite": "title_line_back_2",
+                      "anchoredPosition": [
+                        -26.2,
+                        -12.0
+                      ],
+                      "sizeDelta": [
+                        22.0,
+                        233.0
+                      ],
+                      "anchorMin": [
+                        0.5,
+                        0.5
+                      ],
+                      "anchorMax": [
+                        0.5,
+                        0.5
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ]
+                    },
+                    {
+                      "name": "root_image",
+                      "active": true,
+                      "anchoredPosition": [
+                        0.0,
+                        -84.0
+                      ],
+                      "sizeDelta": [
+                        236.0,
+                        320.0
+                      ],
+                      "anchorMin": [
+                        0.5,
+                        0.5
+                      ],
+                      "anchorMax": [
+                        0.5,
+                        0.5
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ],
+                      "children": [
+                        {
+                          "name": "img_back",
+                          "active": true,
+                          "sprite": "title_main_image",
+                          "anchoredPosition": [
+                            0.0,
+                            0.0
+                          ],
+                          "sizeDelta": [
+                            236.0,
+                            320.0
+                          ],
+                          "anchorMin": [
+                            0.5,
+                            0.5
+                          ],
+                          "anchorMax": [
+                            0.5,
+                            0.5
+                          ],
+                          "pivot": [
+                            0.5,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ]
+                        },
+                        {
+                          "name": "cube_desc_1",
+                          "active": true,
+                          "anchoredPosition": [
+                            -52.0,
+                            106.0
+                          ],
+                          "sizeDelta": [
+                            23.0,
+                            23.0
+                          ],
+                          "anchorMin": [
+                            0.5,
+                            0.5
+                          ],
+                          "anchorMax": [
+                            0.5,
+                            0.5
+                          ],
+                          "pivot": [
+                            0.5,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ]
+                        },
+                        {
+                          "name": "line_front_color",
+                          "active": true,
+                          "sprite": "title_color_line",
+                          "anchoredPosition": [
+                            -12.0,
+                            159.0
+                          ],
+                          "sizeDelta": [
+                            52.0,
+                            312.0
+                          ],
+                          "anchorMin": [
+                            0.5,
+                            0.5
+                          ],
+                          "anchorMax": [
+                            0.5,
+                            0.5
+                          ],
+                          "pivot": [
+                            0.5,
+                            1.0
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ]
+                        },
+                        {
+                          "name": "img_gradient",
+                          "active": true,
+                          "sprite": "title_main_image_gradient",
+                          "anchoredPosition": [
+                            0.0,
+                            0.0
+                          ],
+                          "sizeDelta": [
+                            236.0,
+                            320.0
+                          ],
+                          "anchorMin": [
+                            0.5,
+                            0.5
+                          ],
+                          "anchorMax": [
+                            0.5,
+                            0.5
+                          ],
+                          "pivot": [
+                            0.5,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ]
+                        },
+                        {
+                          "name": "img_back_add",
+                          "active": true,
+                          "sprite": "title_main_image",
+                          "anchoredPosition": [
+                            0.0,
+                            0.0
+                          ],
+                          "sizeDelta": [
+                            236.0,
+                            320.0
+                          ],
+                          "anchorMin": [
+                            0.5,
+                            0.5
+                          ],
+                          "anchorMax": [
+                            0.5,
+                            0.5
+                          ],
+                          "pivot": [
+                            0.5,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ]
+                        },
+                        {
+                          "name": "img_outline",
+                          "active": true,
+                          "sprite": "title_main_image_outline",
+                          "anchoredPosition": [
+                            0.0,
+                            0.0
+                          ],
+                          "sizeDelta": [
+                            236.0,
+                            320.0
+                          ],
+                          "anchorMin": [
+                            0.5,
+                            0.5
+                          ],
+                          "anchorMax": [
+                            0.5,
+                            0.5
+                          ],
+                          "pivot": [
+                            0.5,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "group_front",
+                      "active": true,
+                      "anchoredPosition": [
+                        0.0,
+                        0.0
+                      ],
+                      "sizeDelta": [
+                        0.0,
+                        0.0
+                      ],
+                      "anchorMin": [
+                        0.5,
+                        0.5
+                      ],
+                      "anchorMax": [
+                        0.5,
+                        0.5
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ],
+                      "children": [
+                        {
+                          "name": "cube_desc_2",
+                          "active": true,
+                          "anchoredPosition": [
+                            116.8,
+                            68.2
+                          ],
+                          "sizeDelta": [
+                            10.0,
+                            10.0
+                          ],
+                          "anchorMin": [
+                            0.5,
+                            0.5
+                          ],
+                          "anchorMax": [
+                            0.5,
+                            0.5
+                          ],
+                          "pivot": [
+                            0.5,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ]
+                        },
+                        {
+                          "name": "cross_line_01",
+                          "active": true,
+                          "sprite": "title_desc_cross_line_1",
+                          "anchoredPosition": [
+                            -23.0,
+                            85.4
+                          ],
+                          "sizeDelta": [
+                            40.0,
+                            171.0
+                          ],
+                          "anchorMin": [
+                            0.5,
+                            0.5
+                          ],
+                          "anchorMax": [
+                            0.5,
+                            0.5
+                          ],
+                          "pivot": [
+                            0.5,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            -1.0
+                          ]
+                        },
+                        {
+                          "name": "root_desc_cross",
+                          "active": true,
+                          "anchoredPosition": [
+                            0.0,
+                            0.0
+                          ],
+                          "sizeDelta": [
+                            0.0,
+                            0.0
+                          ],
+                          "anchorMin": [
+                            0.5,
+                            0.5
+                          ],
+                          "anchorMax": [
+                            0.5,
+                            0.5
+                          ],
+                          "pivot": [
+                            0.5,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ],
+                          "children": [
+                            {
+                              "name": "cross_01",
+                              "active": true,
+                              "sprite": "title_desc_cross_blur_2",
+                              "anchoredPosition": [
+                                -50.0,
+                                -9.6
+                              ],
+                              "sizeDelta": [
+                                50.0,
+                                58.0
+                              ],
+                              "anchorMin": [
+                                0.5,
+                                0.5
+                              ],
+                              "anchorMax": [
+                                0.5,
+                                0.5
+                              ],
+                              "pivot": [
+                                0.5,
+                                0.5
+                              ],
+                              "scale": [
+                                1.0,
+                                1.0
+                              ]
+                            },
+                            {
+                              "name": "cross_line_02",
+                              "active": true,
+                              "sprite": "title_desc_cross_line_1",
+                              "anchoredPosition": [
+                                -50.0,
+                                -67.7
+                              ],
+                              "sizeDelta": [
+                                40.0,
+                                171.0
+                              ],
+                              "anchorMin": [
+                                0.5,
+                                0.5
+                              ],
+                              "anchorMax": [
+                                0.5,
+                                0.5
+                              ],
+                              "pivot": [
+                                0.5,
+                                0.5
+                              ],
+                              "scale": [
+                                1.0,
+                                1.0
+                              ]
+                            },
+                            {
+                              "name": "cross_line_04",
+                              "active": true,
+                              "sprite": "title_desc_cross_line_1",
+                              "anchoredPosition": [
+                                44.5,
+                                -140.6
+                              ],
+                              "sizeDelta": [
+                                40.0,
+                                171.0
+                              ],
+                              "anchorMin": [
+                                0.5,
+                                0.5
+                              ],
+                              "anchorMax": [
+                                0.5,
+                                0.5
+                              ],
+                              "pivot": [
+                                0.5,
+                                0.5
+                              ],
+                              "scale": [
+                                1.0,
+                                1.0
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "cross_line_03",
+                          "active": true,
+                          "sprite": "title_desc_cross_line_2",
+                          "anchoredPosition": [
+                            27.0,
+                            -101.2
+                          ],
+                          "sizeDelta": [
+                            40.0,
+                            171.0
+                          ],
+                          "anchorMin": [
+                            0.5,
+                            0.5
+                          ],
+                          "anchorMax": [
+                            0.5,
+                            0.5
+                          ],
+                          "pivot": [
+                            0.5,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ]
+                        },
+                        {
+                          "name": "sealed_with_time",
+                          "active": true,
+                          "sprite": "title_sealed_with_time",
+                          "anchoredPosition": [
+                            54.3,
+                            64.3
+                          ],
+                          "sizeDelta": [
+                            55.0,
+                            55.0
+                          ],
+                          "anchorMin": [
+                            0.5,
+                            0.5
+                          ],
+                          "anchorMax": [
+                            0.5,
+                            0.5
+                          ],
+                          "pivot": [
+                            0.5,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ]
+                        },
+                        {
+                          "name": "group_title_back",
+                          "active": true,
+                          "anchoredPosition": [
+                            0.0,
+                            0.0
+                          ],
+                          "sizeDelta": [
+                            300.0,
+                            300.0
+                          ],
+                          "anchorMin": [
+                            0.5,
+                            0.5
+                          ],
+                          "anchorMax": [
+                            0.5,
+                            0.5
+                          ],
+                          "pivot": [
+                            0.5,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ],
+                          "children": [
+                            {
+                              "name": "img_main_text_blur",
+                              "active": true,
+                              "sprite": "title_main_back_blur",
+                              "anchoredPosition": [
+                                0.0,
+                                -8.0
+                              ],
+                              "sizeDelta": [
+                                219.0,
+                                267.0
+                              ],
+                              "anchorMin": [
+                                0.5,
+                                0.5
+                              ],
+                              "anchorMax": [
+                                0.5,
+                                0.5
+                              ],
+                              "pivot": [
+                                0.5,
+                                0.5
+                              ],
+                              "scale": [
+                                1.0,
+                                1.0
+                              ]
+                            },
+                            {
+                              "name": "mask_1",
+                              "active": true,
+                              "anchoredPosition": [
+                                -52.5,
+                                18.06
+                              ],
+                              "sizeDelta": [
+                                30.6,
+                                15.38
+                              ],
+                              "anchorMin": [
+                                0.5,
+                                0.5
+                              ],
+                              "anchorMax": [
+                                0.5,
+                                0.5
+                              ],
+                              "pivot": [
+                                0.5,
+                                0.5
+                              ],
+                              "scale": [
+                                1.0,
+                                1.0
+                              ],
+                              "children": [
+                                {
+                                  "name": "img_main_text_blur",
+                                  "active": true,
+                                  "sprite": "title_main_back_blur",
+                                  "anchoredPosition": [
+                                    52.5,
+                                    -26.79
+                                  ],
+                                  "sizeDelta": [
+                                    219.0,
+                                    267.0
+                                  ],
+                                  "anchorMin": [
+                                    0.5,
+                                    0.5
+                                  ],
+                                  "anchorMax": [
+                                    0.5,
+                                    0.5
+                                  ],
+                                  "pivot": [
+                                    0.5,
+                                    0.5
+                                  ],
+                                  "scale": [
+                                    1.0,
+                                    1.0
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": "cube_desc_3",
+                              "active": true,
+                              "anchoredPosition": [
+                                -95.7,
+                                -108.2
+                              ],
+                              "sizeDelta": [
+                                23.0,
+                                23.0
+                              ],
+                              "anchorMin": [
+                                0.5,
+                                0.5
+                              ],
+                              "anchorMax": [
+                                0.5,
+                                0.5
+                              ],
+                              "pivot": [
+                                0.5,
+                                0.5
+                              ],
+                              "scale": [
+                                1.0,
+                                1.0
+                              ]
+                            },
+                            {
+                              "name": "mask_2",
+                              "active": true,
+                              "anchoredPosition": [
+                                5.6,
+                                111.0
+                              ],
+                              "sizeDelta": [
+                                190.0,
+                                230.0
+                              ],
+                              "anchorMin": [
+                                0.5,
+                                0.5
+                              ],
+                              "anchorMax": [
+                                0.5,
+                                0.5
+                              ],
+                              "pivot": [
+                                0.5,
+                                1.0
+                              ],
+                              "scale": [
+                                1.0,
+                                1.0
+                              ],
+                              "children": [
+                                {
+                                  "name": "img_line",
+                                  "active": true,
+                                  "sprite": "title_main_front_line",
+                                  "anchoredPosition": [
+                                    0.0,
+                                    -115.0
+                                  ],
+                                  "sizeDelta": [
+                                    190.0,
+                                    230.0
+                                  ],
+                                  "anchorMin": [
+                                    0.5,
+                                    1.0
+                                  ],
+                                  "anchorMax": [
+                                    0.5,
+                                    1.0
+                                  ],
+                                  "pivot": [
+                                    0.5,
+                                    0.5
+                                  ],
+                                  "scale": [
+                                    1.0,
+                                    1.0
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": "img_main_text",
+                              "active": true,
+                              "sprite": "title_main_front_text",
+                              "anchoredPosition": [
+                                0.0,
+                                0.0
+                              ],
+                              "sizeDelta": [
+                                220.0,
+                                264.0
+                              ],
+                              "anchorMin": [
+                                0.5,
+                                0.5
+                              ],
+                              "anchorMax": [
+                                0.5,
+                                0.5
+                              ],
+                              "pivot": [
+                                0.5,
+                                0.5
+                              ],
+                              "scale": [
+                                1.0,
+                                1.0
+                              ]
+                            },
+                            {
+                              "name": "img_main_text_lines",
+                              "active": true,
+                              "anchoredPosition": [
+                                0.0,
+                                12.8
+                              ],
+                              "sizeDelta": [
+                                224.0,
+                                300.0
+                              ],
+                              "anchorMin": [
+                                0.5,
+                                0.5
+                              ],
+                              "anchorMax": [
+                                0.5,
+                                0.5
+                              ],
+                              "pivot": [
+                                0.5,
+                                0.5
+                              ],
+                              "scale": [
+                                1.0,
+                                1.0
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "cross_02",
+                          "active": true,
+                          "sprite": "title_desc_cross_blur_1",
+                          "anchoredPosition": [
+                            70.2,
+                            -128.0
+                          ],
+                          "sizeDelta": [
+                            50.0,
+                            58.0
+                          ],
+                          "anchorMin": [
+                            0.5,
+                            0.5
+                          ],
+                          "anchorMax": [
+                            0.5,
+                            0.5
+                          ],
+                          "pivot": [
+                            0.5,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "root_title_main",
+                      "active": true,
+                      "anchoredPosition": [
+                        46.6,
+                        -35.0
+                      ],
+                      "sizeDelta": [
+                        0.0,
+                        0.0
+                      ],
+                      "anchorMin": [
+                        0.5,
+                        0.5
+                      ],
+                      "anchorMax": [
+                        0.5,
+                        0.5
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ],
+                      "children": [
+                        {
+                          "name": "main_img",
+                          "active": true,
+                          "sprite": "title_main",
+                          "anchoredPosition": [
+                            0.0,
+                            0.0
+                          ],
+                          "sizeDelta": [
+                            128.0,
+                            64.0
+                          ],
+                          "anchorMin": [
+                            0.5,
+                            0.5
+                          ],
+                          "anchorMax": [
+                            0.5,
+                            0.5
+                          ],
+                          "pivot": [
+                            0.5,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ]
+                        },
+                        {
+                          "name": "main_img_copy",
+                          "active": true,
+                          "sprite": "title_main",
+                          "anchoredPosition": [
+                            0.0,
+                            0.0
+                          ],
+                          "sizeDelta": [
+                            128.0,
+                            64.0
+                          ],
+                          "anchorMin": [
+                            0.5,
+                            0.5
+                          ],
+                          "anchorMax": [
+                            0.5,
+                            0.5
+                          ],
+                          "pivot": [
+                            0.5,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "fx_01",
+                      "active": true,
+                      "anchoredPosition": [
+                        104.9,
+                        -28.4
+                      ],
+                      "sizeDelta": [
+                        224.04,
+                        60.23
+                      ],
+                      "anchorMin": [
+                        0.5,
+                        0.5
+                      ],
+                      "anchorMax": [
+                        0.5,
+                        0.5
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "btn_view_char_01",
+                  "active": true,
+                  "anchoredPosition": [
+                    -414.0,
+                    0.0
+                  ],
+                  "sizeDelta": [
+                    280.0,
+                    100.0
+                  ],
+                  "anchorMin": [
+                    0.5,
+                    0.5
+                  ],
+                  "anchorMax": [
+                    0.5,
+                    0.5
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ],
+                  "children": [
+                    {
+                      "name": "name",
+                      "active": true,
+                      "sprite": "name1",
+                      "anchoredPosition": [
+                        0.0,
+                        0.0
+                      ],
+                      "sizeDelta": [
+                        259.0,
+                        97.0
+                      ],
+                      "anchorMin": [
+                        0.5,
+                        0.5
+                      ],
+                      "anchorMax": [
+                        0.5,
+                        0.5
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ]
+                    },
+                    {
+                      "name": "hotspot",
+                      "active": true,
+                      "anchoredPosition": [
+                        0.0,
+                        0.0
+                      ],
+                      "sizeDelta": [
+                        0.0,
+                        0.0
+                      ],
+                      "anchorMin": [
+                        0.0,
+                        0.0
+                      ],
+                      "anchorMax": [
+                        1.0,
+                        1.0
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "btn_view_char_02",
+                  "active": true,
+                  "anchoredPosition": [
+                    364.85,
+                    6.0
+                  ],
+                  "sizeDelta": [
+                    420.31,
+                    100.0
+                  ],
+                  "anchorMin": [
+                    0.5,
+                    0.5
+                  ],
+                  "anchorMax": [
+                    0.5,
+                    0.5
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ],
+                  "children": [
+                    {
+                      "name": "name",
+                      "active": true,
+                      "sprite": "name2",
+                      "anchoredPosition": [
+                        0.0,
+                        0.0
+                      ],
+                      "sizeDelta": [
+                        424.0,
+                        97.0
+                      ],
+                      "anchorMin": [
+                        0.5,
+                        0.5
+                      ],
+                      "anchorMax": [
+                        0.5,
+                        0.5
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ]
+                    },
+                    {
+                      "name": "hotspot",
+                      "active": true,
+                      "anchoredPosition": [
+                        0.0,
+                        0.0
+                      ],
+                      "sizeDelta": [
+                        0.0,
+                        0.0
+                      ],
+                      "anchorMin": [
+                        0.0,
+                        0.0
+                      ],
+                      "anchorMax": [
+                        1.0,
+                        1.0
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "UIPart",
+      "active": true,
+      "anchoredPosition": [
+        0.0,
+        0.0
+      ],
+      "sizeDelta": [
+        100.0,
+        100.0
+      ],
+      "anchorMin": [
+        0.5,
+        0.5
+      ],
+      "anchorMax": [
+        0.5,
+        0.5
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "children": [
+        {
+          "name": "group_pool_info",
+          "active": true,
+          "anchoredPosition": [
+            -316.64,
+            -192.79
+          ],
+          "sizeDelta": [
+            543.92,
+            218.52
+          ],
+          "anchorMin": [
+            0.5,
+            0.5
+          ],
+          "anchorMax": [
+            0.5,
+            0.5
+          ],
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "children": [
+            {
+              "name": "info_back",
+              "active": true,
+              "sprite": "pool_info_back",
+              "anchoredPosition": [
+                0.0,
+                0.0
+              ],
+              "sizeDelta": [
+                693.19,
+                378.4
+              ],
+              "anchorMin": [
+                0.5,
+                0.5
+              ],
+              "anchorMax": [
+                0.5,
+                0.5
+              ],
+              "pivot": [
+                0.5,
+                0.5
+              ],
+              "scale": [
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "btn_shop",
+              "active": true,
+              "anchoredPosition": [
+                -195.61,
+                22.98
+              ],
+              "sizeDelta": [
+                152.69,
+                172.56
+              ],
+              "anchorMin": [
+                0.5,
+                0.5
+              ],
+              "anchorMax": [
+                0.5,
+                0.5
+              ],
+              "pivot": [
+                0.5,
+                0.5
+              ],
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "children": [
+                {
+                  "name": "shard_back",
+                  "active": true,
+                  "sprite": "shard_bg",
+                  "anchoredPosition": [
+                    0.0,
+                    -10.8
+                  ],
+                  "sizeDelta": [
+                    128.0,
+                    136.0
+                  ],
+                  "anchorMin": [
+                    0.5,
+                    0.5
+                  ],
+                  "anchorMax": [
+                    0.5,
+                    0.5
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "name": "img_shard_item",
+                  "active": true,
+                  "anchoredPosition": [
+                    0.0,
+                    -5.3
+                  ],
+                  "sizeDelta": [
+                    128.0,
+                    128.0
+                  ],
+                  "anchorMin": [
+                    0.5,
+                    0.5
+                  ],
+                  "anchorMax": [
+                    0.5,
+                    0.5
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "name": "shard_count_back",
+                  "active": true,
+                  "sprite": "shard_back",
+                  "anchoredPosition": [
+                    0.0,
+                    -56.7
+                  ],
+                  "sizeDelta": [
+                    79.0,
+                    22.0
+                  ],
+                  "anchorMin": [
+                    0.5,
+                    0.5
+                  ],
+                  "anchorMax": [
+                    0.5,
+                    0.5
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "name": "shard_icon",
+                  "active": true,
+                  "sprite": "shard_icon",
+                  "anchoredPosition": [
+                    -21.4,
+                    -56.7
+                  ],
+                  "sizeDelta": [
+                    17.0,
+                    17.0
+                  ],
+                  "anchorMin": [
+                    0.5,
+                    0.5
+                  ],
+                  "anchorMax": [
+                    0.5,
+                    0.5
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "name": "text_shard_count",
+                  "active": true,
+                  "anchoredPosition": [
+                    14.6,
+                    -56.7
+                  ],
+                  "sizeDelta": [
+                    34.59,
+                    22.0
+                  ],
+                  "anchorMin": [
+                    0.5,
+                    0.5
+                  ],
+                  "anchorMax": [
+                    0.5,
+                    0.5
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "name": "shop_title_back",
+                  "active": true,
+                  "sprite": "shop_title_back",
+                  "anchoredPosition": [
+                    0.0,
+                    52.0
+                  ],
+                  "sizeDelta": [
+                    127.0,
+                    56.0
+                  ],
+                  "anchorMin": [
+                    0.5,
+                    0.5
+                  ],
+                  "anchorMax": [
+                    0.5,
+                    0.5
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "name": "text_shop",
+                  "active": true,
+                  "anchoredPosition": [
+                    0.0,
+                    52.15
+                  ],
+                  "sizeDelta": [
+                    99.64,
+                    28.89
+                  ],
+                  "anchorMin": [
+                    0.5,
+                    0.5
+                  ],
+                  "anchorMax": [
+                    0.5,
+                    0.5
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "name": "hotspot",
+                  "active": true,
+                  "anchoredPosition": [
+                    0.0,
+                    -2.88
+                  ],
+                  "sizeDelta": [
+                    115.0,
+                    151.84
+                  ],
+                  "anchorMin": [
+                    0.5,
+                    0.5
+                  ],
+                  "anchorMax": [
+                    0.5,
+                    0.5
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "limit_gacha_title",
+              "active": true,
+              "sprite": "limit_gacha_title",
+              "anchoredPosition": [
+                0.0,
+                75.0
+              ],
+              "sizeDelta": [
+                268.0,
+                63.0
+              ],
+              "anchorMin": [
+                0.5,
+                0.5
+              ],
+              "anchorMax": [
+                0.5,
+                0.5
+              ],
+              "pivot": [
+                0.5,
+                0.5
+              ],
+              "scale": [
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "up_title",
+              "active": true,
+              "sprite": "up_title",
+              "anchoredPosition": [
+                74.6,
+                14.91
+              ],
+              "sizeDelta": [
+                395.0,
+                96.0
+              ],
+              "anchorMin": [
+                0.5,
+                0.5
+              ],
+              "anchorMax": [
+                0.5,
+                0.5
+              ],
+              "pivot": [
+                0.5,
+                0.5
+              ],
+              "scale": [
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "group_end_time",
+              "active": true,
+              "anchoredPosition": [
+                -25.77,
+                -36.28
+              ],
+              "sizeDelta": [
+                186.99,
+                54.04
+              ],
+              "anchorMin": [
+                0.5,
+                0.5
+              ],
+              "anchorMax": [
+                0.5,
+                0.5
+              ],
+              "pivot": [
+                0.5,
+                0.5
+              ],
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "children": [
+                {
+                  "name": "end_time_signal",
+                  "active": true,
+                  "sprite": "time_limit_signal",
+                  "anchoredPosition": [
+                    -79.7,
+                    -2.3
+                  ],
+                  "sizeDelta": [
+                    22.0,
+                    7.0
+                  ],
+                  "anchorMin": [
+                    0.5,
+                    0.5
+                  ],
+                  "anchorMax": [
+                    0.5,
+                    0.5
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "name": "end_day_layout",
+                  "active": true,
+                  "anchoredPosition": [
+                    -63.18,
+                    -3.2
+                  ],
+                  "sizeDelta": [
+                    0.0,
+                    47.53
+                  ],
+                  "anchorMin": [
+                    0.5,
+                    0.5
+                  ],
+                  "anchorMax": [
+                    0.5,
+                    0.5
+                  ],
+                  "pivot": [
+                    0.0,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ],
+                  "children": [
+                    {
+                      "name": "text_end_month",
+                      "active": true,
+                      "anchoredPosition": [
+                        0.0,
+                        0.0
+                      ],
+                      "sizeDelta": [
+                        0.0,
+                        45.14
+                      ],
+                      "anchorMin": [
+                        0.0,
+                        0.0
+                      ],
+                      "anchorMax": [
+                        0.0,
+                        0.0
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ]
+                    },
+                    {
+                      "name": "end_time_split",
+                      "active": true,
+                      "sprite": "time_split_line",
+                      "anchoredPosition": [
+                        0.0,
+                        0.0
+                      ],
+                      "sizeDelta": [
+                        0.0,
+                        36.0
+                      ],
+                      "anchorMin": [
+                        0.0,
+                        0.0
+                      ],
+                      "anchorMax": [
+                        0.0,
+                        0.0
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ]
+                    },
+                    {
+                      "name": "text_end_day",
+                      "active": true,
+                      "anchoredPosition": [
+                        0.0,
+                        0.0
+                      ],
+                      "sizeDelta": [
+                        0.0,
+                        45.14
+                      ],
+                      "anchorMin": [
+                        0.0,
+                        0.0
+                      ],
+                      "anchorMax": [
+                        0.0,
+                        0.0
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ]
+                    },
+                    {
+                      "name": "group_end_time",
+                      "active": true,
+                      "anchoredPosition": [
+                        28.0,
+                        1.5
+                      ],
+                      "sizeDelta": [
+                        41.97,
+                        38.64
+                      ],
+                      "anchorMin": [
+                        1.0,
+                        0.5
+                      ],
+                      "anchorMax": [
+                        1.0,
+                        0.5
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ],
+                      "children": [
+                        {
+                          "name": "text_end_time",
+                          "active": true,
+                          "anchoredPosition": [
+                            0.0,
+                            8.7
+                          ],
+                          "sizeDelta": [
+                            41.97,
+                            17.4
+                          ],
+                          "anchorMin": [
+                            0.5,
+                            0.5
+                          ],
+                          "anchorMax": [
+                            0.5,
+                            0.5
+                          ],
+                          "pivot": [
+                            0.5,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ]
+                        },
+                        {
+                          "name": "text_end",
+                          "active": true,
+                          "anchoredPosition": [
+                            0.0,
+                            -9.66
+                          ],
+                          "sizeDelta": [
+                            41.97,
+                            19.32
+                          ],
+                          "anchorMin": [
+                            0.5,
+                            0.5
+                          ],
+                          "anchorMax": [
+                            0.5,
+                            0.5
+                          ],
+                          "pivot": [
+                            0.5,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "btn_view_detail",
+              "active": true,
+              "anchoredPosition": [
+                -187.63,
+                -86.28
+              ],
+              "sizeDelta": [
+                136.73,
+                45.96
+              ],
+              "anchorMin": [
+                0.5,
+                0.5
+              ],
+              "anchorMax": [
+                0.5,
+                0.5
+              ],
+              "pivot": [
+                0.5,
+                0.5
+              ],
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "children": [
+                {
+                  "name": "detail_icon",
+                  "active": true,
+                  "anchoredPosition": [
+                    -51.9,
+                    0.0
+                  ],
+                  "sizeDelta": [
+                    12.0,
+                    14.0
+                  ],
+                  "anchorMin": [
+                    0.5,
+                    0.5
+                  ],
+                  "anchorMax": [
+                    0.5,
+                    0.5
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "name": "text_shop",
+                  "active": true,
+                  "anchoredPosition": [
+                    11.5,
+                    1.3
+                  ],
+                  "sizeDelta": [
+                    99.64,
+                    28.89
+                  ],
+                  "anchorMin": [
+                    0.5,
+                    0.5
+                  ],
+                  "anchorMax": [
+                    0.5,
+                    0.5
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "name": "hotspot",
+                  "active": true,
+                  "anchoredPosition": [
+                    0.0,
+                    0.0
+                  ],
+                  "sizeDelta": [
+                    0.0,
+                    0.0
+                  ],
+                  "anchorMin": [
+                    0.0,
+                    0.0
+                  ],
+                  "anchorMax": [
+                    1.0,
+                    1.0
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "group_protect_gacha",
+          "active": true,
+          "anchoredPosition": [
+            365.3,
+            -139.2
+          ],
+          "sizeDelta": [
+            436.0,
+            95.0
+          ],
+          "anchorMin": [
+            0.5,
+            0.5
+          ],
+          "anchorMax": [
+            0.5,
+            0.5
+          ],
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "children": [
+            {
+              "name": "protect_gacha_text",
+              "active": true,
+              "sprite": "protect_gacha_text",
+              "anchoredPosition": [
+                0.0,
+                0.0
+              ],
+              "sizeDelta": [
+                436.0,
+                95.0
+              ],
+              "anchorMin": [
+                0.5,
+                0.5
+              ],
+              "anchorMax": [
+                0.5,
+                0.5
+              ],
+              "pivot": [
+                0.5,
+                0.5
+              ],
+              "scale": [
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "text_protect_countdown",
+              "active": true,
+              "anchoredPosition": [
+                -155.0,
+                1.5
+              ],
+              "sizeDelta": [
+                36.02,
+                45.14
+              ],
+              "anchorMin": [
+                0.5,
+                0.5
+              ],
+              "anchorMax": [
+                0.5,
+                0.5
+              ],
+              "pivot": [
+                0.5,
+                0.5
+              ],
+              "scale": [
+                1.0,
+                1.0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "group_gacha",
+          "active": true,
+          "anchoredPosition": [
+            365.3,
+            -244.82
+          ],
+          "sizeDelta": [
+            436.0,
+            166.63
+          ],
+          "anchorMin": [
+            0.5,
+            0.5
+          ],
+          "anchorMax": [
+            0.5,
+            0.5
+          ],
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "children": [
+            {
+              "name": "gacha_back_gradient",
+              "active": true,
+              "anchoredPosition": [
+                -5.83,
+                56.76
+              ],
+              "sizeDelta": [
+                400.72,
+                67.1
+              ],
+              "anchorMin": [
+                0.5,
+                0.5
+              ],
+              "anchorMax": [
+                0.5,
+                0.5
+              ],
+              "pivot": [
+                0.5,
+                0.5
+              ],
+              "scale": [
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "group_free_cd",
+              "active": true,
+              "anchoredPosition": [
+                -206.19,
+                -59.0
+              ],
+              "sizeDelta": [
+                0.0,
+                43.0
+              ],
+              "anchorMin": [
+                0.5,
+                0.5
+              ],
+              "anchorMax": [
+                0.5,
+                0.5
+              ],
+              "pivot": [
+                0.0,
+                0.5
+              ],
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "children": [
+                {
+                  "name": "cd_back",
+                  "active": true,
+                  "sprite": "cd_waiting_bg",
+                  "anchoredPosition": [
+                    0.0,
+                    0.0
+                  ],
+                  "sizeDelta": [
+                    40.0,
+                    0.0
+                  ],
+                  "anchorMin": [
+                    0.0,
+                    0.0
+                  ],
+                  "anchorMax": [
+                    1.0,
+                    1.0
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "name": "text_next_free",
+                  "active": true,
+                  "anchoredPosition": [
+                    0.0,
+                    0.0
+                  ],
+                  "sizeDelta": [
+                    0.0,
+                    30.0
+                  ],
+                  "anchorMin": [
+                    0.0,
+                    0.0
+                  ],
+                  "anchorMax": [
+                    0.0,
+                    0.0
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "name": "timer",
+                  "active": true,
+                  "sprite": "timer",
+                  "anchoredPosition": [
+                    0.0,
+                    0.0
+                  ],
+                  "sizeDelta": [
+                    0.0,
+                    17.0
+                  ],
+                  "anchorMin": [
+                    0.0,
+                    0.0
+                  ],
+                  "anchorMax": [
+                    0.0,
+                    0.0
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "name": "text_cd_time",
+                  "active": true,
+                  "anchoredPosition": [
+                    0.0,
+                    0.0
+                  ],
+                  "sizeDelta": [
+                    0.0,
+                    30.0
+                  ],
+                  "anchorMin": [
+                    0.0,
+                    0.0
+                  ],
+                  "anchorMax": [
+                    0.0,
+                    0.0
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "btn_gacha_1",
+              "active": true,
+              "anchoredPosition": [
+                -105.27,
+                -6.9
+              ],
+              "sizeDelta": [
+                201.86,
+                82.1
+              ],
+              "anchorMin": [
+                0.5,
+                0.5
+              ],
+              "anchorMax": [
+                0.5,
+                0.5
+              ],
+              "pivot": [
+                0.5,
+                0.5
+              ],
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "children": [
+                {
+                  "name": "use_diamond",
+                  "active": true,
+                  "anchoredPosition": [
+                    -21.22,
+                    56.03
+                  ],
+                  "sizeDelta": [
+                    159.4,
+                    51.26
+                  ],
+                  "anchorMin": [
+                    0.5,
+                    0.5
+                  ],
+                  "anchorMax": [
+                    0.5,
+                    0.5
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ],
+                  "children": [
+                    {
+                      "name": "img_diamond",
+                      "active": true,
+                      "anchoredPosition": [
+                        -47.24,
+                        -6.9
+                      ],
+                      "sizeDelta": [
+                        67.0,
+                        71.0
+                      ],
+                      "anchorMin": [
+                        0.5,
+                        0.5
+                      ],
+                      "anchorMax": [
+                        0.5,
+                        0.5
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ]
+                    },
+                    {
+                      "name": "text_use_count",
+                      "active": true,
+                      "anchoredPosition": [
+                        32.09,
+                        4.09
+                      ],
+                      "sizeDelta": [
+                        95.21,
+                        43.08
+                      ],
+                      "anchorMin": [
+                        0.5,
+                        0.5
+                      ],
+                      "anchorMax": [
+                        0.5,
+                        0.5
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "use_tk",
+                  "active": true,
+                  "anchoredPosition": [
+                    -21.22,
+                    56.03
+                  ],
+                  "sizeDelta": [
+                    159.4,
+                    51.26
+                  ],
+                  "anchorMin": [
+                    0.5,
+                    0.5
+                  ],
+                  "anchorMax": [
+                    0.5,
+                    0.5
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ],
+                  "children": [
+                    {
+                      "name": "img_tk",
+                      "active": true,
+                      "anchoredPosition": [
+                        -47.24,
+                        -13.0
+                      ],
+                      "sizeDelta": [
+                        62.3,
+                        46.29
+                      ],
+                      "anchorMin": [
+                        0.5,
+                        0.5
+                      ],
+                      "anchorMax": [
+                        0.5,
+                        0.5
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ]
+                    },
+                    {
+                      "name": "text_use_count",
+                      "active": true,
+                      "anchoredPosition": [
+                        32.09,
+                        4.09
+                      ],
+                      "sizeDelta": [
+                        95.21,
+                        43.08
+                      ],
+                      "anchorMin": [
+                        0.5,
+                        0.5
+                      ],
+                      "anchorMax": [
+                        0.5,
+                        0.5
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "gacha_back",
+                  "active": true,
+                  "sprite": "btn_gacha",
+                  "anchoredPosition": [
+                    0.0,
+                    -8.1
+                  ],
+                  "sizeDelta": [
+                    217.0,
+                    77.0
+                  ],
+                  "anchorMin": [
+                    0.5,
+                    0.5
+                  ],
+                  "anchorMax": [
+                    0.5,
+                    0.5
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "name": "text_gacha_1",
+                  "active": true,
+                  "anchoredPosition": [
+                    -1.28,
+                    1.24
+                  ],
+                  "sizeDelta": [
+                    179.83,
+                    52.31
+                  ],
+                  "anchorMin": [
+                    0.5,
+                    0.5
+                  ],
+                  "anchorMax": [
+                    0.5,
+                    0.5
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "name": "hotspot",
+                  "active": true,
+                  "anchoredPosition": [
+                    0.0,
+                    0.0
+                  ],
+                  "sizeDelta": [
+                    0.0,
+                    0.0
+                  ],
+                  "anchorMin": [
+                    0.0,
+                    0.0
+                  ],
+                  "anchorMax": [
+                    1.0,
+                    1.0
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "btn_gacha_1_free",
+              "active": false,
+              "anchoredPosition": [
+                -105.27,
+                -6.9
+              ],
+              "sizeDelta": [
+                201.86,
+                82.1
+              ],
+              "anchorMin": [
+                0.5,
+                0.5
+              ],
+              "anchorMax": [
+                0.5,
+                0.5
+              ],
+              "pivot": [
+                0.5,
+                0.5
+              ],
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "children": [
+                {
+                  "name": "gacha_back",
+                  "active": true,
+                  "sprite": "btn_gacha_free",
+                  "anchoredPosition": [
+                    0.0,
+                    -7.6
+                  ],
+                  "sizeDelta": [
+                    218.0,
+                    78.0
+                  ],
+                  "anchorMin": [
+                    0.5,
+                    0.5
+                  ],
+                  "anchorMax": [
+                    0.5,
+                    0.5
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "name": "gacha_outlight",
+                  "active": true,
+                  "sprite": "btn_gacha_free_outlight",
+                  "anchoredPosition": [
+                    0.0,
+                    1.97
+                  ],
+                  "sizeDelta": [
+                    237.49,
+                    97.97
+                  ],
+                  "anchorMin": [
+                    0.5,
+                    0.5
+                  ],
+                  "anchorMax": [
+                    0.5,
+                    0.5
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "name": "text_free_gacha_1",
+                  "active": true,
+                  "anchoredPosition": [
+                    -1.28,
+                    1.24
+                  ],
+                  "sizeDelta": [
+                    179.83,
+                    52.31
+                  ],
+                  "anchorMin": [
+                    0.5,
+                    0.5
+                  ],
+                  "anchorMax": [
+                    0.5,
+                    0.5
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "name": "use_free_tk",
+                  "active": true,
+                  "anchoredPosition": [
+                    -21.22,
+                    56.03
+                  ],
+                  "sizeDelta": [
+                    159.4,
+                    51.26
+                  ],
+                  "anchorMin": [
+                    0.5,
+                    0.5
+                  ],
+                  "anchorMax": [
+                    0.5,
+                    0.5
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ],
+                  "children": [
+                    {
+                      "name": "img_tk_free",
+                      "active": true,
+                      "sprite": "gacha_tk_free",
+                      "anchoredPosition": [
+                        -34.0,
+                        -1.87
+                      ],
+                      "sizeDelta": [
+                        68.0,
+                        55.0
+                      ],
+                      "anchorMin": [
+                        0.5,
+                        0.5
+                      ],
+                      "anchorMax": [
+                        0.5,
+                        0.5
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ]
+                    },
+                    {
+                      "name": "free_time_back",
+                      "active": true,
+                      "sprite": "cd_now_bg",
+                      "anchoredPosition": [
+                        48.99,
+                        -6.87
+                      ],
+                      "sizeDelta": [
+                        129.0,
+                        65.0
+                      ],
+                      "anchorMin": [
+                        0.5,
+                        0.5
+                      ],
+                      "anchorMax": [
+                        0.5,
+                        0.5
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ]
+                    },
+                    {
+                      "name": "text_use_count",
+                      "active": true,
+                      "anchoredPosition": [
+                        61.3,
+                        0.0
+                      ],
+                      "sizeDelta": [
+                        61.52,
+                        29.51
+                      ],
+                      "anchorMin": [
+                        0.5,
+                        0.5
+                      ],
+                      "anchorMax": [
+                        0.5,
+                        0.5
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ]
+                    },
+                    {
+                      "name": "fx_tk_free_light",
+                      "active": true,
+                      "anchoredPosition": [
+                        -35.2,
+                        0.0
+                      ],
+                      "sizeDelta": [
+                        100.0,
+                        100.0
+                      ],
+                      "anchorMin": [
+                        0.5,
+                        0.5
+                      ],
+                      "anchorMax": [
+                        0.5,
+                        0.5
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ],
+                      "children": [
+                        {
+                          "name": "stencil_1",
+                          "active": true,
+                          "anchoredPosition": [
+                            0.8,
+                            0.0
+                          ],
+                          "sizeDelta": [
+                            45.1,
+                            28.97
+                          ],
+                          "anchorMin": [
+                            0.5,
+                            0.5
+                          ],
+                          "anchorMax": [
+                            0.5,
+                            0.5
+                          ],
+                          "pivot": [
+                            0.5,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ]
+                        },
+                        {
+                          "name": "stencil_2",
+                          "active": true,
+                          "anchoredPosition": [
+                            0.0,
+                            -12.91
+                          ],
+                          "sizeDelta": [
+                            31.2,
+                            9.69
+                          ],
+                          "anchorMin": [
+                            0.5,
+                            0.5
+                          ],
+                          "anchorMax": [
+                            0.5,
+                            0.5
+                          ],
+                          "pivot": [
+                            0.5,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ]
+                        },
+                        {
+                          "name": "light",
+                          "active": true,
+                          "sprite": "gacha_tk_free_light",
+                          "anchoredPosition": [
+                            19.0,
+                            1.3
+                          ],
+                          "sizeDelta": [
+                            68.0,
+                            64.96
+                          ],
+                          "anchorMin": [
+                            0.5,
+                            0.5
+                          ],
+                          "anchorMax": [
+                            0.5,
+                            0.5
+                          ],
+                          "pivot": [
+                            0.5,
+                            0.5
+                          ],
+                          "scale": [
+                            1.0,
+                            1.0
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "hotspot",
+                  "active": true,
+                  "anchoredPosition": [
+                    0.0,
+                    0.0
+                  ],
+                  "sizeDelta": [
+                    0.0,
+                    0.0
+                  ],
+                  "anchorMin": [
+                    0.0,
+                    0.0
+                  ],
+                  "anchorMax": [
+                    1.0,
+                    1.0
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "btn_gacha_10",
+              "active": true,
+              "anchoredPosition": [
+                93.6,
+                -6.9
+              ],
+              "sizeDelta": [
+                201.86,
+                82.1
+              ],
+              "anchorMin": [
+                0.5,
+                0.5
+              ],
+              "anchorMax": [
+                0.5,
+                0.5
+              ],
+              "pivot": [
+                0.5,
+                0.5
+              ],
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "children": [
+                {
+                  "name": "use_diamond",
+                  "active": false,
+                  "anchoredPosition": [
+                    -21.22,
+                    56.03
+                  ],
+                  "sizeDelta": [
+                    159.4,
+                    51.26
+                  ],
+                  "anchorMin": [
+                    0.5,
+                    0.5
+                  ],
+                  "anchorMax": [
+                    0.5,
+                    0.5
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ],
+                  "children": [
+                    {
+                      "name": "img_diamond",
+                      "active": true,
+                      "anchoredPosition": [
+                        -47.24,
+                        -6.9
+                      ],
+                      "sizeDelta": [
+                        67.0,
+                        71.0
+                      ],
+                      "anchorMin": [
+                        0.5,
+                        0.5
+                      ],
+                      "anchorMax": [
+                        0.5,
+                        0.5
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ]
+                    },
+                    {
+                      "name": "text_use_count",
+                      "active": true,
+                      "anchoredPosition": [
+                        32.09,
+                        4.09
+                      ],
+                      "sizeDelta": [
+                        95.21,
+                        43.08
+                      ],
+                      "anchorMin": [
+                        0.5,
+                        0.5
+                      ],
+                      "anchorMax": [
+                        0.5,
+                        0.5
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "use_limit_10_tk",
+                  "active": false,
+                  "anchoredPosition": [
+                    -21.22,
+                    56.03
+                  ],
+                  "sizeDelta": [
+                    159.4,
+                    51.26
+                  ],
+                  "anchorMin": [
+                    0.5,
+                    0.5
+                  ],
+                  "anchorMax": [
+                    0.5,
+                    0.5
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ],
+                  "children": [
+                    {
+                      "name": "img_tk",
+                      "active": true,
+                      "sprite": "tkt",
+                      "anchoredPosition": [
+                        -47.0,
+                        -4.0
+                      ],
+                      "sizeDelta": [
+                        55.0,
+                        45.0
+                      ],
+                      "anchorMin": [
+                        0.5,
+                        0.5
+                      ],
+                      "anchorMax": [
+                        0.5,
+                        0.5
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ]
+                    },
+                    {
+                      "name": "text_use_count",
+                      "active": true,
+                      "anchoredPosition": [
+                        32.09,
+                        4.09
+                      ],
+                      "sizeDelta": [
+                        95.21,
+                        43.08
+                      ],
+                      "anchorMin": [
+                        0.5,
+                        0.5
+                      ],
+                      "anchorMax": [
+                        0.5,
+                        0.5
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "use_10_tk",
+                  "active": false,
+                  "anchoredPosition": [
+                    -21.22,
+                    56.03
+                  ],
+                  "sizeDelta": [
+                    159.4,
+                    51.26
+                  ],
+                  "anchorMin": [
+                    0.5,
+                    0.5
+                  ],
+                  "anchorMax": [
+                    0.5,
+                    0.5
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ],
+                  "children": [
+                    {
+                      "name": "img_tk",
+                      "active": true,
+                      "anchoredPosition": [
+                        -47.0,
+                        -4.0
+                      ],
+                      "sizeDelta": [
+                        55.0,
+                        45.0
+                      ],
+                      "anchorMin": [
+                        0.5,
+                        0.5
+                      ],
+                      "anchorMax": [
+                        0.5,
+                        0.5
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ]
+                    },
+                    {
+                      "name": "text_use_count",
+                      "active": true,
+                      "anchoredPosition": [
+                        32.09,
+                        4.09
+                      ],
+                      "sizeDelta": [
+                        95.21,
+                        43.08
+                      ],
+                      "anchorMin": [
+                        0.5,
+                        0.5
+                      ],
+                      "anchorMax": [
+                        0.5,
+                        0.5
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "gacha_back",
+                  "active": true,
+                  "sprite": "btn_10_gacha",
+                  "anchoredPosition": [
+                    0.0,
+                    -8.1
+                  ],
+                  "sizeDelta": [
+                    217.0,
+                    77.0
+                  ],
+                  "anchorMin": [
+                    0.5,
+                    0.5
+                  ],
+                  "anchorMax": [
+                    0.5,
+                    0.5
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "name": "text_gacha_10",
+                  "active": true,
+                  "anchoredPosition": [
+                    -1.28,
+                    1.24
+                  ],
+                  "sizeDelta": [
+                    179.83,
+                    52.31
+                  ],
+                  "anchorMin": [
+                    0.5,
+                    0.5
+                  ],
+                  "anchorMax": [
+                    0.5,
+                    0.5
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "name": "hotspot",
+                  "active": true,
+                  "anchoredPosition": [
+                    0.0,
+                    0.0
+                  ],
+                  "sizeDelta": [
+                    0.0,
+                    0.0
+                  ],
+                  "anchorMin": [
+                    0.0,
+                    0.0
+                  ],
+                  "anchorMax": [
+                    1.0,
+                    1.0
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "recruit_free_char",
+          "active": true,
+          "anchoredPosition": [
+            -17.2,
+            -259.04
+          ],
+          "sizeDelta": [
+            320.0,
+            114.0
+          ],
+          "anchorMin": [
+            0.5,
+            0.5
+          ],
+          "anchorMax": [
+            0.5,
+            0.5
+          ],
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "scale": [
+            1.0,
+            1.0
+          ],
+          "children": [
+            {
+              "name": "before_recruit",
+              "active": true,
+              "anchoredPosition": [
+                0.0,
+                0.0
+              ],
+              "sizeDelta": [
+                0.0,
+                0.0
+              ],
+              "anchorMin": [
+                0.0,
+                0.0
+              ],
+              "anchorMax": [
+                1.0,
+                1.0
+              ],
+              "pivot": [
+                0.5,
+                0.5
+              ],
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "children": [
+                {
+                  "name": "free_char_bg",
+                  "active": true,
+                  "sprite": "free_char_bg",
+                  "anchoredPosition": [
+                    -60.0,
+                    -4.0
+                  ],
+                  "sizeDelta": [
+                    283.0,
+                    56.0
+                  ],
+                  "anchorMin": [
+                    0.5,
+                    0.5
+                  ],
+                  "anchorMax": [
+                    0.5,
+                    0.5
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "name": "free_char_count_bg",
+                  "active": true,
+                  "sprite": "free_char_count_bg",
+                  "anchoredPosition": [
+                    -60.0,
+                    -4.5
+                  ],
+                  "sizeDelta": [
+                    255.0,
+                    30.0
+                  ],
+                  "anchorMin": [
+                    0.5,
+                    0.5
+                  ],
+                  "anchorMax": [
+                    0.5,
+                    0.5
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ],
+                  "children": [
+                    {
+                      "name": "count",
+                      "active": true,
+                      "anchoredPosition": [
+                        -46.0,
+                        1.0
+                      ],
+                      "sizeDelta": [
+                        69.0,
+                        -2.0
+                      ],
+                      "anchorMin": [
+                        0.5,
+                        0.0
+                      ],
+                      "anchorMax": [
+                        0.5,
+                        1.0
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "free_only_once",
+                  "active": true,
+                  "sprite": "free_only_once",
+                  "anchoredPosition": [
+                    -30.0,
+                    20.0
+                  ],
+                  "sizeDelta": [
+                    96.0,
+                    34.0
+                  ],
+                  "anchorMin": [
+                    0.5,
+                    0.5
+                  ],
+                  "anchorMax": [
+                    0.5,
+                    0.5
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "to_recruit",
+              "active": true,
+              "anchoredPosition": [
+                0.0,
+                0.0
+              ],
+              "sizeDelta": [
+                0.0,
+                0.0
+              ],
+              "anchorMin": [
+                0.0,
+                0.0
+              ],
+              "anchorMax": [
+                1.0,
+                1.0
+              ],
+              "pivot": [
+                0.5,
+                0.5
+              ],
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "children": [
+                {
+                  "name": "recruit_btn",
+                  "active": true,
+                  "anchoredPosition": [
+                    44.0,
+                    1.0
+                  ],
+                  "sizeDelta": [
+                    225.0,
+                    110.0
+                  ],
+                  "anchorMin": [
+                    0.5,
+                    0.5
+                  ],
+                  "anchorMax": [
+                    0.5,
+                    0.5
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ],
+                  "children": [
+                    {
+                      "name": "btn_img",
+                      "active": true,
+                      "sprite": "free_recruit_btn",
+                      "anchoredPosition": [
+                        -32.0,
+                        0.0
+                      ],
+                      "sizeDelta": [
+                        164.0,
+                        64.0
+                      ],
+                      "anchorMin": [
+                        0.5,
+                        0.5
+                      ],
+                      "anchorMax": [
+                        0.5,
+                        0.5
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "panel_free_char",
+              "active": true,
+              "anchoredPosition": [
+                0.0,
+                0.0
+              ],
+              "sizeDelta": [
+                98.0,
+                0.0
+              ],
+              "anchorMin": [
+                1.0,
+                0.0
+              ],
+              "anchorMax": [
+                1.0,
+                1.0
+              ],
+              "pivot": [
+                1.0,
+                0.5
+              ],
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "children": [
+                {
+                  "name": "group_light_effect",
+                  "active": true,
+                  "anchoredPosition": [
+                    -6.0,
+                    8.0
+                  ],
+                  "sizeDelta": [
+                    208.0,
+                    188.0
+                  ],
+                  "anchorMin": [
+                    0.5,
+                    0.5
+                  ],
+                  "anchorMax": [
+                    0.5,
+                    0.5
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ],
+                  "children": [
+                    {
+                      "name": "light_effect_base",
+                      "active": true,
+                      "anchoredPosition": [
+                        0.0,
+                        0.0
+                      ],
+                      "sizeDelta": [
+                        208.0,
+                        188.0
+                      ],
+                      "anchorMin": [
+                        0.5,
+                        0.5
+                      ],
+                      "anchorMax": [
+                        0.5,
+                        0.5
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ]
+                    },
+                    {
+                      "name": "light_effect_solid_flow",
+                      "active": true,
+                      "anchoredPosition": [
+                        6.0,
+                        -8.0
+                      ],
+                      "sizeDelta": [
+                        151.2,
+                        267.8
+                      ],
+                      "anchorMin": [
+                        0.5,
+                        0.5
+                      ],
+                      "anchorMax": [
+                        0.5,
+                        0.5
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ]
+                    },
+                    {
+                      "name": "light_effect_halftone_flow",
+                      "active": true,
+                      "anchoredPosition": [
+                        6.0,
+                        -8.0
+                      ],
+                      "sizeDelta": [
+                        151.17,
+                        247.3
+                      ],
+                      "anchorMin": [
+                        0.5,
+                        0.5
+                      ],
+                      "anchorMax": [
+                        0.5,
+                        0.5
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "free_char_border",
+                  "active": true,
+                  "anchoredPosition": [
+                    0.0,
+                    0.0
+                  ],
+                  "sizeDelta": [
+                    98.0,
+                    114.0
+                  ],
+                  "anchorMin": [
+                    0.5,
+                    0.5
+                  ],
+                  "anchorMax": [
+                    0.5,
+                    0.5
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "name": "image_char_avatar",
+                  "active": true,
+                  "anchoredPosition": [
+                    -14.2,
+                    11.2
+                  ],
+                  "sizeDelta": [
+                    57.5,
+                    57.5
+                  ],
+                  "anchorMin": [
+                    0.5,
+                    0.5
+                  ],
+                  "anchorMax": [
+                    0.5,
+                    0.5
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "name": "free_recruit_icon",
+                  "active": true,
+                  "anchoredPosition": [
+                    18.7,
+                    -17.5
+                  ],
+                  "sizeDelta": [
+                    36.0,
+                    38.0
+                  ],
+                  "anchorMin": [
+                    0.5,
+                    0.5
+                  ],
+                  "anchorMax": [
+                    0.5,
+                    0.5
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "after_recruit",
+              "active": true,
+              "anchoredPosition": [
+                0.0,
+                0.0
+              ],
+              "sizeDelta": [
+                0.0,
+                0.0
+              ],
+              "anchorMin": [
+                0.0,
+                0.0
+              ],
+              "anchorMax": [
+                1.0,
+                1.0
+              ],
+              "pivot": [
+                0.5,
+                0.5
+              ],
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "children": [
+                {
+                  "name": "recruited",
+                  "active": true,
+                  "anchoredPosition": [
+                    98.0,
+                    0.0
+                  ],
+                  "sizeDelta": [
+                    63.0,
+                    78.0
+                  ],
+                  "anchorMin": [
+                    0.5,
+                    0.5
+                  ],
+                  "anchorMax": [
+                    0.5,
+                    0.5
+                  ],
+                  "pivot": [
+                    0.5,
+                    0.5
+                  ],
+                  "scale": [
+                    1.0,
+                    1.0
+                  ],
+                  "children": [
+                    {
+                      "name": "const_text",
+                      "active": true,
+                      "anchoredPosition": [
+                        0.0,
+                        -29.5
+                      ],
+                      "sizeDelta": [
+                        63.0,
+                        19.15
+                      ],
+                      "anchorMin": [
+                        0.5,
+                        0.5
+                      ],
+                      "anchorMax": [
+                        0.5,
+                        0.5
+                      ],
+                      "pivot": [
+                        0.5,
+                        0.5
+                      ],
+                      "scale": [
+                        1.0,
+                        1.0
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ForwardPlugin",
+          "active": true,
+          "anchoredPosition": [
+            0.0,
+            0.0
+          ],
+          "sizeDelta": [
+            100.0,
+            100.0
+          ],
+          "anchorMin": [
+            0.5,
+            0.5
+          ],
+          "anchorMax": [
+            0.5,
+            0.5
+          ],
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "scale": [
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    }
+  ]
+}

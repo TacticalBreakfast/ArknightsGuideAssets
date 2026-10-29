@@ -1,0 +1,86 @@
+{
+  "name": "limit_time_obj",
+  "active": true,
+  "anchoredPosition": [
+    -2.7,
+    -0.7
+  ],
+  "sizeDelta": [
+    88.4,
+    27.7
+  ],
+  "anchorMin": [
+    0.5,
+    0.5
+  ],
+  "anchorMax": [
+    0.5,
+    0.5
+  ],
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "scale": [
+    1.0,
+    1.0
+  ],
+  "children": [
+    {
+      "name": "time_icon",
+      "active": true,
+      "anchoredPosition": [
+        -35.7,
+        0.0
+      ],
+      "sizeDelta": [
+        17.0,
+        17.0
+      ],
+      "anchorMin": [
+        0.5,
+        0.5
+      ],
+      "anchorMax": [
+        0.5,
+        0.5
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "time_text",
+      "active": true,
+      "anchoredPosition": [
+        10.25,
+        1.0
+      ],
+      "sizeDelta": [
+        67.9,
+        21.85
+      ],
+      "anchorMin": [
+        0.5,
+        0.5
+      ],
+      "anchorMax": [
+        0.5,
+        0.5
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ]
+    }
+  ]
+}
