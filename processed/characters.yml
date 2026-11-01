@@ -3582,6 +3582,14 @@
   stars: ★
   profession_name: Vanguard
   sub_profession_name: Tactician
+- id: char_4170_hdbell
+  name: Herdbells
+  rarity: TIER_4
+  profession: SPECIAL
+  sub_profession: dispatcher
+  stars: ★★★★
+  profession_name: Specialist
+  sub_profession_name: unknown
 - id: char_4237_jcinta
   name: Jacinta
   rarity: TIER_5
@@ -3590,6 +3598,14 @@
   stars: ★★★★★
   profession_name: Vanguard
   sub_profession_name: Standard Bearer
+- id: char_4245_alga
+  name: Ольга
+  rarity: TIER_5
+  profession: WARRIOR
+  sub_profession: instructor
+  stars: ★★★★★
+  profession_name: Guard
+  sub_profession_name: Instructor
 - id: char_1049_catap2
   name: Zinogre S Catapult
   rarity: TIER_5
@@ -3614,6 +3630,14 @@
   stars: ★★★★★
   profession_name: Caster
   sub_profession_name: Mech-accord Caster
+- id: char_4169_caledo
+  name: Caleido
+  rarity: TIER_5
+  profession: TANK
+  sub_profession: primprotector
+  stars: ★★★★★
+  profession_name: Defender
+  sub_profession_name: Primal Protector
 - id: char_393_toledo
   name: de Toledo
   rarity: TIER_5
@@ -3636,6 +3660,14 @@
   profession: SUPPORT
   sub_profession: supportiveranger
   stars: ★★★★★
+  profession_name: Supporter
+  sub_profession_name: unknown
+- id: char_4244_tocka
+  name: Тоска
+  rarity: TIER_6
+  profession: SUPPORT
+  sub_profession: supportiveranger
+  stars: ★★★★★★
   profession_name: Supporter
   sub_profession_name: unknown
 - id: char_4232_hbound
@@ -3662,6 +3694,14 @@
   stars: ★★★★★★
   profession_name: Caster
   sub_profession_name: Blast Caster
+- id: char_4246_dminon
+  name: Территория
+  rarity: TIER_6
+  profession: SPECIAL
+  sub_profession: stalker
+  stars: ★★★★★★
+  profession_name: Specialist
+  sub_profession_name: Ambusher
 - id: char_4217_makoto
   name: Makoto Yuki
   rarity: TIER_6
@@ -3694,6 +3734,14 @@
   stars: ★★★★★★
   profession_name: Defender
   sub_profession_name: Primal Protector
+- id: char_4247_oxi
+  name: Talulah
+  rarity: TIER_6
+  profession: WARRIOR
+  sub_profession: primguard
+  stars: ★★★★★★
+  profession_name: Guard
+  sub_profession_name: Primal Guard
 - id: char_4231_clemnt
   name: Clementia
   rarity: TIER_6
