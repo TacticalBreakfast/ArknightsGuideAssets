@@ -31,14 +31,18 @@ import urllib.request
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-# How far back to keep packs, measured from each pack's end date. The wiki's
+# How far back to scrape packs, measured from each pack's end date. The wiki's
 # "on sale/preparing" section is NOT reliably date-ordered or pruned -- it was
 # observed holding entries from a year prior sitting alongside current ones,
 # apparently because recurring "template" packs (same name every rotation,
 # e.g. 特训意向礼包) keep a fixed row position that just gets its dates
-# updated, rather than being re-sorted. This constant exists to bound how much
-# of that lingering noise makes it into the output; unused for anything else,
-# so it's safe to change at will if 6 months ever stops being enough.
+# updated, rather than being re-sorted. This constant bounds how much of that
+# lingering noise gets scraped.
+#
+# It does NOT bound the output: packs already in shop_packs.json are kept
+# when they age out of this window (see merge_with_previous). EN runs ~5-6
+# months behind CN, so a pack would otherwise vanish right around the time EN
+# sells it -- and the site keeps ended packs in its data on purpose.
 LOOKBACK_MONTHS = 6
 
 WIKI_PAGE = "采购中心/组合包"
@@ -382,6 +386,139 @@ def load_pack_name_translations():
     return mapping
 
 
+def load_en_pack_names():
+    """goodId -> EN displayName, from excel-en/shop_client_table.json."""
+    with Path("excel-en/shop_client_table.json").open(encoding="utf-8") as f:
+        return {good_id: data["displayName"]
+                for good_id, data in json.load(f)["shopGPDataDict"].items()
+                if data.get("displayName")}
+
+
+# --- Pack goodIds ------------------------------------------------------------
+#
+# Every pack has a goodId (GP_Once_423) in shop_client_table.json's
+# shopGPDataDict, and the SAME goodId is used for that pack on CN and EN
+# (verified: GP_Once_405-442 all map 1:1, e.g. 423 = 鸭爵的零钱包 = Duck Lord's
+# Change Purse). Recording it here is what lets the site look up a pack's EN
+# name, EN sale window and EN price (recommendList: showStartTs/showEndTs,
+# price in cents) from EN game data once EN ships it -- none of which can be
+# frozen in this file, since it's only rescraped by hand.
+#
+# Name alone isn't enough: recurring packs (特训意向礼包, the chip packs) get a
+# new goodId every rotation under the same displayName. So among the goodIds
+# carrying the pack's name, pick the one the CN shop schedule
+# (recommendList/carousels) puts on sale on the pack's CN start date -- the
+# same calendar-date rule load_activities uses. Picking simply the newest id
+# was tried first and is wrong (it gave Duck Lord's Change Purse 506, not 423).
+
+# Wiki-only decorations on pack names that the game's displayName lacks:
+# "调用凭证组合包<br>(2026周年庆典)" -> "调用凭证组合包", and trailing
+# "(2026)" / "（复刻）" (rerun) annotations.
+PACK_NAME_LINEBREAK_RE = re.compile(r"<br\s*/?>.*$", re.IGNORECASE)
+
+
+def pack_name_variants(name: str) -> list:
+    """The wiki name, then progressively stripped of wiki-only decorations."""
+    variants = [name.strip()]
+    stripped = PACK_NAME_LINEBREAK_RE.sub("", name).strip()
+    variants.append(stripped)
+    variants.append(TRAILING_PARENTHETICAL_RE.sub("", stripped).strip())
+    return list(dict.fromkeys(v for v in variants if v))
+
+
+def load_pack_good_ids():
+    """(displayName -> [goodId], goodId -> {CN start dates on sale}) from
+    excel-cn/shop_client_table.json."""
+    with Path("excel-cn/shop_client_table.json").open(encoding="utf-8") as f:
+        table = json.load(f)
+
+    by_name = {}
+    for good_id, data in table["shopGPDataDict"].items():
+        by_name.setdefault((data.get("displayName") or "").strip(), []).append(good_id)
+
+    cn_tz = timezone(timedelta(hours=8))
+    sale_dates = {}
+
+    def add(good_id, ts):
+        # Some entries carry sentinel times (negative / far-future) rather
+        # than a real date; those can't match a pack's start date anyway.
+        if good_id and isinstance(ts, (int, float)) and 1e9 < ts < 4e9:
+            sale_dates.setdefault(good_id, set()).add(datetime.fromtimestamp(ts, tz=cn_tz).date())
+
+    for entry in table.get("recommendList") or []:
+        for group in entry.get("groupList") or []:
+            for slot in group.get("dataList") or []:
+                if slot.get("cmd") == "GIFTPACKAGE":
+                    add(slot.get("param1"), entry.get("startDatetime"))
+    for carousel in table.get("carousels") or []:
+        for slot in carousel.get("items") or []:
+            if slot.get("cmd") == "GIFTPACKAGE":
+                add(slot.get("param1"), slot.get("startTime"))
+    return by_name, sale_dates
+
+
+def resolve_good_id(name: str, start_date: datetime, by_name: dict, sale_dates: dict):
+    """The pack's goodId, or None if it can't be pinned to exactly one."""
+    day = start_date.date()
+    for variant in pack_name_variants(name):
+        ids = by_name.get(variant)
+        if not ids:
+            continue
+        on_day = [g for g in ids if day in sale_dates.get(g, ())]
+        if len(on_day) == 1:
+            return on_day[0]
+        if len(ids) == 1 and not on_day:
+            return ids[0]   # never scheduled in the table, but the name is unique
+        return None         # several candidates on the day, or none of several
+    # The wiki sometimes appends 礼包/组合包 to a name the game doesn't
+    # (wiki 水芸仿绘礼包 = game 水芸仿绘): fall back to a pack on sale that day
+    # whose game name is contained in the wiki name.
+    stripped = pack_name_variants(name)[-1]
+    on_day = [g for display, ids in by_name.items() if display and display in stripped
+              for g in ids if day in sale_dates.get(g, ())]
+    return on_day[0] if len(on_day) == 1 else None
+
+
+def add_good_ids(packs: list, by_name: dict, sale_dates: dict, en_pack_names: dict, name_translations: dict):
+    """Fill goodId (and enName, from it) on every pack that lacks them,
+    including packs kept from an earlier run. Returns the names left
+    without a goodId."""
+    unresolved = []
+    for pack in packs:
+        if not pack.get("goodId"):
+            start = datetime.fromisoformat(pack["startDate"])
+            pack["goodId"] = resolve_good_id(pack["name"], start, by_name, sale_dates)
+        if not pack["goodId"]:
+            unresolved.append(pack["name"])
+        if not pack.get("enName"):
+            pack["enName"] = (en_pack_names.get(pack["goodId"]) if pack["goodId"] else None) \
+                or name_translations.get(pack["name"])
+    return unresolved
+
+
+def pack_key(pack: dict):
+    return (pack["name"], pack["startDate"])
+
+
+def merge_with_previous(scraped: list, previous: list):
+    """Scraped packs replace their earlier copies (fresh data wins, so parser
+    fixes apply to everything still on the wiki page within LOOKBACK_MONTHS);
+    earlier packs no longer scraped are kept unchanged. Returns
+    (merged, new_count, kept_count)."""
+    scraped_keys = {pack_key(p) for p in scraped}
+    previous_keys = {pack_key(p) for p in previous}
+    kept = [p for p in previous if pack_key(p) not in scraped_keys]
+    new_count = len(scraped_keys - previous_keys)
+    return scraped + kept, new_count, len(kept)
+
+
+def load_previous_output() -> list:
+    if not OUTPUT_PATH.exists():
+        return []
+    with OUTPUT_PATH.open(encoding="utf-8") as f:
+        return json.load(f)
+
+
 # Activity types that are companion/auxiliary features riding along with a
 # real content release (a check-in calendar, a login-reward campaign, a
 # prayer-wall gimmick) rather than the release itself. These very often start
@@ -537,6 +674,8 @@ def main():
     en_item_names = load_en_item_names()
     item_efficiency = load_item_efficiency()
     pack_name_translations = load_pack_name_translations()
+    en_pack_names = load_en_pack_names()
+    good_ids_by_name, sale_dates = load_pack_good_ids()
     activities_by_start_date = load_activities()
 
     cutoff = subtract_months(datetime.now(timezone.utc), LOOKBACK_MONTHS)
@@ -580,7 +719,8 @@ def main():
 
         packs.append({
             "name": name,
-            "enName": pack_name_translations.get(name),
+            "enName": None,     # filled by add_good_ids, from the goodId when possible
+            "goodId": None,
             "priceCNY": price_cny,
             "startDate": start_date.isoformat(),
             "endDate": end_date.isoformat(),
@@ -589,12 +729,20 @@ def main():
             "otherItems": other_items,
         })
 
-    packs.sort(key=lambda p: p["startDate"])
+    scraped_count = len(packs)
+    packs, new_count, kept_count = merge_with_previous(packs, load_previous_output())
+    unresolved = add_good_ids(packs, good_ids_by_name, sale_dates, en_pack_names, pack_name_translations)
+    packs.sort(key=lambda p: (p["startDate"], p["name"]))
 
     with OUTPUT_PATH.open("w", encoding="utf-8") as f:
         json.dump(packs, f, indent=2, ensure_ascii=False)
 
     print(f"Wrote {len(packs)} packs to {OUTPUT_PATH}")
+    print(f"  {scraped_count} scraped ({new_count} new), {kept_count} kept from the previous file")
+    if unresolved:
+        # Not fatal: the site can't match these to EN game data automatically
+        # (EN name/sale window/price) and falls back to its own overrides.
+        print(f"  {len(unresolved)} without a goodId: {', '.join(unresolved)}")
     print(f"  {skipped_stale} skipped (older than {LOOKBACK_MONTHS} months)")
     print(f"  {skipped_non_cny} skipped (priced in a non-CNY currency, not a real-money pack)")
     print(f"  {skipped_empty} skipped (no items or otherItems resolved at all)")
