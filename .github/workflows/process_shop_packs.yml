@@ -3,10 +3,19 @@ name: Process Shop Packs
 # Unlike the other Process workflows, this one has no push: trigger -- there's
 # no local file whose checkin can fire it, since parse_shop_packs.py scrapes
 # prts.wiki live on every run rather than reading a file already in this repo.
-# CN shop updates aren't cleanly tied to any event we can watch for, so this
-# is manual-dispatch-only by design: run it by hand when you know there's a
-# new pack worth capturing.
+# CN shop updates aren't cleanly tied to any event we can watch for, so it
+# runs on a schedule instead, plus by hand whenever a new pack is worth
+# capturing sooner.
+#
+# Monthly, deliberately: the scrape goes through a free third-party proxy to
+# a wiki that blocks non-China IPs (see parse_shop_packs.py), so it's kept
+# infrequent. That's safe because runs only ever ADD packs -- anything
+# captured is kept even after it ages out of the scrape window -- and EN
+# trails CN by months, so a month's delay never costs EN-relevant data.
+# A failed scheduled run emails whoever last edited this schedule.
 on:
+  schedule:
+    - cron: '0 6 1 * *'   # 06:00 UTC on the 1st of each month
   workflow_dispatch:
 
 jobs:

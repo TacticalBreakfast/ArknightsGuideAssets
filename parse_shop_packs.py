@@ -232,6 +232,27 @@ CN_NUMBER_SUFFIXES = {"万": 10000}
 # only matching on the root name (with the suffix stripped) can be.
 TRAILING_PARENTHETICAL_RE = re.compile(r"[（(][^）)]*[）)]\s*$")
 
+# Headhunting permits that have no AP value of their own and would otherwise
+# be filed as "Zero-Efficiency Item" -- which would get packs holding only
+# these (e.g. a banner's ¥6/¥58 headhunting packs) dropped as uninteresting.
+# Banner-specific permits get a new item id and name every time (SINGLE_75_0_1_GACHA
+# 确定性混沌寻访凭证, SINGLE_78_0_1_GACHA 海渊巡游寻访凭证, ...), but their
+# itemType is stable, so classify by that. Recorded as category "Headhunting"
+# with the itemType kept, so the site can value each kind (the plain
+# 7003/7004 permits already have AP values and go to `items` as before):
+#   EXCLUSIVE_TKT_GACHA(_10)  one / ten pulls on one specific banner
+#   LIMITED_TKT_GACHA_10      ten pulls on a limited banner
+#   LINKAGE_TKT_GACHA(_10)    collab banner pulls
+#   CLASSIC_TKT_GACHA(_10)    Kernel pulls (kept for completeness; the site values them at 0)
+#   VOUCHER_CGACHA            α/β/γ vouchers: one guaranteed operator from a set of three
+HEADHUNTING_ITEM_TYPES = {
+    "EXCLUSIVE_TKT_GACHA", "EXCLUSIVE_TKT_GACHA_10",
+    "LIMITED_TKT_GACHA_10",
+    "LINKAGE_TKT_GACHA", "LINKAGE_TKT_GACHA_10",
+    "CLASSIC_TKT_GACHA", "CLASSIC_TKT_GACHA_10",
+    "VOUCHER_CGACHA",
+}
+
 SPECIAL_SELECTOR_TRANSLATIONS = {
     "中坚高级干员调用凭证": "Kernel Selector",
     "周年庆典干员凭证": "Standard Selector",
@@ -309,15 +330,27 @@ def parse_contents(block: str, item_lookup: dict, item_efficiency: dict, en_name
             # Present but zero-value (e.g. module upgrade components), or a
             # real itemId that's a cosmetic-collection voucher rather than a
             # farmable material -- see the classifyType/itemType check.
+            if not item_id:
+                # The wiki sometimes year-tags an item name the game doesn't:
+                # "α类迎新寻访凭证（2026）" is item "α类迎新寻访凭证".
+                item_id = item_lookup.get(TRAILING_PARENTHETICAL_RE.sub("", name).strip())
             item_type = item_lookup.get((item_id, "type")) if item_id else None
-            category = "Furniture" if item_type == "UNI_COLLECTION" else "Zero-Efficiency Item"
-            other_items.append({
+            if item_type in HEADHUNTING_ITEM_TYPES:
+                category = "Headhunting"
+            elif item_type == "UNI_COLLECTION":
+                category = "Furniture"
+            else:
+                category = "Zero-Efficiency Item"
+            entry = {
                 "name": name,
                 "id": item_id,
                 "enName": en_names.get(item_id),
                 "category": category,
                 "count": count,
-            })
+            }
+            if category == "Headhunting":
+                entry["itemType"] = item_type   # how the site values it; see HEADHUNTING_ITEM_TYPES
+            other_items.append(entry)
 
     # The remaining template types (namecard/avatar, furniture, skin, and raw
     # file-link cosmetics) never resolve to a real itemId at all -- there's
@@ -427,8 +460,10 @@ def pack_name_variants(name: str) -> list:
 
 
 def load_pack_good_ids():
-    """(displayName -> [goodId], goodId -> {CN start dates on sale}) from
-    excel-cn/shop_client_table.json."""
+    """(displayName -> [goodId], goodId -> {CN start dates on sale},
+    goodId -> {(CN start date, CNY price)}) from excel-cn/shop_client_table.json.
+    Prices come only from recommendList entries (CN's are whole yuan); the
+    carousels carry none."""
     with Path("excel-cn/shop_client_table.json").open(encoding="utf-8") as f:
         table = json.load(f)
 
@@ -438,23 +473,30 @@ def load_pack_good_ids():
 
     cn_tz = timezone(timedelta(hours=8))
     sale_dates = {}
+    sale_prices = {}
 
-    def add(good_id, ts):
+    def add(good_id, ts, price=None):
         # Some entries carry sentinel times (negative / far-future) rather
         # than a real date; those can't match a pack's start date anyway.
         if good_id and isinstance(ts, (int, float)) and 1e9 < ts < 4e9:
-            sale_dates.setdefault(good_id, set()).add(datetime.fromtimestamp(ts, tz=cn_tz).date())
+            day = datetime.fromtimestamp(ts, tz=cn_tz).date()
+            sale_dates.setdefault(good_id, set()).add(day)
+            if price is not None:
+                sale_prices.setdefault(good_id, set()).add((day, price))
 
     for entry in table.get("recommendList") or []:
+        gift = (entry.get("templateParam") or {}).get("normalGiftParam") or {}
         for group in entry.get("groupList") or []:
             for slot in group.get("dataList") or []:
                 if slot.get("cmd") == "GIFTPACKAGE":
-                    add(slot.get("param1"), entry.get("startDatetime"))
+                    good_id = slot.get("param1")
+                    price = gift.get("price") if gift.get("goodId") == good_id else None
+                    add(good_id, entry.get("startDatetime"), price)
     for carousel in table.get("carousels") or []:
         for slot in carousel.get("items") or []:
             if slot.get("cmd") == "GIFTPACKAGE":
                 add(slot.get("param1"), slot.get("startTime"))
-    return by_name, sale_dates
+    return by_name, sale_dates, sale_prices
 
 
 def resolve_good_id(name: str, start_date: datetime, by_name: dict, sale_dates: dict):
@@ -479,21 +521,50 @@ def resolve_good_id(name: str, start_date: datetime, by_name: dict, sale_dates: 
     return on_day[0] if len(on_day) == 1 else None
 
 
-def add_good_ids(packs: list, by_name: dict, sale_dates: dict, en_pack_names: dict, name_translations: dict):
+def resolve_good_id_by_price(pack: dict, sale_prices: dict, claimed: set):
+    """Last resort when the name matches nothing usable: the one pack the CN
+    shop puts on sale on the same day at the same CNY price, among goodIds
+    no other pack has claimed.
+
+    Added for the 2026-10-09 ¥45 funding box, which the wiki lists under the
+    old name 沉甸甸的资金箱 while the game sells 港都之礼资金箱 (GP_Once_498)
+    that day. Whether that's a wiki copy-paste or a renamed pack is unknown.
+    THIS IS A WEAK MATCH -- price tiers are shared by many packs, so it only
+    works when a single unclaimed pack has that price that day. Packs matched
+    this way carry "goodIdMatchedBy": "price" so they can be checked; suspect
+    it first if a pack's EN name/price/window ever looks wrong."""
+    day = datetime.fromisoformat(pack["startDate"]).date()
+    candidates = [g for g, entries in sale_prices.items()
+                  if g not in claimed and (day, pack["priceCNY"]) in entries]
+    return candidates[0] if len(candidates) == 1 else None
+
+
+def add_good_ids(packs: list, by_name: dict, sale_dates: dict, sale_prices: dict,
+                 en_pack_names: dict, name_translations: dict):
     """Fill goodId (and enName, from it) on every pack that lacks them,
-    including packs kept from an earlier run. Returns the names left
-    without a goodId."""
-    unresolved = []
+    including packs kept from an earlier run. Name matching runs for every
+    pack first, so the price fallback only picks among goodIds nobody else
+    matched. Returns (names left without a goodId, names matched by price)."""
     for pack in packs:
         if not pack.get("goodId"):
             start = datetime.fromisoformat(pack["startDate"])
             pack["goodId"] = resolve_good_id(pack["name"], start, by_name, sale_dates)
+    claimed = {p["goodId"] for p in packs if p.get("goodId")}
+    unresolved, by_price = [], []
+    for pack in packs:
+        if not pack["goodId"] and pack.get("priceCNY") is not None:
+            pack["goodId"] = resolve_good_id_by_price(pack, sale_prices, claimed)
+            if pack["goodId"]:
+                pack["goodIdMatchedBy"] = "price"
+                claimed.add(pack["goodId"])
+        if pack.get("goodIdMatchedBy") == "price":
+            by_price.append(pack["name"])
         if not pack["goodId"]:
             unresolved.append(pack["name"])
         if not pack.get("enName"):
             pack["enName"] = (en_pack_names.get(pack["goodId"]) if pack["goodId"] else None) \
                 or name_translations.get(pack["name"])
-    return unresolved
+    return unresolved, by_price
 
 
 def pack_key(pack: dict):
@@ -675,7 +746,7 @@ def main():
     item_efficiency = load_item_efficiency()
     pack_name_translations = load_pack_name_translations()
     en_pack_names = load_en_pack_names()
-    good_ids_by_name, sale_dates = load_pack_good_ids()
+    good_ids_by_name, sale_dates, sale_prices = load_pack_good_ids()
     activities_by_start_date = load_activities()
 
     cutoff = subtract_months(datetime.now(timezone.utc), LOOKBACK_MONTHS)
@@ -731,7 +802,8 @@ def main():
 
     scraped_count = len(packs)
     packs, new_count, kept_count = merge_with_previous(packs, load_previous_output())
-    unresolved = add_good_ids(packs, good_ids_by_name, sale_dates, en_pack_names, pack_name_translations)
+    unresolved, matched_by_price = add_good_ids(packs, good_ids_by_name, sale_dates, sale_prices,
+                                                en_pack_names, pack_name_translations)
     packs.sort(key=lambda p: (p["startDate"], p["name"]))
 
     with OUTPUT_PATH.open("w", encoding="utf-8") as f:
@@ -739,6 +811,10 @@ def main():
 
     print(f"Wrote {len(packs)} packs to {OUTPUT_PATH}")
     print(f"  {scraped_count} scraped ({new_count} new), {kept_count} kept from the previous file")
+    if matched_by_price:
+        # Weak matches (same day + same price only) -- see resolve_good_id_by_price.
+        print(f"  {len(matched_by_price)} goodId(s) matched by price only, worth checking: "
+              f"{', '.join(matched_by_price)}")
     if unresolved:
         # Not fatal: the site can't match these to EN game data automatically
         # (EN name/sale window/price) and falls back to its own overrides.
