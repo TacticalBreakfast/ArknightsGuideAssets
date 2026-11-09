@@ -19,8 +19,12 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v7
 
-      # Daily mode only. --backfill needs full history and is run locally.
+      # Daily mode only. --history (dating older operators) is run locally.
       - name: Run Release Log Parser
+        # The token only lifts GitHub's anonymous API limit: the parser asks when
+        # upstream changed character_table.json, to date new operators by release.
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
         run: python3 parse_release_log.py
 
       - name: Commit and Push Output

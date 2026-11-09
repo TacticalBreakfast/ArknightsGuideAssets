@@ -1,427 +1,427 @@
 char_id,name,cn_first_seen,en_first_seen,cn_patch,source,note
-char_002_amiya,Amiya,pre-log,pre-log,,pre-log,
-char_003_kalts,Kal'tsit,pre-log,pre-log,,pre-log,
-char_009_12fce,12F,pre-log,pre-log,,pre-log,
-char_010_chen,Ch'en,pre-log,pre-log,,pre-log,
-char_017_huang,Blaze,pre-log,pre-log,,pre-log,
-char_1001_amiya2,Amiya,pre-log,pre-log,,pre-log,
-char_1011_lava2,Lava the Purgatory,pre-log,pre-log,,pre-log,
-char_1012_skadi2,Skadi the Corrupting Heart,pre-log,pre-log,,pre-log,
-char_1013_chen2,Ch'en the Holungday,pre-log,pre-log,,pre-log,
-char_1014_nearl2,Nearl the Radiant Knight,pre-log,pre-log,,pre-log,
-char_1016_agoat2,Eyjafjalla the Hvít Aska,pre-log,pre-log,,pre-log,
-char_1019_siege2,Vina Victoria,pre-log,pre-log,,pre-log,
-char_101_sora,Sora,pre-log,pre-log,,pre-log,
-char_1020_reed2,Reed the Flame Shadow,pre-log,pre-log,,pre-log,
-char_1021_kroos2,Kroos the Keen Glint,pre-log,pre-log,,pre-log,
-char_1022_flwr2,Perfumer the Distilled,pre-log,pre-log,,pre-log,
-char_1023_ghost2,Specter the Unchained,pre-log,pre-log,,pre-log,
-char_1024_hbisc2,Hibiscus the Purifier,pre-log,pre-log,,pre-log,
-char_1026_gvial2,Gavial the Invincible,pre-log,pre-log,,pre-log,
-char_1027_greyy2,Greyy the Lightningbearer,pre-log,pre-log,,pre-log,
-char_1028_texas2,Texas the Omertosa,pre-log,pre-log,,pre-log,
-char_1029_yato2,Kirin R Yato,pre-log,pre-log,,pre-log,
-char_102_texas,Texas,pre-log,pre-log,,pre-log,
-char_1030_noirc2,Rathalos S Noir Corne,pre-log,pre-log,,pre-log,
-char_1031_slent2,Silence the Paradigmatic,pre-log,pre-log,,pre-log,
-char_1032_excu2,Executor the Ex Foedere,pre-log,pre-log,,pre-log,
-char_1033_swire2,Swire the Elegant Wit,pre-log,pre-log,,pre-log,
-char_1034_jesca2,Jessica the Liberated,pre-log,pre-log,,pre-log,
-char_1035_wisdel,Wiš'adel,pre-log,pre-log,,pre-log,
-char_1036_fang2,Fang the Fire-Sharpened,pre-log,pre-log,,pre-log,
-char_1037_amiya3,Amiya,pre-log,pre-log,,pre-log,
-char_1038_whitw2,Lappland the Decadenza,pre-log,pre-log,,pre-log,
-char_1039_thorn2,Thorns the Lodestar,pre-log,pre-log,,pre-log,
-char_103_angel,Exusiai,pre-log,pre-log,,pre-log,
-char_1040_blaze2,Blaze the Igniting Spark,pre-log,pre-log,,pre-log,
-char_1041_angel2,Exusiai the New Covenant,pre-log,pre-log,,pre-log,
-char_1042_phatm2,Tragodia,pre-log,pre-log,,pre-log,
-char_1043_leizi2,Leizi the Thunderbringer,pre-log,pre-log,,pre-log,
-char_1044_hsgma2,Hoshiguma the Breacher,pre-log,pre-log,,pre-log,
-char_1045_svash2,SilverAsh the Reignfrost,pre-log,pre-log,,pre-log,
-char_1046_sbell2,Pramanix the Prerita,pre-log,pre-log,,pre-log,
-char_1047_halo2,Astgenne the Lightchaser,pre-log,pre-log,,pre-log,
-char_106_franka,Franka,pre-log,pre-log,,pre-log,
-char_107_liskam,Liskarm,pre-log,pre-log,,pre-log,
-char_108_silent,Silence,pre-log,pre-log,,pre-log,
-char_109_fmout,Gitano,pre-log,pre-log,,pre-log,
-char_110_deepcl,Deepcolor,pre-log,pre-log,,pre-log,
-char_112_siege,Siege,pre-log,pre-log,,pre-log,
-char_113_cqbw,W,pre-log,pre-log,,pre-log,
-char_115_headbr,Zima,pre-log,pre-log,,pre-log,
-char_117_myrrh,Myrrh,pre-log,pre-log,,pre-log,
-char_118_yuki,Shirayuki,pre-log,pre-log,,pre-log,
-char_120_hibisc,Hibiscus,pre-log,pre-log,,pre-log,
-char_121_lava,Lava,pre-log,pre-log,,pre-log,
-char_122_beagle,Beagle,pre-log,pre-log,,pre-log,
-char_123_fang,Fang,pre-log,pre-log,,pre-log,
-char_124_kroos,Kroos,pre-log,pre-log,,pre-log,
-char_126_shotst,Meteor,pre-log,pre-log,,pre-log,
-char_127_estell,Estelle,pre-log,pre-log,,pre-log,
-char_128_plosis,Ptilopsis,pre-log,pre-log,,pre-log,
-char_129_bluep,Blue Poison,pre-log,pre-log,,pre-log,
-char_130_doberm,Dobermann,pre-log,pre-log,,pre-log,
-char_131_flameb,Flamebringer,pre-log,pre-log,,pre-log,
-char_133_mm,May,pre-log,pre-log,,pre-log,
-char_134_ifrit,Ifrit,pre-log,pre-log,,pre-log,
-char_135_halo,Astgenne,pre-log,pre-log,,pre-log,
-char_136_hsguma,Hoshiguma,pre-log,pre-log,,pre-log,
-char_137_brownb,Beehunter,pre-log,pre-log,,pre-log,
-char_140_whitew,Lappland,pre-log,pre-log,,pre-log,
-char_141_nights,Haze,pre-log,pre-log,,pre-log,
-char_143_ghost,Specter,pre-log,pre-log,,pre-log,
-char_144_red,Projekt Red,pre-log,pre-log,,pre-log,
-char_145_prove,Provence,pre-log,pre-log,,pre-log,
-char_147_shining,Shining,pre-log,pre-log,,pre-log,
-char_148_nearl,Nearl,pre-log,pre-log,,pre-log,
-char_149_scave,Scavenger,pre-log,pre-log,,pre-log,
-char_1502_crosly,Crownslayer,pre-log,pre-log,,pre-log,
-char_150_snakek,Cuora,pre-log,pre-log,,pre-log,
-char_151_myrtle,Myrtle,pre-log,pre-log,,pre-log,
-char_154_morgan,Morgan,pre-log,pre-log,,pre-log,
-char_155_tiger,Indra,pre-log,pre-log,,pre-log,
-char_157_dagda,Dagda,pre-log,pre-log,,pre-log,
-char_158_milu,Firewatch,pre-log,pre-log,,pre-log,
-char_159_peacok,Conviction,pre-log,pre-log,,pre-log,
-char_163_hpsts,Vulcan,pre-log,pre-log,,pre-log,
-char_164_nightm,Nightmare,pre-log,pre-log,,pre-log,
-char_166_skfire,Skyfire,pre-log,pre-log,,pre-log,
-char_171_bldsk,Warfarin,pre-log,pre-log,,pre-log,
-char_172_svrash,SilverAsh,pre-log,pre-log,,pre-log,
-char_173_slchan,Cliffheart,pre-log,pre-log,,pre-log,
-char_174_slbell,Pramanix,pre-log,pre-log,,pre-log,
-char_179_cgbird,Nightingale,pre-log,pre-log,,pre-log,
-char_180_amgoat,Eyjafjalla,pre-log,pre-log,,pre-log,
-char_181_flower,Perfumer,pre-log,pre-log,,pre-log,
-char_183_skgoat,Earthspirit,pre-log,pre-log,,pre-log,
-char_185_frncat,Mousse,pre-log,pre-log,,pre-log,
-char_187_ccheal,Gavial,pre-log,pre-log,,pre-log,
-char_188_helage,Hellagur,pre-log,pre-log,,pre-log,
-char_190_clour,Vermeil,pre-log,pre-log,,pre-log,
-char_192_falco,Plume,pre-log,pre-log,,pre-log,
-char_193_frostl,Frostleaf,pre-log,pre-log,,pre-log,
-char_194_leto,Leto,pre-log,pre-log,,pre-log,
-char_195_glassb,Istina,pre-log,pre-log,,pre-log,
-char_196_sunbr,Gummy,pre-log,pre-log,,pre-log,
-char_197_poca,Rosa,pre-log,pre-log,,pre-log,
-char_198_blackd,Courier,pre-log,pre-log,,pre-log,
-char_199_yak,Matterhorn,pre-log,pre-log,,pre-log,
-char_2012_typhon,Typhon,pre-log,pre-log,,pre-log,
-char_2013_cerber,Ceobe,pre-log,pre-log,,pre-log,
-char_2014_nian,Nian,pre-log,pre-log,,pre-log,
-char_2015_dusk,Dusk,pre-log,pre-log,,pre-log,
-char_201_moeshd,Croissant,pre-log,pre-log,,pre-log,
-char_2023_ling,Ling,pre-log,pre-log,,pre-log,
-char_2024_chyue,Chongyue,pre-log,pre-log,,pre-log,
-char_2025_shu,Shu,pre-log,pre-log,,pre-log,
-char_2026_yu,Yu,pre-log,pre-log,,pre-log,
-char_202_demkni,Saria,pre-log,pre-log,,pre-log,
-char_204_platnm,Platinum,pre-log,pre-log,,pre-log,
-char_206_gnosis,Gnosis,pre-log,pre-log,,pre-log,
-char_208_melan,Melantha,pre-log,pre-log,,pre-log,
-char_209_ardign,Cardigan,pre-log,pre-log,,pre-log,
-char_210_stward,Steward,pre-log,pre-log,,pre-log,
-char_211_adnach,Adnachiel,pre-log,pre-log,,pre-log,
-char_212_ansel,Ansel,pre-log,pre-log,,pre-log,
-char_213_mostma,Mostima,pre-log,pre-log,,pre-log,
-char_214_kafka,Kafka,pre-log,pre-log,,pre-log,
-char_215_mantic,Manticore,pre-log,pre-log,,pre-log,
-char_218_cuttle,Andreana,pre-log,pre-log,,pre-log,
-char_219_meteo,Meteorite,pre-log,pre-log,,pre-log,
-char_220_grani,Grani,pre-log,pre-log,,pre-log,
-char_222_bpipe,Bagpipe,pre-log,pre-log,,pre-log,
-char_225_haak,Aak,pre-log,pre-log,,pre-log,
-char_226_hmau,Hung,pre-log,pre-log,,pre-log,
-char_230_savage,Savage,pre-log,pre-log,,pre-log,
-char_235_jesica,Jessica,pre-log,pre-log,,pre-log,
-char_236_rope,Rope,pre-log,pre-log,,pre-log,
-char_237_gravel,Gravel,pre-log,pre-log,,pre-log,
-char_240_wyvern,Vanilla,pre-log,pre-log,,pre-log,
-char_241_panda,FEater,pre-log,pre-log,,pre-log,
-char_242_otter,Mayer,pre-log,pre-log,,pre-log,
-char_243_waaifu,Waai Fu,pre-log,pre-log,,pre-log,
-char_245_cello,Virtuosa,pre-log,pre-log,,pre-log,
-char_248_mgllan,Magallan,pre-log,pre-log,,pre-log,
-char_249_mlyss,Muelsyse,pre-log,pre-log,,pre-log,
-char_250_phatom,Phantom,pre-log,pre-log,,pre-log,
-char_252_bibeak,Bibeak,pre-log,pre-log,,pre-log,
-char_253_greyy,Greyy,pre-log,pre-log,,pre-log,
-char_254_vodfox,Shamare,pre-log,pre-log,,pre-log,
-char_258_podego,Podenco,pre-log,pre-log,,pre-log,
-char_260_durnar,Dur-nar,pre-log,pre-log,,pre-log,
-char_261_sddrag,Reed,pre-log,pre-log,,pre-log,
-char_263_skadi,Skadi,pre-log,pre-log,,pre-log,
-char_264_f12yin,Mountain,pre-log,pre-log,,pre-log,
-char_265_sophia,Whislash,pre-log,pre-log,,pre-log,
-char_271_spikes,Arene,pre-log,pre-log,,pre-log,
-char_272_strong,Jaye,pre-log,pre-log,,pre-log,
-char_274_astesi,Astesia,pre-log,pre-log,,pre-log,
-char_275_breeze,Breeze,pre-log,pre-log,,pre-log,
-char_277_sqrrel,Shaw,pre-log,pre-log,,pre-log,
-char_278_orchid,Orchid,pre-log,pre-log,,pre-log,
-char_279_excu,Executor,pre-log,pre-log,,pre-log,
-char_281_popka,Popukar,pre-log,pre-log,,pre-log,
-char_282_catap,Catapult,pre-log,pre-log,,pre-log,
-char_283_midn,Midnight,pre-log,pre-log,,pre-log,
-char_284_spot,Spot,pre-log,pre-log,,pre-log,
-char_285_medic2,Lancet-2,pre-log,pre-log,,pre-log,
-char_286_cast3,Castle-3,pre-log,pre-log,,pre-log,
-char_289_gyuki,Matoimaru,pre-log,pre-log,,pre-log,
-char_290_vigna,Vigna,pre-log,pre-log,,pre-log,
-char_291_aglina,Angelina,pre-log,pre-log,,pre-log,
-char_293_thorns,Thorns,pre-log,pre-log,,pre-log,
-char_294_ayer,Ayerscarpe,pre-log,pre-log,,pre-log,
-char_297_hamoni,Harmonie,pre-log,pre-log,,pre-log,
-char_298_susuro,Sussurro,pre-log,pre-log,,pre-log,
-char_300_phenxi,Fiammetta,pre-log,pre-log,,pre-log,
-char_301_cutter,Cutter,pre-log,pre-log,,pre-log,
-char_302_glaze,Ambriel,pre-log,pre-log,,pre-log,
-char_304_zebra,Heavyrain,pre-log,pre-log,,pre-log,
-char_306_leizi,Leizi,pre-log,pre-log,,pre-log,
-char_308_swire,Swire,pre-log,pre-log,,pre-log,
-char_311_mudrok,Mudrock,pre-log,pre-log,,pre-log,
-char_322_lmlee,Lee,pre-log,pre-log,,pre-log,
-char_325_bison,Bison,pre-log,pre-log,,pre-log,
-char_326_glacus,Glaucus,pre-log,pre-log,,pre-log,
-char_328_cammou,Click,pre-log,pre-log,,pre-log,
-char_332_archet,Archetto,pre-log,pre-log,,pre-log,
-char_333_sidero,Sideroca,pre-log,pre-log,,pre-log,
-char_336_folivo,Scene,pre-log,pre-log,,pre-log,
-char_337_utage,Utage,pre-log,pre-log,,pre-log,
-char_338_iris,Iris,pre-log,pre-log,,pre-log,
-char_340_shwaz,Schwarz,pre-log,pre-log,,pre-log,
-char_341_sntlla,Santalla,pre-log,pre-log,,pre-log,
-char_343_tknogi,Tsukinogi,pre-log,pre-log,,pre-log,
-char_344_beewax,Beeswax,pre-log,pre-log,,pre-log,
-char_345_folnic,Folinic,pre-log,pre-log,,pre-log,
-char_346_aosta,Aosta,pre-log,pre-log,,pre-log,
-char_347_jaksel,Jackie,pre-log,pre-log,,pre-log,
-char_348_ceylon,Ceylon,pre-log,pre-log,,pre-log,
-char_349_chiave,Chiave,pre-log,pre-log,,pre-log,
-char_350_surtr,Surtr,pre-log,pre-log,,pre-log,
-char_355_ethan,Ethan,pre-log,pre-log,,pre-log,
-char_356_broca,Broca,pre-log,pre-log,,pre-log,
-char_358_lisa,Suzuran,pre-log,pre-log,,pre-log,
-char_362_saga,Saga,pre-log,pre-log,,pre-log,
-char_363_toddi,Toddifons,pre-log,pre-log,,pre-log,
-char_365_aprl,April,pre-log,pre-log,,pre-log,
-char_366_acdrop,Aciddrop,pre-log,pre-log,,pre-log,
-char_367_swllow,GreyThroat,pre-log,pre-log,,pre-log,
-char_369_bena,Bena,pre-log,pre-log,,pre-log,
-char_373_lionhd,Leonhardt,pre-log,pre-log,,pre-log,
-char_376_therex,THRM-EX,pre-log,pre-log,,pre-log,
-char_377_gdglow,Goldenglow,pre-log,pre-log,,pre-log,
-char_378_asbest,Asbestos,pre-log,pre-log,,pre-log,
-char_379_sesa,Sesa,pre-log,pre-log,,pre-log,
-char_381_bubble,Bubble,pre-log,pre-log,,pre-log,
-char_383_snsant,Snowsant,pre-log,pre-log,,pre-log,
-char_385_finlpp,Purestream,pre-log,pre-log,,pre-log,
-char_388_mint,Mint,pre-log,pre-log,,pre-log,
-char_391_rosmon,Rosmontis,pre-log,pre-log,,pre-log,
-char_394_hadiya,Hadiya,pre-log,pre-log,,pre-log,
-char_4000_jnight,'Justice Knight',pre-log,pre-log,,pre-log,
-char_4004_pudd,Pudding,pre-log,pre-log,,pre-log,
-char_4006_melnte,Melanite,pre-log,pre-log,,pre-log,
-char_4009_irene,Irene,pre-log,pre-log,,pre-log,
-char_400_weedy,Weedy,pre-log,pre-log,,pre-log,
-char_4010_etlchi,Entelechia,pre-log,pre-log,,pre-log,
-char_4011_lessng,Lessing,pre-log,pre-log,,pre-log,
-char_4013_kjera,Kjera,pre-log,pre-log,,pre-log,
-char_4014_lunacu,Lunacub,pre-log,pre-log,,pre-log,
-char_4015_spuria,Spuria,pre-log,pre-log,,pre-log,
-char_4016_kazema,Kazemaru,pre-log,pre-log,,pre-log,
-char_4017_puzzle,Puzzle,pre-log,pre-log,,pre-log,
-char_4019_ncdeer,Nine-Colored Deer,pre-log,pre-log,,pre-log,
-char_401_elysm,Elysium,pre-log,pre-log,,pre-log,
-char_4023_rfalcn,Kestrel,pre-log,pre-log,,pre-log,
-char_4025_aprot2,Shalem,pre-log,pre-log,,pre-log,
-char_4026_vulpis,Vulpisfoglia,pre-log,pre-log,,pre-log,
-char_4027_heyak,Ho'olheyak,pre-log,pre-log,,pre-log,
-char_402_tuye,Tuye,pre-log,pre-log,,pre-log,
-char_4032_provs,Proviso,pre-log,pre-log,,pre-log,
-char_4036_forcer,Enforcer,pre-log,pre-log,,pre-log,
-char_4039_horn,Horn,pre-log,pre-log,,pre-log,
-char_4040_rockr,Rockrock,pre-log,pre-log,,pre-log,
-char_4041_chnut,Chestnut,pre-log,pre-log,,pre-log,
-char_4042_lumen,Lumen,pre-log,pre-log,,pre-log,
-char_4043_erato,Erato,pre-log,pre-log,,pre-log,
-char_4045_heidi,Heidi,pre-log,pre-log,,pre-log,
-char_4046_ebnhlz,Ebenholz,pre-log,pre-log,,pre-log,
-char_4047_pianst,Czerny,pre-log,pre-log,,pre-log,
-char_4048_doroth,Dorothy,pre-log,pre-log,,pre-log,
-char_4051_akkord,Akkord,pre-log,pre-log,,pre-log,
-char_4052_surfer,Surfer,pre-log,pre-log,,pre-log,
-char_4054_malist,Minimalist,pre-log,pre-log,,pre-log,
-char_4055_bgsnow,Pozëmka,pre-log,pre-log,,pre-log,
-char_4056_titi,Titi,pre-log,pre-log,,pre-log,
-char_4058_pepe,Pepe,pre-log,pre-log,,pre-log,
-char_405_absin,Absinthe,pre-log,pre-log,,pre-log,
-char_4062_totter,Totter,pre-log,pre-log,,pre-log,
-char_4063_quartz,Quartz,pre-log,pre-log,,pre-log,
-char_4064_mlynar,Młynar,pre-log,pre-log,,pre-log,
-char_4065_judge,Penance,pre-log,pre-log,,pre-log,
-char_4066_highmo,Highmore,pre-log,pre-log,,pre-log,
-char_4067_lolxh,Luo Xiaohei,pre-log,pre-log,,pre-log,
-char_4071_peper,Paprika,pre-log,pre-log,,pre-log,
-char_4072_ironmn,Stainless,pre-log,pre-log,,pre-log,
-char_4077_palico,Terra Research Commission,pre-log,pre-log,,pre-log,
-char_4078_bdhkgt,Jieyun,pre-log,pre-log,,pre-log,
-char_4079_haini,Lucilla,pre-log,pre-log,,pre-log,
-char_4080_lin,Lin,pre-log,pre-log,,pre-log,
-char_4081_warmy,Warmy,pre-log,pre-log,,pre-log,
-char_4082_qiubai,Qiubai,pre-log,pre-log,,pre-log,
-char_4083_chimes,Wind Chimes,pre-log,pre-log,,pre-log,
-char_4087_ines,Ines,pre-log,pre-log,,pre-log,
-char_4088_hodrer,Hoederer,pre-log,pre-log,,pre-log,
-char_4091_ulika,U-Official,pre-log,pre-log,,pre-log,
-char_4093_frston,Friston-3,pre-log,pre-log,,pre-log,
-char_4098_vvana,Viviana,pre-log,pre-log,,pre-log,
-char_4100_caper,Caper,pre-log,pre-log,,pre-log,
-char_4102_threye,Valarqvin,pre-log,pre-log,,pre-log,
-char_4104_coldst,Coldshot,pre-log,pre-log,,pre-log,
-char_4105_almond,Almond,pre-log,pre-log,,pre-log,
-char_4106_bryota,Bryophyta,pre-log,pre-log,,pre-log,
-char_4107_vrdant,Verdant,pre-log,pre-log,,pre-log,
-char_4109_baslin,Bassline,pre-log,pre-log,,pre-log,
-char_4110_delphn,Delphine,pre-log,pre-log,,pre-log,
-char_4114_harold,Harold,pre-log,pre-log,,pre-log,
-char_4116_blkkgt,Degenbrecher,pre-log,pre-log,,pre-log,
-char_4117_ray,Ray,pre-log,pre-log,,pre-log,
-char_4119_wanqin,Wanqing,pre-log,pre-log,,pre-log,
-char_411_tomimi,Tomimi,pre-log,pre-log,,pre-log,
-char_4121_zuole,Zuo Le,pre-log,pre-log,,pre-log,
-char_4122_grabds,Grain Buds,pre-log,pre-log,,pre-log,
-char_4123_ela,Ela,pre-log,pre-log,,pre-log,
-char_4124_iana,Iana,pre-log,pre-log,,pre-log,
-char_4125_rdoc,Doc,pre-log,pre-log,,pre-log,
-char_4126_fuze,Fuze,pre-log,pre-log,,pre-log,
-char_4130_luton,Lutonada,pre-log,pre-log,,pre-log,
-char_4131_odda,Odda,pre-log,pre-log,,pre-log,
-char_4132_ascln,Ascalon,pre-log,pre-log,,pre-log,
-char_4133_logos,Logos,pre-log,pre-log,,pre-log,
-char_4134_cetsyr,Civilight Eterna,pre-log,pre-log,,pre-log,
-char_4136_phonor,PhonoR-0,pre-log,pre-log,,pre-log,
-char_4137_udflow,Underflow,pre-log,pre-log,,pre-log,
-char_4138_narant,Narantuya,pre-log,pre-log,,pre-log,
-char_4139_papyrs,Papyrus,pre-log,pre-log,,pre-log,
-char_4140_lasher,Sand Reckoner,pre-log,pre-log,,pre-log,
-char_4141_marcil,Marcille,pre-log,pre-log,,pre-log,
-char_4142_laios,Laios,pre-log,pre-log,,pre-log,
-char_4143_sensi,Senshi,pre-log,pre-log,,pre-log,
-char_4144_chilc,Chilchuck,pre-log,pre-log,,pre-log,
-char_4145_ulpia,Ulpianus,pre-log,pre-log,,pre-log,
-char_4146_nymph,Nymph,pre-log,pre-log,,pre-log,
-char_4147_mitm,Mitm,pre-log,pre-log,,pre-log,
-char_4148_philae,Philae,pre-log,pre-log,,pre-log,
-char_4151_tinman,Tin Man,pre-log,pre-log,,pre-log,
-char_4155_talr,Figurino,pre-log,pre-log,,pre-log,
-char_415_flint,Flint,pre-log,pre-log,,pre-log,
-char_4162_cathy,Catherine,pre-log,pre-log,,pre-log,
-char_4163_rosesa,Rose Salt,pre-log,pre-log,,pre-log,
-char_4164_tecno,Tecno,pre-log,pre-log,,pre-log,
-char_4165_ctrail,Contrail,pre-log,pre-log,,pre-log,
-char_4166_varkis,Varkáris,pre-log,pre-log,,pre-log,
-char_416_zumama,Eunectes,pre-log,pre-log,,pre-log,
-char_4171_wulfen,Wulfenite,pre-log,pre-log,,pre-log,
-char_4172_xingzh,Xingzhu,pre-log,pre-log,,pre-log,
-char_4173_nowell,Nowell,pre-log,pre-log,,pre-log,
-char_4177_brigid,Brigid,pre-log,pre-log,,pre-log,
-char_4178_alanna,Alanna,pre-log,pre-log,,pre-log,
-char_4179_monstr,Mon3tr,pre-log,pre-log,,pre-log,
-char_4182_oblvns,Sakiko Togawa,pre-log,pre-log,,pre-log,
-char_4183_mortis,Mutsumi Wakaba,pre-log,pre-log,,pre-log,
-char_4184_dolris,Uika Misumi,pre-log,pre-log,,pre-log,
-char_4185_amoris,Nyamu Yūtenji,pre-log,pre-log,,pre-log,
-char_4186_tmoris,Umiri Yahata,pre-log,pre-log,,pre-log,
-char_4187_graceb,Gracebearer,pre-log,pre-log,,pre-log,
-char_4188_confes,CONFESS-47,pre-log,pre-log,,pre-log,
-char_4191_tippi,Tippi,pre-log,pre-log,,pre-log,
-char_4193_lemuen,Lemuen,pre-log,pre-log,,pre-log,
-char_4194_rmixer,Sankta Miksaparato,pre-log,pre-log,,pre-log,
-char_4195_radian,Raidian,pre-log,pre-log,,pre-log,
-char_4196_reckpr,Record Keeper,pre-log,pre-log,,pre-log,
-char_4198_christ,Miss.Christine,pre-log,pre-log,,pre-log,
-char_4199_makiri,Matsukiri,pre-log,pre-log,,pre-log,
-char_4202_haruka,Haruka,pre-log,pre-log,,pre-log,
-char_4203_kichi,Kichisei,pre-log,pre-log,,pre-log,
-char_4204_mantra,Mantra,pre-log,pre-log,,pre-log,
-char_4207_branch,Vetochki,pre-log,pre-log,,pre-log,
-char_4208_wintim,Snegurochka,pre-log,pre-log,,pre-log,
-char_420_flamtl,Flametail,pre-log,pre-log,,pre-log,
-char_4211_snhunt,Snow Hunter,pre-log,pre-log,,pre-log,
-char_4212_nasti,Nasti,pre-log,pre-log,,pre-log,
-char_4213_skybx,Skybox,pre-log,pre-log,,pre-log,
-char_4214_cairn,Cairn,pre-log,pre-log,,pre-log,
-char_4215_buddy,Rhodes Island Recon,pre-log,,,pre-log,
-char_421_crow,La Pluma,pre-log,pre-log,,pre-log,
-char_4227_gallus,GALLUS²,pre-log,2026-10-14,,pre-log,
-char_422_aurora,Aurora,pre-log,pre-log,,pre-log,
-char_423_blemsh,Blemishine,pre-log,pre-log,,pre-log,
-char_426_billro,Carnelian,pre-log,pre-log,,pre-log,
-char_427_vigil,Vigil,pre-log,pre-log,,pre-log,
-char_430_fartth,Fartooth,pre-log,pre-log,,pre-log,
-char_431_ashlok,Ashlock,pre-log,pre-log,,pre-log,
-char_433_windft,Windflit,pre-log,pre-log,,pre-log,
-char_436_whispr,Whisperain,pre-log,pre-log,,pre-log,
-char_437_mizuki,Mizuki,pre-log,pre-log,,pre-log,
-char_440_pinecn,Pinecone,pre-log,pre-log,,pre-log,
-char_445_wscoot,Windscoot,pre-log,pre-log,,pre-log,
-char_446_aroma,Aroma,pre-log,pre-log,,pre-log,
-char_449_glider,Honeyberry,pre-log,pre-log,,pre-log,
-char_450_necras,Necrass,pre-log,pre-log,,pre-log,
-char_451_robin,Robin,pre-log,pre-log,,pre-log,
-char_452_bstalk,Beanstalk,pre-log,pre-log,,pre-log,
-char_455_nothin,Mr. Nothing,pre-log,pre-log,,pre-log,
-char_456_ash,Ash,pre-log,pre-log,,pre-log,
-char_457_blitz,Blitz,pre-log,pre-log,,pre-log,
-char_458_rfrost,Frost,pre-log,pre-log,,pre-log,
-char_459_tachak,Tachanka,pre-log,pre-log,,pre-log,
-char_464_cement,Cement,pre-log,pre-log,,pre-log,
-char_466_qanik,Qanipalaat,pre-log,pre-log,,pre-log,
-char_469_indigo,Indigo,pre-log,pre-log,,pre-log,
-char_472_pasngr,Passenger,pre-log,pre-log,,pre-log,
-char_473_mberry,Mulberry,pre-log,pre-log,,pre-log,
-char_474_glady,Gladiia,pre-log,pre-log,,pre-log,
-char_475_akafyu,Akafuyu,pre-log,pre-log,,pre-log,
-char_476_blkngt,Blacknight,pre-log,pre-log,,pre-log,
-char_478_kirara,Kirara,pre-log,pre-log,,pre-log,
-char_479_sleach,Saileach,pre-log,pre-log,,pre-log,
-char_484_robrta,Roberta,pre-log,pre-log,,pre-log,
-char_485_pallas,Pallas,pre-log,pre-log,,pre-log,
-char_486_takila,Tequila,pre-log,pre-log,,pre-log,
-char_487_bobb,Bobbing,pre-log,pre-log,,pre-log,
-char_488_buildr,Poncirus,pre-log,pre-log,,pre-log,
-char_489_serum,Corroserum,pre-log,pre-log,,pre-log,
-char_491_humus,Humus,pre-log,pre-log,,pre-log,
-char_492_quercu,Quercus,pre-log,pre-log,,pre-log,
-char_493_firwhl,Firewhistle,pre-log,pre-log,,pre-log,
-char_494_vendla,Vendela,pre-log,pre-log,,pre-log,
-char_496_wildmn,Wild Mane,pre-log,pre-log,,pre-log,
-char_497_ctable,Cantabile,pre-log,pre-log,,pre-log,
-char_498_inside,Insider,pre-log,pre-log,,pre-log,
-char_499_kaitou,Diamante,pre-log,pre-log,,pre-log,
-char_500_noirc,Noir Corne,pre-log,pre-log,,pre-log,
-char_501_durin,Durin,pre-log,pre-log,,pre-log,
-char_502_nblade,Yato,pre-log,pre-log,,pre-log,
-char_503_rang,Rangers,pre-log,pre-log,,pre-log,
-char_1050_chen3,Ch'en the Dawnstreak,2026-02-10,2026-07-17,2026-02-10,seed,
-char_2027_wang,Wang,2026-02-10,2026-07-17,2026-02-10,seed,
-char_4221_ju,Ju,2026-02-10,2026-07-17,2026-02-10,seed,
-char_4222_taraxa,Taraxacum,2026-02-10,2026-07-17,2026-02-10,seed,
-char_4031_liesel,Ripresa,2026-03-10,2026-08-14,2026-03-10,seed,
-char_4037_demetr,Bellone,2026-03-10,2026-08-14,2026-03-10,seed,
-char_1051_headb2,Zima the Raging Tide,2026-04-07,2026-09-17,2026-04-07,seed,
-char_4223_botany,Botani,2026-04-07,2026-09-17,2026-04-07,seed,
-char_4224_turdus,Ukusik,2026-04-07,2026-09-17,2026-04-07,seed,
+char_002_amiya,Amiya,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_009_12fce,12F,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_101_sora,Sora,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_102_texas,Texas,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_103_angel,Exusiai,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_106_franka,Franka,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_107_liskam,Liskarm,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_108_silent,Silence,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_109_fmout,Gitano,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_110_deepcl,Deepcolor,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_112_siege,Siege,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_115_headbr,Zima,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_117_myrrh,Myrrh,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_118_yuki,Shirayuki,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_120_hibisc,Hibiscus,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_121_lava,Lava,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_122_beagle,Beagle,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_123_fang,Fang,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_124_kroos,Kroos,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_126_shotst,Meteor,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_127_estell,Estelle,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_128_plosis,Ptilopsis,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_129_bluep,Blue Poison,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_130_doberm,Dobermann,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_134_ifrit,Ifrit,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_136_hsguma,Hoshiguma,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_140_whitew,Lappland,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_141_nights,Haze,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_143_ghost,Specter,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_144_red,Projekt Red,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_145_prove,Provence,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_147_shining,Shining,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_148_nearl,Nearl,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_149_scave,Scavenger,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_150_snakek,Cuora,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_155_tiger,Indra,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_158_milu,Firewatch,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_163_hpsts,Vulcan,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_164_nightm,Nightmare,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_166_skfire,Skyfire,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_171_bldsk,Warfarin,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_172_svrash,SilverAsh,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_173_slchan,Cliffheart,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_174_slbell,Pramanix,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_179_cgbird,Nightingale,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_180_amgoat,Eyjafjalla,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_181_flower,Perfumer,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_183_skgoat,Earthspirit,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_185_frncat,Mousse,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_187_ccheal,Gavial,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_192_falco,Plume,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_193_frostl,Frostleaf,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_195_glassb,Istina,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_196_sunbr,Gummy,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_198_blackd,Courier,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_199_yak,Matterhorn,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_201_moeshd,Croissant,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_202_demkni,Saria,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_204_platnm,Platinum,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_208_melan,Melantha,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_209_ardign,Cardigan,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_210_stward,Steward,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_211_adnach,Adnachiel,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_212_ansel,Ansel,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_215_mantic,Manticore,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_219_meteo,Meteorite,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_230_savage,Savage,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_235_jesica,Jessica,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_236_rope,Rope,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_237_gravel,Gravel,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_240_wyvern,Vanilla,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_241_panda,FEater,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_242_otter,Mayer,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_277_sqrrel,Shaw,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_278_orchid,Orchid,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_285_medic2,Lancet-2,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_286_cast3,Castle-3,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_289_gyuki,Matoimaru,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_290_vigna,Vigna,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_291_aglina,Angelina,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_500_noirc,Noir Corne,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_501_durin,Durin,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_502_nblade,Yato,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_503_rang,Rangers,2019-05-01,2020-01-16,2019-05-01,manual,"launch unit: CN launch 2019-05-01, EN launch 2020-01-16 (set by hand)"
+char_282_catap,Catapult,2019-05-23,2020-01-22,2019-05-23,manual,CN date set by hand; EN date set by hand
+char_137_brownb,Beehunter,2019-05-30,2020-02-05,2019-05-30,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_220_grani,Grani,2019-05-30,2020-02-05,2019-05-30,manual,set by hand: same event as Skadi
+char_263_skadi,Skadi,2019-05-30,2020-02-05,2019-05-30,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_283_midn,Midnight,2019-05-30,2020-02-05,2019-05-30,manual,CN date set by hand; EN from TacticalBreakfast's archive sheet (Events and Banners): matched via its CN date to Behold the Sword of Tide
+char_010_chen,Ch'en,2019-07-09,2020-02-26,2019-07-09,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_253_greyy,Greyy,2019-07-09,2020-02-26,2019-07-09,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_281_popka,Popukar,2019-07-09,2020-02-26,2019-07-09,manual,"CN date set by hand; EN from TacticalBreakfast's archive sheet (Events and Banners): matched via its CN date to Chi Xiao, the Hidden Dragon"
+char_284_spot,Spot,2019-07-09,2020-02-26,2019-07-09,manual,"CN date set by hand; EN from TacticalBreakfast's archive sheet (Events and Banners): matched via its CN date to Chi Xiao, the Hidden Dragon"
+char_308_swire,Swire,2019-07-09,2020-02-26,2019-07-09,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_298_susuro,Sussurro,2019-08-27,2020-04-29,2019-08-27,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_326_glacus,Glaucus,2019-08-27,2020-04-29,2019-08-27,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_340_shwaz,Schwarz,2019-08-27,2020-04-29,2019-08-27,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_348_ceylon,Ceylon,2019-08-27,2020-04-29,2019-08-27,manual,set by hand: same dates as Schwarz
+char_151_myrtle,Myrtle,2019-09-10,2020-04-15,2019-09-10,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_188_helage,Hellagur,2019-09-10,2020-04-15,2019-09-10,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_274_astesi,Astesia,2019-09-10,2020-04-15,2019-09-10,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_260_durnar,Dur-nar,2019-10-01,2020-05-13,2019-10-01,manual,dates set by hand (TacticalBreakfast)
+char_131_flameb,Flamebringer,2019-10-15,2020-03-25,2019-10-15,manual,dates set by hand (corrected typo; Unit List order check)
+char_190_clour,Vermeil,2019-10-15,2020-03-25,2019-10-15,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_248_mgllan,Magallan,2019-10-15,2020-03-25,2019-10-15,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_279_excu,Executor,2019-10-15,2020-03-25,2019-10-15,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_275_breeze,Breeze,2019-11-01,2020-05-13,2019-11-01,manual,dates set by hand (TacticalBreakfast)
+char_355_ethan,Ethan,2019-11-01,2020-05-13,2019-11-01,manual,dates set by hand (TacticalBreakfast)
+char_133_mm,May,2019-11-19,2020-05-27,2019-11-19,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_213_mostma,Mostima,2019-11-19,2020-05-27,2019-11-19,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_243_waaifu,Waai Fu,2019-11-19,2020-05-27,2019-11-19,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_325_bison,Bison,2019-11-19,2020-05-27,2019-11-19,manual,"set by hand: Code of Brawl (sheet labels it by its banner, Keeper of the Lock & Keys)"
+char_261_sddrag,Reed,2019-12-10,2020-07-14,2019-12-10,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_356_broca,Broca,2019-12-10,2020-07-14,2019-12-10,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_017_huang,Blaze,2019-12-24,2020-06-30,2019-12-24,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_302_glaze,Ambriel,2019-12-24,2020-06-30,2019-12-24,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_367_swllow,GreyThroat,2019-12-24,2020-06-30,2019-12-24,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_2014_nian,Nian,2020-01-16,2020-07-29,2020-01-16,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_225_haak,Aak,2020-01-16,2020-07-29,2020-01-16,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_226_hmau,Hung,2020-01-16,2020-07-29,2020-01-16,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_383_snsant,Snowsant,2020-01-16,2020-07-29,2020-01-16,manual,set by hand: same event as Nian
+char_2013_cerber,Ceobe,2020-02-25,2020-08-26,2020-02-25,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_306_leizi,Leizi,2020-02-25,2020-08-26,2020-02-25,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_222_bpipe,Bagpipe,2020-03-17,2020-09-10,2020-03-17,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_252_bibeak,Bibeak,2020-03-17,2020-09-10,2020-03-17,manual,dates set by hand (TacticalBreakfast)
+char_337_utage,Utage,2020-03-17,2020-09-10,2020-03-17,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_379_sesa,Sesa,2020-03-17,2020-09-10,2020-03-17,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_159_peacok,Conviction,2020-04-01,2021-04-01,2020-04-01,manual,set by hand (special)
+char_250_phatom,Phantom,2020-04-21,2020-12-10,2020-04-21,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (headline match)
+char_254_vodfox,Shamare,2020-04-21,2020-12-10,2020-04-21,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (headline match)
+char_301_cutter,Cutter,2020-04-21,2020-12-10,2020-04-21,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (headline match)
+char_333_sidero,Sideroca,2020-04-21,2020-12-10,2020-04-21,manual,set by hand: same event as Phantom
+char_113_cqbw,W,2020-05-01,2020-12-30,2020-05-01,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_376_therex,THRM-EX,2020-05-01,2020-12-30,2020-05-01,manual,set by hand: same event as W
+char_400_weedy,Weedy,2020-05-01,2020-12-30,2020-05-01,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_401_elysm,Elysium,2020-05-01,2020-12-30,2020-05-01,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_385_finlpp,Purestream,2020-05-03,2021-05-19,2020-05-03,manual,set by hand (special)
+char_343_tknogi,Tsukinogi,2020-06-02,2020-11-11,2020-06-02,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (headline match)
+char_378_asbest,Asbestos,2020-06-02,2020-11-11,2020-06-02,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (headline match)
+char_197_poca,Rosa,2020-06-18,2020-09-29,2020-06-18,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (headline match)
+char_258_podego,Podenco,2020-06-18,2020-09-29,2020-06-18,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (headline match)
+char_373_lionhd,Leonhardt,2020-06-18,2020-09-29,2020-06-18,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (headline match)
+char_405_absin,Absinthe,2020-06-18,2020-09-29,2020-06-18,manual,set by hand: same event as Rosa
+char_294_ayer,Ayerscarpe,2020-07-09,2020-10-28,2020-07-09,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_328_cammou,Click,2020-07-09,2020-10-28,2020-07-09,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_345_folnic,Folinic,2020-07-09,2020-10-28,2020-07-09,manual,set by hand: same event as Suzuran
+char_358_lisa,Suzuran,2020-07-09,2020-10-28,2020-07-09,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_336_folivo,Scene,2020-07-28,2021-02-04,2020-07-28,manual,dates set by hand (TacticalBreakfast)
+char_344_beewax,Beeswax,2020-07-28,2020-11-26,2020-07-28,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (headline match)
+char_349_chiave,Chiave,2020-07-28,2020-11-26,2020-07-28,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (headline match)
+char_218_cuttle,Andreana,2020-08-11,2021-01-20,2020-08-11,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_272_strong,Jaye,2020-08-11,2021-01-20,2020-08-11,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_293_thorns,Thorns,2020-08-11,2021-01-20,2020-08-11,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_366_acdrop,Aciddrop,2020-08-25,2021-02-25,2020-08-25,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_411_tomimi,Tomimi,2020-08-25,2021-02-25,2020-08-25,manual,set by hand: same event as Eunectes
+char_415_flint,Flint,2020-08-25,2021-02-25,2020-08-25,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_416_zumama,Eunectes,2020-08-25,2021-02-25,2020-08-25,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_271_spikes,Arene,2020-09-24,2021-03-25,2020-09-24,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_350_surtr,Surtr,2020-09-24,2021-03-25,2020-09-24,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_365_aprl,April,2020-09-24,2021-03-25,2020-09-24,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_388_mint,Mint,2020-09-24,2021-03-25,2020-09-24,manual,set by hand: same dates as April and Surtr
+char_265_sophia,Whislash,2020-10-15,2021-04-08,2020-10-15,manual,set by hand: same event as Blemishine
+char_346_aosta,Aosta,2020-10-15,2021-04-08,2020-10-15,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_381_bubble,Bubble,2020-10-15,2021-04-08,2020-10-15,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_423_blemsh,Blemishine,2020-10-15,2021-04-08,2020-10-15,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_1001_amiya2,Amiya,2020-11-01,2021-04-30,2020-11-01,manual,"set by hand: Episode 8, same dates as Rosmontis and Mudrock"
+char_311_mudrok,Mudrock,2020-11-01,2021-04-30,2020-11-01,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_347_jaksel,Jackie,2020-11-01,2021-04-30,2020-11-01,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_391_rosmon,Rosmontis,2020-11-01,2021-04-30,2020-11-01,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_436_whispr,Whisperain,2020-11-01,2021-04-30,2020-11-01,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_214_kafka,Kafka,2020-12-17,2021-06-22,2020-12-17,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (headline match)
+char_264_f12yin,Mountain,2020-12-17,2021-06-22,2020-12-17,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (headline match)
+char_440_pinecn,Pinecone,2020-12-17,2021-06-22,2020-12-17,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (headline match)
+char_451_robin,Robin,2020-12-17,2021-06-22,2020-12-17,manual,set by hand: same event as Mountain
+char_332_archet,Archetto,2021-01-05,2021-07-06,2021-01-05,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (headline match)
+char_338_iris,Iris,2021-01-05,2021-07-06,2021-01-05,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (headline match)
+char_452_bstalk,Beanstalk,2021-01-05,2021-07-06,2021-01-05,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (headline match)
+char_402_tuye,Tuye,2021-01-19,2021-07-13,2021-01-19,manual,"set by hand: CC#4 Lead Seal, original run (Events tab: CN 2021-01-19, EN 2021-07-13); dates set by hand (TacticalBreakfast)"
+char_1011_lava2,Lava the Purgatory,2021-02-05,2021-07-30,2021-02-05,manual,set by hand: Who is Real (sheet labels it Hidden Moon)
+char_2015_dusk,Dusk,2021-02-05,2021-07-30,2021-02-05,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (headline match)
+char_362_saga,Saga,2021-02-05,2021-07-30,2021-02-05,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (headline match)
+char_455_nothin,Mr. Nothing,2021-02-05,2021-07-30,2021-02-05,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (headline match)
+char_456_ash,Ash,2021-03-09,2021-08-18,2021-03-09,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (headline match)
+char_457_blitz,Blitz,2021-03-09,2021-08-18,2021-03-09,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (headline match)
+char_458_rfrost,Frost,2021-03-09,2021-08-18,2021-03-09,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (headline match)
+char_459_tachak,Tachanka,2021-03-09,2021-08-18,2021-03-09,manual,set by hand: same event as Ash
+char_304_zebra,Heavyrain,2021-04-15,2021-09-30,2021-04-15,manual,set by hand: A Walk in the Dust (wiki says otherwise; per TacticalBreakfast)
+char_363_toddi,Toddifons,2021-04-15,2021-09-30,2021-04-15,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_472_pasngr,Passenger,2021-04-15,2021-09-30,2021-04-15,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_003_kalts,Kal'tsit,2021-05-01,2021-10-21,2021-05-01,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_1012_skadi2,Skadi the Corrupting Heart,2021-05-01,2021-10-21,2021-05-01,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_474_glady,Gladiia,2021-05-01,2021-10-21,2021-05-01,manual,set by hand: same event as Skadi the Corrupting Heart
+char_475_akafyu,Akafuyu,2021-05-01,2021-10-21,2021-05-01,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_369_bena,Bena,2021-06-01,2021-12-09,2021-06-01,manual,set by hand: same event as Carnelian
+char_426_billro,Carnelian,2021-06-01,2021-12-09,2021-06-01,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_469_indigo,Indigo,2021-06-01,2021-12-09,2021-06-01,manual,set by hand: same event as Carnelian
+char_478_kirara,Kirara,2021-06-01,2021-12-09,2021-06-01,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_485_pallas,Pallas,2021-07-02,2021-12-29,2021-07-02,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_1013_chen2,Ch'en the Holungday,2021-08-03,2022-01-14,2021-08-03,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (headline match)
+char_421_crow,La Pluma,2021-08-03,2022-01-14,2021-08-03,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (headline match)
+char_437_mizuki,Mizuki,2021-08-03,2022-01-14,2021-08-03,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (headline match)
+char_486_takila,Tequila,2021-08-03,2022-01-14,2021-08-03,manual,set by hand: same event as Ch'en the Holungday
+char_473_mberry,Mulberry,2021-09-17,2022-03-17,2021-09-17,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (headline match)
+char_479_sleach,Saileach,2021-09-17,2022-03-17,2021-09-17,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (headline match)
+char_484_robrta,Roberta,2021-09-17,2022-03-17,2021-09-17,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (headline match)
+char_430_fartth,Fartooth,2021-10-15,2022-04-14,2021-10-15,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (headline match)
+char_431_ashlok,Ashlock,2021-10-15,2022-04-14,2021-10-15,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (headline match)
+char_1014_nearl2,Nearl the Radiant Knight,2021-11-01,2022-04-28,2021-11-01,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_4000_jnight,'Justice Knight',2021-11-01,2022-04-28,2021-11-01,manual,set by hand: same event as Nearl the Radiant Knight
+char_4004_pudd,Pudding,2021-11-01,2022-04-28,2021-11-01,manual,set by hand: same event as Nearl the Radiant Knight
+char_420_flamtl,Flametail,2021-11-01,2022-04-28,2021-11-01,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_449_glider,Honeyberry,2021-11-01,2022-04-28,2021-11-01,manual,set by hand: same event as Nearl the Radiant Knight
+char_489_serum,Corroserum,2021-11-01,2022-04-28,2021-11-01,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_496_wildmn,Wild Mane,2021-11-01,2022-04-28,2021-11-01,manual,set by hand: same event as Nearl the Radiant Knight
+char_206_gnosis,Gnosis,2021-12-21,2022-06-30,2021-12-21,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_4013_kjera,Kjera,2021-12-21,2022-06-30,2021-12-21,manual,set by hand: same event as Gnosis
+char_422_aurora,Aurora,2021-12-21,2022-06-30,2021-12-21,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_4025_aprot2,Shalem,2022-01-05,2022-07-14,2022-01-05,manual,"set by hand: Integrated Strategies #2 (sheet: CN 2022-01-05, EN 2022-07-14)"
+char_4019_ncdeer,Nine-Colored Deer,2022-01-10,2022-07-14,2022-01-10,manual,set by hand (special)
+char_1021_kroos2,Kroos the Keen Glint,2022-01-25,2022-07-29,2022-01-25,manual,set by hand: Invitation to Wine
+char_2023_ling,Ling,2022-01-25,2022-07-29,2022-01-25,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_322_lmlee,Lee,2022-01-25,2022-07-29,2022-01-25,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_476_blkngt,Blacknight,2022-01-25,2022-07-29,2022-01-25,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_377_gdglow,Goldenglow,2022-02-15,2022-08-18,2022-02-15,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (headline match)
+char_492_quercu,Quercus,2022-02-15,2022-08-18,2022-02-15,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (headline match)
+char_300_phenxi,Fiammetta,2022-03-15,2022-09-16,2022-03-15,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_4016_kazema,Kazemaru,2022-03-15,2022-09-16,2022-03-15,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_4036_forcer,Enforcer,2022-03-15,2022-09-16,2022-03-15,manual,set by hand: same event as Fiammetta
+char_4039_horn,Horn,2022-04-14,2022-10-19,2022-04-14,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (headline match)
+char_4040_rockr,Rockrock,2022-04-14,2022-10-19,2022-04-14,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (headline match)
+char_4041_chnut,Chestnut,2022-04-14,2022-10-19,2022-04-14,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (headline match)
+char_4045_heidi,Heidi,2022-04-14,2022-10-19,2022-04-14,manual,"set by hand: Episode 10, same dates as Horn (corrected after the Unit List order check)"
+char_1023_ghost2,Specter the Unchained,2022-05-01,2022-11-03,2022-05-01,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_4009_irene,Irene,2022-05-01,2022-11-03,2022-05-01,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_4042_lumen,Lumen,2022-05-01,2022-11-03,2022-05-01,manual,set by hand: same event as Irene
+char_433_windft,Windflit,2022-05-01,2022-11-03,2022-05-01,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_4043_erato,Erato,2022-05-19,2022-12-08,2022-05-19,manual,"set by hand: CC#9 Deepness (CCs tab: CN 2022-05-19, EN 2022-12-08); dates set by hand (TacticalBreakfast)"
+char_1024_hbisc2,Hibiscus the Purifier,2022-06-09,2022-12-27,2022-06-09,manual,"set by hand: Lingering Echoes, same dates as Ebenholz (corrected after the Unit List order check)"
+char_4046_ebnhlz,Ebenholz,2022-06-09,2022-12-27,2022-06-09,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_4047_pianst,Czerny,2022-06-09,2022-12-27,2022-06-09,manual,"set by hand: Lingering Echoes, same dates as Ebenholz (corrected after the Unit List order check)"
+char_1027_greyy2,Greyy the Lightningbearer,2022-07-05,2023-03-10,2022-07-05,manual,set by hand: same event as Dorothy
+char_135_halo,Astgenne,2022-07-05,2023-03-10,2022-07-05,manual,"set by hand: Dorothy's Vision, same dates as Dorothy (corrected after the Unit List order check)"
+char_4048_doroth,Dorothy,2022-07-05,2023-03-10,2022-07-05,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_1026_gvial2,Gavial the Invincible,2022-08-11,2023-01-13,2022-08-11,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_4054_malist,Minimalist,2022-08-11,2023-01-13,2022-08-11,manual,set by hand: same event as Gavial the Invincible
+char_4055_bgsnow,Pozëmka,2022-08-11,2023-01-13,2022-08-11,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_497_ctable,Cantabile,2022-08-11,2023-01-13,2022-08-11,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_4032_provs,Proviso,2022-09-08,2023-03-31,2022-09-08,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_4064_mlynar,Młynar,2022-09-08,2023-03-31,2022-09-08,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_4067_lolxh,Luo Xiaohei,2022-09-15,2023-04-07,2022-09-15,manual,set by hand (special)
+char_4066_highmo,Highmore,2022-09-27,2023-05-23,2022-09-27,manual,"set by hand: Integrated Strategies #3 (sheet: CN 2022-09-27, EN 2023-05-23)"
+char_157_dagda,Dagda,2022-10-11,2023-04-27,2022-10-11,manual,set by hand: same event as Stainless
+char_4062_totter,Totter,2022-10-11,2023-04-27,2022-10-11,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (headline match)
+char_4071_peper,Paprika,2022-10-11,2023-04-27,2022-10-11,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (headline match)
+char_4072_ironmn,Stainless,2022-10-11,2023-04-27,2022-10-11,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (headline match)
+char_1028_texas2,Texas the Omertosa,2022-11-01,2023-05-23,2022-11-01,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_4014_lunacu,Lunacub,2022-11-01,2023-05-23,2022-11-01,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_4063_quartz,Quartz,2022-11-01,2023-05-23,2022-11-01,manual,set by hand: same event as Texas the Omertosa
+char_4065_judge,Penance,2022-11-01,2023-05-23,2022-11-01,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_427_vigil,Vigil,2022-11-01,2023-05-23,2022-11-01,manual,set by hand: same event as Texas the Omertosa
+char_466_qanik,Qanipalaat,2022-11-01,2023-05-23,2022-11-01,manual,set by hand: same event as Texas the Omertosa
+char_1020_reed2,Reed the Flame Shadow,2022-12-15,2023-07-13,2022-12-15,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_297_hamoni,Harmonie,2022-12-15,2023-07-13,2022-12-15,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_4017_puzzle,Puzzle,2022-12-15,2023-07-13,2022-12-15,manual,set by hand: same event as Reed the Flame Shadow
+char_2024_chyue,Chongyue,2023-01-17,2023-07-28,2023-01-17,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_4078_bdhkgt,Jieyun,2023-01-17,2023-07-28,2023-01-17,manual,set by hand: same event as Chongyue
+char_4080_lin,Lin,2023-01-17,2023-07-28,2023-01-17,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_493_firwhl,Firewhistle,2023-01-17,2023-07-28,2023-01-17,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_4082_qiubai,Qiubai,2023-02-14,2023-08-22,2023-02-14,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_4083_chimes,Wind Chimes,2023-02-14,2023-08-22,2023-02-14,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_1029_yato2,Kirin R Yato,2023-03-07,2023-09-07,2023-03-07,manual,set by hand: Monster Hunter collab (original run)
+char_1030_noirc2,Rathalos S Noir Corne,2023-03-07,2023-09-07,2023-03-07,manual,set by hand: Monster Hunter collab (original run)
+char_4077_palico,Terra Research Commission,2023-03-07,2023-09-07,2023-03-07,manual,set by hand: same event as Kirin R Yato
+char_4091_ulika,U-Official,2023-04-01,2024-04-01,2023-04-01,manual,dated from ArknightsAssets/ArknightsGamedata history; set by hand (special); EN set by hand (2024-04-01; the data repo had it from 2024-03-19)
+char_154_morgan,Morgan,2023-04-06,2023-10-24,2023-04-06,manual,set by hand: same event as Ines
+char_4087_ines,Ines,2023-04-06,2023-10-24,2023-04-06,manual,"CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match); EN corrected to the Chapter 12 banner (2023-10-24), not the pre-banner"
+char_464_cement,Cement,2023-04-06,2023-10-24,2023-04-06,manual,"CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match); EN corrected to the Chapter 12 banner (2023-10-24), not the pre-banner"
+char_491_humus,Humus,2023-04-06,2023-10-24,2023-04-06,manual,"CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match); EN corrected to the Chapter 12 banner (2023-10-24), not the pre-banner"
+char_1031_slent2,Silence the Paradigmatic,2023-05-01,2023-11-07,2023-05-01,manual,set by hand: same event as Muelsyse
+char_249_mlyss,Muelsyse,2023-05-01,2023-11-07,2023-05-01,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_4006_melnte,Melanite,2023-05-01,2023-11-07,2023-05-01,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_4027_heyak,Ho'olheyak,2023-05-01,2023-11-07,2023-05-01,manual,CN from TacticalBreakfast's archive sheet (Events and Banners); EN from TacticalBreakfast's archive sheet (Events and Banners) (event match)
+char_4093_frston,Friston-3,2023-05-22,2023-12-05,2023-05-22,manual,"set by hand: Pinch-Out (sheet: CN 2023-05-22, EN 2023-12-05)"
+char_1032_excu2,Executor the Ex Foedere,2023-06-08,2023-12-21,2023-06-08,manual,"CN from TacticalBreakfast's archive sheet (Events and Banners); EN date set by hand (Hortus De Escapismo on EN; listed as ""Egg2"" in the archive sheet)"
+char_4015_spuria,Spuria,2023-06-08,2023-12-21,2023-06-08,manual,"CN from TacticalBreakfast's archive sheet (Events and Banners); EN date set by hand (Hortus De Escapismo on EN; listed as ""Egg2"" in the archive sheet)"
+char_498_inside,Insider,2023-06-08,2023-12-21,2023-06-08,manual,"debuted with Executor the Ex Foedere (set by hand: same dates); EN date set by hand (Hortus De Escapismo on EN; listed as ""Egg2"" in the archive sheet)"
+char_2012_typhon,Typhon,2023-07-06,2024-02-27,2023-07-06,manual,"dated from ArknightsAssets/ArknightsGamedata history; CN from TacticalBreakfast's archive sheet (Events and Banners); EN date confirmed by the archive sheet (EN row ""Typhon"")"
+char_341_sntlla,Santalla,2023-07-06,2024-02-27,2023-07-06,manual,"dated from ArknightsAssets/ArknightsGamedata history; CN from TacticalBreakfast's archive sheet (Events and Banners); EN date confirmed by the archive sheet (EN row ""Typhon"")"
+char_4102_threye,Valarqvin,2023-07-06,2024-03-05,2023-07-06,manual,"dated from ArknightsAssets/ArknightsGamedata history; set by hand: Integrated Strategies #4 (sheet: CN 2023-07-06, EN 2024-03-05); EN from the archive sheet IS#4 row (2024-03-05; the data repo had it from 2024-02-27)"
+char_1016_agoat2,Eyjafjalla the Hvít Aska,2023-08-01,2024-01-16,2023-08-01,manual,dated from ArknightsAssets/ArknightsGamedata history; CN from TacticalBreakfast's archive sheet (Events and Banners)
+char_1033_swire2,Swire the Elegant Wit,2023-08-01,2024-01-16,2023-08-01,manual,dated from ArknightsAssets/ArknightsGamedata history; CN from TacticalBreakfast's archive sheet (Events and Banners)
+char_4106_bryota,Bryophyta,2023-08-01,2024-01-16,2023-08-01,manual,dated from ArknightsAssets/ArknightsGamedata history; set by hand: same event as Poncirus
+char_488_buildr,Poncirus,2023-08-01,2024-01-16,2023-08-01,manual,dated from ArknightsAssets/ArknightsGamedata history; CN from TacticalBreakfast's archive sheet (Events and Banners)
+char_1034_jesca2,Jessica the Liberated,2023-09-05,2024-03-19,2023-09-05,manual,dated from ArknightsAssets/ArknightsGamedata history; CN from TacticalBreakfast's archive sheet (Events and Banners)
+char_4104_coldst,Coldshot,2023-09-05,2024-03-19,2023-09-05,manual,debuted with Jessica the Liberated (set by hand: same dates)
+char_4105_almond,Almond,2023-09-05,2024-03-19,2023-09-05,manual,dated from ArknightsAssets/ArknightsGamedata history; CN from TacticalBreakfast's archive sheet (Events and Banners)
+char_4088_hodrer,Hoederer,2023-10-08,2024-04-16,2023-10-08,manual,dated from ArknightsAssets/ArknightsGamedata history; CN from TacticalBreakfast's archive sheet (Events and Banners)
+char_4107_vrdant,Verdant,2023-10-08,2024-04-16,2023-10-08,manual,dated from ArknightsAssets/ArknightsGamedata history; CN from TacticalBreakfast's archive sheet (Events and Banners)
+char_4110_delphn,Delphine,2023-10-08,2024-04-16,2023-10-08,manual,dated from ArknightsAssets/ArknightsGamedata history; set by hand: same event as Hoederer
+char_494_vendla,Vendela,2023-10-08,2024-04-16,2023-10-08,manual,dated from ArknightsAssets/ArknightsGamedata history; CN from TacticalBreakfast's archive sheet (Events and Banners)
+char_245_cello,Virtuosa,2023-11-01,2024-04-30,2023-11-01,manual,dated from ArknightsAssets/ArknightsGamedata history; CN from TacticalBreakfast's archive sheet (Events and Banners)
+char_4011_lessng,Lessing,2023-11-01,2024-04-30,2023-11-01,manual,dated from ArknightsAssets/ArknightsGamedata history; set by hand: same event as Viviana
+char_4098_vvana,Viviana,2023-11-01,2024-04-30,2023-11-01,manual,dated from ArknightsAssets/ArknightsGamedata history; CN from TacticalBreakfast's archive sheet (Events and Banners)
+char_4100_caper,Caper,2023-11-01,2024-04-30,2023-11-01,manual,dated from ArknightsAssets/ArknightsGamedata history; set by hand: same event as Viviana
+char_4109_baslin,Bassline,2023-11-01,2024-04-30,2023-11-01,manual,dated from ArknightsAssets/ArknightsGamedata history; CN from TacticalBreakfast's archive sheet (Events and Banners)
+char_499_kaitou,Diamante,2023-11-01,2024-04-30,2023-11-01,manual,dated from ArknightsAssets/ArknightsGamedata history; set by hand: same event as Viviana
+char_194_leto,Leto,2023-12-05,2024-06-21,2023-12-05,manual,dated from ArknightsAssets/ArknightsGamedata history; CN from TacticalBreakfast's archive sheet (Events and Banners)
+char_4114_harold,Harold,2023-12-05,2024-06-21,2023-12-05,manual,dated from ArknightsAssets/ArknightsGamedata history; set by hand: same event as Degenbrecher
+char_4116_blkkgt,Degenbrecher,2023-12-05,2024-06-21,2023-12-05,manual,dated from ArknightsAssets/ArknightsGamedata history; CN from TacticalBreakfast's archive sheet (Events and Banners)
+char_4081_warmy,Warmy,2024-01-09,2024-07-09,2024-01-09,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4117_ray,Ray,2024-01-09,2024-07-09,2024-01-09,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_2025_shu,Shu,2024-02-01,2024-07-31,2024-02-01,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4023_rfalcn,Kestrel,2024-02-01,2024-07-31,2024-02-01,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4119_wanqin,Wanqing,2024-02-01,2024-07-31,2024-02-01,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4121_zuole,Zuo Le,2024-02-01,2024-07-31,2024-02-01,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4122_grabds,Grain Buds,2024-02-01,2024-07-31,2024-02-01,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4123_ela,Ela,2024-03-07,2024-09-05,2024-03-07,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4124_iana,Iana,2024-03-07,2024-09-05,2024-03-07,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4125_rdoc,Doc,2024-03-07,2024-09-05,2024-03-07,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4126_fuze,Fuze,2024-03-07,2024-09-05,2024-03-07,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4130_luton,Lutonada,2024-04-11,2024-10-10,2024-04-11,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4131_odda,Odda,2024-04-11,2024-10-10,2024-04-11,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4132_ascln,Ascalon,2024-04-11,2024-10-10,2024-04-11,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_446_aroma,Aroma,2024-04-11,2024-10-10,2024-04-11,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_1035_wisdel,Wiš'adel,2024-05-01,2024-10-31,2024-05-01,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_1036_fang2,Fang the Fire-Sharpened,2024-05-01,2024-10-31,2024-05-01,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_1037_amiya3,Amiya,2024-05-01,2024-10-10,2024-05-01,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4133_logos,Logos,2024-05-01,2024-10-31,2024-05-01,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4134_cetsyr,Civilight Eterna,2024-05-01,2024-10-31,2024-05-01,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4136_phonor,PhonoR-0,2024-05-01,2024-10-31,2024-05-01,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4079_haini,Lucilla,2024-06-05,2024-12-03,2024-06-05,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4137_udflow,Underflow,2024-06-05,2024-12-03,2024-06-05,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4145_ulpia,Ulpianus,2024-06-05,2024-12-03,2024-06-05,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4146_nymph,Nymph,2024-07-09,2025-02-07,2024-07-09,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4147_mitm,Mitm,2024-07-09,2025-02-07,2024-07-09,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4151_tinman,Tin Man,2024-07-16,2025-02-07,2024-07-09,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4058_pepe,Pepe,2024-08-01,2025-01-16,2024-08-01,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4138_narant,Narantuya,2024-08-01,2025-01-16,2024-08-01,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4139_papyrs,Papyrus,2024-08-01,2025-01-16,2024-08-01,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4140_lasher,Sand Reckoner,2024-08-01,2025-01-16,2024-08-01,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4141_marcil,Marcille,2024-09-02,2025-03-10,2024-09-02,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4142_laios,Laios,2024-09-02,2025-03-10,2024-09-02,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4143_sensi,Senshi,2024-09-02,2025-03-10,2024-09-02,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4144_chilc,Chilchuck,2024-09-02,2025-03-10,2024-09-02,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_1019_siege2,Vina Victoria,2024-10-09,2025-04-08,2024-10-09,manual,dated from ArknightsAssets/ArknightsGamedata history; EN date from TacticalBreakfast's archive sheet (confirmed by hand)
+char_4162_cathy,Catherine,2024-10-09,2025-04-08,2024-10-09,manual,dated from ArknightsAssets/ArknightsGamedata history; EN date from TacticalBreakfast's archive sheet (confirmed by hand)
+char_487_bobb,Bobbing,2024-10-09,2025-04-08,2024-10-09,manual,dated from ArknightsAssets/ArknightsGamedata history; EN date from TacticalBreakfast's archive sheet (confirmed by hand)
+char_1038_whitw2,Lappland the Decadenza,2024-11-01,2025-04-24,2024-11-01,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_1502_crosly,Crownslayer,2024-11-01,2025-04-24,2024-11-01,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4026_vulpis,Vulpisfoglia,2024-11-01,2025-04-24,2024-11-01,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4148_philae,Philae,2024-11-01,2025-04-24,2024-11-01,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4155_talr,Figurino,2024-11-01,2025-04-24,2024-11-01,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4165_ctrail,Contrail,2024-11-01,2025-04-24,2024-11-01,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_1039_thorn2,Thorns the Lodestar,2024-12-05,2025-06-05,2024-12-05,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4163_rosesa,Rose Salt,2024-12-05,2025-06-05,2024-12-05,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4164_tecno,Tecno,2024-12-05,2025-06-05,2024-12-05,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_1040_blaze2,Blaze the Igniting Spark,2025-01-22,2025-07-17,2025-01-22,manual,"dated from ArknightsAssets/ArknightsGamedata history; EN date confirmed by the archive sheet (EN row ""Such is the Joy of our Reunion"")"
+char_2026_yu,Yu,2025-01-22,2025-07-17,2025-01-22,manual,"dated from ArknightsAssets/ArknightsGamedata history; EN date confirmed by the archive sheet (EN row ""Such is the Joy of our Reunion"")"
+char_4052_surfer,Surfer,2025-01-22,2025-07-17,2025-01-22,manual,"dated from ArknightsAssets/ArknightsGamedata history; EN date confirmed by the archive sheet (EN row ""Such is the Joy of our Reunion"")"
+char_4172_xingzh,Xingzhu,2025-01-22,2025-07-17,2025-01-22,manual,"dated from ArknightsAssets/ArknightsGamedata history; EN date confirmed by the archive sheet (EN row ""Such is the Joy of our Reunion"")"
+char_4010_etlchi,Entelechia,2025-02-14,2025-08-07,2025-02-14,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4173_nowell,Nowell,2025-02-14,2025-08-07,2025-02-14,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4171_wulfen,Wulfenite,2025-03-07,2025-08-28,2025-03-07,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4177_brigid,Brigid,2025-03-07,2025-08-28,2025-03-07,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_450_necras,Necrass,2025-03-07,2025-08-28,2025-03-07,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4178_alanna,Alanna,2025-04-07,2025-09-16,2025-04-07,manual,dated from ArknightsAssets/ArknightsGamedata history; CN date from TacticalBreakfast's archive sheet (confirmed: the data repo added these in bulk after an outage)
+char_4179_monstr,Mon3tr,2025-04-07,2025-09-16,2025-04-07,manual,dated from ArknightsAssets/ArknightsGamedata history; CN date from TacticalBreakfast's archive sheet (confirmed: the data repo added these in bulk after an outage)
+char_445_wscoot,Windscoot,2025-04-07,2025-09-16,2025-04-07,manual,dated from ArknightsAssets/ArknightsGamedata history; CN date from TacticalBreakfast's archive sheet (confirmed: the data repo added these in bulk after an outage)
+char_1041_angel2,Exusiai the New Covenant,2025-05-01,2025-10-14,2025-05-01,manual,dated from ArknightsAssets/ArknightsGamedata history; CN date from TacticalBreakfast's archive sheet (confirmed: the data repo added these in bulk after an outage)
+char_4187_graceb,Gracebearer,2025-05-01,2025-10-14,2025-05-01,manual,dated from ArknightsAssets/ArknightsGamedata history; CN date from TacticalBreakfast's archive sheet (confirmed: the data repo added these in bulk after an outage)
+char_4188_confes,CONFESS-47,2025-05-01,2025-10-14,2025-05-01,manual,dated from ArknightsAssets/ArknightsGamedata history; set by hand: same dates as Exusiai the New Covenant and Lemuen
+char_4193_lemuen,Lemuen,2025-05-01,2025-10-14,2025-05-01,manual,dated from ArknightsAssets/ArknightsGamedata history; CN date from TacticalBreakfast's archive sheet (confirmed: the data repo added these in bulk after an outage)
+char_4194_rmixer,Sankta Miksaparato,2025-05-01,2025-10-14,2025-05-01,manual,dated from ArknightsAssets/ArknightsGamedata history; CN date from TacticalBreakfast's archive sheet (confirmed: the data repo added these in bulk after an outage)
+char_1042_phatm2,Tragodia,2025-06-05,2025-11-13,2025-06-05,manual,dated from ArknightsAssets/ArknightsGamedata history; CN date from TacticalBreakfast's archive sheet (confirmed: the data repo added these in bulk after an outage)
+char_4191_tippi,Tippi,2025-06-05,2025-11-13,2025-06-05,manual,dated from ArknightsAssets/ArknightsGamedata history; CN date from TacticalBreakfast's archive sheet (confirmed: the data repo added these in bulk after an outage)
+char_4198_christ,Miss.Christine,2025-06-05,2025-11-13,2025-06-05,manual,dated from ArknightsAssets/ArknightsGamedata history; CN date from TacticalBreakfast's archive sheet (confirmed: the data repo added these in bulk after an outage); EN date from TacticalBreakfast's archive sheet (confirmed by hand)
+char_1043_leizi2,Leizi the Thunderbringer,2025-07-08,2025-12-11,2025-07-08,manual,dated from ArknightsAssets/ArknightsGamedata history; CN date from TacticalBreakfast's archive sheet (confirmed: the data repo added these in bulk after an outage)
+char_4196_reckpr,Record Keeper,2025-07-08,2025-12-11,2025-07-08,manual,dated from ArknightsAssets/ArknightsGamedata history; CN date from TacticalBreakfast's archive sheet (confirmed: the data repo added these in bulk after an outage)
+char_4195_radian,Raidian,2025-07-15,2025-12-18,2025-07-15,manual,"dated from ArknightsAssets/ArknightsGamedata history; set by hand: Integrated Strategies #6 (CN 2025-07-15, EN 2025-12-18)"
+char_1044_hsgma2,Hoshiguma the Breacher,2025-08-02,2026-01-16,2025-08-02,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4199_makiri,Matsukiri,2025-08-02,2026-01-16,2025-08-02,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4202_haruka,Haruka,2025-08-02,2026-01-16,2025-08-02,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4203_kichi,Kichisei,2025-08-02,2026-01-16,2025-08-02,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4182_oblvns,Sakiko Togawa,2025-09-04,2026-02-10,2025-09-04,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4183_mortis,Mutsumi Wakaba,2025-09-04,2026-02-10,2025-09-04,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4184_dolris,Uika Misumi,2025-09-04,2026-02-10,2025-09-04,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4185_amoris,Nyamu Yūtenji,2025-09-04,2026-02-10,2025-09-04,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4186_tmoris,Umiri Yahata,2025-09-04,2026-02-10,2025-09-04,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4204_mantra,Mantra,2025-10-09,2026-03-19,2025-10-09,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4207_branch,Vetochki,2025-10-09,2026-03-19,2025-10-09,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4208_wintim,Snegurochka,2025-10-09,2026-03-19,2025-10-09,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_1045_svash2,SilverAsh the Reignfrost,2025-11-01,2026-04-14,2025-11-01,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_1046_sbell2,Pramanix the Prerita,2025-11-01,2026-04-14,2025-11-01,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_1047_halo2,Astgenne the Lightchaser,2025-11-01,2026-04-14,2025-11-01,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_394_hadiya,Hadiya,2025-11-01,2026-04-14,2025-11-01,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4051_akkord,Akkord,2025-11-01,2026-04-14,2025-11-01,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4211_snhunt,Snow Hunter,2025-11-01,2026-04-14,2025-11-01,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4212_nasti,Nasti,2025-12-05,2026-05-21,2025-12-05,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4213_skybx,Skybox,2025-12-05,2026-05-21,2025-12-05,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4214_cairn,Cairn,2025-12-05,2026-05-21,2025-12-05,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_1022_flwr2,Perfumer the Distilled,2026-01-09,2026-06-22,2026-01-09,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4056_titi,Titi,2026-01-09,2026-06-22,2026-01-09,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_4166_varkis,Varkáris,2026-01-09,2026-06-22,2026-01-09,manual,dated from ArknightsAssets/ArknightsGamedata history
+char_1050_chen3,Ch'en the Dawnstreak,2026-02-10,2026-07-16,2026-02-10,seed,
+char_2027_wang,Wang,2026-02-10,2026-07-16,2026-02-10,seed,
+char_4221_ju,Ju,2026-02-10,2026-07-16,2026-02-10,seed,
+char_4222_taraxa,Taraxacum,2026-02-10,2026-07-16,2026-02-10,seed,
+char_4031_liesel,Ripresa,2026-03-10,2026-08-12,2026-03-10,manual,EN date: official release (set by hand)
+char_4037_demetr,Bellone,2026-03-10,2026-08-12,2026-03-10,manual,EN date: official release (set by hand)
+char_1051_headb2,Zima the Raging Tide,2026-04-07,2026-09-16,2026-04-07,seed,
+char_4223_botany,Botani,2026-04-07,2026-09-16,2026-04-07,seed,
+char_4224_turdus,Ukusik,2026-04-07,2026-09-16,2026-04-07,seed,
 char_1052_kalts2,Kal'tsit Esperanta,2026-05-01,2026-10-14,2026-05-01,seed,
 char_4225_tanya,Crackborne,2026-05-01,2026-10-14,2026-05-01,seed,
 char_4226_veen,Viy,2026-05-01,2026-10-14,2026-05-01,seed,
+char_4227_gallus,GALLUS²,2026-05-01,2026-10-14,2026-05-01,manual,dated from ArknightsAssets/ArknightsGamedata history
 char_4228_closur,Closure,2026-05-01,2026-10-14,2026-05-01,seed,
 char_1048_orchd2,Violet Mizutsune Orchid,2026-06-01,,2026-06-01,seed,
 char_1049_catap2,Zinogre S Catapult,2026-06-01,,2026-06-01,seed,
+char_4215_buddy,Rhodes Island Recon,2026-06-01,,2026-06-01,manual,dated from ArknightsAssets/ArknightsGamedata history
 char_4229_aphris,Aphrissa,2026-07-10,,2026-07-10,log,
 char_4234_pedro,Pedro,2026-07-10,,2026-07-10,log,
-char_4230_mcnist,Mechanist,2026-07-18,,2026-07-10,log,
+char_4230_mcnist,Mechanist,2026-07-17,,2026-07-10,log,
 char_1015_aglna2,Angelina the Mellow Wish,2026-08-01,,2026-08-01,log,
 char_4235_thumpy,Thumpy,2026-08-01,,2026-08-01,log,
 char_4236_tmslot,Timeslot,2026-08-01,,2026-08-01,log,
