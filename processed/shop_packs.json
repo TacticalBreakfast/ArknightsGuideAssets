@@ -29,7 +29,8 @@
         "count": 2
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "goodId": "GP_Once_406"
   },
   {
     "name": "近卫芯片礼包",
@@ -73,7 +74,8 @@
         "count": 10
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "goodId": "GP_Once_404"
   },
   {
     "name": "酿造装置资金箱",
@@ -99,7 +101,8 @@
         "count": 300000
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "goodId": "GP_Once_405"
   },
   {
     "name": "卫戍协议数据包",
@@ -119,7 +122,8 @@
         "count": 12
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "goodId": "GP_Once_407"
   },
   {
     "name": "卫戍协议数据套组",
@@ -154,245 +158,12 @@
         "category": "Zero-Efficiency Item",
         "count": 90
       }
-    ]
-  },
-  {
-    "name": "2025音律联觉纪念礼包（复刻）",
-    "enName": null,
-    "priceCNY": 6,
-    "startDate": "2026-03-27T04:00:00+08:00",
-    "endDate": "2026-04-10T03:59:00+08:00",
-    "event": {
-      "id": "act41sre",
-      "name": "挽歌燃烧殆尽·复刻"
-    },
-    "items": [
-      {
-        "id": "4003",
-        "name": "合成玉",
-        "enName": "Orundum",
-        "count": 200
-      }
     ],
-    "otherItems": [
-      {
-        "name": "2025余韵切片",
-        "id": null,
-        "enName": null,
-        "category": "Avatar"
-      },
-      {
-        "name": "特邀嘉宾",
-        "id": null,
-        "enName": null,
-        "category": "Avatar"
-      }
-    ]
-  },
-  {
-    "name": "熠曲丰碑组合包（复刻）",
-    "enName": null,
-    "priceCNY": 30,
-    "startDate": "2026-03-27T04:00:00+08:00",
-    "endDate": "2026-04-10T03:59:00+08:00",
-    "event": {
-      "id": "act41sre",
-      "name": "挽歌燃烧殆尽·复刻"
-    },
-    "items": [
-      {
-        "id": "4003",
-        "name": "合成玉",
-        "enName": "Orundum",
-        "count": 1600
-      }
-    ],
-    "otherItems": [
-      {
-        "name": "熠曲丰碑",
-        "id": null,
-        "enName": null,
-        "category": "Namecard"
-      }
-    ]
-  },
-  {
-    "name": "移星桂冠组合包（复刻）",
-    "enName": null,
-    "priceCNY": 30,
-    "startDate": "2026-03-27T04:00:00+08:00",
-    "endDate": "2026-04-10T03:59:00+08:00",
-    "event": {
-      "id": "act41sre",
-      "name": "挽歌燃烧殆尽·复刻"
-    },
-    "items": [
-      {
-        "id": "4003",
-        "name": "合成玉",
-        "enName": "Orundum",
-        "count": 1600
-      }
-    ],
-    "otherItems": [
-      {
-        "name": "移星桂冠",
-        "id": null,
-        "enName": null,
-        "category": "Namecard"
-      }
-    ]
-  },
-  {
-    "name": "冰纹玉釉组合包（复刻）",
-    "enName": null,
-    "priceCNY": 30,
-    "startDate": "2026-03-27T04:00:00+08:00",
-    "endDate": "2026-04-10T03:59:00+08:00",
-    "event": {
-      "id": "act41sre",
-      "name": "挽歌燃烧殆尽·复刻"
-    },
-    "items": [
-      {
-        "id": "4003",
-        "name": "合成玉",
-        "enName": "Orundum",
-        "count": 1600
-      }
-    ],
-    "otherItems": [
-      {
-        "name": "冰纹玉釉",
-        "id": null,
-        "enName": null,
-        "category": "Namecard"
-      }
-    ]
-  },
-  {
-    "name": "雾色秘访组合包（复刻）",
-    "enName": null,
-    "priceCNY": 30,
-    "startDate": "2026-03-27T04:00:00+08:00",
-    "endDate": "2026-04-10T03:59:00+08:00",
-    "event": {
-      "id": "act41sre",
-      "name": "挽歌燃烧殆尽·复刻"
-    },
-    "items": [
-      {
-        "id": "4003",
-        "name": "合成玉",
-        "enName": "Orundum",
-        "count": 1600
-      }
-    ],
-    "otherItems": [
-      {
-        "name": "雾色秘访",
-        "id": null,
-        "enName": null,
-        "category": "Namecard"
-      }
-    ]
-  },
-  {
-    "name": "时序花圃组合包（复刻）",
-    "enName": null,
-    "priceCNY": 30,
-    "startDate": "2026-03-27T04:00:00+08:00",
-    "endDate": "2026-04-10T03:59:00+08:00",
-    "event": {
-      "id": "act41sre",
-      "name": "挽歌燃烧殆尽·复刻"
-    },
-    "items": [
-      {
-        "id": "4003",
-        "name": "合成玉",
-        "enName": "Orundum",
-        "count": 1600
-      }
-    ],
-    "otherItems": [
-      {
-        "name": "时序花圃",
-        "id": null,
-        "enName": null,
-        "category": "Namecard"
-      }
-    ]
-  },
-  {
-    "name": "2024音律联觉纪念礼包（复刻）",
-    "enName": null,
-    "priceCNY": 6,
-    "startDate": "2026-03-27T04:00:00+08:00",
-    "endDate": "2026-04-10T03:59:00+08:00",
-    "event": {
-      "id": "act41sre",
-      "name": "挽歌燃烧殆尽·复刻"
-    },
-    "items": [
-      {
-        "id": "4003",
-        "name": "合成玉",
-        "enName": "Orundum",
-        "count": 200
-      }
-    ],
-    "otherItems": [
-      {
-        "name": "2024余韵切片",
-        "id": null,
-        "enName": null,
-        "category": "Avatar"
-      },
-      {
-        "name": "祈望星光",
-        "id": null,
-        "enName": null,
-        "category": "Avatar"
-      }
-    ]
-  },
-  {
-    "name": "2023音律联觉纪念礼包（复刻）",
-    "enName": null,
-    "priceCNY": 6,
-    "startDate": "2026-03-27T04:00:00+08:00",
-    "endDate": "2026-04-10T03:59:00+08:00",
-    "event": {
-      "id": "act41sre",
-      "name": "挽歌燃烧殆尽·复刻"
-    },
-    "items": [
-      {
-        "id": "4003",
-        "name": "合成玉",
-        "enName": "Orundum",
-        "count": 200
-      }
-    ],
-    "otherItems": [
-      {
-        "name": "2023余韵切片",
-        "id": null,
-        "enName": null,
-        "category": "Avatar"
-      },
-      {
-        "name": "回眸一笑",
-        "id": null,
-        "enName": null,
-        "category": "Avatar"
-      }
-    ]
+    "goodId": "GP_Once_408"
   },
   {
     "name": "2022音律联觉纪念礼包（复刻）",
-    "enName": null,
+    "enName": "Ambience Synesthesia 2022 Gift Pack",
     "priceCNY": 6,
     "startDate": "2026-03-27T04:00:00+08:00",
     "endDate": "2026-04-10T03:59:00+08:00",
@@ -421,17 +192,18 @@
         "enName": null,
         "category": "Avatar"
       }
-    ]
+    ],
+    "goodId": "GP_Once_58"
   },
   {
-    "name": "米米子的照片集",
-    "enName": "Amiko's Photoset",
+    "name": "2023音律联觉纪念礼包（复刻）",
+    "enName": "Ambience Synesthesia 2023 Gift Pack",
     "priceCNY": 6,
-    "startDate": "2026-04-01T12:00:00+08:00",
-    "endDate": "2026-04-22T03:59:00+08:00",
+    "startDate": "2026-03-27T04:00:00+08:00",
+    "endDate": "2026-04-10T03:59:00+08:00",
     "event": {
-      "id": "act7fun",
-      "name": "Rhodes Island Epic 黑色博士坠落"
+      "id": "act41sre",
+      "name": "挽歌燃烧殆尽·复刻"
     },
     "items": [
       {
@@ -443,22 +215,29 @@
     ],
     "otherItems": [
       {
-        "name": "米米子",
+        "name": "2023余韵切片",
         "id": null,
         "enName": null,
-        "category": "Unknown"
+        "category": "Avatar"
+      },
+      {
+        "name": "回眸一笑",
+        "id": null,
+        "enName": null,
+        "category": "Avatar"
       }
-    ]
+    ],
+    "goodId": "GP_Once_90"
   },
   {
-    "name": "维维美的照片集",
-    "enName": "Wiš'ami's Photoset",
+    "name": "2024音律联觉纪念礼包（复刻）",
+    "enName": "Ambience Synesthesia 2024 Gift Pack",
     "priceCNY": 6,
-    "startDate": "2026-04-01T12:00:00+08:00",
-    "endDate": "2026-04-22T03:59:00+08:00",
+    "startDate": "2026-03-27T04:00:00+08:00",
+    "endDate": "2026-04-10T03:59:00+08:00",
     "event": {
-      "id": "act7fun",
-      "name": "Rhodes Island Epic 黑色博士坠落"
+      "id": "act41sre",
+      "name": "挽歌燃烧殆尽·复刻"
     },
     "items": [
       {
@@ -470,12 +249,193 @@
     ],
     "otherItems": [
       {
-        "name": "维维美",
+        "name": "2024余韵切片",
         "id": null,
         "enName": null,
-        "category": "Unknown"
+        "category": "Avatar"
+      },
+      {
+        "name": "祈望星光",
+        "id": null,
+        "enName": null,
+        "category": "Avatar"
       }
-    ]
+    ],
+    "goodId": "GP_Once_162"
+  },
+  {
+    "name": "2025音律联觉纪念礼包（复刻）",
+    "enName": "Ambience Synesthesia 2025 Gift Pack",
+    "priceCNY": 6,
+    "startDate": "2026-03-27T04:00:00+08:00",
+    "endDate": "2026-04-10T03:59:00+08:00",
+    "event": {
+      "id": "act41sre",
+      "name": "挽歌燃烧殆尽·复刻"
+    },
+    "items": [
+      {
+        "id": "4003",
+        "name": "合成玉",
+        "enName": "Orundum",
+        "count": 200
+      }
+    ],
+    "otherItems": [
+      {
+        "name": "2025余韵切片",
+        "id": null,
+        "enName": null,
+        "category": "Avatar"
+      },
+      {
+        "name": "特邀嘉宾",
+        "id": null,
+        "enName": null,
+        "category": "Avatar"
+      }
+    ],
+    "goodId": "GP_Once_276"
+  },
+  {
+    "name": "冰纹玉釉组合包（复刻）",
+    "enName": "Glazed Grace Pack",
+    "priceCNY": 30,
+    "startDate": "2026-03-27T04:00:00+08:00",
+    "endDate": "2026-04-10T03:59:00+08:00",
+    "event": {
+      "id": "act41sre",
+      "name": "挽歌燃烧殆尽·复刻"
+    },
+    "items": [
+      {
+        "id": "4003",
+        "name": "合成玉",
+        "enName": "Orundum",
+        "count": 1600
+      }
+    ],
+    "otherItems": [
+      {
+        "name": "冰纹玉釉",
+        "id": null,
+        "enName": null,
+        "category": "Namecard"
+      }
+    ],
+    "goodId": "GP_Once_279"
+  },
+  {
+    "name": "时序花圃组合包（复刻）",
+    "enName": "Blooms of Time Pack",
+    "priceCNY": 30,
+    "startDate": "2026-03-27T04:00:00+08:00",
+    "endDate": "2026-04-10T03:59:00+08:00",
+    "event": {
+      "id": "act41sre",
+      "name": "挽歌燃烧殆尽·复刻"
+    },
+    "items": [
+      {
+        "id": "4003",
+        "name": "合成玉",
+        "enName": "Orundum",
+        "count": 1600
+      }
+    ],
+    "otherItems": [
+      {
+        "name": "时序花圃",
+        "id": null,
+        "enName": null,
+        "category": "Namecard"
+      }
+    ],
+    "goodId": "GP_Once_281"
+  },
+  {
+    "name": "熠曲丰碑组合包（复刻）",
+    "enName": "Echoes of the Legends Pack",
+    "priceCNY": 30,
+    "startDate": "2026-03-27T04:00:00+08:00",
+    "endDate": "2026-04-10T03:59:00+08:00",
+    "event": {
+      "id": "act41sre",
+      "name": "挽歌燃烧殆尽·复刻"
+    },
+    "items": [
+      {
+        "id": "4003",
+        "name": "合成玉",
+        "enName": "Orundum",
+        "count": 1600
+      }
+    ],
+    "otherItems": [
+      {
+        "name": "熠曲丰碑",
+        "id": null,
+        "enName": null,
+        "category": "Namecard"
+      }
+    ],
+    "goodId": "GP_Once_277"
+  },
+  {
+    "name": "移星桂冠组合包（复刻）",
+    "enName": "Divine Reverie Pack",
+    "priceCNY": 30,
+    "startDate": "2026-03-27T04:00:00+08:00",
+    "endDate": "2026-04-10T03:59:00+08:00",
+    "event": {
+      "id": "act41sre",
+      "name": "挽歌燃烧殆尽·复刻"
+    },
+    "items": [
+      {
+        "id": "4003",
+        "name": "合成玉",
+        "enName": "Orundum",
+        "count": 1600
+      }
+    ],
+    "otherItems": [
+      {
+        "name": "移星桂冠",
+        "id": null,
+        "enName": null,
+        "category": "Namecard"
+      }
+    ],
+    "goodId": "GP_Once_278"
+  },
+  {
+    "name": "雾色秘访组合包（复刻）",
+    "enName": "The Wild Era Pack",
+    "priceCNY": 30,
+    "startDate": "2026-03-27T04:00:00+08:00",
+    "endDate": "2026-04-10T03:59:00+08:00",
+    "event": {
+      "id": "act41sre",
+      "name": "挽歌燃烧殆尽·复刻"
+    },
+    "items": [
+      {
+        "id": "4003",
+        "name": "合成玉",
+        "enName": "Orundum",
+        "count": 1600
+      }
+    ],
+    "otherItems": [
+      {
+        "name": "雾色秘访",
+        "id": null,
+        "enName": null,
+        "category": "Namecard"
+      }
+    ],
+    "goodId": "GP_Once_280"
   },
   {
     "name": "变格形象组合包",
@@ -531,7 +491,91 @@
         "enName": null,
         "category": "Skin"
       }
-    ]
+    ],
+    "goodId": "GP_Once_411"
+  },
+  {
+    "name": "米米子的照片集",
+    "enName": "Amiko's Photoset",
+    "priceCNY": 6,
+    "startDate": "2026-04-01T12:00:00+08:00",
+    "endDate": "2026-04-22T03:59:00+08:00",
+    "event": {
+      "id": "act7fun",
+      "name": "Rhodes Island Epic 黑色博士坠落"
+    },
+    "items": [
+      {
+        "id": "4003",
+        "name": "合成玉",
+        "enName": "Orundum",
+        "count": 200
+      }
+    ],
+    "otherItems": [
+      {
+        "name": "米米子",
+        "id": null,
+        "enName": null,
+        "category": "Unknown"
+      }
+    ],
+    "goodId": "GP_Once_409"
+  },
+  {
+    "name": "维维美的照片集",
+    "enName": "Wiš'ami's Photoset",
+    "priceCNY": 6,
+    "startDate": "2026-04-01T12:00:00+08:00",
+    "endDate": "2026-04-22T03:59:00+08:00",
+    "event": {
+      "id": "act7fun",
+      "name": "Rhodes Island Epic 黑色博士坠落"
+    },
+    "items": [
+      {
+        "id": "4003",
+        "name": "合成玉",
+        "enName": "Orundum",
+        "count": 200
+      }
+    ],
+    "otherItems": [
+      {
+        "name": "维维美",
+        "id": null,
+        "enName": null,
+        "category": "Unknown"
+      }
+    ],
+    "goodId": "GP_Once_410"
+  },
+  {
+    "name": "沉甸甸的资金箱",
+    "enName": "Heavy Funding Pack",
+    "priceCNY": 98,
+    "startDate": "2026-04-07T12:00:00+08:00",
+    "endDate": "2026-04-21T03:59:00+08:00",
+    "event": {
+      "id": "act51side",
+      "name": "人们，我们"
+    },
+    "items": [
+      {
+        "id": "4002",
+        "name": "至纯源石",
+        "enName": "Originite Prime",
+        "count": 21
+      },
+      {
+        "id": "4001",
+        "name": "龙门币",
+        "enName": "LMD",
+        "count": 1000000
+      }
+    ],
+    "otherItems": [],
+    "goodId": "GP_Once_413"
   },
   {
     "name": "近卫芯片礼包",
@@ -575,37 +619,13 @@
         "count": 10
       }
     ],
-    "otherItems": []
-  },
-  {
-    "name": "沉甸甸的资金箱",
-    "enName": "Heavy Funding Pack",
-    "priceCNY": 98,
-    "startDate": "2026-04-07T12:00:00+08:00",
-    "endDate": "2026-04-21T03:59:00+08:00",
-    "event": {
-      "id": "act51side",
-      "name": "人们，我们"
-    },
-    "items": [
-      {
-        "id": "4002",
-        "name": "至纯源石",
-        "enName": "Originite Prime",
-        "count": 21
-      },
-      {
-        "id": "4001",
-        "name": "龙门币",
-        "enName": "LMD",
-        "count": 1000000
-      }
-    ],
-    "otherItems": []
+    "otherItems": [],
+    "goodId": "GP_Once_412"
   },
   {
     "name": "2026音律联觉纪念礼包",
     "enName": "Ambience Synesthesia 2026 Gift Pack",
+    "goodId": "GP_Once_416",
     "priceCNY": 6,
     "startDate": "2026-04-25T21:30:00+08:00",
     "endDate": "2026-05-23T03:59:00+08:00",
@@ -637,8 +657,37 @@
     ]
   },
   {
+    "name": "失语者组合包",
+    "enName": "The Aphasic Pack",
+    "goodId": "GP_Once_420",
+    "priceCNY": 30,
+    "startDate": "2026-04-25T21:30:00+08:00",
+    "endDate": "2026-05-23T03:59:00+08:00",
+    "event": {
+      "id": "act3video",
+      "name": "回望泰拉限时登录活动"
+    },
+    "items": [
+      {
+        "id": "4003",
+        "name": "合成玉",
+        "enName": "Orundum",
+        "count": 1600
+      }
+    ],
+    "otherItems": [
+      {
+        "name": "失语者",
+        "id": null,
+        "enName": null,
+        "category": "Namecard"
+      }
+    ]
+  },
+  {
     "name": "布道人组合包",
     "enName": "The Congregation Pack",
+    "goodId": "GP_Once_417",
     "priceCNY": 30,
     "startDate": "2026-04-25T21:30:00+08:00",
     "endDate": "2026-05-23T03:59:00+08:00",
@@ -666,6 +715,7 @@
   {
     "name": "戏中身组合包",
     "enName": "The Scripted Pack",
+    "goodId": "GP_Once_418",
     "priceCNY": 30,
     "startDate": "2026-04-25T21:30:00+08:00",
     "endDate": "2026-05-23T03:59:00+08:00",
@@ -693,6 +743,7 @@
   {
     "name": "渡星客组合包",
     "enName": "Night Watcher Pack",
+    "goodId": "GP_Once_419",
     "priceCNY": 30,
     "startDate": "2026-04-25T21:30:00+08:00",
     "endDate": "2026-05-23T03:59:00+08:00",
@@ -718,87 +769,9 @@
     ]
   },
   {
-    "name": "失语者组合包",
-    "enName": "The Aphasic Pack",
-    "priceCNY": 30,
-    "startDate": "2026-04-25T21:30:00+08:00",
-    "endDate": "2026-05-23T03:59:00+08:00",
-    "event": {
-      "id": "act3video",
-      "name": "回望泰拉限时登录活动"
-    },
-    "items": [
-      {
-        "id": "4003",
-        "name": "合成玉",
-        "enName": "Orundum",
-        "count": 1600
-      }
-    ],
-    "otherItems": [
-      {
-        "name": "失语者",
-        "id": null,
-        "enName": null,
-        "category": "Namecard"
-      }
-    ]
-  },
-  {
-    "name": "鸭爵的零钱包",
-    "enName": "Duck Lord's Change Purse",
-    "priceCNY": 45,
-    "startDate": "2026-05-01T12:00:00+08:00",
-    "endDate": "2026-05-29T03:59:00+08:00",
-    "event": {
-      "id": "act4mainss",
-      "name": "相变临界"
-    },
-    "items": [
-      {
-        "id": "4002",
-        "name": "至纯源石",
-        "enName": "Originite Prime",
-        "count": 13
-      },
-      {
-        "id": "4001",
-        "name": "龙门币",
-        "enName": "LMD",
-        "count": 300000
-      }
-    ],
-    "otherItems": []
-  },
-  {
-    "name": "凯尔希的手提箱",
-    "enName": null,
-    "priceCNY": 68,
-    "startDate": "2026-05-01T12:00:00+08:00",
-    "endDate": "2026-05-29T03:59:00+08:00",
-    "event": {
-      "id": "act4mainss",
-      "name": "相变临界"
-    },
-    "items": [
-      {
-        "id": "4002",
-        "name": "至纯源石",
-        "enName": "Originite Prime",
-        "count": 16
-      },
-      {
-        "id": "4001",
-        "name": "龙门币",
-        "enName": "LMD",
-        "count": 700000
-      }
-    ],
-    "otherItems": []
-  },
-  {
     "name": "中坚调用凭证组合包<br>(2026周年庆典)",
-    "enName": null,
+    "enName": "Rhodes Island Headhunting Pack - Kernel",
+    "goodId": "GP_Once_432",
     "priceCNY": 198,
     "startDate": "2026-05-01T12:00:00+08:00",
     "endDate": "2026-05-29T03:59:00+08:00",
@@ -831,9 +804,10 @@
     ]
   },
   {
-    "name": "调用凭证组合包<br>(2026周年庆典)",
-    "enName": null,
-    "priceCNY": 198,
+    "name": "先锋芯片礼包",
+    "enName": "Vanguard Chip Pack",
+    "goodId": "GP_Once_422",
+    "priceCNY": 30,
     "startDate": "2026-05-01T12:00:00+08:00",
     "endDate": "2026-05-29T03:59:00+08:00",
     "event": {
@@ -842,51 +816,42 @@
     },
     "items": [
       {
-        "id": "7004",
-        "name": "十连寻访凭证",
-        "enName": "Ten-roll Headhunting Permit",
-        "count": 1
-      }
-    ],
-    "otherItems": [
-      {
-        "name": "周年庆典干员凭证（2026）",
-        "id": null,
-        "enName": "Standard Selector",
-        "category": "Special",
-        "count": 1
-      }
-    ]
-  },
-  {
-    "name": "高级特训意向礼包",
-    "enName": "Advanced Special Training Pack",
-    "priceCNY": 128,
-    "startDate": "2026-05-01T12:00:00+08:00",
-    "endDate": "2026-05-29T03:59:00+08:00",
-    "event": {
-      "id": "act4mainss",
-      "name": "相变临界"
-    },
-    "items": [
-      {
-        "id": "4002",
-        "name": "至纯源石",
-        "enName": "Originite Prime",
-        "count": 19
+        "id": "3213",
+        "name": "先锋双芯片",
+        "enName": "Vanguard Dualchip",
+        "count": 4
       },
       {
-        "id": "voucher_levelmax_6",
-        "name": "高级资深干员特训装置",
-        "enName": "Top Operator Training Apparatus",
-        "count": 1
+        "id": "3211",
+        "name": "先锋芯片",
+        "enName": "Vanguard Chip",
+        "count": 5
+      },
+      {
+        "id": "3303",
+        "name": "技巧概要·卷3",
+        "enName": "Skill Summary - 3",
+        "count": 45
+      },
+      {
+        "id": "3302",
+        "name": "技巧概要·卷2",
+        "enName": "Skill Summary - 2",
+        "count": 25
+      },
+      {
+        "id": "3301",
+        "name": "技巧概要·卷1",
+        "enName": "Skill Summary - 1",
+        "count": 10
       }
     ],
     "otherItems": []
   },
   {
-    "name": "特训意向礼包",
-    "enName": "Special Training Pack",
+    "name": "凯尔希的手提箱",
+    "enName": "Kal'tsit's Briefcase",
+    "goodId": "GP_Once_424",
     "priceCNY": 68,
     "startDate": "2026-05-01T12:00:00+08:00",
     "endDate": "2026-05-29T03:59:00+08:00",
@@ -899,13 +864,85 @@
         "id": "4002",
         "name": "至纯源石",
         "enName": "Originite Prime",
-        "count": 11
+        "count": 16
       },
       {
-        "id": "voucher_levelmax_5",
-        "name": "资深干员特训装置",
-        "enName": "Senior Operator Training Apparatus",
+        "id": "4001",
+        "name": "龙门币",
+        "enName": "LMD",
+        "count": 700000
+      }
+    ],
+    "otherItems": []
+  },
+  {
+    "name": "医疗芯片礼包",
+    "enName": "Medic Chip Pack",
+    "goodId": "GP_Once_421",
+    "priceCNY": 30,
+    "startDate": "2026-05-01T12:00:00+08:00",
+    "endDate": "2026-05-29T03:59:00+08:00",
+    "event": {
+      "id": "act4mainss",
+      "name": "相变临界"
+    },
+    "items": [
+      {
+        "id": "3263",
+        "name": "医疗双芯片",
+        "enName": "Medic Dualchip",
+        "count": 4
+      },
+      {
+        "id": "3261",
+        "name": "医疗芯片",
+        "enName": "Medic Chip",
+        "count": 5
+      },
+      {
+        "id": "3303",
+        "name": "技巧概要·卷3",
+        "enName": "Skill Summary - 3",
+        "count": 45
+      },
+      {
+        "id": "3302",
+        "name": "技巧概要·卷2",
+        "enName": "Skill Summary - 2",
+        "count": 25
+      },
+      {
+        "id": "3301",
+        "name": "技巧概要·卷1",
+        "enName": "Skill Summary - 1",
+        "count": 10
+      }
+    ],
+    "otherItems": []
+  },
+  {
+    "name": "庆典中坚寻访组合包",
+    "enName": "Celebration Kernel Headhunting Pack",
+    "goodId": "GP_Once_435",
+    "priceCNY": 68,
+    "startDate": "2026-05-01T12:00:00+08:00",
+    "endDate": "2026-05-29T03:59:00+08:00",
+    "event": {
+      "id": "act4mainss",
+      "name": "相变临界"
+    },
+    "items": [
+      {
+        "id": "classic_gacha_10",
+        "name": "十连中坚寻访凭证",
+        "enName": "Ten-roll Kernel Headhunting Permit",
         "count": 1
+      },
+      {
+        "id": "classic_gacha",
+        "name": "中坚寻访凭证",
+        "enName": "Kernel Headhunting Permit",
+        "count": 5
       }
     ],
     "otherItems": []
@@ -913,6 +950,7 @@
   {
     "name": "技巧集综合礼包",
     "enName": "Comprehensive Skill Training Pack",
+    "goodId": "GP_Once_425",
     "priceCNY": 98,
     "startDate": "2026-05-01T12:00:00+08:00",
     "endDate": "2026-05-29T03:59:00+08:00",
@@ -949,8 +987,9 @@
     "otherItems": []
   },
   {
-    "name": "庆典中坚寻访组合包",
-    "enName": "Celebration Kernel Headhunting Pack",
+    "name": "特训意向礼包",
+    "enName": "Special Training Pack",
+    "goodId": "GP_Once_426",
     "priceCNY": 68,
     "startDate": "2026-05-01T12:00:00+08:00",
     "endDate": "2026-05-29T03:59:00+08:00",
@@ -960,23 +999,57 @@
     },
     "items": [
       {
-        "id": "classic_gacha_10",
-        "name": "十连中坚寻访凭证",
-        "enName": "Ten-roll Kernel Headhunting Permit",
-        "count": 1
+        "id": "4002",
+        "name": "至纯源石",
+        "enName": "Originite Prime",
+        "count": 11
       },
       {
-        "id": "classic_gacha",
-        "name": "中坚寻访凭证",
-        "enName": "Kernel Headhunting Permit",
-        "count": 5
+        "id": "voucher_levelmax_5",
+        "name": "资深干员特训装置",
+        "enName": "Senior Operator Training Apparatus",
+        "count": 1
+      }
+    ],
+    "otherItems": []
+  },
+  {
+    "name": "综合材料组合包",
+    "enName": "Mixed Materials Pack",
+    "goodId": "GP_Once_430",
+    "priceCNY": 98,
+    "startDate": "2026-05-01T12:00:00+08:00",
+    "endDate": "2026-05-29T03:59:00+08:00",
+    "event": {
+      "id": "act4mainss",
+      "name": "相变临界"
+    },
+    "items": [
+      {
+        "id": "precious_material_voucher_perm",
+        "name": "稀有材料提货券",
+        "enName": "Precious Material Voucher",
+        "count": 10
+      },
+      {
+        "id": "premium_material_issue_voucher",
+        "name": "特级材料提货券",
+        "enName": "Premium Material Voucher",
+        "count": 15
+      },
+      {
+        "id": "advanced_material_issue_voucher",
+        "name": "高级材料提货券",
+        "enName": "Advanced Material Voucher",
+        "count": 20
       }
     ],
     "otherItems": []
   },
   {
     "name": "罗德岛周年作战包(2026)",
-    "enName": null,
+    "enName": "Rhodes Island Celebration Kit",
+    "goodId": "GP_Once_433",
     "priceCNY": 198,
     "startDate": "2026-05-01T12:00:00+08:00",
     "endDate": "2026-05-29T03:59:00+08:00",
@@ -1038,7 +1111,8 @@
   },
   {
     "name": "罗德岛周年组合包(2026)",
-    "enName": null,
+    "enName": "Rhodes Island Celebration Pack",
+    "goodId": "GP_Once_434",
     "priceCNY": 328,
     "startDate": "2026-05-01T12:00:00+08:00",
     "endDate": "2026-05-29T03:59:00+08:00",
@@ -1114,9 +1188,10 @@
     ]
   },
   {
-    "name": "综合材料组合包",
-    "enName": "Mixed Materials Pack",
-    "priceCNY": 98,
+    "name": "调用凭证组合包<br>(2026周年庆典)",
+    "enName": "Rhodes Island Headhunting Pack",
+    "goodId": "GP_Once_431",
+    "priceCNY": 198,
     "startDate": "2026-05-01T12:00:00+08:00",
     "endDate": "2026-05-29T03:59:00+08:00",
     "event": {
@@ -1125,29 +1200,26 @@
     },
     "items": [
       {
-        "id": "precious_material_voucher_perm",
-        "name": "稀有材料提货券",
-        "enName": "Precious Material Voucher",
-        "count": 10
-      },
-      {
-        "id": "premium_material_issue_voucher",
-        "name": "特级材料提货券",
-        "enName": "Premium Material Voucher",
-        "count": 15
-      },
-      {
-        "id": "advanced_material_issue_voucher",
-        "name": "高级材料提货券",
-        "enName": "Advanced Material Voucher",
-        "count": 20
+        "id": "7004",
+        "name": "十连寻访凭证",
+        "enName": "Ten-roll Headhunting Permit",
+        "count": 1
       }
     ],
-    "otherItems": []
+    "otherItems": [
+      {
+        "name": "周年庆典干员凭证（2026）",
+        "id": null,
+        "enName": "Standard Selector",
+        "category": "Special",
+        "count": 1
+      }
+    ]
   },
   {
     "name": "资深干员特训礼包",
     "enName": "Senior Operator Training Pack",
+    "goodId": "GP_Once_427",
     "priceCNY": 98,
     "startDate": "2026-05-01T12:00:00+08:00",
     "endDate": "2026-05-29T03:59:00+08:00",
@@ -1172,8 +1244,36 @@
     "otherItems": []
   },
   {
+    "name": "高级特训意向礼包",
+    "enName": "Advanced Special Training Pack",
+    "goodId": "GP_Once_428",
+    "priceCNY": 128,
+    "startDate": "2026-05-01T12:00:00+08:00",
+    "endDate": "2026-05-29T03:59:00+08:00",
+    "event": {
+      "id": "act4mainss",
+      "name": "相变临界"
+    },
+    "items": [
+      {
+        "id": "4002",
+        "name": "至纯源石",
+        "enName": "Originite Prime",
+        "count": 19
+      },
+      {
+        "id": "voucher_levelmax_6",
+        "name": "高级资深干员特训装置",
+        "enName": "Top Operator Training Apparatus",
+        "count": 1
+      }
+    ],
+    "otherItems": []
+  },
+  {
     "name": "高级资深干员特训礼包",
     "enName": "Top Operator Training Pack",
+    "goodId": "GP_Once_429",
     "priceCNY": 168,
     "startDate": "2026-05-01T12:00:00+08:00",
     "endDate": "2026-05-29T03:59:00+08:00",
@@ -1198,9 +1298,10 @@
     "otherItems": []
   },
   {
-    "name": "医疗芯片礼包",
-    "enName": "Medic Chip Pack",
-    "priceCNY": 30,
+    "name": "鸭爵的零钱包",
+    "enName": "Duck Lord's Change Purse",
+    "goodId": "GP_Once_423",
+    "priceCNY": 45,
     "startDate": "2026-05-01T12:00:00+08:00",
     "endDate": "2026-05-29T03:59:00+08:00",
     "event": {
@@ -1209,78 +1310,16 @@
     },
     "items": [
       {
-        "id": "3263",
-        "name": "医疗双芯片",
-        "enName": "Medic Dualchip",
-        "count": 4
+        "id": "4002",
+        "name": "至纯源石",
+        "enName": "Originite Prime",
+        "count": 13
       },
       {
-        "id": "3261",
-        "name": "医疗芯片",
-        "enName": "Medic Chip",
-        "count": 5
-      },
-      {
-        "id": "3303",
-        "name": "技巧概要·卷3",
-        "enName": "Skill Summary - 3",
-        "count": 45
-      },
-      {
-        "id": "3302",
-        "name": "技巧概要·卷2",
-        "enName": "Skill Summary - 2",
-        "count": 25
-      },
-      {
-        "id": "3301",
-        "name": "技巧概要·卷1",
-        "enName": "Skill Summary - 1",
-        "count": 10
-      }
-    ],
-    "otherItems": []
-  },
-  {
-    "name": "先锋芯片礼包",
-    "enName": "Vanguard Chip Pack",
-    "priceCNY": 30,
-    "startDate": "2026-05-01T12:00:00+08:00",
-    "endDate": "2026-05-29T03:59:00+08:00",
-    "event": {
-      "id": "act4mainss",
-      "name": "相变临界"
-    },
-    "items": [
-      {
-        "id": "3213",
-        "name": "先锋双芯片",
-        "enName": "Vanguard Dualchip",
-        "count": 4
-      },
-      {
-        "id": "3211",
-        "name": "先锋芯片",
-        "enName": "Vanguard Chip",
-        "count": 5
-      },
-      {
-        "id": "3303",
-        "name": "技巧概要·卷3",
-        "enName": "Skill Summary - 3",
-        "count": 45
-      },
-      {
-        "id": "3302",
-        "name": "技巧概要·卷2",
-        "enName": "Skill Summary - 2",
-        "count": 25
-      },
-      {
-        "id": "3301",
-        "name": "技巧概要·卷1",
-        "enName": "Skill Summary - 1",
-        "count": 10
+        "id": "4001",
+        "name": "龙门币",
+        "enName": "LMD",
+        "count": 300000
       }
     ],
     "otherItems": []
@@ -1288,6 +1327,7 @@
   {
     "name": "定向甄选寻访组合包",
     "enName": "Orienteering Headhunting Pack",
+    "goodId": "GP_Once_439",
     "priceCNY": 168,
     "startDate": "2026-05-15T16:00:00+08:00",
     "endDate": "2026-06-12T03:59:00+08:00",
@@ -1314,6 +1354,7 @@
   {
     "name": "罗德岛数据包",
     "enName": "Rhodes Island Data Pack",
+    "goodId": "GP_Once_440",
     "priceCNY": 30,
     "startDate": "2026-05-15T16:00:00+08:00",
     "endDate": "2026-06-12T03:59:00+08:00",
@@ -1332,34 +1373,9 @@
     "otherItems": []
   },
   {
-    "name": "罗德岛资金箱",
-    "enName": "Rhodes Island Funding Box",
-    "priceCNY": 68,
-    "startDate": "2026-05-15T16:00:00+08:00",
-    "endDate": "2026-06-12T03:59:00+08:00",
-    "event": {
-      "id": "sandbox_2",
-      "name": "重启锚点"
-    },
-    "items": [
-      {
-        "id": "4002",
-        "name": "至纯源石",
-        "enName": "Originite Prime",
-        "count": 16
-      },
-      {
-        "id": "4001",
-        "name": "龙门币",
-        "enName": "LMD",
-        "count": 700000
-      }
-    ],
-    "otherItems": []
-  },
-  {
     "name": "罗德岛数据套组",
     "enName": "Rhodes Island Data Set",
+    "goodId": "GP_Once_441",
     "priceCNY": 68,
     "startDate": "2026-05-15T16:00:00+08:00",
     "endDate": "2026-06-12T03:59:00+08:00",
@@ -1393,126 +1409,15 @@
     ]
   },
   {
-    "name": "水芸仿绘礼包",
-    "enName": null,
-    "priceCNY": 12,
-    "startDate": "2026-06-01T12:00:00+08:00",
-    "endDate": "2026-06-29T03:59:00+08:00",
-    "event": {
-      "id": "act50side",
-      "name": "泡影苍霆"
-    },
-    "items": [
-      {
-        "id": "4003",
-        "name": "合成玉",
-        "enName": "Orundum",
-        "count": 200
-      }
-    ],
-    "otherItems": [
-      {
-        "name": "很好奇的猫",
-        "id": null,
-        "enName": null,
-        "category": "Avatar"
-      },
-      {
-        "name": "很调皮的狗",
-        "id": null,
-        "enName": null,
-        "category": "Avatar"
-      }
-    ]
-  },
-  {
-    "name": "水芸珍藏礼包",
-    "enName": null,
-    "priceCNY": 30,
-    "startDate": "2026-06-01T12:00:00+08:00",
-    "endDate": "2026-06-29T03:59:00+08:00",
-    "event": {
-      "id": "act50side",
-      "name": "泡影苍霆"
-    },
-    "items": [
-      {
-        "id": "4003",
-        "name": "合成玉",
-        "enName": "Orundum",
-        "count": 1600
-      }
-    ],
-    "otherItems": [
-      {
-        "name": "一起去狩猎喵！",
-        "id": null,
-        "enName": null,
-        "category": "Namecard"
-      }
-    ]
-  },
-  {
-    "name": "狩猎特训组合包",
-    "enName": null,
-    "priceCNY": 168,
-    "startDate": "2026-06-01T12:00:00+08:00",
-    "endDate": "2026-06-29T03:59:00+08:00",
-    "event": {
-      "id": "act50side",
-      "name": "泡影苍霆"
-    },
-    "items": [
-      {
-        "id": "voucher_elite_II_6",
-        "name": "高级资深干员特训邀请函",
-        "enName": "Top Operator Training Invitation Letter",
-        "count": 1
-      },
-      {
-        "id": "voucher_elite_II_5",
-        "name": "资深干员特训邀请函",
-        "enName": "Senior Operator Training Invitation Letter",
-        "count": 2
-      }
-    ],
-    "otherItems": []
-  },
-  {
-    "name": "追猎技艺组合包",
-    "enName": null,
-    "priceCNY": 128,
-    "startDate": "2026-06-01T12:00:00+08:00",
-    "endDate": "2026-06-29T03:59:00+08:00",
-    "event": {
-      "id": "act50side",
-      "name": "泡影苍霆"
-    },
-    "items": [
-      {
-        "id": "voucher_levelmax_6",
-        "name": "高级资深干员特训装置",
-        "enName": "Top Operator Training Apparatus",
-        "count": 1
-      },
-      {
-        "id": "voucher_levelmax_5",
-        "name": "资深干员特训装置",
-        "enName": "Senior Operator Training Apparatus",
-        "count": 2
-      }
-    ],
-    "otherItems": []
-  },
-  {
-    "name": "猎人的补给箱",
-    "enName": null,
+    "name": "罗德岛资金箱",
+    "enName": "Rhodes Island Funding Box",
+    "goodId": "GP_Once_442",
     "priceCNY": 68,
-    "startDate": "2026-06-01T12:00:00+08:00",
-    "endDate": "2026-06-29T03:59:00+08:00",
+    "startDate": "2026-05-15T16:00:00+08:00",
+    "endDate": "2026-06-12T03:59:00+08:00",
     "event": {
-      "id": "act50side",
-      "name": "泡影苍霆"
+      "id": "sandbox_2",
+      "name": "重启锚点"
     },
     "items": [
       {
@@ -1531,52 +1436,9 @@
     "otherItems": []
   },
   {
-    "name": "狙击芯片礼包",
-    "enName": "Sniper Chip Pack",
-    "priceCNY": 30,
-    "startDate": "2026-06-01T12:00:00+08:00",
-    "endDate": "2026-06-29T03:59:00+08:00",
-    "event": {
-      "id": "act50side",
-      "name": "泡影苍霆"
-    },
-    "items": [
-      {
-        "id": "3243",
-        "name": "狙击双芯片",
-        "enName": "Sniper Dualchip",
-        "count": 4
-      },
-      {
-        "id": "3241",
-        "name": "狙击芯片",
-        "enName": "Sniper Chip",
-        "count": 5
-      },
-      {
-        "id": "3303",
-        "name": "技巧概要·卷3",
-        "enName": "Skill Summary - 3",
-        "count": 45
-      },
-      {
-        "id": "3302",
-        "name": "技巧概要·卷2",
-        "enName": "Skill Summary - 2",
-        "count": 25
-      },
-      {
-        "id": "3301",
-        "name": "技巧概要·卷1",
-        "enName": "Skill Summary - 1",
-        "count": 10
-      }
-    ],
-    "otherItems": []
-  },
-  {
     "name": "寻踪相伴组合包",
-    "enName": null,
+    "enName": "Companions on the Trail Pack",
+    "goodId": "GP_Once_449",
     "priceCNY": 198,
     "startDate": "2026-06-01T12:00:00+08:00",
     "endDate": "2026-06-29T03:59:00+08:00",
@@ -1625,8 +1487,71 @@
     "otherItems": []
   },
   {
+    "name": "水芸仿绘礼包",
+    "enName": "Minoto Art",
+    "goodId": "GP_Once_443",
+    "priceCNY": 12,
+    "startDate": "2026-06-01T12:00:00+08:00",
+    "endDate": "2026-06-29T03:59:00+08:00",
+    "event": {
+      "id": "act50side",
+      "name": "泡影苍霆"
+    },
+    "items": [
+      {
+        "id": "4003",
+        "name": "合成玉",
+        "enName": "Orundum",
+        "count": 200
+      }
+    ],
+    "otherItems": [
+      {
+        "name": "很好奇的猫",
+        "id": null,
+        "enName": null,
+        "category": "Avatar"
+      },
+      {
+        "name": "很调皮的狗",
+        "id": null,
+        "enName": null,
+        "category": "Avatar"
+      }
+    ]
+  },
+  {
+    "name": "水芸珍藏礼包",
+    "enName": "Minoto Collection",
+    "goodId": "GP_Once_445",
+    "priceCNY": 30,
+    "startDate": "2026-06-01T12:00:00+08:00",
+    "endDate": "2026-06-29T03:59:00+08:00",
+    "event": {
+      "id": "act50side",
+      "name": "泡影苍霆"
+    },
+    "items": [
+      {
+        "id": "4003",
+        "name": "合成玉",
+        "enName": "Orundum",
+        "count": 1600
+      }
+    ],
+    "otherItems": [
+      {
+        "name": "一起去狩猎喵！",
+        "id": null,
+        "enName": null,
+        "category": "Namecard"
+      }
+    ]
+  },
+  {
     "name": "满载而归组合包",
-    "enName": null,
+    "enName": "Bountiful Return Pack",
+    "goodId": "GP_Once_451",
     "priceCNY": 68,
     "startDate": "2026-06-01T12:00:00+08:00",
     "endDate": "2026-06-29T03:59:00+08:00",
@@ -1669,9 +1594,10 @@
     "otherItems": []
   },
   {
-    "name": "露华远行纪念礼包（复刻）",
-    "enName": null,
-    "priceCNY": 6,
+    "name": "狙击芯片礼包",
+    "enName": "Sniper Chip Pack",
+    "goodId": "GP_Once_446",
+    "priceCNY": 30,
     "startDate": "2026-06-01T12:00:00+08:00",
     "endDate": "2026-06-29T03:59:00+08:00",
     "event": {
@@ -1680,24 +1606,96 @@
     },
     "items": [
       {
-        "id": "4003",
-        "name": "合成玉",
-        "enName": "Orundum",
-        "count": 600
+        "id": "3243",
+        "name": "狙击双芯片",
+        "enName": "Sniper Dualchip",
+        "count": 4
+      },
+      {
+        "id": "3241",
+        "name": "狙击芯片",
+        "enName": "Sniper Chip",
+        "count": 5
+      },
+      {
+        "id": "3303",
+        "name": "技巧概要·卷3",
+        "enName": "Skill Summary - 3",
+        "count": 45
+      },
+      {
+        "id": "3302",
+        "name": "技巧概要·卷2",
+        "enName": "Skill Summary - 2",
+        "count": 25
+      },
+      {
+        "id": "3301",
+        "name": "技巧概要·卷1",
+        "enName": "Skill Summary - 1",
+        "count": 10
       }
     ],
-    "otherItems": [
+    "otherItems": []
+  },
+  {
+    "name": "狩猎特训组合包",
+    "enName": "Hunter Special Training Pack",
+    "goodId": "GP_Once_447",
+    "priceCNY": 168,
+    "startDate": "2026-06-01T12:00:00+08:00",
+    "endDate": "2026-06-29T03:59:00+08:00",
+    "event": {
+      "id": "act50side",
+      "name": "泡影苍霆"
+    },
+    "items": [
       {
-        "name": "寻火之叶",
-        "id": null,
-        "enName": null,
-        "category": "Avatar"
+        "id": "voucher_elite_II_6",
+        "name": "高级资深干员特训邀请函",
+        "enName": "Top Operator Training Invitation Letter",
+        "count": 1
+      },
+      {
+        "id": "voucher_elite_II_5",
+        "name": "资深干员特训邀请函",
+        "enName": "Senior Operator Training Invitation Letter",
+        "count": 2
       }
-    ]
+    ],
+    "otherItems": []
+  },
+  {
+    "name": "猎人的补给箱",
+    "enName": "Hunter Supply Crate",
+    "goodId": "GP_Once_450",
+    "priceCNY": 68,
+    "startDate": "2026-06-01T12:00:00+08:00",
+    "endDate": "2026-06-29T03:59:00+08:00",
+    "event": {
+      "id": "act50side",
+      "name": "泡影苍霆"
+    },
+    "items": [
+      {
+        "id": "4002",
+        "name": "至纯源石",
+        "enName": "Originite Prime",
+        "count": 16
+      },
+      {
+        "id": "4001",
+        "name": "龙门币",
+        "enName": "LMD",
+        "count": 700000
+      }
+    ],
+    "otherItems": []
   },
   {
     "name": "结营出猎组合包",
-    "enName": null,
+    "enName": "Strike Camp Hunt Pack",
+    "goodId": "GP_Once_444",
     "priceCNY": 78,
     "startDate": "2026-06-01T12:00:00+08:00",
     "endDate": "2026-06-29T03:59:00+08:00",
@@ -1735,8 +1733,64 @@
     ]
   },
   {
+    "name": "追猎技艺组合包",
+    "enName": "Hunter Arts Pack",
+    "goodId": "GP_Once_448",
+    "priceCNY": 128,
+    "startDate": "2026-06-01T12:00:00+08:00",
+    "endDate": "2026-06-29T03:59:00+08:00",
+    "event": {
+      "id": "act50side",
+      "name": "泡影苍霆"
+    },
+    "items": [
+      {
+        "id": "voucher_levelmax_6",
+        "name": "高级资深干员特训装置",
+        "enName": "Top Operator Training Apparatus",
+        "count": 1
+      },
+      {
+        "id": "voucher_levelmax_5",
+        "name": "资深干员特训装置",
+        "enName": "Senior Operator Training Apparatus",
+        "count": 2
+      }
+    ],
+    "otherItems": []
+  },
+  {
+    "name": "露华远行纪念礼包（复刻）",
+    "enName": "Roka Voyager Memorial Pack",
+    "goodId": "GP_Once_88",
+    "priceCNY": 6,
+    "startDate": "2026-06-01T12:00:00+08:00",
+    "endDate": "2026-06-29T03:59:00+08:00",
+    "event": {
+      "id": "act50side",
+      "name": "泡影苍霆"
+    },
+    "items": [
+      {
+        "id": "4003",
+        "name": "合成玉",
+        "enName": "Orundum",
+        "count": 600
+      }
+    ],
+    "otherItems": [
+      {
+        "name": "寻火之叶",
+        "id": null,
+        "enName": null,
+        "category": "Avatar"
+      }
+    ]
+  },
+  {
     "name": "特种芯片礼包",
     "enName": "Specialist Chip Pack",
+    "goodId": "GP_Once_452",
     "priceCNY": 30,
     "startDate": "2026-06-15T16:00:00+08:00",
     "endDate": "2026-06-29T03:59:00+08:00",
@@ -1779,89 +1833,9 @@
     "otherItems": []
   },
   {
-    "name": "罗德岛数据包",
-    "enName": "Rhodes Island Data Pack",
-    "priceCNY": 30,
-    "startDate": "2026-06-26T16:00:00+08:00",
-    "endDate": "2026-07-10T03:59:00+08:00",
-    "event": {
-      "id": "crisis_v2_season_5_1",
-      "name": "涤墨作战"
-    },
-    "items": [
-      {
-        "id": "mod_unlock_token",
-        "name": "模组数据块",
-        "enName": "Module Data Block",
-        "count": 12
-      }
-    ],
-    "otherItems": []
-  },
-  {
-    "name": "罗德岛资金箱",
-    "enName": "Rhodes Island Funding Box",
-    "priceCNY": 68,
-    "startDate": "2026-06-26T16:00:00+08:00",
-    "endDate": "2026-07-10T03:59:00+08:00",
-    "event": {
-      "id": "crisis_v2_season_5_1",
-      "name": "涤墨作战"
-    },
-    "items": [
-      {
-        "id": "4002",
-        "name": "至纯源石",
-        "enName": "Originite Prime",
-        "count": 16
-      },
-      {
-        "id": "4001",
-        "name": "龙门币",
-        "enName": "LMD",
-        "count": 700000
-      }
-    ],
-    "otherItems": []
-  },
-  {
-    "name": "罗德岛数据套组",
-    "enName": "Rhodes Island Data Set",
-    "priceCNY": 68,
-    "startDate": "2026-06-26T16:00:00+08:00",
-    "endDate": "2026-07-10T03:59:00+08:00",
-    "event": {
-      "id": "crisis_v2_season_5_1",
-      "name": "涤墨作战"
-    },
-    "items": [
-      {
-        "id": "mod_unlock_token",
-        "name": "模组数据块",
-        "enName": "Module Data Block",
-        "count": 24
-      }
-    ],
-    "otherItems": [
-      {
-        "name": "数据增补仪",
-        "id": "mod_update_token_2",
-        "enName": "Data Supplement Instrument",
-        "category": "Zero-Efficiency Item",
-        "count": 30
-      },
-      {
-        "name": "数据增补条",
-        "id": "mod_update_token_1",
-        "enName": "Data Supplement Stick",
-        "category": "Zero-Efficiency Item",
-        "count": 90
-      }
-    ]
-  },
-  {
     "name": "技巧集综合礼包",
     "enName": "Comprehensive Skill Training Pack",
+    "goodId": "GP_Once_454",
     "priceCNY": 98,
     "startDate": "2026-06-26T16:00:00+08:00",
     "endDate": "2026-07-10T03:59:00+08:00",
@@ -1898,8 +1872,93 @@
     "otherItems": []
   },
   {
+    "name": "罗德岛数据包",
+    "enName": "Rhodes Island Data Pack",
+    "goodId": "GP_Once_456",
+    "priceCNY": 30,
+    "startDate": "2026-06-26T16:00:00+08:00",
+    "endDate": "2026-07-10T03:59:00+08:00",
+    "event": {
+      "id": "crisis_v2_season_5_1",
+      "name": "涤墨作战"
+    },
+    "items": [
+      {
+        "id": "mod_unlock_token",
+        "name": "模组数据块",
+        "enName": "Module Data Block",
+        "count": 12
+      }
+    ],
+    "otherItems": []
+  },
+  {
+    "name": "罗德岛数据套组",
+    "enName": "Rhodes Island Data Set",
+    "goodId": "GP_Once_457",
+    "priceCNY": 68,
+    "startDate": "2026-06-26T16:00:00+08:00",
+    "endDate": "2026-07-10T03:59:00+08:00",
+    "event": {
+      "id": "crisis_v2_season_5_1",
+      "name": "涤墨作战"
+    },
+    "items": [
+      {
+        "id": "mod_unlock_token",
+        "name": "模组数据块",
+        "enName": "Module Data Block",
+        "count": 24
+      }
+    ],
+    "otherItems": [
+      {
+        "name": "数据增补仪",
+        "id": "mod_update_token_2",
+        "enName": "Data Supplement Instrument",
+        "category": "Zero-Efficiency Item",
+        "count": 30
+      },
+      {
+        "name": "数据增补条",
+        "id": "mod_update_token_1",
+        "enName": "Data Supplement Stick",
+        "category": "Zero-Efficiency Item",
+        "count": 90
+      }
+    ]
+  },
+  {
+    "name": "罗德岛资金箱",
+    "enName": "Rhodes Island Funding Box",
+    "goodId": "GP_Once_453",
+    "priceCNY": 68,
+    "startDate": "2026-06-26T16:00:00+08:00",
+    "endDate": "2026-07-10T03:59:00+08:00",
+    "event": {
+      "id": "crisis_v2_season_5_1",
+      "name": "涤墨作战"
+    },
+    "items": [
+      {
+        "id": "4002",
+        "name": "至纯源石",
+        "enName": "Originite Prime",
+        "count": 16
+      },
+      {
+        "id": "4001",
+        "name": "龙门币",
+        "enName": "LMD",
+        "count": 700000
+      }
+    ],
+    "otherItems": []
+  },
+  {
     "name": "高级特训意向组合包",
     "enName": "Advanced Special Training Bundle",
+    "goodId": "GP_Once_455",
     "priceCNY": 168,
     "startDate": "2026-06-26T16:00:00+08:00",
     "endDate": "2026-07-10T03:59:00+08:00",
@@ -1930,53 +1989,9 @@
     "otherItems": []
   },
   {
-    "name": "魔法护卫组合包",
-    "enName": null,
-    "priceCNY": 12,
-    "startDate": "2026-07-03T16:00:00+08:00",
-    "endDate": "2026-07-24T03:59:00+08:00",
-    "event": {
-      "id": "act9switch",
-      "name": "魔法与友谊合作活动"
-    },
-    "items": [
-      {
-        "id": "4003",
-        "name": "合成玉",
-        "enName": "Orundum",
-        "count": 400
-      }
-    ],
-    "otherItems": [
-      {
-        "name": "赤沙娜仁图亚",
-        "id": null,
-        "enName": null,
-        "category": "Avatar"
-      },
-      {
-        "name": "不言弃的格拉尼",
-        "id": null,
-        "enName": null,
-        "category": "Avatar"
-      },
-      {
-        "name": "林间流星",
-        "id": null,
-        "enName": null,
-        "category": "Avatar"
-      },
-      {
-        "name": "空中大爆破",
-        "id": null,
-        "enName": null,
-        "category": "Avatar"
-      }
-    ]
-  },
-  {
     "name": "友谊骑士组合包",
-    "enName": null,
+    "enName": "Friendship Knights Pack",
+    "goodId": "GP_Once_458",
     "priceCNY": 12,
     "startDate": "2026-07-03T16:00:00+08:00",
     "endDate": "2026-07-24T03:59:00+08:00",
@@ -2021,7 +2036,8 @@
   },
   {
     "name": "真挚友谊组合包",
-    "enName": null,
+    "enName": "Genuine Friendship Pack",
+    "goodId": "GP_Once_460",
     "priceCNY": 78,
     "startDate": "2026-07-03T16:00:00+08:00",
     "endDate": "2026-07-24T03:59:00+08:00",
@@ -2065,40 +2081,55 @@
     ]
   },
   {
-    "name": "沉沦秘境组合包",
-    "enName": null,
-    "priceCNY": 168,
-    "startDate": "2026-07-10T12:00:00+08:00",
-    "endDate": "2026-07-31T03:59:00+08:00",
+    "name": "魔法护卫组合包",
+    "enName": "Magic Guardian Pack",
+    "goodId": "GP_Once_459",
+    "priceCNY": 12,
+    "startDate": "2026-07-03T16:00:00+08:00",
+    "endDate": "2026-07-24T03:59:00+08:00",
     "event": {
-      "id": "act21mini",
-      "name": "丛林症结"
+      "id": "act9switch",
+      "name": "魔法与友谊合作活动"
     },
     "items": [
       {
-        "id": "voucher_elite_II_6",
-        "name": "高级资深干员特训邀请函",
-        "enName": "Top Operator Training Invitation Letter",
-        "count": 1
-      },
-      {
-        "id": "voucher_elite_II_5",
-        "name": "资深干员特训邀请函",
-        "enName": "Senior Operator Training Invitation Letter",
-        "count": 1
-      },
-      {
-        "id": "voucher_elite_II_4",
-        "name": "专业干员特训邀请函",
-        "enName": "Professional Operator Training Invitation Letter",
-        "count": 2
+        "id": "4003",
+        "name": "合成玉",
+        "enName": "Orundum",
+        "count": 400
       }
     ],
-    "otherItems": []
+    "otherItems": [
+      {
+        "name": "赤沙娜仁图亚",
+        "id": null,
+        "enName": null,
+        "category": "Avatar"
+      },
+      {
+        "name": "不言弃的格拉尼",
+        "id": null,
+        "enName": null,
+        "category": "Avatar"
+      },
+      {
+        "name": "林间流星",
+        "id": null,
+        "enName": null,
+        "category": "Avatar"
+      },
+      {
+        "name": "空中大爆破",
+        "id": null,
+        "enName": null,
+        "category": "Avatar"
+      }
+    ]
   },
   {
     "name": "创生因子组合包",
     "enName": null,
+    "goodId": "GP_Once_464",
     "priceCNY": 68,
     "startDate": "2026-07-10T12:00:00+08:00",
     "endDate": "2026-07-31T03:59:00+08:00",
@@ -2123,8 +2154,48 @@
     "otherItems": []
   },
   {
+    "name": "技巧集综合礼包",
+    "enName": "Comprehensive Skill Training Pack",
+    "goodId": "GP_Once_468",
+    "priceCNY": 98,
+    "startDate": "2026-07-10T12:00:00+08:00",
+    "endDate": "2026-07-31T03:59:00+08:00",
+    "event": {
+      "id": "act21mini",
+      "name": "丛林症结"
+    },
+    "items": [
+      {
+        "id": "4002",
+        "name": "至纯源石",
+        "enName": "Originite Prime",
+        "count": 12
+      },
+      {
+        "id": "voucher_skill_specialLevelMax_6",
+        "name": "高级资深干员技巧集",
+        "enName": "Top Operator Skill Training Pack",
+        "count": 1
+      },
+      {
+        "id": "voucher_skill_specialLevelMax_5",
+        "name": "资深干员技巧集",
+        "enName": "Senior Operator Skill Training Pack",
+        "count": 1
+      },
+      {
+        "id": "voucher_skill_specialLevelMax_4",
+        "name": "专业干员技巧集",
+        "enName": "Professional Operator Skill Training Pack",
+        "count": 1
+      }
+    ],
+    "otherItems": []
+  },
+  {
     "name": "术师芯片礼包",
     "enName": "Caster Chip Pack",
+    "goodId": "GP_Once_463",
     "priceCNY": 30,
     "startDate": "2026-07-10T12:00:00+08:00",
     "endDate": "2026-07-31T03:59:00+08:00",
@@ -2167,9 +2238,10 @@
     "otherItems": []
   },
   {
-    "name": "技巧集综合礼包",
-    "enName": "Comprehensive Skill Training Pack",
-    "priceCNY": 98,
+    "name": "沉沦秘境组合包",
+    "enName": null,
+    "goodId": "GP_Once_465",
+    "priceCNY": 168,
     "startDate": "2026-07-10T12:00:00+08:00",
     "endDate": "2026-07-31T03:59:00+08:00",
     "event": {
@@ -2178,28 +2250,43 @@
     },
     "items": [
       {
-        "id": "4002",
-        "name": "至纯源石",
-        "enName": "Originite Prime",
+        "id": "voucher_elite_II_6",
+        "name": "高级资深干员特训邀请函",
+        "enName": "Top Operator Training Invitation Letter",
+        "count": 1
+      },
+      {
+        "id": "voucher_elite_II_5",
+        "name": "资深干员特训邀请函",
+        "enName": "Senior Operator Training Invitation Letter",
+        "count": 1
+      },
+      {
+        "id": "voucher_elite_II_4",
+        "name": "专业干员特训邀请函",
+        "enName": "Professional Operator Training Invitation Letter",
+        "count": 2
+      }
+    ],
+    "otherItems": []
+  },
+  {
+    "name": "集成战略数据包",
+    "enName": "Integrated Strategies Data Pack",
+    "goodId": "GP_Once_466",
+    "priceCNY": 30,
+    "startDate": "2026-07-10T12:00:00+08:00",
+    "endDate": "2026-07-31T03:59:00+08:00",
+    "event": {
+      "id": "act21mini",
+      "name": "丛林症结"
+    },
+    "items": [
+      {
+        "id": "mod_unlock_token",
+        "name": "模组数据块",
+        "enName": "Module Data Block",
         "count": 12
-      },
-      {
-        "id": "voucher_skill_specialLevelMax_6",
-        "name": "高级资深干员技巧集",
-        "enName": "Top Operator Skill Training Pack",
-        "count": 1
-      },
-      {
-        "id": "voucher_skill_specialLevelMax_5",
-        "name": "资深干员技巧集",
-        "enName": "Senior Operator Skill Training Pack",
-        "count": 1
-      },
-      {
-        "id": "voucher_skill_specialLevelMax_4",
-        "name": "专业干员技巧集",
-        "enName": "Professional Operator Skill Training Pack",
-        "count": 1
       }
     ],
     "otherItems": []
@@ -2207,6 +2294,7 @@
   {
     "name": "集成战略数据整合箱",
     "enName": "Integrated Strategies Data Box",
+    "goodId": "GP_Once_467",
     "priceCNY": 68,
     "startDate": "2026-07-10T12:00:00+08:00",
     "endDate": "2026-07-31T03:59:00+08:00",
@@ -2240,92 +2328,9 @@
     ]
   },
   {
-    "name": "集成战略数据包",
-    "enName": "Integrated Strategies Data Pack",
-    "priceCNY": 30,
-    "startDate": "2026-07-10T12:00:00+08:00",
-    "endDate": "2026-07-31T03:59:00+08:00",
-    "event": {
-      "id": "act21mini",
-      "name": "丛林症结"
-    },
-    "items": [
-      {
-        "id": "mod_unlock_token",
-        "name": "模组数据块",
-        "enName": "Module Data Block",
-        "count": 12
-      }
-    ],
-    "otherItems": []
-  },
-  {
-    "name": "夏日清凉补给包（2026）",
-    "enName": null,
-    "priceCNY": 6,
-    "startDate": "2026-08-01T12:00:00+08:00",
-    "endDate": "2026-08-29T03:59:00+08:00",
-    "event": {
-      "id": "act53side",
-      "name": "直到大地变成一颗酸橙"
-    },
-    "items": [
-      {
-        "id": "7003",
-        "name": "寻访凭证",
-        "enName": "Headhunting Permit",
-        "count": 1
-      },
-      {
-        "id": "classic_gacha",
-        "name": "中坚寻访凭证",
-        "enName": "Kernel Headhunting Permit",
-        "count": 1
-      },
-      {
-        "id": "mod_unlock_token",
-        "name": "模组数据块",
-        "enName": "Module Data Block",
-        "count": 1
-      },
-      {
-        "id": "4001",
-        "name": "龙门币",
-        "enName": "LMD",
-        "count": 10000
-      }
-    ],
-    "otherItems": []
-  },
-  {
-    "name": "安洁莉娜的手提箱",
-    "enName": null,
-    "priceCNY": 68,
-    "startDate": "2026-08-01T12:00:00+08:00",
-    "endDate": "2026-08-29T03:59:00+08:00",
-    "event": {
-      "id": "act53side",
-      "name": "直到大地变成一颗酸橙"
-    },
-    "items": [
-      {
-        "id": "4002",
-        "name": "至纯源石",
-        "enName": "Originite Prime",
-        "count": 16
-      },
-      {
-        "id": "4001",
-        "name": "龙门币",
-        "enName": "LMD",
-        "count": 700000
-      }
-    ],
-    "otherItems": []
-  },
-  {
     "name": "中坚寻访组合包",
     "enName": "Kernel Headhunting Pack",
+    "goodId": "GP_Once_479",
     "priceCNY": 68,
     "startDate": "2026-08-01T12:00:00+08:00",
     "endDate": "2026-08-29T03:59:00+08:00",
@@ -2344,9 +2349,10 @@
     "otherItems": []
   },
   {
-    "name": "特训意向礼包",
-    "enName": "Special Training Pack",
-    "priceCNY": 68,
+    "name": "公路长旅组合包",
+    "enName": null,
+    "goodId": "GP_Once_478",
+    "priceCNY": 328,
     "startDate": "2026-08-01T12:00:00+08:00",
     "endDate": "2026-08-29T03:59:00+08:00",
     "event": {
@@ -2358,84 +2364,72 @@
         "id": "4002",
         "name": "至纯源石",
         "enName": "Originite Prime",
-        "count": 11
+        "count": 90
       },
       {
-        "id": "voucher_levelmax_5",
-        "name": "资深干员特训装置",
-        "enName": "Senior Operator Training Apparatus",
+        "id": "voucher_skin",
+        "name": "时装自选凭证",
+        "enName": "Outfit Voucher",
         "count": 1
+      },
+      {
+        "id": "7004",
+        "name": "十连寻访凭证",
+        "enName": "Ten-roll Headhunting Permit",
+        "count": 1
+      },
+      {
+        "id": "classic_gacha_10",
+        "name": "十连中坚寻访凭证",
+        "enName": "Ten-roll Kernel Headhunting Permit",
+        "count": 1
+      },
+      {
+        "id": "4001",
+        "name": "龙门币",
+        "enName": "LMD",
+        "count": 260000
+      },
+      {
+        "id": "2004",
+        "name": "高级作战记录",
+        "enName": "Strategic Battle Record",
+        "count": 30
+      },
+      {
+        "id": "32001",
+        "name": "芯片助剂",
+        "enName": "Chip Catalyst",
+        "count": 4
+      },
+      {
+        "id": "mod_unlock_token",
+        "name": "模组数据块",
+        "enName": "Module Data Block",
+        "count": 6
       }
     ],
-    "otherItems": []
-  },
-  {
-    "name": "高级特训意向礼包",
-    "enName": "Advanced Special Training Pack",
-    "priceCNY": 128,
-    "startDate": "2026-08-01T12:00:00+08:00",
-    "endDate": "2026-08-29T03:59:00+08:00",
-    "event": {
-      "id": "act53side",
-      "name": "直到大地变成一颗酸橙"
-    },
-    "items": [
+    "otherItems": [
       {
-        "id": "4002",
-        "name": "至纯源石",
-        "enName": "Originite Prime",
-        "count": 19
+        "name": "数据增补仪",
+        "id": "mod_update_token_2",
+        "enName": "Data Supplement Instrument",
+        "category": "Zero-Efficiency Item",
+        "count": 30
       },
       {
-        "id": "voucher_levelmax_6",
-        "name": "高级资深干员特训装置",
-        "enName": "Top Operator Training Apparatus",
-        "count": 1
+        "name": "数据增补条",
+        "id": "mod_update_token_1",
+        "enName": "Data Supplement Stick",
+        "category": "Zero-Efficiency Item",
+        "count": 90
       }
-    ],
-    "otherItems": []
-  },
-  {
-    "name": "技巧集综合礼包",
-    "enName": "Comprehensive Skill Training Pack",
-    "priceCNY": 98,
-    "startDate": "2026-08-01T12:00:00+08:00",
-    "endDate": "2026-08-29T03:59:00+08:00",
-    "event": {
-      "id": "act53side",
-      "name": "直到大地变成一颗酸橙"
-    },
-    "items": [
-      {
-        "id": "4002",
-        "name": "至纯源石",
-        "enName": "Originite Prime",
-        "count": 12
-      },
-      {
-        "id": "voucher_skill_specialLevelMax_6",
-        "name": "高级资深干员技巧集",
-        "enName": "Top Operator Skill Training Pack",
-        "count": 1
-      },
-      {
-        "id": "voucher_skill_specialLevelMax_5",
-        "name": "资深干员技巧集",
-        "enName": "Senior Operator Skill Training Pack",
-        "count": 1
-      },
-      {
-        "id": "voucher_skill_specialLevelMax_4",
-        "name": "专业干员技巧集",
-        "enName": "Professional Operator Skill Training Pack",
-        "count": 1
-      }
-    ],
-    "otherItems": []
+    ]
   },
   {
     "name": "夏日欢庆补给包（2026）",
     "enName": null,
+    "goodId": "GP_Once_476",
     "priceCNY": 128,
     "startDate": "2026-08-01T12:00:00+08:00",
     "endDate": "2026-08-29T03:59:00+08:00",
@@ -2484,8 +2478,114 @@
     "otherItems": []
   },
   {
+    "name": "夏日清凉补给包（2026）",
+    "enName": null,
+    "goodId": "GP_Once_475",
+    "priceCNY": 6,
+    "startDate": "2026-08-01T12:00:00+08:00",
+    "endDate": "2026-08-29T03:59:00+08:00",
+    "event": {
+      "id": "act53side",
+      "name": "直到大地变成一颗酸橙"
+    },
+    "items": [
+      {
+        "id": "7003",
+        "name": "寻访凭证",
+        "enName": "Headhunting Permit",
+        "count": 1
+      },
+      {
+        "id": "classic_gacha",
+        "name": "中坚寻访凭证",
+        "enName": "Kernel Headhunting Permit",
+        "count": 1
+      },
+      {
+        "id": "mod_unlock_token",
+        "name": "模组数据块",
+        "enName": "Module Data Block",
+        "count": 1
+      },
+      {
+        "id": "4001",
+        "name": "龙门币",
+        "enName": "LMD",
+        "count": 10000
+      }
+    ],
+    "otherItems": []
+  },
+  {
+    "name": "安洁莉娜的手提箱",
+    "enName": null,
+    "goodId": "GP_Once_471",
+    "priceCNY": 68,
+    "startDate": "2026-08-01T12:00:00+08:00",
+    "endDate": "2026-08-29T03:59:00+08:00",
+    "event": {
+      "id": "act53side",
+      "name": "直到大地变成一颗酸橙"
+    },
+    "items": [
+      {
+        "id": "4002",
+        "name": "至纯源石",
+        "enName": "Originite Prime",
+        "count": 16
+      },
+      {
+        "id": "4001",
+        "name": "龙门币",
+        "enName": "LMD",
+        "count": 700000
+      }
+    ],
+    "otherItems": []
+  },
+  {
+    "name": "技巧集综合礼包",
+    "enName": "Comprehensive Skill Training Pack",
+    "goodId": "GP_Once_472",
+    "priceCNY": 98,
+    "startDate": "2026-08-01T12:00:00+08:00",
+    "endDate": "2026-08-29T03:59:00+08:00",
+    "event": {
+      "id": "act53side",
+      "name": "直到大地变成一颗酸橙"
+    },
+    "items": [
+      {
+        "id": "4002",
+        "name": "至纯源石",
+        "enName": "Originite Prime",
+        "count": 12
+      },
+      {
+        "id": "voucher_skill_specialLevelMax_6",
+        "name": "高级资深干员技巧集",
+        "enName": "Top Operator Skill Training Pack",
+        "count": 1
+      },
+      {
+        "id": "voucher_skill_specialLevelMax_5",
+        "name": "资深干员技巧集",
+        "enName": "Senior Operator Skill Training Pack",
+        "count": 1
+      },
+      {
+        "id": "voucher_skill_specialLevelMax_4",
+        "name": "专业干员技巧集",
+        "enName": "Professional Operator Skill Training Pack",
+        "count": 1
+      }
+    ],
+    "otherItems": []
+  },
+  {
     "name": "热泉小憩组合包",
     "enName": null,
+    "goodId": "GP_Once_477",
     "priceCNY": 198,
     "startDate": "2026-08-01T12:00:00+08:00",
     "endDate": "2026-08-29T03:59:00+08:00",
@@ -2546,85 +2646,9 @@
     "otherItems": []
   },
   {
-    "name": "公路长旅组合包",
-    "enName": null,
-    "priceCNY": 328,
-    "startDate": "2026-08-01T12:00:00+08:00",
-    "endDate": "2026-08-29T03:59:00+08:00",
-    "event": {
-      "id": "act53side",
-      "name": "直到大地变成一颗酸橙"
-    },
-    "items": [
-      {
-        "id": "4002",
-        "name": "至纯源石",
-        "enName": "Originite Prime",
-        "count": 90
-      },
-      {
-        "id": "voucher_skin",
-        "name": "时装自选凭证",
-        "enName": "Outfit Voucher",
-        "count": 1
-      },
-      {
-        "id": "7004",
-        "name": "十连寻访凭证",
-        "enName": "Ten-roll Headhunting Permit",
-        "count": 1
-      },
-      {
-        "id": "classic_gacha_10",
-        "name": "十连中坚寻访凭证",
-        "enName": "Ten-roll Kernel Headhunting Permit",
-        "count": 1
-      },
-      {
-        "id": "4001",
-        "name": "龙门币",
-        "enName": "LMD",
-        "count": 260000
-      },
-      {
-        "id": "2004",
-        "name": "高级作战记录",
-        "enName": "Strategic Battle Record",
-        "count": 30
-      },
-      {
-        "id": "32001",
-        "name": "芯片助剂",
-        "enName": "Chip Catalyst",
-        "count": 4
-      },
-      {
-        "id": "mod_unlock_token",
-        "name": "模组数据块",
-        "enName": "Module Data Block",
-        "count": 6
-      }
-    ],
-    "otherItems": [
-      {
-        "name": "数据增补仪",
-        "id": "mod_update_token_2",
-        "enName": "Data Supplement Instrument",
-        "category": "Zero-Efficiency Item",
-        "count": 30
-      },
-      {
-        "name": "数据增补条",
-        "id": "mod_update_token_1",
-        "enName": "Data Supplement Stick",
-        "category": "Zero-Efficiency Item",
-        "count": 90
-      }
-    ]
-  },
-  {
     "name": "特种芯片礼包",
     "enName": "Specialist Chip Pack",
+    "goodId": "GP_Once_469",
     "priceCNY": 30,
     "startDate": "2026-08-01T12:00:00+08:00",
     "endDate": "2026-08-29T03:59:00+08:00",
@@ -2667,8 +2691,36 @@
     "otherItems": []
   },
   {
+    "name": "特训意向礼包",
+    "enName": "Special Training Pack",
+    "goodId": "GP_Once_474",
+    "priceCNY": 68,
+    "startDate": "2026-08-01T12:00:00+08:00",
+    "endDate": "2026-08-29T03:59:00+08:00",
+    "event": {
+      "id": "act53side",
+      "name": "直到大地变成一颗酸橙"
+    },
+    "items": [
+      {
+        "id": "4002",
+        "name": "至纯源石",
+        "enName": "Originite Prime",
+        "count": 11
+      },
+      {
+        "id": "voucher_levelmax_5",
+        "name": "资深干员特训装置",
+        "enName": "Senior Operator Training Apparatus",
+        "count": 1
+      }
+    ],
+    "otherItems": []
+  },
+  {
     "name": "重装芯片礼包",
     "enName": "Defender Chip Pack",
+    "goodId": "GP_Once_470",
     "priceCNY": 30,
     "startDate": "2026-08-01T12:00:00+08:00",
     "endDate": "2026-08-29T03:59:00+08:00",
@@ -2711,41 +2763,36 @@
     "otherItems": []
   },
   {
-    "name": "月影一瞥组合包",
-    "enName": null,
-    "priceCNY": 12,
-    "startDate": "2026-09-04T12:00:00+08:00",
-    "endDate": "2026-09-25T03:59:00+08:00",
+    "name": "高级特训意向礼包",
+    "enName": "Advanced Special Training Pack",
+    "goodId": "GP_Once_473",
+    "priceCNY": 128,
+    "startDate": "2026-08-01T12:00:00+08:00",
+    "endDate": "2026-08-29T03:59:00+08:00",
     "event": {
-      "id": "act54side",
-      "name": "月行水上"
+      "id": "act53side",
+      "name": "直到大地变成一颗酸橙"
     },
     "items": [
       {
-        "id": "4003",
-        "name": "合成玉",
-        "enName": "Orundum",
-        "count": 200
-      }
-    ],
-    "otherItems": [
-      {
-        "name": "坠入清醒",
-        "id": null,
-        "enName": null,
-        "category": "Avatar"
+        "id": "4002",
+        "name": "至纯源石",
+        "enName": "Originite Prime",
+        "count": 19
       },
       {
-        "name": "凝视映像",
-        "id": null,
-        "enName": null,
-        "category": "Avatar"
+        "id": "voucher_levelmax_6",
+        "name": "高级资深干员特训装置",
+        "enName": "Top Operator Training Apparatus",
+        "count": 1
       }
-    ]
+    ],
+    "otherItems": []
   },
   {
     "name": "幽蓝门扉组合包",
     "enName": null,
+    "goodId": "GP_Once_481",
     "priceCNY": 78,
     "startDate": "2026-09-04T12:00:00+08:00",
     "endDate": "2026-09-25T03:59:00+08:00",
@@ -2783,8 +2830,70 @@
     ]
   },
   {
+    "name": "月影一瞥组合包",
+    "enName": null,
+    "goodId": "GP_Once_480",
+    "priceCNY": 12,
+    "startDate": "2026-09-04T12:00:00+08:00",
+    "endDate": "2026-09-25T03:59:00+08:00",
+    "event": {
+      "id": "act54side",
+      "name": "月行水上"
+    },
+    "items": [
+      {
+        "id": "4003",
+        "name": "合成玉",
+        "enName": "Orundum",
+        "count": 200
+      }
+    ],
+    "otherItems": [
+      {
+        "name": "坠入清醒",
+        "id": null,
+        "enName": null,
+        "category": "Avatar"
+      },
+      {
+        "name": "凝视映像",
+        "id": null,
+        "enName": null,
+        "category": "Avatar"
+      }
+    ]
+  },
+  {
+    "name": "月行水上资金箱",
+    "enName": null,
+    "goodId": "GP_Once_488",
+    "priceCNY": 68,
+    "startDate": "2026-09-04T12:00:00+08:00",
+    "endDate": "2026-09-25T03:59:00+08:00",
+    "event": {
+      "id": "act54side",
+      "name": "月行水上"
+    },
+    "items": [
+      {
+        "id": "4002",
+        "name": "至纯源石",
+        "enName": "Originite Prime",
+        "count": 16
+      },
+      {
+        "id": "4001",
+        "name": "龙门币",
+        "enName": "LMD",
+        "count": 700000
+      }
+    ],
+    "otherItems": []
+  },
+  {
     "name": "潮湿镜像组合包",
     "enName": null,
+    "goodId": "GP_Once_482",
     "priceCNY": 45,
     "startDate": "2026-09-04T12:00:00+08:00",
     "endDate": "2026-09-25T03:59:00+08:00",
@@ -2810,42 +2919,10 @@
     ]
   },
   {
-    "name": "蓝丝绒房间组合包",
-    "enName": null,
-    "priceCNY": 12,
-    "startDate": "2026-09-04T12:00:00+08:00",
-    "endDate": "2026-09-25T03:59:00+08:00",
-    "event": {
-      "id": "act54side",
-      "name": "月行水上"
-    },
-    "items": [],
-    "otherItems": [
-      {
-        "name": "月行水上家具收藏包",
-        "id": "uni_set_velvet",
-        "enName": null,
-        "category": "Furniture",
-        "count": 1
-      },
-      {
-        "name": "圣歌吟唱台",
-        "id": null,
-        "enName": null,
-        "category": "Furniture"
-      },
-      {
-        "name": "选择的留言板",
-        "id": null,
-        "enName": null,
-        "category": "Furniture"
-      }
-    ]
-  },
-  {
-    "name": "月行水上资金箱",
-    "enName": null,
-    "priceCNY": 68,
+    "name": "特种芯片礼包",
+    "enName": "Specialist Chip Pack",
+    "goodId": "GP_Once_484",
+    "priceCNY": 30,
     "startDate": "2026-09-04T12:00:00+08:00",
     "endDate": "2026-09-25T03:59:00+08:00",
     "event": {
@@ -2854,60 +2931,34 @@
     },
     "items": [
       {
-        "id": "4002",
-        "name": "至纯源石",
-        "enName": "Originite Prime",
-        "count": 16
+        "id": "3283",
+        "name": "特种双芯片",
+        "enName": "Specialist Dualchip",
+        "count": 4
       },
       {
-        "id": "4001",
-        "name": "龙门币",
-        "enName": "LMD",
-        "count": 700000
-      }
-    ],
-    "otherItems": []
-  },
-  {
-    "name": "蓝蝶之礼组合包",
-    "enName": null,
-    "priceCNY": 68,
-    "startDate": "2026-09-04T12:00:00+08:00",
-    "endDate": "2026-09-25T03:59:00+08:00",
-    "event": {
-      "id": "act54side",
-      "name": "月行水上"
-    },
-    "items": [
-      {
-        "id": "4003",
-        "name": "合成玉",
-        "enName": "Orundum",
-        "count": 5000
+        "id": "3281",
+        "name": "特种芯片",
+        "enName": "Specialist Chip",
+        "count": 5
       },
       {
-        "id": "4001",
-        "name": "龙门币",
-        "enName": "LMD",
-        "count": 100000
+        "id": "3303",
+        "name": "技巧概要·卷3",
+        "enName": "Skill Summary - 3",
+        "count": 45
       },
       {
-        "id": "32001",
-        "name": "芯片助剂",
-        "enName": "Chip Catalyst",
-        "count": 2
+        "id": "3302",
+        "name": "技巧概要·卷2",
+        "enName": "Skill Summary - 2",
+        "count": 25
       },
       {
         "id": "3301",
         "name": "技巧概要·卷1",
         "enName": "Skill Summary - 1",
-        "count": 80
-      },
-      {
-        "id": "mod_unlock_token",
-        "name": "模组数据块",
-        "enName": "Module Data Block",
-        "count": 2
+        "count": 10
       }
     ],
     "otherItems": []
@@ -2915,6 +2966,7 @@
   {
     "name": "苹果花瓣组合包",
     "enName": null,
+    "goodId": "GP_Once_487",
     "priceCNY": 198,
     "startDate": "2026-09-04T12:00:00+08:00",
     "endDate": "2026-09-25T03:59:00+08:00",
@@ -2963,9 +3015,44 @@
     "otherItems": []
   },
   {
-    "name": "特种芯片礼包",
-    "enName": "Specialist Chip Pack",
-    "priceCNY": 30,
+    "name": "蓝丝绒房间组合包",
+    "enName": null,
+    "goodId": "GP_Once_483",
+    "priceCNY": 12,
+    "startDate": "2026-09-04T12:00:00+08:00",
+    "endDate": "2026-09-25T03:59:00+08:00",
+    "event": {
+      "id": "act54side",
+      "name": "月行水上"
+    },
+    "items": [],
+    "otherItems": [
+      {
+        "name": "月行水上家具收藏包",
+        "id": "uni_set_velvet",
+        "enName": null,
+        "category": "Furniture",
+        "count": 1
+      },
+      {
+        "name": "圣歌吟唱台",
+        "id": null,
+        "enName": null,
+        "category": "Furniture"
+      },
+      {
+        "name": "选择的留言板",
+        "id": null,
+        "enName": null,
+        "category": "Furniture"
+      }
+    ]
+  },
+  {
+    "name": "蓝蝶之礼组合包",
+    "enName": null,
+    "goodId": "GP_Once_489",
+    "priceCNY": 68,
     "startDate": "2026-09-04T12:00:00+08:00",
     "endDate": "2026-09-25T03:59:00+08:00",
     "event": {
@@ -2974,15 +3061,264 @@
     },
     "items": [
       {
-        "id": "3283",
-        "name": "特种双芯片",
-        "enName": "Specialist Dualchip",
+        "id": "4003",
+        "name": "合成玉",
+        "enName": "Orundum",
+        "count": 5000
+      },
+      {
+        "id": "4001",
+        "name": "龙门币",
+        "enName": "LMD",
+        "count": 100000
+      },
+      {
+        "id": "32001",
+        "name": "芯片助剂",
+        "enName": "Chip Catalyst",
+        "count": 2
+      },
+      {
+        "id": "3301",
+        "name": "技巧概要·卷1",
+        "enName": "Skill Summary - 1",
+        "count": 80
+      },
+      {
+        "id": "mod_unlock_token",
+        "name": "模组数据块",
+        "enName": "Module Data Block",
+        "count": 2
+      }
+    ],
+    "otherItems": []
+  },
+  {
+    "name": "定向甄选寻访组合包",
+    "enName": "Orienteering Headhunting Pack",
+    "goodId": "GP_Once_491",
+    "priceCNY": 168,
+    "startDate": "2026-09-29T16:00:00+08:00",
+    "endDate": "2026-10-20T03:59:00+08:00",
+    "event": {
+      "id": "act3break",
+      "name": "矢量突破#3 拟生态"
+    },
+    "items": [
+      {
+        "id": "7004",
+        "name": "十连寻访凭证",
+        "enName": "Ten-roll Headhunting Permit",
+        "count": 2
+      },
+      {
+        "id": "4002",
+        "name": "至纯源石",
+        "enName": "Originite Prime",
+        "count": 9
+      }
+    ],
+    "otherItems": []
+  },
+  {
+    "name": "技巧集综合礼包",
+    "enName": "Comprehensive Skill Training Pack",
+    "goodId": "GP_Once_493",
+    "priceCNY": 98,
+    "startDate": "2026-09-29T16:00:00+08:00",
+    "endDate": "2026-10-20T03:59:00+08:00",
+    "event": {
+      "id": "act3break",
+      "name": "矢量突破#3 拟生态"
+    },
+    "items": [
+      {
+        "id": "4002",
+        "name": "至纯源石",
+        "enName": "Originite Prime",
+        "count": 12
+      },
+      {
+        "id": "voucher_skill_specialLevelMax_6",
+        "name": "高级资深干员技巧集",
+        "enName": "Top Operator Skill Training Pack",
+        "count": 1
+      },
+      {
+        "id": "voucher_skill_specialLevelMax_5",
+        "name": "资深干员技巧集",
+        "enName": "Senior Operator Skill Training Pack",
+        "count": 1
+      },
+      {
+        "id": "voucher_skill_specialLevelMax_4",
+        "name": "专业干员技巧集",
+        "enName": "Professional Operator Skill Training Pack",
+        "count": 2
+      }
+    ],
+    "otherItems": []
+  },
+  {
+    "name": "罗德岛数据包",
+    "enName": "Rhodes Island Data Pack",
+    "goodId": "GP_Once_495",
+    "priceCNY": 30,
+    "startDate": "2026-09-29T16:00:00+08:00",
+    "endDate": "2026-10-20T03:59:00+08:00",
+    "event": {
+      "id": "act3break",
+      "name": "矢量突破#3 拟生态"
+    },
+    "items": [
+      {
+        "id": "mod_unlock_token",
+        "name": "模组数据块",
+        "enName": "Module Data Block",
+        "count": 12
+      }
+    ],
+    "otherItems": []
+  },
+  {
+    "name": "罗德岛数据套组",
+    "enName": "Rhodes Island Data Set",
+    "goodId": "GP_Once_496",
+    "priceCNY": 68,
+    "startDate": "2026-09-29T16:00:00+08:00",
+    "endDate": "2026-10-20T03:59:00+08:00",
+    "event": {
+      "id": "act3break",
+      "name": "矢量突破#3 拟生态"
+    },
+    "items": [
+      {
+        "id": "mod_unlock_token",
+        "name": "模组数据块",
+        "enName": "Module Data Block",
+        "count": 24
+      }
+    ],
+    "otherItems": [
+      {
+        "name": "数据增补仪",
+        "id": "mod_update_token_2",
+        "enName": "Data Supplement Instrument",
+        "category": "Zero-Efficiency Item",
+        "count": 30
+      },
+      {
+        "name": "数据增补条",
+        "id": "mod_update_token_1",
+        "enName": "Data Supplement Stick",
+        "category": "Zero-Efficiency Item",
+        "count": 90
+      }
+    ]
+  },
+  {
+    "name": "罗德岛资金箱",
+    "enName": "Rhodes Island Funding Box",
+    "goodId": "GP_Once_492",
+    "priceCNY": 68,
+    "startDate": "2026-09-29T16:00:00+08:00",
+    "endDate": "2026-10-20T03:59:00+08:00",
+    "event": {
+      "id": "act3break",
+      "name": "矢量突破#3 拟生态"
+    },
+    "items": [
+      {
+        "id": "4002",
+        "name": "至纯源石",
+        "enName": "Originite Prime",
+        "count": 16
+      },
+      {
+        "id": "4001",
+        "name": "龙门币",
+        "enName": "LMD",
+        "count": 700000
+      }
+    ],
+    "otherItems": []
+  },
+  {
+    "name": "高级特训组合包",
+    "enName": "Advanced Training Resource Pack",
+    "goodId": "GP_Once_494",
+    "priceCNY": 168,
+    "startDate": "2026-09-29T16:00:00+08:00",
+    "endDate": "2026-10-20T03:59:00+08:00",
+    "event": {
+      "id": "act3break",
+      "name": "矢量突破#3 拟生态"
+    },
+    "items": [
+      {
+        "id": "voucher_elite_II_6",
+        "name": "高级资深干员特训邀请函",
+        "enName": "Top Operator Training Invitation Letter",
+        "count": 1
+      },
+      {
+        "id": "voucher_elite_II_5",
+        "name": "资深干员特训邀请函",
+        "enName": "Senior Operator Training Invitation Letter",
+        "count": 2
+      }
+    ],
+    "otherItems": []
+  },
+  {
+    "name": "沉甸甸的资金箱",
+    "enName": "Heavy Funding Pack",
+    "goodId": null,
+    "priceCNY": 45,
+    "startDate": "2026-10-09T12:00:00+08:00",
+    "endDate": "2026-10-22T23:59:00+08:00",
+    "event": {
+      "id": "act52side",
+      "name": "昨日海"
+    },
+    "items": [
+      {
+        "id": "4002",
+        "name": "至纯源石",
+        "enName": "Originite Prime",
+        "count": 13
+      },
+      {
+        "id": "4001",
+        "name": "龙门币",
+        "enName": "LMD",
+        "count": 300000
+      }
+    ],
+    "otherItems": []
+  },
+  {
+    "name": "近卫芯片礼包",
+    "enName": "Guard Chip Pack",
+    "goodId": "GP_Once_497",
+    "priceCNY": 30,
+    "startDate": "2026-10-09T12:00:00+08:00",
+    "endDate": "2026-10-22T23:59:00+08:00",
+    "event": {
+      "id": "act52side",
+      "name": "昨日海"
+    },
+    "items": [
+      {
+        "id": "3223",
+        "name": "近卫双芯片",
+        "enName": "Guard Dualchip",
         "count": 4
       },
       {
-        "id": "3281",
-        "name": "特种芯片",
-        "enName": "Specialist Chip",
+        "id": "3221",
+        "name": "近卫芯片",
+        "enName": "Guard Chip",
         "count": 5
       },
       {
@@ -3002,6 +3338,39 @@
         "name": "技巧概要·卷1",
         "enName": "Skill Summary - 1",
         "count": 10
+      }
+    ],
+    "otherItems": []
+  },
+  {
+    "name": "黑流树海特训组合",
+    "enName": null,
+    "goodId": "GP_Once_499",
+    "priceCNY": 168,
+    "startDate": "2026-10-09T12:00:00+08:00",
+    "endDate": "2026-10-22T23:59:00+08:00",
+    "event": {
+      "id": "act52side",
+      "name": "昨日海"
+    },
+    "items": [
+      {
+        "id": "voucher_elite_II_6",
+        "name": "高级资深干员特训邀请函",
+        "enName": "Top Operator Training Invitation Letter",
+        "count": 1
+      },
+      {
+        "id": "voucher_elite_II_5",
+        "name": "资深干员特训邀请函",
+        "enName": "Senior Operator Training Invitation Letter",
+        "count": 1
+      },
+      {
+        "id": "voucher_elite_II_4",
+        "name": "专业干员特训邀请函",
+        "enName": "Professional Operator Training Invitation Letter",
+        "count": 2
       }
     ],
     "otherItems": []
