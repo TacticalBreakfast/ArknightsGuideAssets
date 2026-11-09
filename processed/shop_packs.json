@@ -1244,6 +1244,45 @@
     "otherItems": []
   },
   {
+    "name": "迎新特别寻访组合包(2026)",
+    "enName": "Newcomer Special Headhunting Pack",
+    "goodId": "GP_NpOne_nc_0_7",
+    "priceCNY": 168,
+    "startDate": "2026-05-01T12:00:00+08:00",
+    "endDate": "2026-05-15T03:59:00+08:00",
+    "event": {
+      "id": "act4mainss",
+      "name": "相变临界"
+    },
+    "items": [],
+    "otherItems": [
+      {
+        "name": "α类迎新寻访凭证（2026）",
+        "id": "2026recruitment10_register_1",
+        "enName": "Type-α Newcomer Headhunting Permit",
+        "category": "Headhunting",
+        "count": 1,
+        "itemType": "VOUCHER_CGACHA"
+      },
+      {
+        "name": "β类迎新寻访凭证（2026）",
+        "id": "2026recruitment10_register_2",
+        "enName": "Type-β Newcomer Headhunting Permit",
+        "category": "Headhunting",
+        "count": 1,
+        "itemType": "VOUCHER_CGACHA"
+      },
+      {
+        "name": "γ类迎新寻访凭证（2026）",
+        "id": "2026recruitment10_register_3",
+        "enName": "Type-γ Newcomer Headhunting Permit",
+        "category": "Headhunting",
+        "count": 1,
+        "itemType": "VOUCHER_CGACHA"
+      }
+    ]
+  },
+  {
     "name": "高级特训意向礼包",
     "enName": "Advanced Special Training Pack",
     "goodId": "GP_Once_428",
@@ -2271,6 +2310,52 @@
     "otherItems": []
   },
   {
+    "name": "确定混沌寻访包",
+    "enName": null,
+    "goodId": "GP_Once_461",
+    "priceCNY": 6,
+    "startDate": "2026-07-10T12:00:00+08:00",
+    "endDate": "2026-07-23T23:59:00+08:00",
+    "event": {
+      "id": "act21mini",
+      "name": "丛林症结"
+    },
+    "items": [],
+    "otherItems": [
+      {
+        "name": "确定性混沌寻访凭证",
+        "id": "SINGLE_75_0_1_GACHA",
+        "enName": null,
+        "category": "Headhunting",
+        "count": 2,
+        "itemType": "EXCLUSIVE_TKT_GACHA"
+      }
+    ]
+  },
+  {
+    "name": "确定混沌寻访组合包",
+    "enName": null,
+    "goodId": "GP_Once_462",
+    "priceCNY": 58,
+    "startDate": "2026-07-10T12:00:00+08:00",
+    "endDate": "2026-07-23T23:59:00+08:00",
+    "event": {
+      "id": "act21mini",
+      "name": "丛林症结"
+    },
+    "items": [],
+    "otherItems": [
+      {
+        "name": "确定性混沌十连寻访凭证",
+        "id": "SINGLE_75_0_1_GACHA_10",
+        "enName": null,
+        "category": "Headhunting",
+        "count": 1,
+        "itemType": "EXCLUSIVE_TKT_GACHA_10"
+      }
+    ]
+  },
+  {
     "name": "集成战略数据包",
     "enName": "Integrated Strategies Data Pack",
     "goodId": "GP_Once_466",
@@ -3273,7 +3358,7 @@
   {
     "name": "沉甸甸的资金箱",
     "enName": "Heavy Funding Pack",
-    "goodId": null,
+    "goodId": "GP_Once_498",
     "priceCNY": 45,
     "startDate": "2026-10-09T12:00:00+08:00",
     "endDate": "2026-10-22T23:59:00+08:00",
@@ -3295,7 +3380,54 @@
         "count": 300000
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "goodIdMatchedBy": "price"
+  },
+  {
+    "name": "海渊巡游寻访包",
+    "enName": null,
+    "goodId": "GP_Once_500",
+    "priceCNY": 6,
+    "startDate": "2026-10-09T12:00:00+08:00",
+    "endDate": "2026-10-22T23:59:00+08:00",
+    "event": {
+      "id": "act52side",
+      "name": "昨日海"
+    },
+    "items": [],
+    "otherItems": [
+      {
+        "name": "海渊巡游寻访凭证",
+        "id": "SINGLE_78_0_1_GACHA",
+        "enName": null,
+        "category": "Headhunting",
+        "count": 2,
+        "itemType": "EXCLUSIVE_TKT_GACHA"
+      }
+    ]
+  },
+  {
+    "name": "海渊巡游寻访组合包",
+    "enName": null,
+    "goodId": "GP_Once_501",
+    "priceCNY": 58,
+    "startDate": "2026-10-09T12:00:00+08:00",
+    "endDate": "2026-10-22T23:59:00+08:00",
+    "event": {
+      "id": "act52side",
+      "name": "昨日海"
+    },
+    "items": [],
+    "otherItems": [
+      {
+        "name": "海渊巡游十连寻访凭证",
+        "id": "SINGLE_78_0_1_GACHA_10",
+        "enName": null,
+        "category": "Headhunting",
+        "count": 1,
+        "itemType": "EXCLUSIVE_TKT_GACHA_10"
+      }
+    ]
   },
   {
     "name": "近卫芯片礼包",
