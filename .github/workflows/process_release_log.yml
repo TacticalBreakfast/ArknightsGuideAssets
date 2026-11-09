@@ -1,0 +1,55 @@
+name: Process Release Log
+
+on:
+  push:
+    paths:
+      - 'excel-en/character_table.json'
+      - 'excel-cn/character_table.json'
+      - 'excel-en/char_patch_table.json'
+      - 'excel-cn/char_patch_table.json'
+  # Fires off the sync's push (it pushes with SYNC_PAT, so push: filters apply),
+  # which runs the same day the new data lands -- the date it stamps is that day.
+  workflow_dispatch:
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v7
+
+      # Daily mode only. --backfill needs full history and is run locally.
+      - name: Run Release Log Parser
+        run: python3 parse_release_log.py
+
+      - name: Commit and Push Output
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add processed/release_log.csv
+
+          if git diff --staged --quiet; then
+            echo "No changes to release_log.csv. Nothing to commit."
+          else
+            echo "Changes found. Committing and pushing..."
+            git commit -m "Auto-update release_log.csv from excel data"
+
+            BRANCH=$(git rev-parse --abbrev-ref HEAD)
+            for attempt in 1 2 3 4 5; do
+              if git push origin "HEAD:$BRANCH"; then
+                break
+              fi
+              if [ "$attempt" -eq 5 ]; then
+                echo "Failed to push after 5 attempts."
+                exit 1
+              fi
+              # Process Characters and Process Materials trigger off the same
+              # push and may land first -- each only touches its own output
+              # file, so rebasing onto the new tip and retrying resolves it.
+              echo "Push rejected (attempt $attempt/5), rebasing onto latest and retrying..."
+              git fetch origin "$BRANCH"
+              git rebase "origin/$BRANCH"
+            done
+          fi
