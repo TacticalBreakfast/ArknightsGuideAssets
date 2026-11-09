@@ -3718,6 +3718,14 @@
   stars: ★★★★★★
   profession_name: Specialist
   sub_profession_name: Skyranger
+- id: char_618_acrbot
+  name: Rage Ironhide
+  rarity: TIER_6
+  profession: TANK
+  sub_profession: unyield
+  stars: ★★★★★★
+  profession_name: Defender
+  sub_profession_name: Juggernaut
 - id: char_4230_mcnist
   name: Mechanist
   rarity: TIER_6
