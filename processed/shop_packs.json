@@ -2190,7 +2190,8 @@
         "count": 700000
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "mtlName": "Genesis Factor Pack"
   },
   {
     "name": "技巧集综合礼包",
@@ -2307,7 +2308,8 @@
         "count": 2
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "mtlName": "Sunken Secret Realm Pack"
   },
   {
     "name": "确定混沌寻访包",
@@ -2330,7 +2332,8 @@
         "count": 2,
         "itemType": "EXCLUSIVE_TKT_GACHA"
       }
-    ]
+    ],
+    "mtlName": "Certain Chaos Headhunting Pack"
   },
   {
     "name": "确定混沌寻访组合包",
@@ -2353,7 +2356,8 @@
         "count": 1,
         "itemType": "EXCLUSIVE_TKT_GACHA_10"
       }
-    ]
+    ],
+    "mtlName": "Certain Chaos Ten-Roll Headhunting Pack"
   },
   {
     "name": "集成战略数据包",
@@ -2509,7 +2513,8 @@
         "category": "Zero-Efficiency Item",
         "count": 90
       }
-    ]
+    ],
+    "mtlName": "Highway Journey Pack"
   },
   {
     "name": "夏日欢庆补给包（2026）",
@@ -2560,7 +2565,8 @@
         "count": 50
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "mtlName": "Summer Celebration Supply Pack"
   },
   {
     "name": "夏日清凉补给包（2026）",
@@ -2599,7 +2605,8 @@
         "count": 10000
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "mtlName": "Summer Refreshment Supply Pack"
   },
   {
     "name": "安洁莉娜的手提箱",
@@ -2626,7 +2633,8 @@
         "count": 700000
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "mtlName": "Angelina's Briefcase"
   },
   {
     "name": "技巧集综合礼包",
@@ -2728,7 +2736,8 @@
         "count": 6
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "mtlName": "Hot Spring Respite Pack"
   },
   {
     "name": "特种芯片礼包",
@@ -2912,7 +2921,8 @@
         "enName": null,
         "category": "UI Theme"
       }
-    ]
+    ],
+    "mtlName": "Azure Gateway Pack"
   },
   {
     "name": "月影一瞥组合包",
@@ -2946,7 +2956,8 @@
         "enName": null,
         "category": "Avatar"
       }
-    ]
+    ],
+    "mtlName": "Moonshadow Glimpse Pack"
   },
   {
     "name": "月行水上资金箱",
@@ -2973,7 +2984,8 @@
         "count": 700000
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "mtlName": "Moonlit Waters Funding Box"
   },
   {
     "name": "潮湿镜像组合包",
@@ -3001,7 +3013,8 @@
         "enName": null,
         "category": "Namecard"
       }
-    ]
+    ],
+    "mtlName": "Damp Mirror Image Pack"
   },
   {
     "name": "特种芯片礼包",
@@ -3097,7 +3110,8 @@
         "count": 4
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "mtlName": "Apple Blossom Petal Pack"
   },
   {
     "name": "蓝丝绒房间组合包",
@@ -3131,7 +3145,8 @@
         "enName": null,
         "category": "Furniture"
       }
-    ]
+    ],
+    "mtlName": "Blue Velvet Room Pack"
   },
   {
     "name": "蓝蝶之礼组合包",
@@ -3176,7 +3191,8 @@
         "count": 2
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "mtlName": "Blue Butterfly Gift Pack"
   },
   {
     "name": "定向甄选寻访组合包",
@@ -3404,7 +3420,8 @@
         "count": 2,
         "itemType": "EXCLUSIVE_TKT_GACHA"
       }
-    ]
+    ],
+    "mtlName": "Abyssal Voyage Headhunting Pack"
   },
   {
     "name": "海渊巡游寻访组合包",
@@ -3427,7 +3444,8 @@
         "count": 1,
         "itemType": "EXCLUSIVE_TKT_GACHA_10"
       }
-    ]
+    ],
+    "mtlName": "Abyssal Voyage Ten-Roll Headhunting Pack"
   },
   {
     "name": "近卫芯片礼包",
@@ -3505,6 +3523,7 @@
         "count": 2
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "mtlName": "Black Stream Sea Training Pack"
   }
 ]
