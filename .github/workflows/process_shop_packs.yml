@@ -2,7 +2,8 @@ name: Process Shop Packs
 
 # Unlike the other Process workflows, this one has no push: trigger -- there's
 # no local file whose checkin can fire it, since parse_shop_packs.py scrapes
-# prts.wiki live on every run rather than reading a file already in this repo.
+# its sources (prts.wiki, yituliu's API) live on every run rather than reading
+# a file already in this repo.
 # CN shop updates aren't cleanly tied to any event we can watch for, so it
 # runs on a schedule instead, plus by hand whenever a new pack is worth
 # capturing sooner.
@@ -45,7 +46,7 @@ jobs:
             echo "No changes to shop_packs.json. Nothing to commit."
           else
             echo "Changes found. Committing and pushing..."
-            git commit -m "Auto-update shop_packs.json from prts.wiki"
+            git commit -m "Auto-update shop_packs.json from prts.wiki and yituliu"
 
             BRANCH=$(git rev-parse --abbrev-ref HEAD)
             for attempt in 1 2 3 4 5; do

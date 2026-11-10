@@ -1,16 +1,27 @@
 #!/usr/bin/env python3
-"""Scrape CN shop bundle packs ("组合包") from prts.wiki and export their
-contents to processed/shop_packs.json.
+"""Collect CN shop bundle packs ("组合包") and their contents into
+processed/shop_packs.json.
 
 Why this exists: real-money gift package contents are never present in the
 excel-*/gamedata tables (confirmed by exhaustive search -- shopGPDataDict only
 ever carries goodId/displayName/condTrigPackageType, never price or items).
-The CN wiki's "采购中心/组合包" page is maintained by the community and, since
-the CN client runs months ahead of EN, gives us pack contents well before they
-ever appear in EN game data.
+Since the CN client runs months ahead of EN, CN community sources give us
+pack contents well before they ever appear in EN game data.
+
+Three sources, combined (see "Combining the sources" below):
+  1. prts.wiki's "采购中心/组合包" page -- the original source. Precise dates,
+     but it stopped being updated in Oct 2026 (the last event it has is 昨日海).
+  2. yituliu's pack API (ark.yituliu.cn/material/pack) -- kept up to date, and
+     plain JSON. Its contents win where both list a pack.
+  3. CN game data (shop_client_table) -- every pack the CN shop sells, with
+     its sale window and usually its price, but never its contents. A pack
+     neither source lists gets an earlier same-name pack's contents.
+Each source can fail on its own; the run only stops if both 1 and 2 do, so a
+good file is never replaced by less. Each pack records contentsSource
+(wiki | yituliu | inferred); the run log lists everything worth a check.
 
 *** FRAGILE SCRAPING WARNING ***
-This entire script depends on:
+The wiki scrape depends on:
   1. prts.wiki's wikitext staying in its current {{充值组合包/限时|...}} template
      shape. If wiki editors change the template's parameter names (名称/价格/
      期间/内容) or restructure the page's section headers, parsing breaks.
@@ -19,11 +30,14 @@ This entire script depends on:
      be fetched directly from a GitHub Actions runner. r.jina.ai is a free,
      third-party, unaffiliated service being used as a workaround; it could
      rate-limit, serve a stale cache, change behavior, or disappear entirely
-     without warning. There is no first-party alternative currently known.
-If this script starts failing, check both of those before assuming a bug here.
+     without warning (it returned HTTP 422 on 2026-11-10). There is no
+     first-party alternative currently known.
+yituliu's API is unofficial too (see "Source 2"). If a source shows as
+"SOURCE FAILED" in the run log, check those before assuming a bug here.
 """
 
 import calendar
+import difflib
 import json
 import os
 import re
@@ -195,7 +209,7 @@ def parse_price(block: str):
     return int(price_str)
 
 
-# --- Pack contents parsing -------------------------------------------------
+# --- Source 1: prts.wiki -- pack contents parsing ---------------------------
 #
 # Every reward in a pack's |内容= line is wrapped in a template/link that
 # tells us what kind of reward it is -- this is the wiki's OWN categorization,
@@ -290,6 +304,61 @@ def anchor_label_and_category(link_value: str):
     return label, category
 
 
+def classify_reward(name: str, count: int, item_lookup: dict, item_efficiency: dict,
+                    en_names: dict, item_id: str | None = None):
+    """One reward -> ("items", entry) for a real item with an AP value, else
+    ("other", entry) with a category. Shared by both content sources (the
+    wiki gives a name, yituliu an id and a name), so they classify alike."""
+    selector_root = TRAILING_PARENTHETICAL_RE.sub("", name)
+    if selector_root in SPECIAL_SELECTOR_TRANSLATIONS:
+        # Never resolves via item_lookup (see SPECIAL_SELECTOR_TRANSLATIONS
+        # docstring above) and never has real farming value either way, so
+        # this is checked before the normal id/apValue resolution rather
+        # than as a fallback after it fails.
+        return "other", {
+            "name": name,
+            "id": None,
+            "enName": SPECIAL_SELECTOR_TRANSLATIONS[selector_root],
+            "category": "Special",
+            "count": count,
+        }
+
+    item_id = item_id or item_lookup.get(name)
+    ap_value = item_efficiency.get(item_id) if item_id else None
+    if item_id and ap_value and ap_value > 0:
+        return "items", {
+            "id": item_id,
+            "name": name,
+            "enName": en_names.get(item_id),
+            "count": count,
+        }
+    else:
+        # Present but zero-value (e.g. module upgrade components), or a
+        # real itemId that's a cosmetic-collection voucher rather than a
+        # farmable material -- see the classifyType/itemType check.
+        if not item_id:
+            # The wiki sometimes year-tags an item name the game doesn't:
+            # "α类迎新寻访凭证（2026）" is item "α类迎新寻访凭证".
+            item_id = item_lookup.get(TRAILING_PARENTHETICAL_RE.sub("", name).strip())
+        item_type = item_lookup.get((item_id, "type")) if item_id else None
+        if item_type in HEADHUNTING_ITEM_TYPES:
+            category = "Headhunting"
+        elif item_type == "UNI_COLLECTION":
+            category = "Furniture"
+        else:
+            category = "Zero-Efficiency Item"
+        entry = {
+            "name": name,
+            "id": item_id,
+            "enName": en_names.get(item_id),
+            "category": category,
+            "count": count,
+        }
+        if category == "Headhunting":
+            entry["itemType"] = item_type   # how the site values it; see HEADHUNTING_ITEM_TYPES
+        return "other", entry
+
+
 def parse_contents(block: str, item_lookup: dict, item_efficiency: dict, en_names: dict):
     """Returns (items, other_items) for one pack, classifying each reward
     per the module docstring's template-to-category mapping above."""
@@ -301,58 +370,9 @@ def parse_contents(block: str, item_lookup: dict, item_efficiency: dict, en_name
     other_items = []
 
     for m in ITEM_ICON_RE.finditer(content):
-        name, count_str = m.group(1), m.group(2)
-        count = parse_count(count_str)
-
-        selector_root = TRAILING_PARENTHETICAL_RE.sub("", name)
-        if selector_root in SPECIAL_SELECTOR_TRANSLATIONS:
-            # Never resolves via item_lookup (see SPECIAL_SELECTOR_TRANSLATIONS
-            # docstring above) and never has real farming value either way, so
-            # this is checked before the normal id/apValue resolution rather
-            # than as a fallback after it fails.
-            other_items.append({
-                "name": name,
-                "id": None,
-                "enName": SPECIAL_SELECTOR_TRANSLATIONS[selector_root],
-                "category": "Special",
-                "count": count,
-            })
-            continue
-
-        item_id = item_lookup.get(name)
-        ap_value = item_efficiency.get(item_id) if item_id else None
-        if item_id and ap_value and ap_value > 0:
-            items.append({
-                "id": item_id,
-                "name": name,
-                "enName": en_names.get(item_id),
-                "count": count,
-            })
-        else:
-            # Present but zero-value (e.g. module upgrade components), or a
-            # real itemId that's a cosmetic-collection voucher rather than a
-            # farmable material -- see the classifyType/itemType check.
-            if not item_id:
-                # The wiki sometimes year-tags an item name the game doesn't:
-                # "α类迎新寻访凭证（2026）" is item "α类迎新寻访凭证".
-                item_id = item_lookup.get(TRAILING_PARENTHETICAL_RE.sub("", name).strip())
-            item_type = item_lookup.get((item_id, "type")) if item_id else None
-            if item_type in HEADHUNTING_ITEM_TYPES:
-                category = "Headhunting"
-            elif item_type == "UNI_COLLECTION":
-                category = "Furniture"
-            else:
-                category = "Zero-Efficiency Item"
-            entry = {
-                "name": name,
-                "id": item_id,
-                "enName": en_names.get(item_id),
-                "category": category,
-                "count": count,
-            }
-            if category == "Headhunting":
-                entry["itemType"] = item_type   # how the site values it; see HEADHUNTING_ITEM_TYPES
-            other_items.append(entry)
+        name, count = m.group(1), parse_count(m.group(2))
+        where, entry = classify_reward(name, count, item_lookup, item_efficiency, en_names)
+        (items if where == "items" else other_items).append(entry)
 
     # The remaining template types (namecard/avatar, furniture, skin, and raw
     # file-link cosmetics) never resolve to a real itemId at all -- there's
@@ -575,14 +595,27 @@ def pack_key(pack: dict):
 
 def merge_with_previous(scraped: list, previous: list):
     """Scraped packs replace their earlier copies (fresh data wins, so parser
-    fixes apply to everything still on the wiki page within LOOKBACK_MONTHS);
-    earlier packs no longer scraped are kept unchanged. Returns
-    (merged, new_count, kept_count)."""
-    scraped_keys = {pack_key(p) for p in scraped}
-    previous_keys = {pack_key(p) for p in previous}
-    kept = [p for p in previous if pack_key(p) not in scraped_keys]
-    new_count = len(scraped_keys - previous_keys)
-    return scraped + kept, new_count, len(kept)
+    fixes apply to everything still listed within LOOKBACK_MONTHS); earlier
+    packs no longer scraped are kept unchanged. An earlier copy is the same
+    name and start, or -- since sources can name and date one pack slightly
+    differently -- the same goodId starting within MATCH_DAYS. The fresh copy
+    keeps the earlier one's name and start, so the pack stays the same pack
+    (and keeps its translation). Returns (merged, new_count, kept_count)."""
+    remaining = list(previous)
+    new_count = 0
+    for pack in scraped:
+        match = next((p for p in remaining if pack_key(p) == pack_key(pack)), None) or \
+            next((p for p in remaining if pack.get("goodId") and p.get("goodId") == pack["goodId"]
+                  and abs((datetime.fromisoformat(p["startDate"]) -
+                           datetime.fromisoformat(pack["startDate"])).days) <= MATCH_DAYS), None)
+        if match is None:
+            new_count += 1
+            continue
+        remaining.remove(match)
+        pack["name"], pack["startDate"] = match["name"], match["startDate"]
+        if match.get("mtlName") and not pack.get("mtlName"):
+            pack["mtlName"] = match["mtlName"]
+    return scraped + remaining, new_count, len(remaining)
 
 
 def load_previous_output() -> list:
@@ -590,6 +623,385 @@ def load_previous_output() -> list:
         return []
     with OUTPUT_PATH.open(encoding="utf-8") as f:
         return json.load(f)
+
+# --- Source 2: yituliu --------------------------------------------------------
+#
+# ark.yituliu.cn/material/pack (the site whose material values we already use)
+# keeps its own CN pack list, served as plain JSON by its backend -- no wiki
+# markup, no proxy (it doesn't block non-China IPs), and it was kept up to date
+# when prts.wiki stopped (Oct 2026). It's an unofficial API for their own page,
+# so it can change without notice (note the v5); a failure here is reported,
+# not fatal, as long as the wiki still works (and vice versa).
+#
+# How it differs from the wiki, all handled below:
+#   - Originite Prime / Orundum / permits are fields (originium, orundum,
+#     gachaTicket, tenGachaTicket), the rest a packContent list with item ids.
+#   - Banner-only permits are recorded as plain permits; only the free-text
+#     note says "仅…可用" (only usable on ...). See banner_permits().
+#   - Some ids are its own inventions: cosmetics (avatar_special, theme_scene,
+#     skin_18, "0", ...), selectors (voucher_item_pick6), and a few aliases
+#     shared with its material-value export (YITULIU_ID_ALIASES).
+#   - Packs bought with Originite Prime have price 0 (skipped, as the wiki's
+#     non-CNY packs are); permanent chip packs are dated 2099 (kept only as
+#     templates for gap filling, below); old packs have start == end.
+#   - It skips some reruns (several runs of the skill/chip packs), and dates
+#     are sometimes a few days off -- matching allows for that.
+YITULIU_URL = "https://backend.yituliu.cn/item/v5/store/pack"
+YITULIU_SALE_TYPES = {"activity", "chip"}
+YITULIU_ID_ALIASES = {"rare_material_issue_voucher": "precious_material_voucher_perm"}
+YITULIU_SELECTORS = {"voucher_item_pick6": "Standard Selector", "voucher_class_pick6": "Kernel Selector"}
+YITULIU_COSMETICS = {"avatar_special": "Avatar", "business_card_theme": "Namecard",
+                     "theme_scene": "Scene", "theme_scene+UI_Theme": "Scene", "UI_Theme": "UI Theme",
+                     "0": "Unknown"}   # "0": furniture, avatars etc. it doesn't model
+YITULIU_FIELDS = (("originium", "4002"), ("orundum", "4003"),
+                  ("gachaTicket", "7003"), ("tenGachaTicket", "7004"))
+YITULIU_NAME_JUNK_RE = re.compile(r"^[\s\[\]【】]+|[\s\[\]【】]+$")   # "技巧集综合礼包]"
+CN_TZ = timezone(timedelta(hours=8))
+
+
+def fetch_yituliu() -> list:
+    req = urllib.request.Request(YITULIU_URL, headers={"User-Agent": "Mozilla/5.0"})
+    with urllib.request.urlopen(req, timeout=60) as resp:
+        payload = json.load(resp)
+    data = payload.get("data")
+    if not isinstance(data, list) or len(data) < 100:
+        # ~550 packs as of writing; a short or odd reply is an error page.
+        raise RuntimeError(f"yituliu returned {type(data).__name__} of {len(data or [])} packs")
+    return data
+
+
+def load_gp_data() -> dict:
+    """goodId -> shopGPDataDict entry (displayName etc.), CN."""
+    with Path("excel-cn/shop_client_table.json").open(encoding="utf-8") as f:
+        return json.load(f)["shopGPDataDict"]
+
+
+def load_cn_items() -> dict:
+    with Path("excel-cn/item_table.json").open(encoding="utf-8") as f:
+        return json.load(f)["items"]
+
+
+def banner_permits(cn_items: dict) -> list:
+    """[(banner name, single-pull permit id, ten-pull permit id)] for every
+    banner-only permit in the CN item table. CN names them after the banner
+    (海渊巡游寻访凭证 / 海渊巡游十连寻访凭证), which is what yituliu's note names."""
+    singles, tens = {}, {}
+    for item_id, d in cn_items.items():
+        name = d.get("name") or ""
+        if d.get("itemType") == "EXCLUSIVE_TKT_GACHA" and name.endswith("寻访凭证"):
+            singles[name[:-len("寻访凭证")]] = item_id
+        elif d.get("itemType") == "EXCLUSIVE_TKT_GACHA_10" and name.endswith("十连寻访凭证"):
+            tens[name[:-len("十连寻访凭证")]] = item_id
+    return [(b, singles.get(b), tens.get(b)) for b in sorted(set(singles) | set(tens), key=len, reverse=True)]
+
+
+BANNER_PACK_SUFFIX_RE = re.compile(r"(十连)?寻访(组合)?包$")
+
+
+def is_subsequence(short: str, long: str) -> bool:
+    it = iter(long)
+    return all(ch in it for ch in short)
+
+
+def find_banner(name: str, note: str, banners: list):
+    """The banner whose own permits a yituliu pack holds, if any. Named in the
+    note ("仅可用于【海渊巡游】寻访"), or in the pack name -- which may drop a
+    character of the banner's (pack 确定混沌寻访包, permit 确定性混沌寻访凭证;
+    that pack's note says nothing about the restriction)."""
+    for banner in banners:
+        # The note only counts when it says the permits are restricted (仅,
+        # "only"): 调用凭证组合包's note names 辟路之人 just to describe the
+        # selector's pool, and that pack's permit is a normal one.
+        if banner[0] in name or ("仅" in note and banner[0] in note):
+            return banner
+    root = BANNER_PACK_SUFFIX_RE.sub("", name)
+    if len(root) >= 3 and root != name:
+        matches = [b for b in banners if is_subsequence(root, b[0])]
+        if len(matches) == 1:
+            return matches[0]
+    return None
+
+
+def ms_to_dt(ms):
+    return datetime.fromtimestamp(ms / 1000, tz=CN_TZ) if ms else None
+
+
+def yituliu_pack(raw: dict, ctx: dict, warnings: list):
+    """One yituliu entry -> a pack in this file's shape (without goodId/event),
+    or None if it isn't a real-money limited pack."""
+    name = YITULIU_NAME_JUNK_RE.sub("", raw.get("officialName") or raw.get("displayName") or "")
+    start, end = ms_to_dt(raw.get("start")), ms_to_dt(raw.get("end"))
+    if not name or not start or not end or raw.get("saleType") not in YITULIU_SALE_TYPES:
+        return None
+    if not raw.get("price"):
+        return None   # bought with Originite Prime, not money
+    if name[-1] in "αβγ" or name.startswith("新人"):
+        # α/β/γ: one "choose one of three" pack, which yituliu lists three
+        # times (the wiki once, as the site values it). 新人: newcomer-only
+        # packs, which the site lists by hand (Starter Packs).
+        return None
+    note = raw.get("note") or ""
+    rewards = []   # (name, count, item_id)
+    for field, item_id in YITULIU_FIELDS:
+        if raw.get(field):
+            rewards.append((ctx["cn_items"][item_id]["name"], raw[field], item_id))
+    # Banner-only permits: swap the plain permits for the banner's own.
+    if raw.get("gachaTicket") or raw.get("tenGachaTicket"):
+        banner = find_banner(name, note, ctx["banners"])
+        if banner:
+            swap = {"7003": banner[1], "7004": banner[2]}
+            rewards = [(ctx["cn_items"][swap[i]]["name"], n, swap[i]) if swap.get(i) else (r, n, i)
+                       for r, n, i in rewards]
+        elif "仅" in note:
+            warnings.append(f"{name}: note says the permits are limited ({note[:40]}) but no banner permit matches")
+    items, other = [], []
+    for it in raw.get("packContent") or []:
+        item_id, item_name, count = str(it.get("itemId")), it.get("itemName") or "", it.get("quantity") or 0
+        if not count:
+            continue
+        item_id = YITULIU_ID_ALIASES.get(item_id, item_id)
+        if item_id in YITULIU_SELECTORS:
+            other.append({"name": item_name, "id": None, "enName": YITULIU_SELECTORS[item_id],
+                          "category": "Special", "count": count})
+        elif item_id in YITULIU_COSMETICS or item_id.startswith("skin_"):
+            other.append({"name": item_name, "id": None, "enName": None, "count": count,
+                          "category": YITULIU_COSMETICS.get(item_id, "Skin")})
+        else:
+            rewards.append((item_name, count, item_id if item_id in ctx["cn_items"] else None))
+    for reward_name, count, item_id in rewards:
+        where, entry = classify_reward(reward_name, count, ctx["item_lookup"], ctx["item_efficiency"],
+                                       ctx["en_item_names"], item_id=item_id)
+        (items if where == "items" else other).append(entry)
+    return {
+        "name": name, "enName": None, "goodId": None, "priceCNY": int(raw["price"]),
+        "startDate": start.isoformat(), "endDate": end.isoformat(), "event": None,
+        "items": items, "otherItems": other, "contentsSource": "yituliu",
+        "_permanent": end.year >= 2099,
+    }
+
+
+def load_yituliu(ctx: dict):
+    """Every usable yituliu pack (no date cut -- old ones serve as templates),
+    plus warnings."""
+    warnings = []
+    packs = [p for p in (yituliu_pack(raw, ctx, warnings) for raw in fetch_yituliu()) if p]
+    return packs, warnings
+
+
+def worth_keeping(pack: dict):
+    """None if the pack is worth keeping, else why not (the wiki's own filters)."""
+    if not pack["items"] and not pack["otherItems"]:
+        return "empty"
+    if not pack["items"] and all(o["category"] == "Zero-Efficiency Item" for o in pack["otherItems"]):
+        return "uninteresting"
+    return None
+
+
+# --- Combining the sources ----------------------------------------------------
+#
+# The wiki and yituliu are matched pack-for-pack: same goodId (or, failing
+# that, the same name) and CN start dates within MATCH_DAYS. A pack both list
+# takes the wiki's name and dates (minute precision; keeps it the same pack as
+# in earlier runs of this file) and yituliu's contents -- in a comparison of 82
+# packs both had, the only disagreement over anything of value was a wiki
+# error. Disagreements are still reported ("contentsConflict") so they can be
+# checked. Each pack records contentsSource: yituliu | wiki | inferred.
+MATCH_DAYS = 3
+
+
+def valued_contents(pack: dict) -> dict:
+    """What a pack holds that has value -- for spotting disagreements."""
+    out = {}
+    for i in pack["items"]:
+        out[i["id"]] = out.get(i["id"], 0) + i["count"]
+    for o in pack["otherItems"]:
+        if o["category"] in ("Headhunting", "Special"):
+            key = o.get("itemType") or o.get("enName") or o["name"]
+            out[key] = out.get(key, 0) + o["count"]
+    return out
+
+
+def same_pack(a: dict, b: dict) -> bool:
+    days = abs((datetime.fromisoformat(a["startDate"]) - datetime.fromisoformat(b["startDate"])).days)
+    if days > MATCH_DAYS:
+        return False
+    if a.get("goodId") and b.get("goodId"):
+        return a["goodId"] == b["goodId"]
+    if pack_name_variants(a["name"])[-1] == pack_name_variants(b["name"])[-1]:
+        return True
+    # A renamed pack (the wiki's 沉甸甸的资金箱 is the game's 港都之礼资金箱):
+    # same day, same price, same valued contents.
+    return days == 0 and a.get("priceCNY") == b.get("priceCNY") and valued_contents(a) == valued_contents(b)
+
+
+SIMILAR_NAME_RATIO = 0.7
+
+
+def resolve_good_id_by_similar_name(pack: dict, schedule: dict, gp_names: dict):
+    """yituliu sometimes misspells a name (技巧综合礼包 for 技巧集综合礼包,
+    定向甄选组合包 for 定向甄选寻访组合包), so the exact-name match finds no
+    goodId. Fall back to the CN pack on sale within a day at the same price
+    whose name is closest, if it's close enough and the only one that is."""
+    start = datetime.fromisoformat(pack["startDate"])
+    scored = []
+    for good_id, windows in schedule.items():
+        if any(abs((w[0].date() - start.date()).days) <= 1 and w[2] in (None, pack.get("priceCNY"))
+               for w in windows):
+            ratio = difflib.SequenceMatcher(None, pack["name"], gp_names.get(good_id, "")).ratio()
+            if ratio >= SIMILAR_NAME_RATIO:
+                scored.append((ratio, good_id))
+    scored.sort(reverse=True)
+    if scored and (len(scored) == 1 or scored[0][0] > scored[1][0]):
+        return scored[0][1]
+    return None
+
+
+def combine_sources(wiki: list, yituliu: list, by_name: dict, sale_dates: dict,
+                    schedule: dict, gp_names: dict):
+    """Returns (packs, report lines)."""
+    report = []
+    for p in wiki + yituliu:
+        p["goodId"] = resolve_good_id(p["name"], datetime.fromisoformat(p["startDate"]), by_name, sale_dates)
+    for p in yituliu:
+        if not p["goodId"]:
+            p["goodId"] = resolve_good_id_by_similar_name(p, schedule, gp_names)
+            if p["goodId"]:
+                report.append(f"{p['name']} ({p['startDate'][:10]}): yituliu's name matched to "
+                              f"{gp_names[p['goodId']]} [{p['goodId']}] by similarity")
+    packs, used = [], set()
+    for w in wiki:
+        y = next((y for i, y in enumerate(yituliu) if i not in used and same_pack(w, y)), None)
+        if y is None:
+            w["contentsSource"] = "wiki"
+            packs.append(w)
+            continue
+        used.add(yituliu.index(y))
+        merged = dict(w, items=y["items"], otherItems=y["otherItems"], contentsSource="yituliu",
+                      goodId=w["goodId"] or y["goodId"], _paired=True)
+        if valued_contents(w) != valued_contents(y):
+            merged["contentsConflict"] = True
+            a, b = valued_contents(w), valued_contents(y)
+            diff = {k: (a.get(k), b.get(k)) for k in set(a) | set(b) if a.get(k) != b.get(k)}
+            report.append(f"{w['name']} ({w['startDate'][:10]}): wiki and yituliu disagree, using yituliu "
+                          f"-- (wiki, yituliu): {diff}")
+        if w.get("priceCNY") != y.get("priceCNY"):
+            report.append(f"{w['name']} ({w['startDate'][:10]}): price ¥{w.get('priceCNY')} on the wiki, "
+                          f"¥{y.get('priceCNY')} on yituliu -- using the wiki's")
+        packs.append(merged)
+    packs += [y for i, y in enumerate(yituliu) if i not in used]
+    return packs, report
+
+
+# --- Source 3: CN game data, for packs neither source has ----------------------
+#
+# The CN shop table lists every pack's goodId, name and sale window (and the
+# price, for most), but never its contents. So a pack the CN shop sells that
+# neither source lists gets the contents of an earlier pack with the same name
+# (and price, when known) -- recurring packs (chip packs, Duck Lord's Change
+# Purse, the training packs) come back unchanged. Such packs carry
+# contentsSource "inferred" and contentsInferredFrom. Ones with no earlier
+# pack to copy are only reported: their contents are unknown.
+# Only one-off packs (GP_Once_*) are considered, as only those are limited-time
+# sales; monthly cards, permanent and returning-player packs aren't.
+GAME_DATA_PREFIX = "GP_Once_"
+LIMITED_SALE_MAX_DAYS = 60   # longer "sales" are permanent packs (newcomer packs etc.)
+
+
+def load_cn_schedule() -> dict:
+    """goodId -> [(start, end, CNY price or None)], merged per start day."""
+    with Path("excel-cn/shop_client_table.json").open(encoding="utf-8") as f:
+        table = json.load(f)
+    out = {}
+
+    def add(good_id, start, end, price=None):
+        if not (good_id and isinstance(start, (int, float)) and 1e9 < start < 4e9
+                and isinstance(end, (int, float)) and 1e9 < end < 4e9):
+            return
+        s, e = datetime.fromtimestamp(start, CN_TZ), datetime.fromtimestamp(end, CN_TZ)
+        windows = out.setdefault(good_id, [])
+        for i, (ws, we, wp) in enumerate(windows):
+            if ws.date() == s.date():
+                windows[i] = (max(ws, s), max(we, e), wp if wp is not None else price)
+                return
+        windows.append((s, e, price))
+
+    for entry in table.get("recommendList") or []:
+        gift = (entry.get("templateParam") or {}).get("normalGiftParam") or {}
+        for group in entry.get("groupList") or []:
+            for slot in group.get("dataList") or []:
+                if slot.get("cmd") == "GIFTPACKAGE":
+                    good_id = slot.get("param1")
+                    if gift.get("goodId") == good_id:   # the shown time: when it really goes on sale
+                        add(good_id, gift.get("showStartTs"), gift.get("showEndTs"), gift.get("price"))
+                    else:
+                        add(good_id, entry.get("startDatetime"), entry.get("endDatetime"))
+    for carousel in table.get("carousels") or []:
+        for slot in carousel.get("items") or []:
+            if slot.get("cmd") == "GIFTPACKAGE":
+                add(slot.get("param1"), slot.get("startTime"), slot.get("endTime"))
+    return out
+
+
+SNAP_DAYS = 14
+
+
+def snap_to_schedule(packs: list, schedule: dict, activities: dict) -> list:
+    """yituliu's dates are sometimes off by days (全能开发者主题包: 11-01 there,
+    11-08 in the game). For packs only yituliu lists, take the sale window
+    from the CN schedule when it has one within SNAP_DAYS. Returns what moved."""
+    moved = []
+    for p in packs:
+        if p.get("contentsSource") != "yituliu" or p.get("_paired") or not p.get("goodId"):
+            continue
+        start = datetime.fromisoformat(p["startDate"])
+        windows = [w for w in schedule.get(p["goodId"], []) if abs((w[0] - start).days) <= SNAP_DAYS]
+        if not windows:
+            continue
+        w = min(windows, key=lambda w: abs((w[0] - start).total_seconds()))
+        if w[0].date() != start.date():
+            moved.append(f"{p['name']} {start.date()} -> {w[0].date()}")
+        p["startDate"], p["endDate"] = w[0].isoformat(), w[1].isoformat()
+        p["event"] = activities.get(w[0].date())
+    return moved
+
+
+def fill_from_game_data(packs: list, schedule: dict, gp_names: dict, cutoff: datetime,
+                        templates: list, activities: dict):
+    """Returns (new packs, packs left without contents)."""
+    def covered(good_id, start):
+        return any(p.get("goodId") == good_id and
+                   abs((datetime.fromisoformat(p["startDate"]) - start).days) <= MATCH_DAYS for p in packs)
+
+    by_name = {}
+    for t in sorted(templates, key=lambda t: t["startDate"]):   # later ones win
+        if t["items"] or t["otherItems"]:
+            by_name.setdefault(pack_name_variants(t["name"])[-1], []).append(t)
+    new, unknown = [], []
+    for good_id, windows in schedule.items():
+        if not good_id.startswith(GAME_DATA_PREFIX):
+            continue
+        name = gp_names.get(good_id, "")
+        for start, end, price in windows:
+            if end < cutoff or covered(good_id, start) or (end - start).days > LIMITED_SALE_MAX_DAYS:
+                continue
+            candidates = by_name.get(pack_name_variants(name)[-1], [])
+            if price is not None:
+                candidates = [t for t in candidates if t.get("priceCNY") == price]
+            if not candidates:
+                unknown.append(f"{name} [{good_id}] {start.date()}" + (f" ¥{price}" if price else ""))
+                continue
+            t = candidates[-1]
+            new.append({
+                "name": name, "enName": None, "goodId": good_id,
+                "priceCNY": price if price is not None else t["priceCNY"],
+                "startDate": start.isoformat(), "endDate": end.isoformat(),
+                "event": activities.get(start.date()),
+                "items": t["items"], "otherItems": t["otherItems"],
+                "contentsSource": "inferred",
+                "contentsInferredFrom": f"{t['name']} {t['startDate'][:10]}",
+            })
+    return new, unknown
+
 
 # --- Machine translation of pack names --------------------------------------
 #
@@ -853,9 +1265,8 @@ def subtract_months(dt: datetime, months: int) -> datetime:
     return dt.replace(year=year, month=month, day=day)
 
 
-def main():
-    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-
+def scrape_wiki(ctx: dict, cutoff: datetime):
+    """Source 1: the packs on prts.wiki's page. Returns (packs, skip counts)."""
     wikitext = fetch_wikitext()
     sections = extract_relevant_sections(wikitext)
     blocks = [block for section in sections for block in find_pack_blocks(section)]
@@ -865,23 +1276,10 @@ def main():
             "{{充值组合包/限时|...}} template shape has likely changed and "
             "this parser needs updating."
         )
-
-    item_lookup = load_item_lookup()
-    en_item_names = load_en_item_names()
-    item_efficiency = load_item_efficiency()
-    pack_name_translations = load_pack_name_translations()
-    en_pack_names = load_en_pack_names()
-    good_ids_by_name, sale_dates, sale_prices = load_pack_good_ids()
-    activities_by_start_date = load_activities()
-
-    cutoff = subtract_months(datetime.now(timezone.utc), LOOKBACK_MONTHS)
-
+    item_lookup, item_efficiency = ctx["item_lookup"], ctx["item_efficiency"]
+    en_item_names, activities_by_start_date = ctx["en_item_names"], ctx["activities"]
     packs = []
-    skipped_stale = 0
-    skipped_non_cny = 0
-    skipped_empty = 0
-    skipped_uninteresting = 0
-
+    skipped = {"stale": 0, "non_cny": 0, "empty": 0, "uninteresting": 0}
     for block in blocks:
         name = get_field(block, "名称")
         start_date, end_date = parse_period(block)
@@ -889,17 +1287,17 @@ def main():
             continue  # Not a real limited-time sale entry (e.g. malformed/edge block)
 
         if end_date < cutoff:
-            skipped_stale += 1
+            skipped["stale"] += 1
             continue
 
         price_cny = parse_price(block)
         if price_cny is None and get_field(block, "价格单位"):
-            skipped_non_cny += 1
+            skipped["non_cny"] += 1
             continue
 
         items, other_items = parse_contents(block, item_lookup, item_efficiency, en_item_names)
         if not items and not other_items:
-            skipped_empty += 1
+            skipped["empty"] += 1
             continue
         # A pack with no valued items AND nothing genuinely browsable either
         # (no furniture/avatar/skin/scene/theme/namecard -- just real items
@@ -908,7 +1306,7 @@ def main():
         # bundle, which has no `items` but real cosmetic content worth
         # surfacing in `otherItems`, so that case is deliberately kept.
         if not items and all(oi["category"] == "Zero-Efficiency Item" for oi in other_items):
-            skipped_uninteresting += 1
+            skipped["uninteresting"] += 1
             continue
 
         event = activities_by_start_date.get(start_date.date())
@@ -925,10 +1323,61 @@ def main():
             "otherItems": other_items,
         })
 
-    scraped_count = len(packs)
+    return packs, skipped
+
+
+def main():
+    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+
+    cn_items = load_cn_items()
+    ctx = {
+        "item_lookup": load_item_lookup(), "en_item_names": load_en_item_names(),
+        "item_efficiency": load_item_efficiency(), "activities": load_activities(),
+        "cn_items": cn_items, "banners": banner_permits(cn_items),
+    }
+    pack_name_translations = load_pack_name_translations()
+    en_pack_names = load_en_pack_names()
+    good_ids_by_name, sale_dates, sale_prices = load_pack_good_ids()
+    cutoff = subtract_months(datetime.now(timezone.utc), LOOKBACK_MONTHS)
+
+    # Each source may fail on its own (a proxy or an API going away); only
+    # both failing stops the run, so a good file is never replaced by less.
+    errors = []
+    try:
+        wiki_packs, skipped = scrape_wiki(ctx, cutoff)
+    except Exception as e:
+        wiki_packs, skipped = [], None
+        errors.append(f"prts.wiki: {type(e).__name__}: {e}")
+    try:
+        yituliu_all, yituliu_warnings = load_yituliu(ctx)
+    except Exception as e:
+        yituliu_all, yituliu_warnings = [], []
+        errors.append(f"yituliu: {type(e).__name__}: {e}")
+    if not wiki_packs and not yituliu_all:
+        raise RuntimeError("Both pack sources failed:\n  " + "\n  ".join(errors))
+
+    yituliu_packs = []
+    for p in yituliu_all:
+        if p["_permanent"] or datetime.fromisoformat(p["endDate"]) < cutoff or worth_keeping(p):
+            continue
+        p = {k: v for k, v in p.items() if k != "_permanent"}
+        p["event"] = ctx["activities"].get(datetime.fromisoformat(p["startDate"]).date())
+        yituliu_packs.append(p)
+
+    schedule = load_cn_schedule()
+    gp_names = {g: (d.get("displayName") or "").strip() for g, d in load_gp_data().items()}
+    packs, conflicts = combine_sources(wiki_packs, yituliu_packs, good_ids_by_name, sale_dates,
+                                       schedule, gp_names)
+    moved = snap_to_schedule(packs, schedule, ctx["activities"])
+    for p in packs:
+        p.pop("_paired", None)
     previous = load_previous_output()
+    inferred, unknown = fill_from_game_data(packs, schedule, gp_names, cutoff,
+                                            previous + packs + yituliu_all, ctx["activities"])
+    packs += inferred
+
+    scraped_count = len(packs)
     packs, new_count, kept_count = merge_with_previous(packs, previous)
-    carry_over_translations(packs, previous)
     unresolved, matched_by_price = add_good_ids(packs, good_ids_by_name, sale_dates, sale_prices,
                                                 en_pack_names, pack_name_translations)
     packs.sort(key=lambda p: (p["startDate"], p["name"]))
@@ -937,8 +1386,24 @@ def main():
     with OUTPUT_PATH.open("w", encoding="utf-8") as f:
         json.dump(packs, f, indent=2, ensure_ascii=False)
 
+    sources = {}
+    for p in packs:
+        sources[p.get("contentsSource", "wiki")] = sources.get(p.get("contentsSource", "wiki"), 0) + 1
     print(f"Wrote {len(packs)} packs to {OUTPUT_PATH}")
-    print(f"  {scraped_count} scraped ({new_count} new), {kept_count} kept from the previous file")
+    print(f"  {scraped_count} found ({new_count} new), {kept_count} kept from the previous file")
+    print(f"  sources: {len(wiki_packs)} on prts.wiki, {len(yituliu_packs)} on yituliu, "
+          f"{len(inferred)} inferred from game data; contents by source: {sources}")
+    for e in errors:
+        print(f"  SOURCE FAILED -- {e}")
+    if moved:
+        print(f"  {len(moved)} yituliu date(s) corrected from the CN schedule: {', '.join(moved)}")
+    for line in conflicts + yituliu_warnings:
+        print(f"  CHECK: {line}")
+    if inferred:
+        print(f"  {len(inferred)} pack(s) on the CN shop that no source lists, contents copied from an "
+              f"earlier pack: " + ", ".join(f"{p['name']} ({p['startDate'][:10]})" for p in inferred))
+    if unknown:
+        print(f"  {len(unknown)} pack(s) on the CN shop with no contents anywhere (left out): {', '.join(unknown)}")
     if matched_by_price:
         # Weak matches (same day + same price only) -- see resolve_good_id_by_price.
         print(f"  {len(matched_by_price)} goodId(s) matched by price only, worth checking: "
@@ -947,10 +1412,10 @@ def main():
         # Not fatal: the site can't match these to EN game data automatically
         # (EN name/sale window/price) and falls back to its own overrides.
         print(f"  {len(unresolved)} without a goodId: {', '.join(unresolved)}")
-    print(f"  {skipped_stale} skipped (older than {LOOKBACK_MONTHS} months)")
-    print(f"  {skipped_non_cny} skipped (priced in a non-CNY currency, not a real-money pack)")
-    print(f"  {skipped_empty} skipped (no items or otherItems resolved at all)")
-    print(f"  {skipped_uninteresting} skipped (no valued items and nothing browsable either)")
+    if skipped:
+        print(f"  wiki: {skipped['stale']} skipped (older than {LOOKBACK_MONTHS} months), "
+              f"{skipped['non_cny']} (not priced in CNY), {skipped['empty']} (empty), "
+              f"{skipped['uninteresting']} (nothing of value or browsable)")
     print(f"  {mtl_report}")
 
 
