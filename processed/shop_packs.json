@@ -643,18 +643,14 @@
     ],
     "otherItems": [
       {
-        "name": "2026余韵切片",
+        "name": "头像",
         "id": null,
         "enName": null,
-        "category": "Avatar"
-      },
-      {
-        "name": "信念共鸣",
-        "id": null,
-        "enName": null,
+        "count": 2,
         "category": "Avatar"
       }
-    ]
+    ],
+    "contentsSource": "yituliu"
   },
   {
     "name": "失语者组合包",
@@ -677,12 +673,14 @@
     ],
     "otherItems": [
       {
-        "name": "失语者",
+        "name": "名片主题",
         "id": null,
         "enName": null,
+        "count": 1,
         "category": "Namecard"
       }
-    ]
+    ],
+    "contentsSource": "yituliu"
   },
   {
     "name": "布道人组合包",
@@ -705,12 +703,14 @@
     ],
     "otherItems": [
       {
-        "name": "布道人",
+        "name": "名片主题",
         "id": null,
         "enName": null,
+        "count": 1,
         "category": "Namecard"
       }
-    ]
+    ],
+    "contentsSource": "yituliu"
   },
   {
     "name": "戏中身组合包",
@@ -733,12 +733,14 @@
     ],
     "otherItems": [
       {
-        "name": "戏中身",
+        "name": "名片主题",
         "id": null,
         "enName": null,
+        "count": 1,
         "category": "Namecard"
       }
-    ]
+    ],
+    "contentsSource": "yituliu"
   },
   {
     "name": "渡星客组合包",
@@ -761,12 +763,14 @@
     ],
     "otherItems": [
       {
-        "name": "渡星客",
+        "name": "名片主题",
         "id": null,
         "enName": null,
+        "count": 1,
         "category": "Namecard"
       }
-    ]
+    ],
+    "contentsSource": "yituliu"
   },
   {
     "name": "中坚调用凭证组合包<br>(2026周年庆典)",
@@ -795,13 +799,14 @@
     ],
     "otherItems": [
       {
-        "name": "中坚高级干员调用凭证（2026周年庆典）",
+        "name": "中坚高级干员调用凭证",
         "id": null,
         "enName": "Kernel Selector",
         "category": "Special",
         "count": 1
       }
-    ]
+    ],
+    "contentsSource": "yituliu"
   },
   {
     "name": "先锋芯片礼包",
@@ -846,7 +851,8 @@
         "count": 10
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "contentsSource": "wiki"
   },
   {
     "name": "凯尔希的手提箱",
@@ -873,7 +879,8 @@
         "count": 700000
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "contentsSource": "yituliu"
   },
   {
     "name": "医疗芯片礼包",
@@ -918,7 +925,8 @@
         "count": 10
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "contentsSource": "wiki"
   },
   {
     "name": "庆典中坚寻访组合包",
@@ -933,19 +941,20 @@
     },
     "items": [
       {
-        "id": "classic_gacha_10",
-        "name": "十连中坚寻访凭证",
-        "enName": "Ten-roll Kernel Headhunting Permit",
-        "count": 1
-      },
-      {
         "id": "classic_gacha",
         "name": "中坚寻访凭证",
         "enName": "Kernel Headhunting Permit",
         "count": 5
+      },
+      {
+        "id": "classic_gacha_10",
+        "name": "十连中坚寻访凭证",
+        "enName": "Ten-roll Kernel Headhunting Permit",
+        "count": 1
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "contentsSource": "yituliu"
   },
   {
     "name": "技巧集综合礼包",
@@ -984,7 +993,8 @@
         "count": 1
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "contentsSource": "yituliu"
   },
   {
     "name": "特训意向礼包",
@@ -1011,7 +1021,8 @@
         "count": 1
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "contentsSource": "yituliu"
   },
   {
     "name": "综合材料组合包",
@@ -1044,7 +1055,8 @@
         "count": 20
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "contentsSource": "yituliu"
   },
   {
     "name": "罗德岛周年作战包(2026)",
@@ -1107,7 +1119,8 @@
         "count": 6
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "contentsSource": "yituliu"
   },
   {
     "name": "罗德岛周年组合包(2026)",
@@ -1121,12 +1134,6 @@
       "name": "相变临界"
     },
     "items": [
-      {
-        "id": "voucher_skin",
-        "name": "时装自选凭证",
-        "enName": "Outfit Voucher",
-        "count": 1
-      },
       {
         "id": "4002",
         "name": "至纯源石",
@@ -1143,6 +1150,12 @@
         "id": "classic_gacha_10",
         "name": "十连中坚寻访凭证",
         "enName": "Ten-roll Kernel Headhunting Permit",
+        "count": 1
+      },
+      {
+        "id": "voucher_skin",
+        "name": "时装自选凭证",
+        "enName": "Outfit Voucher",
         "count": 1
       },
       {
@@ -1185,7 +1198,8 @@
         "category": "Zero-Efficiency Item",
         "count": 90
       }
-    ]
+    ],
+    "contentsSource": "yituliu"
   },
   {
     "name": "调用凭证组合包<br>(2026周年庆典)",
@@ -1208,13 +1222,14 @@
     ],
     "otherItems": [
       {
-        "name": "周年庆典干员凭证（2026）",
+        "name": "高级干员调用凭证",
         "id": null,
         "enName": "Standard Selector",
         "category": "Special",
         "count": 1
       }
-    ]
+    ],
+    "contentsSource": "yituliu"
   },
   {
     "name": "资深干员特训礼包",
@@ -1241,7 +1256,8 @@
         "count": 1
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "contentsSource": "yituliu"
   },
   {
     "name": "迎新特别寻访组合包(2026)",
@@ -1280,7 +1296,8 @@
         "count": 1,
         "itemType": "VOUCHER_CGACHA"
       }
-    ]
+    ],
+    "contentsSource": "wiki"
   },
   {
     "name": "高级特训意向礼包",
@@ -1307,7 +1324,8 @@
         "count": 1
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "contentsSource": "yituliu"
   },
   {
     "name": "高级资深干员特训礼包",
@@ -1334,7 +1352,8 @@
         "count": 1
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "contentsSource": "yituliu"
   },
   {
     "name": "鸭爵的零钱包",
@@ -1361,7 +1380,8 @@
         "count": 300000
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "contentsSource": "yituliu"
   },
   {
     "name": "定向甄选寻访组合包",
@@ -1376,19 +1396,20 @@
     },
     "items": [
       {
-        "id": "7004",
-        "name": "十连寻访凭证",
-        "enName": "Ten-roll Headhunting Permit",
-        "count": 2
-      },
-      {
         "id": "4002",
         "name": "至纯源石",
         "enName": "Originite Prime",
         "count": 9
+      },
+      {
+        "id": "7004",
+        "name": "十连寻访凭证",
+        "enName": "Ten-roll Headhunting Permit",
+        "count": 2
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "contentsSource": "yituliu"
   },
   {
     "name": "罗德岛数据包",
@@ -1409,7 +1430,8 @@
         "count": 12
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "contentsSource": "yituliu"
   },
   {
     "name": "罗德岛数据套组",
@@ -1445,7 +1467,8 @@
         "category": "Zero-Efficiency Item",
         "count": 90
       }
-    ]
+    ],
+    "contentsSource": "yituliu"
   },
   {
     "name": "罗德岛资金箱",
@@ -1472,7 +1495,8 @@
         "count": 700000
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "contentsSource": "yituliu"
   },
   {
     "name": "寻踪相伴组合包",
@@ -1523,7 +1547,8 @@
         "count": 4
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "contentsSource": "yituliu"
   },
   {
     "name": "水芸仿绘礼包",
@@ -1546,18 +1571,14 @@
     ],
     "otherItems": [
       {
-        "name": "很好奇的猫",
+        "name": "头像",
         "id": null,
         "enName": null,
-        "category": "Avatar"
-      },
-      {
-        "name": "很调皮的狗",
-        "id": null,
-        "enName": null,
+        "count": 2,
         "category": "Avatar"
       }
-    ]
+    ],
+    "contentsSource": "yituliu"
   },
   {
     "name": "水芸珍藏礼包",
@@ -1580,12 +1601,14 @@
     ],
     "otherItems": [
       {
-        "name": "一起去狩猎喵！",
+        "name": "名片主题",
         "id": null,
         "enName": null,
+        "count": 1,
         "category": "Namecard"
       }
-    ]
+    ],
+    "contentsSource": "yituliu"
   },
   {
     "name": "满载而归组合包",
@@ -1630,7 +1653,8 @@
         "count": 2
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "contentsSource": "yituliu"
   },
   {
     "name": "狙击芯片礼包",
@@ -1675,7 +1699,8 @@
         "count": 10
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "contentsSource": "wiki"
   },
   {
     "name": "狩猎特训组合包",
@@ -1702,7 +1727,8 @@
         "count": 2
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "contentsSource": "yituliu"
   },
   {
     "name": "猎人的补给箱",
@@ -1729,7 +1755,8 @@
         "count": 700000
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "contentsSource": "yituliu"
   },
   {
     "name": "结营出猎组合包",
@@ -1758,18 +1785,21 @@
     ],
     "otherItems": [
       {
-        "name": "结营",
+        "name": "主题场景",
         "id": null,
         "enName": null,
+        "count": 1,
         "category": "Scene"
       },
       {
-        "name": "出猎",
+        "name": "界面主题",
         "id": null,
         "enName": null,
+        "count": 1,
         "category": "UI Theme"
       }
-    ]
+    ],
+    "contentsSource": "yituliu"
   },
   {
     "name": "追猎技艺组合包",
@@ -1796,7 +1826,8 @@
         "count": 2
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "contentsSource": "yituliu"
   },
   {
     "name": "露华远行纪念礼包（复刻）",
@@ -1819,12 +1850,14 @@
     ],
     "otherItems": [
       {
-        "name": "寻火之叶",
+        "name": "头像",
         "id": null,
         "enName": null,
+        "count": 1,
         "category": "Avatar"
       }
-    ]
+    ],
+    "contentsSource": "yituliu"
   },
   {
     "name": "特种芯片礼包",
@@ -1869,7 +1902,8 @@
         "count": 10
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "contentsSource": "wiki"
   },
   {
     "name": "技巧集综合礼包",
@@ -1908,7 +1942,8 @@
         "count": 1
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "contentsSource": "yituliu"
   },
   {
     "name": "罗德岛数据包",
@@ -1929,7 +1964,8 @@
         "count": 12
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "contentsSource": "yituliu"
   },
   {
     "name": "罗德岛数据套组",
@@ -1965,7 +2001,8 @@
         "category": "Zero-Efficiency Item",
         "count": 90
       }
-    ]
+    ],
+    "contentsSource": "yituliu"
   },
   {
     "name": "罗德岛资金箱",
@@ -1992,7 +2029,8 @@
         "count": 700000
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "contentsSource": "yituliu"
   },
   {
     "name": "高级特训意向组合包",
@@ -2007,10 +2045,10 @@
     },
     "items": [
       {
-        "id": "voucher_levelmax_6",
-        "name": "高级资深干员特训装置",
-        "enName": "Top Operator Training Apparatus",
-        "count": 1
+        "id": "voucher_levelmax_4",
+        "name": "专业干员特训装置",
+        "enName": "Professional Operator Training Apparatus",
+        "count": 2
       },
       {
         "id": "voucher_levelmax_5",
@@ -2019,13 +2057,14 @@
         "count": 1
       },
       {
-        "id": "voucher_levelmax_4",
-        "name": "专业干员特训装置",
-        "enName": "Professional Operator Training Apparatus",
-        "count": 2
+        "id": "voucher_levelmax_6",
+        "name": "高级资深干员特训装置",
+        "enName": "Top Operator Training Apparatus",
+        "count": 1
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "contentsSource": "yituliu"
   },
   {
     "name": "友谊骑士组合包",
@@ -2048,30 +2087,14 @@
     ],
     "otherItems": [
       {
-        "name": "坚忍玛恩纳",
+        "name": "头像",
         "id": null,
         "enName": null,
-        "category": "Avatar"
-      },
-      {
-        "name": "灼灼临光",
-        "id": null,
-        "enName": null,
-        "category": "Avatar"
-      },
-      {
-        "name": "瑕光点点",
-        "id": null,
-        "enName": null,
-        "category": "Avatar"
-      },
-      {
-        "name": "鞭刃佐菲娅",
-        "id": null,
-        "enName": null,
+        "count": 4,
         "category": "Avatar"
       }
-    ]
+    ],
+    "contentsSource": "yituliu"
   },
   {
     "name": "真挚友谊组合包",
@@ -2100,24 +2123,21 @@
     ],
     "otherItems": [
       {
-        "name": "「碧琪的音乐播放器」",
+        "name": "主题场景",
         "id": null,
         "enName": null,
-        "category": "Furniture"
-      },
-      {
-        "name": "金橡树图书馆",
-        "id": null,
-        "enName": null,
+        "count": 1,
         "category": "Scene"
       },
       {
-        "name": "合照",
+        "name": "名片主题",
         "id": null,
         "enName": null,
+        "count": 1,
         "category": "Namecard"
       }
-    ]
+    ],
+    "contentsSource": "yituliu"
   },
   {
     "name": "魔法护卫组合包",
@@ -2140,30 +2160,14 @@
     ],
     "otherItems": [
       {
-        "name": "赤沙娜仁图亚",
+        "name": "头像",
         "id": null,
         "enName": null,
-        "category": "Avatar"
-      },
-      {
-        "name": "不言弃的格拉尼",
-        "id": null,
-        "enName": null,
-        "category": "Avatar"
-      },
-      {
-        "name": "林间流星",
-        "id": null,
-        "enName": null,
-        "category": "Avatar"
-      },
-      {
-        "name": "空中大爆破",
-        "id": null,
-        "enName": null,
+        "count": 4,
         "category": "Avatar"
       }
-    ]
+    ],
+    "contentsSource": "yituliu"
   },
   {
     "name": "创生因子组合包",
@@ -2191,6 +2195,7 @@
       }
     ],
     "otherItems": [],
+    "contentsSource": "yituliu",
     "mtlName": "Genesis Factor Pack"
   },
   {
@@ -2230,7 +2235,8 @@
         "count": 1
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "contentsSource": "yituliu"
   },
   {
     "name": "术师芯片礼包",
@@ -2275,7 +2281,8 @@
         "count": 10
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "contentsSource": "wiki"
   },
   {
     "name": "沉沦秘境组合包",
@@ -2309,6 +2316,7 @@
       }
     ],
     "otherItems": [],
+    "contentsSource": "yituliu",
     "mtlName": "Sunken Secret Realm Pack"
   },
   {
@@ -2333,6 +2341,7 @@
         "itemType": "EXCLUSIVE_TKT_GACHA"
       }
     ],
+    "contentsSource": "yituliu",
     "mtlName": "Certain Chaos Headhunting Pack"
   },
   {
@@ -2357,6 +2366,7 @@
         "itemType": "EXCLUSIVE_TKT_GACHA_10"
       }
     ],
+    "contentsSource": "yituliu",
     "mtlName": "Certain Chaos Ten-Roll Headhunting Pack"
   },
   {
@@ -2378,7 +2388,8 @@
         "count": 12
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "contentsSource": "yituliu"
   },
   {
     "name": "集成战略数据整合箱",
@@ -2414,7 +2425,8 @@
         "category": "Zero-Efficiency Item",
         "count": 90
       }
-    ]
+    ],
+    "contentsSource": "yituliu"
   },
   {
     "name": "中坚寻访组合包",
@@ -2435,7 +2447,8 @@
         "count": 1
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "contentsSource": "yituliu"
   },
   {
     "name": "公路长旅组合包",
@@ -2456,12 +2469,6 @@
         "count": 90
       },
       {
-        "id": "voucher_skin",
-        "name": "时装自选凭证",
-        "enName": "Outfit Voucher",
-        "count": 1
-      },
-      {
         "id": "7004",
         "name": "十连寻访凭证",
         "enName": "Ten-roll Headhunting Permit",
@@ -2471,6 +2478,12 @@
         "id": "classic_gacha_10",
         "name": "十连中坚寻访凭证",
         "enName": "Ten-roll Kernel Headhunting Permit",
+        "count": 1
+      },
+      {
+        "id": "voucher_skin",
+        "name": "时装自选凭证",
+        "enName": "Outfit Voucher",
         "count": 1
       },
       {
@@ -2514,6 +2527,7 @@
         "count": 90
       }
     ],
+    "contentsSource": "yituliu",
     "mtlName": "Highway Journey Pack"
   },
   {
@@ -2553,19 +2567,20 @@
         "count": 8
       },
       {
-        "id": "4001",
-        "name": "龙门币",
-        "enName": "LMD",
-        "count": 100000
-      },
-      {
         "id": "2003",
         "name": "中级作战记录",
         "enName": "Tactical Battle Record",
         "count": 50
+      },
+      {
+        "id": "4001",
+        "name": "龙门币",
+        "enName": "LMD",
+        "count": 100000
       }
     ],
     "otherItems": [],
+    "contentsSource": "yituliu",
     "mtlName": "Summer Celebration Supply Pack"
   },
   {
@@ -2606,6 +2621,7 @@
       }
     ],
     "otherItems": [],
+    "contentsSource": "yituliu",
     "mtlName": "Summer Refreshment Supply Pack"
   },
   {
@@ -2634,6 +2650,7 @@
       }
     ],
     "otherItems": [],
+    "contentsSource": "yituliu",
     "mtlName": "Angelina's Briefcase"
   },
   {
@@ -2673,7 +2690,8 @@
         "count": 1
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "contentsSource": "yituliu"
   },
   {
     "name": "热泉小憩组合包",
@@ -2737,6 +2755,7 @@
       }
     ],
     "otherItems": [],
+    "contentsSource": "yituliu",
     "mtlName": "Hot Spring Respite Pack"
   },
   {
@@ -2782,7 +2801,8 @@
         "count": 10
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "contentsSource": "wiki"
   },
   {
     "name": "特训意向礼包",
@@ -2809,7 +2829,8 @@
         "count": 1
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "contentsSource": "yituliu"
   },
   {
     "name": "重装芯片礼包",
@@ -2854,7 +2875,8 @@
         "count": 10
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "contentsSource": "wiki"
   },
   {
     "name": "高级特训意向礼包",
@@ -2881,7 +2903,8 @@
         "count": 1
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "contentsSource": "yituliu"
   },
   {
     "name": "幽蓝门扉组合包",
@@ -2910,19 +2933,80 @@
     ],
     "otherItems": [
       {
-        "name": "扬升",
+        "name": "主题场景",
         "id": null,
         "enName": null,
+        "count": 1,
         "category": "Scene"
       },
       {
-        "name": "月满",
+        "name": "界面主题",
         "id": null,
         "enName": null,
+        "count": 1,
         "category": "UI Theme"
       }
     ],
+    "contentsSource": "yituliu",
     "mtlName": "Azure Gateway Pack"
+  },
+  {
+    "name": "春日伴行组合包",
+    "enName": null,
+    "goodId": "GP_Once_486",
+    "priceCNY": 128,
+    "startDate": "2026-09-04T12:00:00+08:00",
+    "endDate": "2026-09-25T03:59:59+08:00",
+    "event": {
+      "id": "act54side",
+      "name": "月行水上"
+    },
+    "items": [
+      {
+        "id": "voucher_levelmax_6",
+        "name": "高级资深干员特训装置",
+        "enName": "Top Operator Training Apparatus",
+        "count": 1
+      },
+      {
+        "id": "voucher_levelmax_5",
+        "name": "资深干员特训装置",
+        "enName": "Senior Operator Training Apparatus",
+        "count": 2
+      }
+    ],
+    "otherItems": [],
+    "contentsSource": "yituliu",
+    "mtlName": "Spring Companion Pack"
+  },
+  {
+    "name": "月下独步组合包",
+    "enName": null,
+    "goodId": "GP_Once_485",
+    "priceCNY": 168,
+    "startDate": "2026-09-04T12:00:00+08:00",
+    "endDate": "2026-09-25T03:59:59+08:00",
+    "event": {
+      "id": "act54side",
+      "name": "月行水上"
+    },
+    "items": [
+      {
+        "id": "voucher_elite_II_6",
+        "name": "高级资深干员特训邀请函",
+        "enName": "Top Operator Training Invitation Letter",
+        "count": 1
+      },
+      {
+        "id": "voucher_elite_II_5",
+        "name": "资深干员特训邀请函",
+        "enName": "Senior Operator Training Invitation Letter",
+        "count": 2
+      }
+    ],
+    "otherItems": [],
+    "contentsSource": "yituliu",
+    "mtlName": "Moonlit Wanderer Pack"
   },
   {
     "name": "月影一瞥组合包",
@@ -2945,18 +3029,21 @@
     ],
     "otherItems": [
       {
-        "name": "坠入清醒",
+        "name": "动态头像",
         "id": null,
         "enName": null,
-        "category": "Avatar"
+        "count": 1,
+        "category": "Unknown"
       },
       {
-        "name": "凝视映像",
+        "name": "动态头像",
         "id": null,
         "enName": null,
-        "category": "Avatar"
+        "count": 1,
+        "category": "Unknown"
       }
     ],
+    "contentsSource": "yituliu",
     "mtlName": "Moonshadow Glimpse Pack"
   },
   {
@@ -2985,6 +3072,7 @@
       }
     ],
     "otherItems": [],
+    "contentsSource": "yituliu",
     "mtlName": "Moonlit Waters Funding Box"
   },
   {
@@ -3008,12 +3096,14 @@
     ],
     "otherItems": [
       {
-        "name": "月落镜水",
+        "name": "名片主题",
         "id": null,
         "enName": null,
+        "count": 1,
         "category": "Namecard"
       }
     ],
+    "contentsSource": "yituliu",
     "mtlName": "Damp Mirror Image Pack"
   },
   {
@@ -3059,7 +3149,8 @@
         "count": 10
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "contentsSource": "yituliu"
   },
   {
     "name": "苹果花瓣组合包",
@@ -3111,6 +3202,7 @@
       }
     ],
     "otherItems": [],
+    "contentsSource": "yituliu",
     "mtlName": "Apple Blossom Petal Pack"
   },
   {
@@ -3127,25 +3219,28 @@
     "items": [],
     "otherItems": [
       {
-        "name": "月行水上家具收藏包",
-        "id": "uni_set_velvet",
-        "enName": null,
-        "category": "Furniture",
-        "count": 1
-      },
-      {
-        "name": "圣歌吟唱台",
+        "name": "会客室家具收藏包【月行水上家具收藏包】",
         "id": null,
         "enName": null,
-        "category": "Furniture"
+        "count": 1,
+        "category": "Unknown"
       },
       {
-        "name": "选择的留言板",
+        "name": "播放器【圣歌吟唱台】",
         "id": null,
         "enName": null,
-        "category": "Furniture"
+        "count": 1,
+        "category": "Unknown"
+      },
+      {
+        "name": "信息板【选择的留言板】",
+        "id": null,
+        "enName": null,
+        "count": 1,
+        "category": "Unknown"
       }
     ],
+    "contentsSource": "yituliu",
     "mtlName": "Blue Velvet Room Pack"
   },
   {
@@ -3167,16 +3262,16 @@
         "count": 5000
       },
       {
-        "id": "4001",
-        "name": "龙门币",
-        "enName": "LMD",
-        "count": 100000
-      },
-      {
         "id": "32001",
         "name": "芯片助剂",
         "enName": "Chip Catalyst",
         "count": 2
+      },
+      {
+        "id": "4001",
+        "name": "龙门币",
+        "enName": "LMD",
+        "count": 100000
       },
       {
         "id": "3301",
@@ -3192,6 +3287,7 @@
       }
     ],
     "otherItems": [],
+    "contentsSource": "yituliu",
     "mtlName": "Blue Butterfly Gift Pack"
   },
   {
@@ -3207,19 +3303,20 @@
     },
     "items": [
       {
-        "id": "7004",
-        "name": "十连寻访凭证",
-        "enName": "Ten-roll Headhunting Permit",
-        "count": 2
-      },
-      {
         "id": "4002",
         "name": "至纯源石",
         "enName": "Originite Prime",
         "count": 9
+      },
+      {
+        "id": "7004",
+        "name": "十连寻访凭证",
+        "enName": "Ten-roll Headhunting Permit",
+        "count": 2
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "contentsSource": "yituliu"
   },
   {
     "name": "技巧集综合礼包",
@@ -3255,10 +3352,12 @@
         "id": "voucher_skill_specialLevelMax_4",
         "name": "专业干员技巧集",
         "enName": "Professional Operator Skill Training Pack",
-        "count": 2
+        "count": 1
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "contentsSource": "yituliu",
+    "contentsConflict": true
   },
   {
     "name": "罗德岛数据包",
@@ -3279,7 +3378,8 @@
         "count": 12
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "contentsSource": "yituliu"
   },
   {
     "name": "罗德岛数据套组",
@@ -3315,7 +3415,8 @@
         "category": "Zero-Efficiency Item",
         "count": 90
       }
-    ]
+    ],
+    "contentsSource": "yituliu"
   },
   {
     "name": "罗德岛资金箱",
@@ -3342,7 +3443,8 @@
         "count": 700000
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "contentsSource": "yituliu"
   },
   {
     "name": "高级特训组合包",
@@ -3369,7 +3471,8 @@
         "count": 2
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "contentsSource": "yituliu"
   },
   {
     "name": "沉甸甸的资金箱",
@@ -3397,7 +3500,7 @@
       }
     ],
     "otherItems": [],
-    "goodIdMatchedBy": "price"
+    "contentsSource": "yituliu"
   },
   {
     "name": "海渊巡游寻访包",
@@ -3421,6 +3524,7 @@
         "itemType": "EXCLUSIVE_TKT_GACHA"
       }
     ],
+    "contentsSource": "yituliu",
     "mtlName": "Abyssal Voyage Headhunting Pack"
   },
   {
@@ -3445,6 +3549,7 @@
         "itemType": "EXCLUSIVE_TKT_GACHA_10"
       }
     ],
+    "contentsSource": "yituliu",
     "mtlName": "Abyssal Voyage Ten-Roll Headhunting Pack"
   },
   {
@@ -3490,7 +3595,8 @@
         "count": 10
       }
     ],
-    "otherItems": []
+    "otherItems": [],
+    "contentsSource": "wiki"
   },
   {
     "name": "黑流树海特训组合",
@@ -3524,6 +3630,842 @@
       }
     ],
     "otherItems": [],
+    "contentsSource": "yituliu",
     "mtlName": "Black Stream Sea Training Pack"
+  },
+  {
+    "name": "博览群书组合包",
+    "enName": null,
+    "goodId": "GP_Once_503",
+    "priceCNY": 12,
+    "startDate": "2026-10-16T16:00:00+08:00",
+    "endDate": "2026-11-06T03:59:59+08:00",
+    "event": {
+      "id": "act4video",
+      "name": "恒远津梁限时登录"
+    },
+    "items": [
+      {
+        "id": "4003",
+        "name": "合成玉",
+        "enName": "Orundum",
+        "count": 800
+      }
+    ],
+    "otherItems": [
+      {
+        "name": "头像",
+        "id": null,
+        "enName": null,
+        "count": 2,
+        "category": "Avatar"
+      }
+    ],
+    "contentsSource": "yituliu",
+    "mtlName": "Bookworm Pack"
+  },
+  {
+    "name": "大荒青禾组合包",
+    "enName": "Dahuang Sprout Pack",
+    "goodId": "GP_Once_250",
+    "priceCNY": 30,
+    "startDate": "2026-10-16T16:00:00+08:00",
+    "endDate": "2026-11-06T03:59:59+08:00",
+    "event": {
+      "id": "act4video",
+      "name": "恒远津梁限时登录"
+    },
+    "items": [],
+    "otherItems": [
+      {
+        "name": "界面主题",
+        "id": null,
+        "enName": null,
+        "count": 1,
+        "category": "UI Theme"
+      },
+      {
+        "name": "主题场景",
+        "id": null,
+        "enName": null,
+        "count": 1,
+        "category": "Scene"
+      }
+    ],
+    "contentsSource": "yituliu"
+  },
+  {
+    "name": "中坚调用凭证组合包",
+    "enName": "Rhodes Island Headhunting Pack - Kernel",
+    "goodId": "GP_Once_515",
+    "priceCNY": 198,
+    "startDate": "2026-11-01T12:00:00+08:00",
+    "endDate": "2026-11-29T03:59:59+08:00",
+    "event": {
+      "id": "act55side",
+      "name": "时间啊，向前！"
+    },
+    "items": [
+      {
+        "id": "7004",
+        "name": "十连寻访凭证",
+        "enName": "Ten-roll Headhunting Permit",
+        "count": 1
+      },
+      {
+        "id": "classic_gacha_10",
+        "name": "十连中坚寻访凭证",
+        "enName": "Ten-roll Kernel Headhunting Permit",
+        "count": 1
+      }
+    ],
+    "otherItems": [
+      {
+        "name": "中坚高级干员调用凭证",
+        "id": null,
+        "enName": "Kernel Selector",
+        "category": "Special",
+        "count": 1
+      }
+    ],
+    "contentsSource": "yituliu"
+  },
+  {
+    "name": "塔露拉的手提箱",
+    "enName": null,
+    "goodId": "GP_Once_507",
+    "priceCNY": 68,
+    "startDate": "2026-11-01T12:00:00+08:00",
+    "endDate": "2026-11-29T03:59:59+08:00",
+    "event": {
+      "id": "act55side",
+      "name": "时间啊，向前！"
+    },
+    "items": [
+      {
+        "id": "4002",
+        "name": "至纯源石",
+        "enName": "Originite Prime",
+        "count": 16
+      },
+      {
+        "id": "4001",
+        "name": "龙门币",
+        "enName": "LMD",
+        "count": 700000
+      }
+    ],
+    "otherItems": [],
+    "contentsSource": "yituliu",
+    "mtlName": "Talulah's Briefcase"
+  },
+  {
+    "name": "庆典中坚寻访组合包",
+    "enName": "Celebration Kernel Headhunting Pack",
+    "goodId": "GP_Once_518",
+    "priceCNY": 68,
+    "startDate": "2026-11-01T12:00:00+08:00",
+    "endDate": "2026-11-29T03:59:59+08:00",
+    "event": {
+      "id": "act55side",
+      "name": "时间啊，向前！"
+    },
+    "items": [
+      {
+        "id": "classic_gacha_10",
+        "name": "十连中坚寻访凭证",
+        "enName": "Ten-roll Kernel Headhunting Permit",
+        "count": 1
+      },
+      {
+        "id": "classic_gacha",
+        "name": "中坚寻访凭证",
+        "enName": "Kernel Headhunting Permit",
+        "count": 5
+      }
+    ],
+    "otherItems": [],
+    "contentsSource": "yituliu"
+  },
+  {
+    "name": "感谢庆典作战包",
+    "enName": "Thank-You Celebration Combat Kit",
+    "goodId": "GP_Once_516",
+    "priceCNY": 198,
+    "startDate": "2026-11-01T12:00:00+08:00",
+    "endDate": "2026-11-29T03:59:59+08:00",
+    "event": {
+      "id": "act55side",
+      "name": "时间啊，向前！"
+    },
+    "items": [
+      {
+        "id": "4002",
+        "name": "至纯源石",
+        "enName": "Originite Prime",
+        "count": 24
+      },
+      {
+        "id": "7004",
+        "name": "十连寻访凭证",
+        "enName": "Ten-roll Headhunting Permit",
+        "count": 2
+      },
+      {
+        "id": "4001",
+        "name": "龙门币",
+        "enName": "LMD",
+        "count": 200000
+      },
+      {
+        "id": "2004",
+        "name": "高级作战记录",
+        "enName": "Strategic Battle Record",
+        "count": 20
+      },
+      {
+        "id": "2003",
+        "name": "中级作战记录",
+        "enName": "Tactical Battle Record",
+        "count": 30
+      },
+      {
+        "id": "32001",
+        "name": "芯片助剂",
+        "enName": "Chip Catalyst",
+        "count": 2
+      },
+      {
+        "id": "premium_material_issue_voucher",
+        "name": "特级材料提货券",
+        "enName": "Premium Material Voucher",
+        "count": 4
+      },
+      {
+        "id": "advanced_material_issue_voucher",
+        "name": "高级材料提货券",
+        "enName": "Advanced Material Voucher",
+        "count": 6
+      }
+    ],
+    "otherItems": [],
+    "contentsSource": "yituliu"
+  },
+  {
+    "name": "感谢庆典组合包",
+    "enName": "Thank-You Celebration Pack",
+    "goodId": "GP_Once_517",
+    "priceCNY": 328,
+    "startDate": "2026-11-01T12:00:00+08:00",
+    "endDate": "2026-11-29T03:59:59+08:00",
+    "event": {
+      "id": "act55side",
+      "name": "时间啊，向前！"
+    },
+    "items": [
+      {
+        "id": "4002",
+        "name": "至纯源石",
+        "enName": "Originite Prime",
+        "count": 90
+      },
+      {
+        "id": "7004",
+        "name": "十连寻访凭证",
+        "enName": "Ten-roll Headhunting Permit",
+        "count": 1
+      },
+      {
+        "id": "classic_gacha_10",
+        "name": "十连中坚寻访凭证",
+        "enName": "Ten-roll Kernel Headhunting Permit",
+        "count": 1
+      },
+      {
+        "id": "voucher_skin",
+        "name": "时装自选凭证",
+        "enName": "Outfit Voucher",
+        "count": 1
+      },
+      {
+        "id": "4001",
+        "name": "龙门币",
+        "enName": "LMD",
+        "count": 260000
+      },
+      {
+        "id": "2004",
+        "name": "高级作战记录",
+        "enName": "Strategic Battle Record",
+        "count": 30
+      },
+      {
+        "id": "32001",
+        "name": "芯片助剂",
+        "enName": "Chip Catalyst",
+        "count": 4
+      },
+      {
+        "id": "mod_unlock_token",
+        "name": "模组数据块",
+        "enName": "Module Data Block",
+        "count": 6
+      }
+    ],
+    "otherItems": [
+      {
+        "name": "数据增补仪",
+        "id": "mod_update_token_2",
+        "enName": "Data Supplement Instrument",
+        "category": "Zero-Efficiency Item",
+        "count": 30
+      },
+      {
+        "name": "数据增补条",
+        "id": "mod_update_token_1",
+        "enName": "Data Supplement Stick",
+        "category": "Zero-Efficiency Item",
+        "count": 90
+      }
+    ],
+    "contentsSource": "yituliu"
+  },
+  {
+    "name": "技巧集综合礼包",
+    "enName": "Comprehensive Skill Training Pack",
+    "goodId": "GP_Once_508",
+    "priceCNY": 98,
+    "startDate": "2026-11-01T12:00:00+08:00",
+    "endDate": "2026-11-29T03:59:59+08:00",
+    "event": {
+      "id": "act55side",
+      "name": "时间啊，向前！"
+    },
+    "items": [
+      {
+        "id": "4002",
+        "name": "至纯源石",
+        "enName": "Originite Prime",
+        "count": 12
+      },
+      {
+        "id": "voucher_skill_specialLevelMax_6",
+        "name": "高级资深干员技巧集",
+        "enName": "Top Operator Skill Training Pack",
+        "count": 1
+      },
+      {
+        "id": "voucher_skill_specialLevelMax_5",
+        "name": "资深干员技巧集",
+        "enName": "Senior Operator Skill Training Pack",
+        "count": 1
+      },
+      {
+        "id": "voucher_skill_specialLevelMax_4",
+        "name": "专业干员技巧集",
+        "enName": "Professional Operator Skill Training Pack",
+        "count": 1
+      }
+    ],
+    "otherItems": [],
+    "contentsSource": "yituliu"
+  },
+  {
+    "name": "特训意向礼包",
+    "enName": "Special Training Pack",
+    "goodId": "GP_Once_509",
+    "priceCNY": 68,
+    "startDate": "2026-11-01T12:00:00+08:00",
+    "endDate": "2026-11-29T03:59:59+08:00",
+    "event": {
+      "id": "act55side",
+      "name": "时间啊，向前！"
+    },
+    "items": [
+      {
+        "id": "4002",
+        "name": "至纯源石",
+        "enName": "Originite Prime",
+        "count": 11
+      },
+      {
+        "id": "voucher_levelmax_5",
+        "name": "资深干员特训装置",
+        "enName": "Senior Operator Training Apparatus",
+        "count": 1
+      }
+    ],
+    "otherItems": [],
+    "contentsSource": "yituliu"
+  },
+  {
+    "name": "综合材料组合包",
+    "enName": "Mixed Materials Pack",
+    "goodId": "GP_Once_513",
+    "priceCNY": 98,
+    "startDate": "2026-11-01T12:00:00+08:00",
+    "endDate": "2026-11-29T03:59:59+08:00",
+    "event": {
+      "id": "act55side",
+      "name": "时间啊，向前！"
+    },
+    "items": [
+      {
+        "id": "precious_material_voucher_perm",
+        "name": "稀有材料提货券",
+        "enName": "Precious Material Voucher",
+        "count": 10
+      },
+      {
+        "id": "premium_material_issue_voucher",
+        "name": "特级材料提货券",
+        "enName": "Premium Material Voucher",
+        "count": 15
+      },
+      {
+        "id": "advanced_material_issue_voucher",
+        "name": "高级材料提货券",
+        "enName": "Advanced Material Voucher",
+        "count": 20
+      }
+    ],
+    "otherItems": [],
+    "contentsSource": "yituliu"
+  },
+  {
+    "name": "罗德岛数据包",
+    "enName": "Rhodes Island Data Pack",
+    "goodId": "GP_Once_519",
+    "priceCNY": 30,
+    "startDate": "2026-11-01T12:00:00+08:00",
+    "endDate": "2026-11-29T03:59:59+08:00",
+    "event": {
+      "id": "act55side",
+      "name": "时间啊，向前！"
+    },
+    "items": [
+      {
+        "id": "mod_unlock_token",
+        "name": "模组数据块",
+        "enName": "Module Data Block",
+        "count": 12
+      }
+    ],
+    "otherItems": [],
+    "contentsSource": "yituliu"
+  },
+  {
+    "name": "罗德岛数据套组",
+    "enName": "Rhodes Island Data Set",
+    "goodId": "GP_Once_520",
+    "priceCNY": 68,
+    "startDate": "2026-11-01T12:00:00+08:00",
+    "endDate": "2026-11-29T03:59:59+08:00",
+    "event": {
+      "id": "act55side",
+      "name": "时间啊，向前！"
+    },
+    "items": [
+      {
+        "id": "mod_unlock_token",
+        "name": "模组数据块",
+        "enName": "Module Data Block",
+        "count": 24
+      }
+    ],
+    "otherItems": [
+      {
+        "name": "数据增补仪",
+        "id": "mod_update_token_2",
+        "enName": "Data Supplement Instrument",
+        "category": "Zero-Efficiency Item",
+        "count": 30
+      },
+      {
+        "name": "数据增补条",
+        "id": "mod_update_token_1",
+        "enName": "Data Supplement Stick",
+        "category": "Zero-Efficiency Item",
+        "count": 90
+      }
+    ],
+    "contentsSource": "yituliu"
+  },
+  {
+    "name": "调用凭证组合包",
+    "enName": "Rhodes Island Headhunting Pack",
+    "goodId": "GP_Once_514",
+    "priceCNY": 198,
+    "startDate": "2026-11-01T12:00:00+08:00",
+    "endDate": "2026-11-29T03:59:59+08:00",
+    "event": {
+      "id": "act55side",
+      "name": "时间啊，向前！"
+    },
+    "items": [
+      {
+        "id": "7004",
+        "name": "十连寻访凭证",
+        "enName": "Ten-roll Headhunting Permit",
+        "count": 1
+      }
+    ],
+    "otherItems": [
+      {
+        "name": "高级干员调用凭证",
+        "id": null,
+        "enName": "Standard Selector",
+        "category": "Special",
+        "count": 1
+      }
+    ],
+    "contentsSource": "yituliu"
+  },
+  {
+    "name": "资深干员特训礼包",
+    "enName": "Senior Operator Training Pack",
+    "goodId": "GP_Once_510",
+    "priceCNY": 98,
+    "startDate": "2026-11-01T12:00:00+08:00",
+    "endDate": "2026-11-29T03:59:59+08:00",
+    "event": {
+      "id": "act55side",
+      "name": "时间啊，向前！"
+    },
+    "items": [
+      {
+        "id": "4002",
+        "name": "至纯源石",
+        "enName": "Originite Prime",
+        "count": 24
+      },
+      {
+        "id": "voucher_elite_II_5",
+        "name": "资深干员特训邀请函",
+        "enName": "Senior Operator Training Invitation Letter",
+        "count": 1
+      }
+    ],
+    "otherItems": [],
+    "contentsSource": "yituliu"
+  },
+  {
+    "name": "辅助芯片礼包",
+    "enName": "Supporter Chip Pack",
+    "goodId": "GP_Once_505",
+    "priceCNY": 30,
+    "startDate": "2026-11-01T12:00:00+08:00",
+    "endDate": "2026-11-29T03:59:59+08:00",
+    "event": {
+      "id": "act55side",
+      "name": "时间啊，向前！"
+    },
+    "items": [
+      {
+        "id": "3273",
+        "name": "辅助双芯片",
+        "enName": "Supporter Dualchip",
+        "count": 4
+      },
+      {
+        "id": "3271",
+        "name": "辅助芯片",
+        "enName": "Supporter Chip",
+        "count": 5
+      },
+      {
+        "id": "3303",
+        "name": "技巧概要·卷3",
+        "enName": "Skill Summary - 3",
+        "count": 45
+      },
+      {
+        "id": "3302",
+        "name": "技巧概要·卷2",
+        "enName": "Skill Summary - 2",
+        "count": 25
+      },
+      {
+        "id": "3301",
+        "name": "技巧概要·卷1",
+        "enName": "Skill Summary - 1",
+        "count": 10
+      }
+    ],
+    "otherItems": [],
+    "contentsSource": "inferred",
+    "contentsInferredFrom": "辅助芯片礼包 2023-10-08"
+  },
+  {
+    "name": "近卫芯片礼包",
+    "enName": "Guard Chip Pack",
+    "goodId": "GP_Once_504",
+    "priceCNY": 30,
+    "startDate": "2026-11-01T12:00:00+08:00",
+    "endDate": "2026-11-29T03:59:59+08:00",
+    "event": {
+      "id": "act55side",
+      "name": "时间啊，向前！"
+    },
+    "items": [
+      {
+        "id": "3223",
+        "name": "近卫双芯片",
+        "enName": "Guard Dualchip",
+        "count": 4
+      },
+      {
+        "id": "3221",
+        "name": "近卫芯片",
+        "enName": "Guard Chip",
+        "count": 5
+      },
+      {
+        "id": "3303",
+        "name": "技巧概要·卷3",
+        "enName": "Skill Summary - 3",
+        "count": 45
+      },
+      {
+        "id": "3302",
+        "name": "技巧概要·卷2",
+        "enName": "Skill Summary - 2",
+        "count": 25
+      },
+      {
+        "id": "3301",
+        "name": "技巧概要·卷1",
+        "enName": "Skill Summary - 1",
+        "count": 10
+      }
+    ],
+    "otherItems": [],
+    "contentsSource": "inferred",
+    "contentsInferredFrom": "近卫芯片礼包 2026-10-09"
+  },
+  {
+    "name": "高级特训意向礼包",
+    "enName": "Advanced Special Training Pack",
+    "goodId": "GP_Once_511",
+    "priceCNY": 128,
+    "startDate": "2026-11-01T12:00:00+08:00",
+    "endDate": "2026-11-29T03:59:59+08:00",
+    "event": {
+      "id": "act55side",
+      "name": "时间啊，向前！"
+    },
+    "items": [
+      {
+        "id": "4002",
+        "name": "至纯源石",
+        "enName": "Originite Prime",
+        "count": 19
+      },
+      {
+        "id": "voucher_levelmax_6",
+        "name": "高级资深干员特训装置",
+        "enName": "Top Operator Training Apparatus",
+        "count": 1
+      }
+    ],
+    "otherItems": [],
+    "contentsSource": "yituliu"
+  },
+  {
+    "name": "高级资深干员特训礼包",
+    "enName": "Top Operator Training Pack",
+    "goodId": "GP_Once_512",
+    "priceCNY": 168,
+    "startDate": "2026-11-01T12:00:00+08:00",
+    "endDate": "2026-11-29T03:59:59+08:00",
+    "event": {
+      "id": "act55side",
+      "name": "时间啊，向前！"
+    },
+    "items": [
+      {
+        "id": "4002",
+        "name": "至纯源石",
+        "enName": "Originite Prime",
+        "count": 36
+      },
+      {
+        "id": "voucher_elite_II_6",
+        "name": "高级资深干员特训邀请函",
+        "enName": "Top Operator Training Invitation Letter",
+        "count": 1
+      }
+    ],
+    "otherItems": [],
+    "contentsSource": "yituliu"
+  },
+  {
+    "name": "鸭爵的零钱包",
+    "enName": "Duck Lord's Change Purse",
+    "goodId": "GP_Once_506",
+    "priceCNY": 45,
+    "startDate": "2026-11-01T12:00:00+08:00",
+    "endDate": "2026-11-29T03:59:59+08:00",
+    "event": {
+      "id": "act55side",
+      "name": "时间啊，向前！"
+    },
+    "items": [
+      {
+        "id": "4002",
+        "name": "至纯源石",
+        "enName": "Originite Prime",
+        "count": 13
+      },
+      {
+        "id": "4001",
+        "name": "龙门币",
+        "enName": "LMD",
+        "count": 300000
+      }
+    ],
+    "otherItems": [],
+    "contentsSource": "yituliu"
+  },
+  {
+    "name": "全能开发者主题包",
+    "enName": null,
+    "goodId": "GP_Once_523",
+    "priceCNY": 45,
+    "startDate": "2026-11-08T16:00:00+08:00",
+    "endDate": "2026-12-06T03:59:59+08:00",
+    "event": {
+      "id": "act3autochess",
+      "name": "卫戍协议:规程"
+    },
+    "items": [
+      {
+        "id": "4003",
+        "name": "合成玉",
+        "enName": "Orundum",
+        "count": 2000
+      },
+      {
+        "id": "4001",
+        "name": "龙门币",
+        "enName": "LMD",
+        "count": 100000
+      },
+      {
+        "id": "premium_material_issue_voucher",
+        "name": "特级材料提货券",
+        "enName": "Premium Material Voucher",
+        "count": 4
+      }
+    ],
+    "otherItems": [
+      {
+        "name": "卫戍协议终端主题【“全能的”可露希尔】",
+        "id": null,
+        "enName": null,
+        "count": 1,
+        "category": "Unknown"
+      },
+      {
+        "name": "收藏贴【终端】",
+        "id": null,
+        "enName": null,
+        "count": 1,
+        "category": "Unknown"
+      },
+      {
+        "name": "收藏贴【开发者】",
+        "id": null,
+        "enName": null,
+        "count": 1,
+        "category": "Unknown"
+      },
+      {
+        "name": "收藏贴【配乐】",
+        "id": null,
+        "enName": null,
+        "count": 1,
+        "category": "Unknown"
+      }
+    ],
+    "contentsSource": "yituliu",
+    "mtlName": "All-Round Developer Theme Pack"
+  },
+  {
+    "name": "变格形象组合包",
+    "enName": "Variant Figures Pack",
+    "goodId": "GP_Once_411",
+    "priceCNY": 24,
+    "startDate": "2026-11-08T16:00:00+08:00",
+    "endDate": "2026-12-06T03:59:59+08:00",
+    "event": {
+      "id": "act3autochess",
+      "name": "卫戍协议:规程"
+    },
+    "items": [],
+    "otherItems": [
+      {
+        "name": "18源石时装",
+        "id": null,
+        "enName": null,
+        "count": 1,
+        "category": "Skin"
+      },
+      {
+        "name": "头像",
+        "id": null,
+        "enName": null,
+        "count": 6,
+        "category": "Avatar"
+      }
+    ],
+    "contentsSource": "inferred",
+    "contentsInferredFrom": "变格形象组合包 2026-04-01"
+  },
+  {
+    "name": "米米子的照片集",
+    "enName": "Amiko's Photoset",
+    "goodId": "GP_Once_409",
+    "priceCNY": 6,
+    "startDate": "2026-11-08T16:00:00+08:00",
+    "endDate": "2026-12-06T03:59:59+08:00",
+    "event": {
+      "id": "act3autochess",
+      "name": "卫戍协议:规程"
+    },
+    "items": [
+      {
+        "id": "4003",
+        "name": "合成玉",
+        "enName": "Orundum",
+        "count": 200
+      }
+    ],
+    "otherItems": [],
+    "contentsSource": "inferred",
+    "contentsInferredFrom": "米米子的照片集 2026-04-01"
+  },
+  {
+    "name": "维维美的照片集",
+    "enName": "Wiš'ami's Photoset",
+    "goodId": "GP_Once_410",
+    "priceCNY": 6,
+    "startDate": "2026-11-08T16:00:00+08:00",
+    "endDate": "2026-12-06T03:59:59+08:00",
+    "event": {
+      "id": "act3autochess",
+      "name": "卫戍协议:规程"
+    },
+    "items": [
+      {
+        "id": "4003",
+        "name": "合成玉",
+        "enName": "Orundum",
+        "count": 200
+      }
+    ],
+    "otherItems": [],
+    "contentsSource": "inferred",
+    "contentsInferredFrom": "维维美的照片集 2026-04-01"
   }
 ]
