@@ -628,7 +628,7 @@
     "goodId": "GP_Once_416",
     "priceCNY": 6,
     "startDate": "2026-04-25T21:30:00+08:00",
-    "endDate": "2026-05-23T03:59:00+08:00",
+    "endDate": "2026-05-23T03:59:59+08:00",
     "event": {
       "id": "act3video",
       "name": "回望泰拉限时登录活动"
@@ -658,7 +658,7 @@
     "goodId": "GP_Once_420",
     "priceCNY": 30,
     "startDate": "2026-04-25T21:30:00+08:00",
-    "endDate": "2026-05-23T03:59:00+08:00",
+    "endDate": "2026-05-23T03:59:59+08:00",
     "event": {
       "id": "act3video",
       "name": "回望泰拉限时登录活动"
@@ -688,7 +688,7 @@
     "goodId": "GP_Once_417",
     "priceCNY": 30,
     "startDate": "2026-04-25T21:30:00+08:00",
-    "endDate": "2026-05-23T03:59:00+08:00",
+    "endDate": "2026-05-23T03:59:59+08:00",
     "event": {
       "id": "act3video",
       "name": "回望泰拉限时登录活动"
@@ -718,7 +718,7 @@
     "goodId": "GP_Once_418",
     "priceCNY": 30,
     "startDate": "2026-04-25T21:30:00+08:00",
-    "endDate": "2026-05-23T03:59:00+08:00",
+    "endDate": "2026-05-23T03:59:59+08:00",
     "event": {
       "id": "act3video",
       "name": "回望泰拉限时登录活动"
@@ -748,7 +748,7 @@
     "goodId": "GP_Once_419",
     "priceCNY": 30,
     "startDate": "2026-04-25T21:30:00+08:00",
-    "endDate": "2026-05-23T03:59:00+08:00",
+    "endDate": "2026-05-23T03:59:59+08:00",
     "event": {
       "id": "act3video",
       "name": "回望泰拉限时登录活动"
@@ -778,7 +778,7 @@
     "goodId": "GP_Once_432",
     "priceCNY": 198,
     "startDate": "2026-05-01T12:00:00+08:00",
-    "endDate": "2026-05-29T03:59:00+08:00",
+    "endDate": "2026-05-29T03:59:59+08:00",
     "event": {
       "id": "act4mainss",
       "name": "相变临界"
@@ -814,7 +814,7 @@
     "goodId": "GP_Once_422",
     "priceCNY": 30,
     "startDate": "2026-05-01T12:00:00+08:00",
-    "endDate": "2026-05-29T03:59:00+08:00",
+    "endDate": "2026-05-29T03:59:59+08:00",
     "event": {
       "id": "act4mainss",
       "name": "相变临界"
@@ -852,7 +852,8 @@
       }
     ],
     "otherItems": [],
-    "contentsSource": "wiki"
+    "contentsSource": "inferred",
+    "contentsInferredFrom": "先锋芯片礼包 2026-05-01"
   },
   {
     "name": "凯尔希的手提箱",
@@ -860,7 +861,7 @@
     "goodId": "GP_Once_424",
     "priceCNY": 68,
     "startDate": "2026-05-01T12:00:00+08:00",
-    "endDate": "2026-05-29T03:59:00+08:00",
+    "endDate": "2026-05-29T03:59:59+08:00",
     "event": {
       "id": "act4mainss",
       "name": "相变临界"
@@ -888,7 +889,7 @@
     "goodId": "GP_Once_421",
     "priceCNY": 30,
     "startDate": "2026-05-01T12:00:00+08:00",
-    "endDate": "2026-05-29T03:59:00+08:00",
+    "endDate": "2026-05-29T03:59:59+08:00",
     "event": {
       "id": "act4mainss",
       "name": "相变临界"
@@ -926,7 +927,8 @@
       }
     ],
     "otherItems": [],
-    "contentsSource": "wiki"
+    "contentsSource": "inferred",
+    "contentsInferredFrom": "医疗芯片礼包 2026-05-01"
   },
   {
     "name": "庆典中坚寻访组合包",
@@ -934,7 +936,7 @@
     "goodId": "GP_Once_435",
     "priceCNY": 68,
     "startDate": "2026-05-01T12:00:00+08:00",
-    "endDate": "2026-05-29T03:59:00+08:00",
+    "endDate": "2026-05-29T03:59:59+08:00",
     "event": {
       "id": "act4mainss",
       "name": "相变临界"
@@ -962,7 +964,7 @@
     "goodId": "GP_Once_425",
     "priceCNY": 98,
     "startDate": "2026-05-01T12:00:00+08:00",
-    "endDate": "2026-05-29T03:59:00+08:00",
+    "endDate": "2026-05-29T03:59:59+08:00",
     "event": {
       "id": "act4mainss",
       "name": "相变临界"
@@ -1002,7 +1004,7 @@
     "goodId": "GP_Once_426",
     "priceCNY": 68,
     "startDate": "2026-05-01T12:00:00+08:00",
-    "endDate": "2026-05-29T03:59:00+08:00",
+    "endDate": "2026-05-29T03:59:59+08:00",
     "event": {
       "id": "act4mainss",
       "name": "相变临界"
@@ -1030,7 +1032,7 @@
     "goodId": "GP_Once_430",
     "priceCNY": 98,
     "startDate": "2026-05-01T12:00:00+08:00",
-    "endDate": "2026-05-29T03:59:00+08:00",
+    "endDate": "2026-05-29T03:59:59+08:00",
     "event": {
       "id": "act4mainss",
       "name": "相变临界"
@@ -1064,7 +1066,7 @@
     "goodId": "GP_Once_433",
     "priceCNY": 198,
     "startDate": "2026-05-01T12:00:00+08:00",
-    "endDate": "2026-05-29T03:59:00+08:00",
+    "endDate": "2026-05-29T03:59:59+08:00",
     "event": {
       "id": "act4mainss",
       "name": "相变临界"
@@ -1128,7 +1130,7 @@
     "goodId": "GP_Once_434",
     "priceCNY": 328,
     "startDate": "2026-05-01T12:00:00+08:00",
-    "endDate": "2026-05-29T03:59:00+08:00",
+    "endDate": "2026-05-29T03:59:59+08:00",
     "event": {
       "id": "act4mainss",
       "name": "相变临界"
@@ -1207,7 +1209,7 @@
     "goodId": "GP_Once_431",
     "priceCNY": 198,
     "startDate": "2026-05-01T12:00:00+08:00",
-    "endDate": "2026-05-29T03:59:00+08:00",
+    "endDate": "2026-05-29T03:59:59+08:00",
     "event": {
       "id": "act4mainss",
       "name": "相变临界"
@@ -1237,7 +1239,7 @@
     "goodId": "GP_Once_427",
     "priceCNY": 98,
     "startDate": "2026-05-01T12:00:00+08:00",
-    "endDate": "2026-05-29T03:59:00+08:00",
+    "endDate": "2026-05-29T03:59:59+08:00",
     "event": {
       "id": "act4mainss",
       "name": "相变临界"
@@ -1305,7 +1307,7 @@
     "goodId": "GP_Once_428",
     "priceCNY": 128,
     "startDate": "2026-05-01T12:00:00+08:00",
-    "endDate": "2026-05-29T03:59:00+08:00",
+    "endDate": "2026-05-29T03:59:59+08:00",
     "event": {
       "id": "act4mainss",
       "name": "相变临界"
@@ -1333,7 +1335,7 @@
     "goodId": "GP_Once_429",
     "priceCNY": 168,
     "startDate": "2026-05-01T12:00:00+08:00",
-    "endDate": "2026-05-29T03:59:00+08:00",
+    "endDate": "2026-05-29T03:59:59+08:00",
     "event": {
       "id": "act4mainss",
       "name": "相变临界"
@@ -1361,7 +1363,7 @@
     "goodId": "GP_Once_423",
     "priceCNY": 45,
     "startDate": "2026-05-01T12:00:00+08:00",
-    "endDate": "2026-05-29T03:59:00+08:00",
+    "endDate": "2026-05-29T03:59:59+08:00",
     "event": {
       "id": "act4mainss",
       "name": "相变临界"
@@ -1389,7 +1391,7 @@
     "goodId": "GP_Once_439",
     "priceCNY": 168,
     "startDate": "2026-05-15T16:00:00+08:00",
-    "endDate": "2026-06-12T03:59:00+08:00",
+    "endDate": "2026-06-12T03:59:59+08:00",
     "event": {
       "id": "sandbox_2",
       "name": "重启锚点"
@@ -1417,7 +1419,7 @@
     "goodId": "GP_Once_440",
     "priceCNY": 30,
     "startDate": "2026-05-15T16:00:00+08:00",
-    "endDate": "2026-06-12T03:59:00+08:00",
+    "endDate": "2026-06-12T03:59:59+08:00",
     "event": {
       "id": "sandbox_2",
       "name": "重启锚点"
@@ -1439,7 +1441,7 @@
     "goodId": "GP_Once_441",
     "priceCNY": 68,
     "startDate": "2026-05-15T16:00:00+08:00",
-    "endDate": "2026-06-12T03:59:00+08:00",
+    "endDate": "2026-06-12T03:59:59+08:00",
     "event": {
       "id": "sandbox_2",
       "name": "重启锚点"
@@ -1476,7 +1478,7 @@
     "goodId": "GP_Once_442",
     "priceCNY": 68,
     "startDate": "2026-05-15T16:00:00+08:00",
-    "endDate": "2026-06-12T03:59:00+08:00",
+    "endDate": "2026-06-12T03:59:59+08:00",
     "event": {
       "id": "sandbox_2",
       "name": "重启锚点"
@@ -1504,7 +1506,7 @@
     "goodId": "GP_Once_449",
     "priceCNY": 198,
     "startDate": "2026-06-01T12:00:00+08:00",
-    "endDate": "2026-06-29T03:59:00+08:00",
+    "endDate": "2026-06-29T03:59:59+08:00",
     "event": {
       "id": "act50side",
       "name": "泡影苍霆"
@@ -1556,7 +1558,7 @@
     "goodId": "GP_Once_443",
     "priceCNY": 12,
     "startDate": "2026-06-01T12:00:00+08:00",
-    "endDate": "2026-06-29T03:59:00+08:00",
+    "endDate": "2026-06-29T03:59:59+08:00",
     "event": {
       "id": "act50side",
       "name": "泡影苍霆"
@@ -1586,7 +1588,7 @@
     "goodId": "GP_Once_445",
     "priceCNY": 30,
     "startDate": "2026-06-01T12:00:00+08:00",
-    "endDate": "2026-06-29T03:59:00+08:00",
+    "endDate": "2026-06-29T03:59:59+08:00",
     "event": {
       "id": "act50side",
       "name": "泡影苍霆"
@@ -1616,7 +1618,7 @@
     "goodId": "GP_Once_451",
     "priceCNY": 68,
     "startDate": "2026-06-01T12:00:00+08:00",
-    "endDate": "2026-06-29T03:59:00+08:00",
+    "endDate": "2026-06-29T03:59:59+08:00",
     "event": {
       "id": "act50side",
       "name": "泡影苍霆"
@@ -1662,7 +1664,7 @@
     "goodId": "GP_Once_446",
     "priceCNY": 30,
     "startDate": "2026-06-01T12:00:00+08:00",
-    "endDate": "2026-06-29T03:59:00+08:00",
+    "endDate": "2026-06-29T03:59:59+08:00",
     "event": {
       "id": "act50side",
       "name": "泡影苍霆"
@@ -1700,7 +1702,8 @@
       }
     ],
     "otherItems": [],
-    "contentsSource": "wiki"
+    "contentsSource": "inferred",
+    "contentsInferredFrom": "狙击芯片礼包 2026-06-01"
   },
   {
     "name": "狩猎特训组合包",
@@ -1708,7 +1711,7 @@
     "goodId": "GP_Once_447",
     "priceCNY": 168,
     "startDate": "2026-06-01T12:00:00+08:00",
-    "endDate": "2026-06-29T03:59:00+08:00",
+    "endDate": "2026-06-29T03:59:59+08:00",
     "event": {
       "id": "act50side",
       "name": "泡影苍霆"
@@ -1736,7 +1739,7 @@
     "goodId": "GP_Once_450",
     "priceCNY": 68,
     "startDate": "2026-06-01T12:00:00+08:00",
-    "endDate": "2026-06-29T03:59:00+08:00",
+    "endDate": "2026-06-29T03:59:59+08:00",
     "event": {
       "id": "act50side",
       "name": "泡影苍霆"
@@ -1764,7 +1767,7 @@
     "goodId": "GP_Once_444",
     "priceCNY": 78,
     "startDate": "2026-06-01T12:00:00+08:00",
-    "endDate": "2026-06-29T03:59:00+08:00",
+    "endDate": "2026-06-29T03:59:59+08:00",
     "event": {
       "id": "act50side",
       "name": "泡影苍霆"
@@ -1807,7 +1810,7 @@
     "goodId": "GP_Once_448",
     "priceCNY": 128,
     "startDate": "2026-06-01T12:00:00+08:00",
-    "endDate": "2026-06-29T03:59:00+08:00",
+    "endDate": "2026-06-29T03:59:59+08:00",
     "event": {
       "id": "act50side",
       "name": "泡影苍霆"
@@ -1835,7 +1838,7 @@
     "goodId": "GP_Once_88",
     "priceCNY": 6,
     "startDate": "2026-06-01T12:00:00+08:00",
-    "endDate": "2026-06-29T03:59:00+08:00",
+    "endDate": "2026-06-29T03:59:59+08:00",
     "event": {
       "id": "act50side",
       "name": "泡影苍霆"
@@ -1865,7 +1868,7 @@
     "goodId": "GP_Once_452",
     "priceCNY": 30,
     "startDate": "2026-06-15T16:00:00+08:00",
-    "endDate": "2026-06-29T03:59:00+08:00",
+    "endDate": "2026-06-29T03:59:59+08:00",
     "event": {
       "id": "act24sre",
       "name": "落叶逐火·复刻"
@@ -1903,7 +1906,8 @@
       }
     ],
     "otherItems": [],
-    "contentsSource": "wiki"
+    "contentsSource": "inferred",
+    "contentsInferredFrom": "特种芯片礼包 2026-09-04"
   },
   {
     "name": "技巧集综合礼包",
@@ -1911,7 +1915,7 @@
     "goodId": "GP_Once_454",
     "priceCNY": 98,
     "startDate": "2026-06-26T16:00:00+08:00",
-    "endDate": "2026-07-10T03:59:00+08:00",
+    "endDate": "2026-07-10T03:59:59+08:00",
     "event": {
       "id": "crisis_v2_season_5_1",
       "name": "涤墨作战"
@@ -1951,7 +1955,7 @@
     "goodId": "GP_Once_456",
     "priceCNY": 30,
     "startDate": "2026-06-26T16:00:00+08:00",
-    "endDate": "2026-07-10T03:59:00+08:00",
+    "endDate": "2026-07-10T03:59:59+08:00",
     "event": {
       "id": "crisis_v2_season_5_1",
       "name": "涤墨作战"
@@ -1973,7 +1977,7 @@
     "goodId": "GP_Once_457",
     "priceCNY": 68,
     "startDate": "2026-06-26T16:00:00+08:00",
-    "endDate": "2026-07-10T03:59:00+08:00",
+    "endDate": "2026-07-10T03:59:59+08:00",
     "event": {
       "id": "crisis_v2_season_5_1",
       "name": "涤墨作战"
@@ -2010,7 +2014,7 @@
     "goodId": "GP_Once_453",
     "priceCNY": 68,
     "startDate": "2026-06-26T16:00:00+08:00",
-    "endDate": "2026-07-10T03:59:00+08:00",
+    "endDate": "2026-07-10T03:59:59+08:00",
     "event": {
       "id": "crisis_v2_season_5_1",
       "name": "涤墨作战"
@@ -2038,7 +2042,7 @@
     "goodId": "GP_Once_455",
     "priceCNY": 168,
     "startDate": "2026-06-26T16:00:00+08:00",
-    "endDate": "2026-07-10T03:59:00+08:00",
+    "endDate": "2026-07-10T03:59:59+08:00",
     "event": {
       "id": "crisis_v2_season_5_1",
       "name": "涤墨作战"
@@ -2072,7 +2076,7 @@
     "goodId": "GP_Once_458",
     "priceCNY": 12,
     "startDate": "2026-07-03T16:00:00+08:00",
-    "endDate": "2026-07-24T03:59:00+08:00",
+    "endDate": "2026-07-24T03:59:59+08:00",
     "event": {
       "id": "act9switch",
       "name": "魔法与友谊合作活动"
@@ -2102,7 +2106,7 @@
     "goodId": "GP_Once_460",
     "priceCNY": 78,
     "startDate": "2026-07-03T16:00:00+08:00",
-    "endDate": "2026-07-24T03:59:00+08:00",
+    "endDate": "2026-07-24T03:59:59+08:00",
     "event": {
       "id": "act9switch",
       "name": "魔法与友谊合作活动"
@@ -2145,7 +2149,7 @@
     "goodId": "GP_Once_459",
     "priceCNY": 12,
     "startDate": "2026-07-03T16:00:00+08:00",
-    "endDate": "2026-07-24T03:59:00+08:00",
+    "endDate": "2026-07-24T03:59:59+08:00",
     "event": {
       "id": "act9switch",
       "name": "魔法与友谊合作活动"
@@ -2175,7 +2179,7 @@
     "goodId": "GP_Once_464",
     "priceCNY": 68,
     "startDate": "2026-07-10T12:00:00+08:00",
-    "endDate": "2026-07-31T03:59:00+08:00",
+    "endDate": "2026-07-31T03:59:59+08:00",
     "event": {
       "id": "act21mini",
       "name": "丛林症结"
@@ -2204,7 +2208,7 @@
     "goodId": "GP_Once_468",
     "priceCNY": 98,
     "startDate": "2026-07-10T12:00:00+08:00",
-    "endDate": "2026-07-31T03:59:00+08:00",
+    "endDate": "2026-07-31T03:59:59+08:00",
     "event": {
       "id": "act21mini",
       "name": "丛林症结"
@@ -2244,7 +2248,7 @@
     "goodId": "GP_Once_463",
     "priceCNY": 30,
     "startDate": "2026-07-10T12:00:00+08:00",
-    "endDate": "2026-07-31T03:59:00+08:00",
+    "endDate": "2026-07-31T03:59:59+08:00",
     "event": {
       "id": "act21mini",
       "name": "丛林症结"
@@ -2282,7 +2286,8 @@
       }
     ],
     "otherItems": [],
-    "contentsSource": "wiki"
+    "contentsSource": "inferred",
+    "contentsInferredFrom": "术师芯片礼包 2026-07-10"
   },
   {
     "name": "沉沦秘境组合包",
@@ -2290,7 +2295,7 @@
     "goodId": "GP_Once_465",
     "priceCNY": 168,
     "startDate": "2026-07-10T12:00:00+08:00",
-    "endDate": "2026-07-31T03:59:00+08:00",
+    "endDate": "2026-07-31T03:59:59+08:00",
     "event": {
       "id": "act21mini",
       "name": "丛林症结"
@@ -2325,7 +2330,7 @@
     "goodId": "GP_Once_461",
     "priceCNY": 6,
     "startDate": "2026-07-10T12:00:00+08:00",
-    "endDate": "2026-07-23T23:59:00+08:00",
+    "endDate": "2026-07-23T23:59:59+08:00",
     "event": {
       "id": "act21mini",
       "name": "丛林症结"
@@ -2350,7 +2355,7 @@
     "goodId": "GP_Once_462",
     "priceCNY": 58,
     "startDate": "2026-07-10T12:00:00+08:00",
-    "endDate": "2026-07-23T23:59:00+08:00",
+    "endDate": "2026-07-23T23:59:59+08:00",
     "event": {
       "id": "act21mini",
       "name": "丛林症结"
@@ -2375,7 +2380,7 @@
     "goodId": "GP_Once_466",
     "priceCNY": 30,
     "startDate": "2026-07-10T12:00:00+08:00",
-    "endDate": "2026-07-31T03:59:00+08:00",
+    "endDate": "2026-07-31T03:59:59+08:00",
     "event": {
       "id": "act21mini",
       "name": "丛林症结"
@@ -2397,7 +2402,7 @@
     "goodId": "GP_Once_467",
     "priceCNY": 68,
     "startDate": "2026-07-10T12:00:00+08:00",
-    "endDate": "2026-07-31T03:59:00+08:00",
+    "endDate": "2026-07-31T03:59:59+08:00",
     "event": {
       "id": "act21mini",
       "name": "丛林症结"
@@ -2434,7 +2439,7 @@
     "goodId": "GP_Once_479",
     "priceCNY": 68,
     "startDate": "2026-08-01T12:00:00+08:00",
-    "endDate": "2026-08-29T03:59:00+08:00",
+    "endDate": "2026-08-29T03:59:59+08:00",
     "event": {
       "id": "act53side",
       "name": "直到大地变成一颗酸橙"
@@ -2456,7 +2461,7 @@
     "goodId": "GP_Once_478",
     "priceCNY": 328,
     "startDate": "2026-08-01T12:00:00+08:00",
-    "endDate": "2026-08-29T03:59:00+08:00",
+    "endDate": "2026-08-29T03:59:59+08:00",
     "event": {
       "id": "act53side",
       "name": "直到大地变成一颗酸橙"
@@ -2536,7 +2541,7 @@
     "goodId": "GP_Once_476",
     "priceCNY": 128,
     "startDate": "2026-08-01T12:00:00+08:00",
-    "endDate": "2026-08-29T03:59:00+08:00",
+    "endDate": "2026-08-29T03:59:59+08:00",
     "event": {
       "id": "act53side",
       "name": "直到大地变成一颗酸橙"
@@ -2589,7 +2594,7 @@
     "goodId": "GP_Once_475",
     "priceCNY": 6,
     "startDate": "2026-08-01T12:00:00+08:00",
-    "endDate": "2026-08-29T03:59:00+08:00",
+    "endDate": "2026-08-29T03:59:59+08:00",
     "event": {
       "id": "act53side",
       "name": "直到大地变成一颗酸橙"
@@ -2630,7 +2635,7 @@
     "goodId": "GP_Once_471",
     "priceCNY": 68,
     "startDate": "2026-08-01T12:00:00+08:00",
-    "endDate": "2026-08-29T03:59:00+08:00",
+    "endDate": "2026-08-29T03:59:59+08:00",
     "event": {
       "id": "act53side",
       "name": "直到大地变成一颗酸橙"
@@ -2659,7 +2664,7 @@
     "goodId": "GP_Once_472",
     "priceCNY": 98,
     "startDate": "2026-08-01T12:00:00+08:00",
-    "endDate": "2026-08-29T03:59:00+08:00",
+    "endDate": "2026-08-29T03:59:59+08:00",
     "event": {
       "id": "act53side",
       "name": "直到大地变成一颗酸橙"
@@ -2699,7 +2704,7 @@
     "goodId": "GP_Once_477",
     "priceCNY": 198,
     "startDate": "2026-08-01T12:00:00+08:00",
-    "endDate": "2026-08-29T03:59:00+08:00",
+    "endDate": "2026-08-29T03:59:59+08:00",
     "event": {
       "id": "act53side",
       "name": "直到大地变成一颗酸橙"
@@ -2764,7 +2769,7 @@
     "goodId": "GP_Once_469",
     "priceCNY": 30,
     "startDate": "2026-08-01T12:00:00+08:00",
-    "endDate": "2026-08-29T03:59:00+08:00",
+    "endDate": "2026-08-29T03:59:59+08:00",
     "event": {
       "id": "act53side",
       "name": "直到大地变成一颗酸橙"
@@ -2802,7 +2807,8 @@
       }
     ],
     "otherItems": [],
-    "contentsSource": "wiki"
+    "contentsSource": "inferred",
+    "contentsInferredFrom": "特种芯片礼包 2026-09-04"
   },
   {
     "name": "特训意向礼包",
@@ -2810,7 +2816,7 @@
     "goodId": "GP_Once_474",
     "priceCNY": 68,
     "startDate": "2026-08-01T12:00:00+08:00",
-    "endDate": "2026-08-29T03:59:00+08:00",
+    "endDate": "2026-08-29T03:59:59+08:00",
     "event": {
       "id": "act53side",
       "name": "直到大地变成一颗酸橙"
@@ -2838,7 +2844,7 @@
     "goodId": "GP_Once_470",
     "priceCNY": 30,
     "startDate": "2026-08-01T12:00:00+08:00",
-    "endDate": "2026-08-29T03:59:00+08:00",
+    "endDate": "2026-08-29T03:59:59+08:00",
     "event": {
       "id": "act53side",
       "name": "直到大地变成一颗酸橙"
@@ -2876,7 +2882,8 @@
       }
     ],
     "otherItems": [],
-    "contentsSource": "wiki"
+    "contentsSource": "inferred",
+    "contentsInferredFrom": "重装芯片礼包 2026-08-01"
   },
   {
     "name": "高级特训意向礼包",
@@ -2884,7 +2891,7 @@
     "goodId": "GP_Once_473",
     "priceCNY": 128,
     "startDate": "2026-08-01T12:00:00+08:00",
-    "endDate": "2026-08-29T03:59:00+08:00",
+    "endDate": "2026-08-29T03:59:59+08:00",
     "event": {
       "id": "act53side",
       "name": "直到大地变成一颗酸橙"
@@ -2912,7 +2919,7 @@
     "goodId": "GP_Once_481",
     "priceCNY": 78,
     "startDate": "2026-09-04T12:00:00+08:00",
-    "endDate": "2026-09-25T03:59:00+08:00",
+    "endDate": "2026-09-25T03:59:59+08:00",
     "event": {
       "id": "act54side",
       "name": "月行水上"
@@ -3014,7 +3021,7 @@
     "goodId": "GP_Once_480",
     "priceCNY": 12,
     "startDate": "2026-09-04T12:00:00+08:00",
-    "endDate": "2026-09-25T03:59:00+08:00",
+    "endDate": "2026-09-25T03:59:59+08:00",
     "event": {
       "id": "act54side",
       "name": "月行水上"
@@ -3052,7 +3059,7 @@
     "goodId": "GP_Once_488",
     "priceCNY": 68,
     "startDate": "2026-09-04T12:00:00+08:00",
-    "endDate": "2026-09-25T03:59:00+08:00",
+    "endDate": "2026-09-25T03:59:59+08:00",
     "event": {
       "id": "act54side",
       "name": "月行水上"
@@ -3081,7 +3088,7 @@
     "goodId": "GP_Once_482",
     "priceCNY": 45,
     "startDate": "2026-09-04T12:00:00+08:00",
-    "endDate": "2026-09-25T03:59:00+08:00",
+    "endDate": "2026-09-25T03:59:59+08:00",
     "event": {
       "id": "act54side",
       "name": "月行水上"
@@ -3112,7 +3119,7 @@
     "goodId": "GP_Once_484",
     "priceCNY": 30,
     "startDate": "2026-09-04T12:00:00+08:00",
-    "endDate": "2026-09-25T03:59:00+08:00",
+    "endDate": "2026-09-25T03:59:59+08:00",
     "event": {
       "id": "act54side",
       "name": "月行水上"
@@ -3158,7 +3165,7 @@
     "goodId": "GP_Once_487",
     "priceCNY": 198,
     "startDate": "2026-09-04T12:00:00+08:00",
-    "endDate": "2026-09-25T03:59:00+08:00",
+    "endDate": "2026-09-25T03:59:59+08:00",
     "event": {
       "id": "act54side",
       "name": "月行水上"
@@ -3211,7 +3218,7 @@
     "goodId": "GP_Once_483",
     "priceCNY": 12,
     "startDate": "2026-09-04T12:00:00+08:00",
-    "endDate": "2026-09-25T03:59:00+08:00",
+    "endDate": "2026-09-25T03:59:59+08:00",
     "event": {
       "id": "act54side",
       "name": "月行水上"
@@ -3249,7 +3256,7 @@
     "goodId": "GP_Once_489",
     "priceCNY": 68,
     "startDate": "2026-09-04T12:00:00+08:00",
-    "endDate": "2026-09-25T03:59:00+08:00",
+    "endDate": "2026-09-25T03:59:59+08:00",
     "event": {
       "id": "act54side",
       "name": "月行水上"
@@ -3296,7 +3303,7 @@
     "goodId": "GP_Once_491",
     "priceCNY": 168,
     "startDate": "2026-09-29T16:00:00+08:00",
-    "endDate": "2026-10-20T03:59:00+08:00",
+    "endDate": "2026-10-20T03:59:59+08:00",
     "event": {
       "id": "act3break",
       "name": "矢量突破#3 拟生态"
@@ -3324,7 +3331,7 @@
     "goodId": "GP_Once_493",
     "priceCNY": 98,
     "startDate": "2026-09-29T16:00:00+08:00",
-    "endDate": "2026-10-20T03:59:00+08:00",
+    "endDate": "2026-10-20T03:59:59+08:00",
     "event": {
       "id": "act3break",
       "name": "矢量突破#3 拟生态"
@@ -3356,8 +3363,7 @@
       }
     ],
     "otherItems": [],
-    "contentsSource": "yituliu",
-    "contentsConflict": true
+    "contentsSource": "yituliu"
   },
   {
     "name": "罗德岛数据包",
@@ -3365,7 +3371,7 @@
     "goodId": "GP_Once_495",
     "priceCNY": 30,
     "startDate": "2026-09-29T16:00:00+08:00",
-    "endDate": "2026-10-20T03:59:00+08:00",
+    "endDate": "2026-10-20T03:59:59+08:00",
     "event": {
       "id": "act3break",
       "name": "矢量突破#3 拟生态"
@@ -3387,7 +3393,7 @@
     "goodId": "GP_Once_496",
     "priceCNY": 68,
     "startDate": "2026-09-29T16:00:00+08:00",
-    "endDate": "2026-10-20T03:59:00+08:00",
+    "endDate": "2026-10-20T03:59:59+08:00",
     "event": {
       "id": "act3break",
       "name": "矢量突破#3 拟生态"
@@ -3424,7 +3430,7 @@
     "goodId": "GP_Once_492",
     "priceCNY": 68,
     "startDate": "2026-09-29T16:00:00+08:00",
-    "endDate": "2026-10-20T03:59:00+08:00",
+    "endDate": "2026-10-20T03:59:59+08:00",
     "event": {
       "id": "act3break",
       "name": "矢量突破#3 拟生态"
@@ -3452,7 +3458,7 @@
     "goodId": "GP_Once_494",
     "priceCNY": 168,
     "startDate": "2026-09-29T16:00:00+08:00",
-    "endDate": "2026-10-20T03:59:00+08:00",
+    "endDate": "2026-10-20T03:59:59+08:00",
     "event": {
       "id": "act3break",
       "name": "矢量突破#3 拟生态"
@@ -3480,7 +3486,7 @@
     "goodId": "GP_Once_498",
     "priceCNY": 45,
     "startDate": "2026-10-09T12:00:00+08:00",
-    "endDate": "2026-10-22T23:59:00+08:00",
+    "endDate": "2026-10-23T03:59:59+08:00",
     "event": {
       "id": "act52side",
       "name": "昨日海"
@@ -3508,7 +3514,7 @@
     "goodId": "GP_Once_500",
     "priceCNY": 6,
     "startDate": "2026-10-09T12:00:00+08:00",
-    "endDate": "2026-10-22T23:59:00+08:00",
+    "endDate": "2026-10-22T23:59:59+08:00",
     "event": {
       "id": "act52side",
       "name": "昨日海"
@@ -3533,7 +3539,7 @@
     "goodId": "GP_Once_501",
     "priceCNY": 58,
     "startDate": "2026-10-09T12:00:00+08:00",
-    "endDate": "2026-10-22T23:59:00+08:00",
+    "endDate": "2026-10-22T23:59:59+08:00",
     "event": {
       "id": "act52side",
       "name": "昨日海"
@@ -3558,7 +3564,7 @@
     "goodId": "GP_Once_497",
     "priceCNY": 30,
     "startDate": "2026-10-09T12:00:00+08:00",
-    "endDate": "2026-10-22T23:59:00+08:00",
+    "endDate": "2026-10-23T03:59:59+08:00",
     "event": {
       "id": "act52side",
       "name": "昨日海"
@@ -3596,7 +3602,8 @@
       }
     ],
     "otherItems": [],
-    "contentsSource": "wiki"
+    "contentsSource": "inferred",
+    "contentsInferredFrom": "近卫芯片礼包 2026-10-09"
   },
   {
     "name": "黑流树海特训组合",
@@ -3604,7 +3611,7 @@
     "goodId": "GP_Once_499",
     "priceCNY": 168,
     "startDate": "2026-10-09T12:00:00+08:00",
-    "endDate": "2026-10-22T23:59:00+08:00",
+    "endDate": "2026-10-23T03:59:59+08:00",
     "event": {
       "id": "act52side",
       "name": "昨日海"
@@ -4405,18 +4412,46 @@
     "items": [],
     "otherItems": [
       {
-        "name": "18源石时装",
+        "name": "米米子",
         "id": null,
         "enName": null,
-        "count": 1,
-        "category": "Skin"
+        "category": "Avatar"
       },
       {
-        "name": "头像",
+        "name": "靓眼银灰",
         "id": null,
         "enName": null,
-        "count": 6,
         "category": "Avatar"
+      },
+      {
+        "name": "解闷德克萨斯",
+        "id": null,
+        "enName": null,
+        "category": "Avatar"
+      },
+      {
+        "name": "凯尔希炭",
+        "id": null,
+        "enName": null,
+        "category": "Avatar"
+      },
+      {
+        "name": "维维美",
+        "id": null,
+        "enName": null,
+        "category": "Avatar"
+      },
+      {
+        "name": "闲游能天使",
+        "id": null,
+        "enName": null,
+        "category": "Avatar"
+      },
+      {
+        "name": "维什戴尔",
+        "id": null,
+        "enName": null,
+        "category": "Skin"
       }
     ],
     "contentsSource": "inferred",
@@ -4441,7 +4476,14 @@
         "count": 200
       }
     ],
-    "otherItems": [],
+    "otherItems": [
+      {
+        "name": "米米子",
+        "id": null,
+        "enName": null,
+        "category": "Unknown"
+      }
+    ],
     "contentsSource": "inferred",
     "contentsInferredFrom": "米米子的照片集 2026-04-01"
   },
@@ -4464,7 +4506,14 @@
         "count": 200
       }
     ],
-    "otherItems": [],
+    "otherItems": [
+      {
+        "name": "维维美",
+        "id": null,
+        "enName": null,
+        "category": "Unknown"
+      }
+    ],
     "contentsSource": "inferred",
     "contentsInferredFrom": "维维美的照片集 2026-04-01"
   }
