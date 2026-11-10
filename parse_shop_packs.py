@@ -25,7 +25,9 @@ If this script starts failing, check both of those before assuming a bug here.
 
 import calendar
 import json
+import os
 import re
+import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
@@ -589,6 +591,129 @@ def load_previous_output() -> list:
     with OUTPUT_PATH.open(encoding="utf-8") as f:
         return json.load(f)
 
+# --- Machine translation of pack names --------------------------------------
+#
+# Brand-new seasonal packs have no EN name until EN ships them, months later,
+# and "黑流树海特训组合" means nothing to the site's readers. So each pack that
+# still lacks an enName gets a machine translation (mtlName) from the Claude
+# API, ONCE: the result is stored here and carried over on every later run
+# (see carry_over_translations), so a name is never re-translated or changes
+# under the reader. The site prefers a real EN name whenever one exists and
+# marks MTL names as such.
+#
+# The key comes from the ANTHROPIC_API_KEY repository secret (Settings ->
+# Secrets and variables -> Actions). Failure is never fatal: no key, an API
+# error or an unparseable reply just leaves the names untranslated, and the
+# next run tries again. Spending is bounded three ways: one request per run,
+# at most MTL_MAX_PER_RUN names in it, and MTL_MAX_TOKENS of reply -- on Haiku
+# that's a fraction of a cent. The account also has a monthly spend limit.
+#
+# The prompt carries context so names come out the way EN would write them:
+# real CN -> EN pack name pairs already in this file (house style: "组合包"
+# is "Pack", "资金箱" "Funding Box", ...), the EN names of operators named in
+# the pack names (安洁莉娜 -> Angelina), and each pack's event and contents.
+MTL_MODEL = "claude-haiku-5-5"
+MTL_MAX_PER_RUN = 50
+MTL_MAX_TOKENS = 2000
+MTL_EXAMPLES = 60
+MTL_API_URL = "https://api.anthropic.com/v1/messages"
+
+
+def carry_over_translations(packs: list, previous: list):
+    """Scraped packs replace their earlier copies wholesale, so put back the
+    mtlName each one already had."""
+    earlier = {pack_key(p): p["mtlName"] for p in previous if p.get("mtlName")}
+    for pack in packs:
+        if not pack.get("mtlName") and pack_key(pack) in earlier:
+            pack["mtlName"] = earlier[pack_key(pack)]
+
+
+def load_operator_names():
+    """CN operator name -> EN name, for every operator EN has."""
+    with Path("excel-cn/character_table.json").open(encoding="utf-8") as f:
+        cn = json.load(f)
+    with Path("excel-en/character_table.json").open(encoding="utf-8") as f:
+        en = json.load(f)
+    return {cn[c]["name"]: en[c]["name"] for c in cn
+            if c.startswith("char_") and c in en and cn[c].get("name") and en[c].get("name")
+            and cn[c]["name"] != en[c]["name"]}
+
+
+def build_mtl_prompt(todo: list, packs: list, operator_names: dict) -> str:
+    examples, seen = [], set()
+    for p in reversed(packs):   # newest first: closest to current naming
+        # Single-word EN names are placeholders, not style (重装芯片礼包 => "Defender").
+        if p.get("enName") and " " in p["enName"] and not p.get("mtlName") and p["name"] not in seen:
+            seen.add(p["name"])
+            examples.append(f"{p['name']} => {p['enName']}")
+        if len(examples) >= MTL_EXAMPLES:
+            break
+    operators = sorted({f"{cn} => {en}" for cn, en in operator_names.items()
+                        if len(cn) > 1 and any(cn in p["name"] for p in todo)})
+    lines = []
+    for i, p in enumerate(todo):
+        contents = [it.get("enName") or it["name"] for it in p.get("items", [])]
+        contents += [it.get("enName") or it["name"] for it in p.get("otherItems", [])]
+        lines.append(json.dumps({"n": i, "name": p["name"],
+                                 "event": (p.get("event") or {}).get("name"),
+                                 "contents": contents[:8]}, ensure_ascii=False))
+    return (
+        "You translate names of paid shop packs in the mobile game Arknights from the "
+        "Chinese server into English, in the style the English server would use.\n\n"
+        "Official CN => EN pack names, for style (\"组合包\" is usually \"Pack\"):\n"
+        + "\n".join(examples) + "\n\n"
+        + ("Official EN names of operators mentioned:\n" + "\n".join(operators) + "\n\n" if operators else "")
+        + "Translate each pack below. \"event\" (the Chinese event it ships with) and "
+        "\"contents\" are context only. Keep it short, title case, no quotes, no notes. "
+        "Drop wiki year tags such as \"（2026）\".\n\n"
+        + "\n".join(lines) + "\n\n"
+        "Reply with only a JSON object mapping each n (as a string) to its English name, "
+        "e.g. {\"0\": \"...\", \"1\": \"...\"}."
+    )
+
+
+def translate_pack_names(packs: list) -> str:
+    """Fill mtlName on packs with neither an enName nor an mtlName yet.
+    Returns a one-line report for the run log; never raises."""
+    todo = [p for p in packs if not p.get("enName") and not p.get("mtlName")]
+    if not todo:
+        return "MTL: nothing to translate"
+    key = os.environ.get("ANTHROPIC_API_KEY")
+    if not key:
+        return f"MTL: ANTHROPIC_API_KEY not set -- {len(todo)} name(s) left untranslated"
+    batch = todo[:MTL_MAX_PER_RUN]
+    try:
+        prompt = build_mtl_prompt(batch, packs, load_operator_names())
+        request = urllib.request.Request(
+            MTL_API_URL,
+            data=json.dumps({"model": MTL_MODEL, "max_tokens": MTL_MAX_TOKENS,
+                             "messages": [{"role": "user", "content": prompt}]}).encode(),
+            headers={"x-api-key": key, "anthropic-version": "2023-06-01",
+                     "content-type": "application/json"},
+        )
+        with urllib.request.urlopen(request, timeout=120) as response:
+            reply = json.load(response)
+        text = "".join(b.get("text", "") for b in reply.get("content", []) if b.get("type") == "text")
+        match = re.search(r"\{.*\}", text, re.DOTALL)
+        names = json.loads(match.group(0)) if match else {}
+    except urllib.error.HTTPError as e:
+        body = e.read().decode("utf-8", "replace")[:300]
+        return f"MTL: API error {e.code} -- {len(todo)} name(s) left untranslated: {body}"
+    except Exception as e:   # network, timeout, bad JSON: try again next run
+        return f"MTL: failed ({type(e).__name__}: {e}) -- {len(todo)} name(s) left untranslated"
+    done = []
+    for i, pack in enumerate(batch):
+        name = names.get(str(i))
+        if isinstance(name, str) and name.strip():
+            pack["mtlName"] = name.strip()
+            done.append(f"{pack['name']} => {pack['mtlName']}")
+    report = f"MTL: translated {len(done)} of {len(todo)} name(s)"
+    if len(todo) > len(batch):
+        report += f" (capped at {MTL_MAX_PER_RUN} per run; the rest next run)"
+    usage = reply.get("usage") or {}
+    report += f" [{usage.get('input_tokens')} in / {usage.get('output_tokens')} out tokens]"
+    return "\n    ".join([report] + done)
+
 
 # Activity types that are companion/auxiliary features riding along with a
 # real content release (a check-in calendar, a login-reward campaign, a
@@ -801,10 +926,13 @@ def main():
         })
 
     scraped_count = len(packs)
-    packs, new_count, kept_count = merge_with_previous(packs, load_previous_output())
+    previous = load_previous_output()
+    packs, new_count, kept_count = merge_with_previous(packs, previous)
+    carry_over_translations(packs, previous)
     unresolved, matched_by_price = add_good_ids(packs, good_ids_by_name, sale_dates, sale_prices,
                                                 en_pack_names, pack_name_translations)
     packs.sort(key=lambda p: (p["startDate"], p["name"]))
+    mtl_report = translate_pack_names(packs)
 
     with OUTPUT_PATH.open("w", encoding="utf-8") as f:
         json.dump(packs, f, indent=2, ensure_ascii=False)
@@ -823,6 +951,7 @@ def main():
     print(f"  {skipped_non_cny} skipped (priced in a non-CNY currency, not a real-money pack)")
     print(f"  {skipped_empty} skipped (no items or otherItems resolved at all)")
     print(f"  {skipped_uninteresting} skipped (no valued items and nothing browsable either)")
+    print(f"  {mtl_report}")
 
 
 if __name__ == "__main__":

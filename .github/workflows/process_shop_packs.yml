@@ -27,6 +27,11 @@ jobs:
         uses: actions/checkout@v7
 
       - name: Run Shop Packs Parser
+        # The key machine-translates new pack names (see "Machine translation"
+        # in parse_shop_packs.py). Optional: without it, or if the API fails,
+        # names are left untranslated and the next run tries again.
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python3 parse_shop_packs.py
 
       - name: Commit and Push Output
