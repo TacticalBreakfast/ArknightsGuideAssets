@@ -973,8 +973,10 @@ def fill_from_game_data(packs: list, schedule: dict, gp_names: dict, cutoff: dat
                    abs((datetime.fromisoformat(p["startDate"]) - start).days) <= MATCH_DAYS for p in packs)
 
     by_name = {}
-    for t in sorted(templates, key=lambda t: t["startDate"]):   # later ones win
-        if t["items"] or t["otherItems"]:
+    # Later ones win; on the same date, ours (wiki-backed, with the cosmetics
+    # yituliu leaves out) win over yituliu's. Never copy a copy.
+    for t in sorted(templates, key=lambda t: (t["startDate"][:10], t.get("contentsSource") != "yituliu")):
+        if (t["items"] or t["otherItems"]) and t.get("contentsSource") != "inferred":
             by_name.setdefault(pack_name_variants(t["name"])[-1], []).append(t)
     new, unknown = [], []
     for good_id, windows in schedule.items():
@@ -1373,7 +1375,7 @@ def main():
         p.pop("_paired", None)
     previous = load_previous_output()
     inferred, unknown = fill_from_game_data(packs, schedule, gp_names, cutoff,
-                                            previous + packs + yituliu_all, ctx["activities"])
+                                            yituliu_all + previous + packs, ctx["activities"])
     packs += inferred
 
     scraped_count = len(packs)
