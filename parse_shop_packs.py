@@ -1397,6 +1397,12 @@ def main():
           f"{len(inferred)} inferred from game data; contents by source: {sources}")
     for e in errors:
         print(f"  SOURCE FAILED -- {e}")
+    if errors and os.environ.get("GITHUB_OUTPUT"):
+        # One source failed but the other worked, so the file is still written
+        # and committed; the workflow then fails the run (its last step) so the
+        # failure is emailed rather than only logged.
+        with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as f:
+            f.write("source_failed=true\n")
     if moved:
         print(f"  {len(moved)} yituliu date(s) corrected from the CN schedule: {', '.join(moved)}")
     for line in conflicts + yituliu_warnings:
