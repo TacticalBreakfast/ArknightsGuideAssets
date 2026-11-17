@@ -78,6 +78,14 @@
   stars: ★
   profession_name: Caster
   sub_profession_name: Core Caster
+- id: char_4215_buddy
+  name: Rhodes Island Recon
+  rarity: TIER_1
+  profession: PIONEER
+  sub_profession: tactician
+  stars: ★
+  profession_name: Vanguard
+  sub_profession_name: Tactician
 - id: char_502_nblade
   name: Yato
   rarity: TIER_2
@@ -1254,6 +1262,14 @@
   stars: ★★★★★
   profession_name: Guard
   sub_profession_name: Mercenary
+- id: char_1049_catap2
+  name: Zinogre S Catapult
+  rarity: TIER_5
+  profession: WARRIOR
+  sub_profession: mercenary
+  stars: ★★★★★
+  profession_name: Guard
+  sub_profession_name: Mercenary
 - id: char_129_bluep
   name: Blue Poison
   rarity: TIER_5
@@ -2408,6 +2424,14 @@
   sub_profession_name: Heavyshooter
 - id: char_4055_bgsnow
   name: Pozëmka
+  rarity: TIER_6
+  profession: SNIPER
+  sub_profession: closerange
+  stars: ★★★★★★
+  profession_name: Sniper
+  sub_profession_name: Heavyshooter
+- id: char_1048_orchd2
+  name: Violet Mizutsune Orchid
   rarity: TIER_6
   profession: SNIPER
   sub_profession: closerange
@@ -3574,14 +3598,6 @@
   stars: ★
   profession_name: Guard
   sub_profession_name: Swordmaster
-- id: char_4215_buddy
-  name: Rhodes Island Recon
-  rarity: TIER_1
-  profession: PIONEER
-  sub_profession: tactician
-  stars: ★
-  profession_name: Vanguard
-  sub_profession_name: Tactician
 - id: char_4170_hdbell
   name: Herdbells
   rarity: TIER_4
@@ -3606,14 +3622,6 @@
   stars: ★★★★★
   profession_name: Guard
   sub_profession_name: Instructor
-- id: char_1049_catap2
-  name: Zinogre S Catapult
-  rarity: TIER_5
-  profession: WARRIOR
-  sub_profession: mercenary
-  stars: ★★★★★
-  profession_name: Guard
-  sub_profession_name: Mercenary
 - id: char_4218_aigis
   name: Aegis
   rarity: TIER_5
@@ -3678,14 +3686,6 @@
   stars: ★★★★★
   profession_name: Specialist
   sub_profession_name: Alchemist
-- id: char_1048_orchd2
-  name: Violet Mizutsune Orchid
-  rarity: TIER_6
-  profession: SNIPER
-  sub_profession: closerange
-  stars: ★★★★★★
-  profession_name: Sniper
-  sub_profession_name: Heavyshooter
 - id: char_4229_aphris
   name: Aphrissa
   rarity: TIER_6
